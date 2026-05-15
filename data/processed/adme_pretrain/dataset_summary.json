@@ -1,0 +1,58 @@
+{
+  "inputs": {
+    "esol": {
+      "source_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\raw\\adme_pretrain\\delaney-processed.csv",
+      "source_columns": [
+        "Compound ID",
+        "ESOL predicted log solubility in mols per litre",
+        "Minimum Degree",
+        "Molecular Weight",
+        "Number of H-Bond Donors",
+        "Number of Rings",
+        "Number of Rotatable Bonds",
+        "Polar Surface Area",
+        "measured log solubility in mols per litre",
+        "smiles"
+      ]
+    },
+    "lipophilicity": {
+      "source_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\raw\\adme_pretrain\\Lipophilicity.csv",
+      "source_columns": [
+        "CMPD_CHEMBLID",
+        "exp",
+        "smiles"
+      ]
+    },
+    "chembl_train": {
+      "source_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\raw\\adme_pretrain\\train.csv",
+      "source_columns": [
+        "smiles"
+      ]
+    }
+  },
+  "outputs": {
+    "supervised_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\processed\\adme_pretrain\\adme_supervised.csv",
+    "unsupervised_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\processed\\adme_pretrain\\adme_unsupervised.csv",
+    "summary_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\processed\\adme_pretrain\\dataset_summary.json"
+  },
+  "supervised": {
+    "tasks": {
+      "esol_rows_raw": 1128,
+      "lipophilicity_rows_raw": 4200
+    },
+    "removed_empty_smiles": 0,
+    "removed_missing_label": 0,
+    "removed_duplicates_by_smiles": 24,
+    "removed_invalid_smiles": 0,
+    "final_rows": 5304
+  },
+  "unsupervised": {
+    "task": "unsupervised_chemistry",
+    "rows_raw": 1358980,
+    "removed_empty_smiles": 0,
+    "removed_missing_label": 0,
+    "removed_duplicates_by_smiles": 59,
+    "removed_invalid_smiles": 0,
+    "final_rows": 1358921
+  }
+}

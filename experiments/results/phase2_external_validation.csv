@@ -1,0 +1,2 @@
+drug,split,n_patients,RMSE,RMSE_pct_of_mean,MAE,R2,Cmax_pct_err,AUC_pct_err,encoder,fine_tuned_on_ibuprofen
+ibuprofen,test,20,4.402677059173584,34.992308052635366,3.0976336002349854,0.8363323328511169,21.574966609477997,28.335583209991455,pretrained_frozen,False

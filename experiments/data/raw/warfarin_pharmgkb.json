@@ -1,0 +1,19 @@
+{
+  "source": "pharmgkb",
+  "payload": {
+    "data": [
+      {
+        "objCls": "Chemical",
+        "id": "PA451906",
+        "name": "warfarin",
+        "inChi": "InChI=1S/C19H16O4/c1-12(20)11-15(13-7-3-2-4-8-13)17-18(21)14-9-5-6-10-16(14)23-19(17)22/h2-10,15,22H,11H2,1H3",
+        "pediatric": true,
+        "smiles": "CC(=O)CC(C1=CC=CC=C1)C2=C(OC3=CC=CC=C3C2=O)O",
+        "types": [
+          "Drug"
+        ]
+      }
+    ],
+    "status": "success"
+  }
+}

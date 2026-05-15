@@ -1,0 +1,7 @@
+{
+  "source": "pubchem (pubchempy)",
+  "cid": 2519,
+  "smiles": "CN1C=NC2=C1C(=O)N(C(=O)N2C)C",
+  "MW": 194.19,
+  "logP": -0.1
+}

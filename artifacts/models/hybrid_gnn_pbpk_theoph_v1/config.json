@@ -1,0 +1,19 @@
+{
+  "node_feat_dim": 27,
+  "edge_feat_dim": 6,
+  "gnn_hidden": 128,
+  "gnn_layers": 3,
+  "gnn_embed_dim": 128,
+  "patient_feat_dim": 3,
+  "head_hidden": 64,
+  "cl_floor": 0.1,
+  "ka_floor": 0.05,
+  "n_euler_steps": 300,
+  "V_typical": 30.0,
+  "smiles": "Cn1c2c(c(=O)n(c1=O)C)[nH]cn2",
+  "lr": 0.005,
+  "weight_decay": 1e-05,
+  "max_epochs": 1000,
+  "patience": 200,
+  "seed": 42
+}

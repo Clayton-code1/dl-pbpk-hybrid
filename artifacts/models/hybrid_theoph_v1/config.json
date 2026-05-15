@@ -1,0 +1,15 @@
+{
+  "n_input": 3,
+  "hidden_dim": 32,
+  "n_euler_steps": 300,
+  "cl_floor": 0.1,
+  "v_floor": 1.0,
+  "ka_floor": 0.05,
+  "lr": 0.01,
+  "weight_decay": 1e-05,
+  "max_epochs": 1500,
+  "patience": 250,
+  "seed": 42,
+  "conc_eps": 0.001,
+  "val_fraction": 0.25
+}

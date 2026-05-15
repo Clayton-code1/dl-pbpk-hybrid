@@ -1,0 +1,87 @@
+NOTICE — Third-Party Data Attribution
+
+This repository contains source code under the MIT License (see LICENSE).
+Some training and pretraining data are derived from third-party sources
+with their own licensing terms, listed below.
+
+---
+
+ChEMBL Database
+---------------
+Files affected:
+  - data/raw/adme_pretrain/train.csv (when present)
+  - data/processed/adme_pretrain/adme_unsupervised.csv (when present)
+  - Any derived embeddings or trained encoder weights produced from
+    ChEMBL inputs (e.g. artifacts/models/gnn_pretrain_unsup_v1/,
+    artifacts/models/gnn_pretrain_combined_v1/)
+
+Source: ChEMBL Database, EMBL-EBI (https://www.ebi.ac.uk/chembl/)
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC-BY-SA 3.0)
+        https://creativecommons.org/licenses/by-sa/3.0/
+
+Attribution:
+  The ChEMBL data used in this project is the property of EMBL-EBI and is
+  used under the CC-BY-SA 3.0 license. Any redistribution of ChEMBL-derived
+  data must preserve this attribution and license.
+
+---
+
+ESOL Dataset (Delaney, 2004)
+----------------------------
+Files affected:
+  - data/raw/adme_pretrain/esol.csv (when present)
+
+Source: Delaney JS. ESOL: Estimating Aqueous Solubility Directly from
+        Molecular Structure. J Chem Inf Comput Sci. 2004;44(3):1000-1005.
+        DOI: 10.1021/ci034243x
+
+Notes: Publicly available, no restrictions on academic redistribution.
+
+---
+
+Lipophilicity Dataset (MoleculeNet)
+-----------------------------------
+Files affected:
+  - data/raw/adme_pretrain/lipophilicity.csv (when present)
+
+Source: Wu Z, et al. MoleculeNet: A Benchmark for Molecular Machine
+        Learning. Chem Sci. 2018;9:513-530.
+        DOI: 10.1039/c7sc02664a
+        Curated from: ChEMBL data, used under CC-BY-SA 3.0
+
+---
+
+DrugBank Vocabulary (if redistributed)
+--------------------------------------
+Files affected:
+  - data/raw/reference/drugbank_all_drugbank_vocabulary.csv
+
+Source: DrugBank Online (https://www.drugbank.com)
+License: Subject to DrugBank Academic License (non-commercial use only)
+        Verify current terms at: https://go.drugbank.com/legal/terms_of_use
+
+ACTION REQUIRED: Before publishing this repository, review whether the
+DrugBank vocabulary file should be redistributed at all, or whether users
+should download it themselves under the DrugBank license terms. The
+recommendation is to NOT redistribute and instead provide a download
+script with attribution.
+
+---
+
+PubChem (CID-SMILES reference)
+------------------------------
+Files affected: NONE (excluded from this repository — too large)
+
+Source: PubChem, NCBI (https://pubchem.ncbi.nlm.nih.gov)
+License: Public domain (no copyright restrictions on PubChem data)
+
+The PubChem CID-SMILES dump (~8 GB) is NOT included in this repository.
+Users who need it should download it from PubChem's FTP directly:
+  https://ftp.ncbi.nlm.nih.gov/pubchem/Compound/Extras/CID-SMILES.gz
+
+---
+
+If you use this repository in published research, please cite both the
+primary manuscript (see CITATION.cff) and the underlying data sources
+(ChEMBL, ESOL, MoleculeNet) according to their respective citation
+requirements.

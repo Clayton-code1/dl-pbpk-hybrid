@@ -1,0 +1,7 @@
+{
+  "source": "pubchem (pubchempy)",
+  "cid": 3672,
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "MW": 206.28,
+  "logP": 3.5
+}

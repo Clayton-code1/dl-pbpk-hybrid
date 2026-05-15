@@ -1,0 +1,20 @@
+{
+  "smiles": "CN1C2=C(C(=O)N(C1=O)C)NC=N2",
+  "MW": 180.16,
+  "logP": 0.0,
+  "CL_L_h": 0.048,
+  "Vd_L_kg": 0.5,
+  "t_half_h": 8.0,
+  "F": 1.0,
+  "Cmax_mg_L": 10.0,
+  "AUC_mg_h_L": 80.0,
+  "therapeutic_min_mg_L": 5.0,
+  "therapeutic_max_mg_L": 15.0,
+  "standard_dose_mg": 200.0,
+  "reference": "Hendeles & Weinberger, 1982",
+  "api_sources": [
+    "literature",
+    "pharmgkb",
+    "pubchem (pubchempy)"
+  ]
+}

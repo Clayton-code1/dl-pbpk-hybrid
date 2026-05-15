@@ -1,0 +1,26 @@
+{
+  "gnn_config": {
+    "node_feat_dim": 27,
+    "edge_feat_dim": 6,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "embed_dim": 64
+  },
+  "training_config": {
+    "seed": 42,
+    "val_fraction": 0.15,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 60,
+    "patience": 15,
+    "log_every": 5,
+    "batch_size": 32,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "embed_dim": 64,
+    "max_samples": null
+  },
+  "transfer_initialisation": true,
+  "unsupervised_weights": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\artifacts\\models\\gnn_pretrain_unsup_v1\\model_gnn.pt",
+  "data_csv": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\processed\\adme_pretrain\\adme_supervised.csv"
+}

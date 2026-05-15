@@ -1,0 +1,8 @@
+drug,n_patients,smiles,csv_path,api_sources
+theophylline,200,Cn1cnc2c1c(=O)[nH]c(=O)n2C,experiments\data\processed\theophylline_pk_dataset.csv,"literature,pharmgkb,pubchem (rest)"
+warfarin,200,CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O,experiments\data\processed\warfarin_pk_dataset.csv,"literature,pharmgkb,pubchem (pubchempy)"
+midazolam,200,CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F,experiments\data\processed\midazolam_pk_dataset.csv,"literature,pharmgkb,pubchem (pubchempy)"
+caffeine,200,Cn1c(=O)c2c(ncn2C)n(C)c1=O,experiments\data\processed\caffeine_pk_dataset.csv,"literature,pharmgkb"
+acetaminophen,200,CC(=O)Nc1ccc(O)cc1,experiments\data\processed\acetaminophen_pk_dataset.csv,literature
+digoxin,200,O=C1OC(CC1)(C1CCC2(O)C3(CCC4C3(C)CCC4(O)C=C)CCC12)C1OC(OC2C(O)COC2OC2CC(O)CC(O2)C2=CC(=O)OC2)CC1O,experiments\data\processed\digoxin_pk_dataset.csv,literature
+ibuprofen,200,CC(C)Cc1ccc(cc1)C(C)C(=O)O,experiments\data\processed\ibuprofen_pk_dataset.csv,literature

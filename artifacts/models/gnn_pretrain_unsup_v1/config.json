@@ -1,0 +1,25 @@
+{
+  "gnn_config": {
+    "node_feat_dim": 27,
+    "edge_feat_dim": 6,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "embed_dim": 64
+  },
+  "training_config": {
+    "seed": 42,
+    "val_fraction": 0.1,
+    "lr": 0.001,
+    "weight_decay": 1e-05,
+    "max_epochs": 40,
+    "patience": 12,
+    "log_every": 5,
+    "batch_size": 32,
+    "hidden_dim": 64,
+    "num_layers": 2,
+    "embed_dim": 64,
+    "mask_rate": 0.15,
+    "max_samples": null
+  },
+  "objective": "masked_node_feature_reconstruction"
+}

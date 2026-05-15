@@ -1,0 +1,18 @@
+{
+  "smiles": "O=C1OC(CC1)(C1CCC2(O)C3(CCC4C3(C)CCC4(O)C=C)CCC12)C1OC(OC2C(O)COC2OC2CC(O)CC(O2)C2=CC(=O)OC2)CC1O",
+  "MW": 780.94,
+  "logP": 1.26,
+  "CL_L_h": 0.12,
+  "Vd_L_kg": 7.3,
+  "t_half_h": 39.0,
+  "F": 0.7,
+  "Cmax_mg_L": 0.002,
+  "AUC_mg_h_L": 0.015,
+  "therapeutic_min_mg_L": 0.0005,
+  "therapeutic_max_mg_L": 0.002,
+  "standard_dose_mg": 0.25,
+  "reference": "Reuning et al., 1973",
+  "api_sources": [
+    "literature"
+  ]
+}

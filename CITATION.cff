@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "DL-PBPK Hybrid: A Hybrid Graph Neural Network and Physiologically Based Pharmacokinetic Framework for Multi-Drug Concentration Prediction"
+message: "If you use this software in your research, please cite the accompanying manuscript."
+type: software
+authors:
+  - given-names: Clayton
+    family-names: Takayidza
+    email: takayidzaclayton@gmail.com
+    affiliation: "Harare Institute of Technology, Harare, Zimbabwe"
+    orcid: "https://orcid.org/0009-0001-8146-5875"
+  - given-names: Maronge
+    family-names: Musara
+    email: mmusara@hit.ac.zw
+    affiliation: "Harare Institute of Technology, Harare, Zimbabwe"
+repository-code: "https://github.com/<USERNAME>/dl-pbpk-hybrid"
+url: "https://github.com/<USERNAME>/dl-pbpk-hybrid"
+keywords:
+  - pharmacokinetics
+  - graph-neural-networks
+  - PBPK
+  - hybrid-modelling
+  - transfer-learning
+  - explainable-ai
+  - uncertainty-quantification
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-15"
+preferred-citation:
+  type: article
+  title: "A Hybrid Graph Neural Network and Physiologically Based Pharmacokinetic Framework for Multi-Drug Concentration Prediction with Explainability and Uncertainty Quantification"
+  authors:
+    - given-names: Clayton
+      family-names: Takayidza
+      orcid: "https://orcid.org/0009-0001-8146-5875"
+    - given-names: Maronge
+      family-names: Musara
+  journal: "Journal of Cheminformatics"
+  year: 2026
+  status: "submitted"

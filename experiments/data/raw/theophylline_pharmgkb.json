@@ -1,0 +1,20 @@
+{
+  "source": "pharmgkb",
+  "payload": {
+    "data": [
+      {
+        "objCls": "Chemical",
+        "id": "PA451647",
+        "name": "theophylline",
+        "inChi": "InChI=1S/C7H8N4O2/c1-10-5-4(8-3-9-5)6(12)11(2)7(10)13/h3H,1-2H3,(H,8,9)",
+        "pediatric": false,
+        "smiles": "CN1C2=C(C(=O)N(C1=O)C)NC=N2",
+        "types": [
+          "Drug",
+          "Metabolite"
+        ]
+      }
+    ],
+    "status": "success"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+  "MW": 194.19,
+  "logP": -0.07,
+  "CL_L_h": 0.078,
+  "Vd_L_kg": 0.6,
+  "t_half_h": 5.0,
+  "F": 1.0,
+  "Cmax_mg_L": 8.0,
+  "AUC_mg_h_L": 40.0,
+  "therapeutic_min_mg_L": 5.0,
+  "therapeutic_max_mg_L": 20.0,
+  "standard_dose_mg": 200.0,
+  "reference": "Arnaud, 1993",
+  "api_sources": [
+    "literature",
+    "pharmgkb"
+  ]
+}

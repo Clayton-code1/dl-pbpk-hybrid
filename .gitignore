@@ -1,0 +1,118 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Testing & coverage ===
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+ENV/
+.python-version
+src/.venv/
+api/.venv/
+
+# === IDE / editor ===
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# === Node / frontend ===
+node_modules/
+.next/
+out/
+frontend/node_modules/
+
+# === Environment & secrets ===
+.env
+.env.local
+.env.*.local
+*.pem
+secrets.yaml
+credentials.json
+
+# === Docker / database ===
+pgdata/
+
+# === OS cruft ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+experiments/logs/*
+!experiments/logs/.gitkeep
+
+# === LARGE DATA — externally hosted (Zenodo / PubChem FTP) ===
+# The CID-SMILES PubChem reference dump (~8 GB) is NOT redistributed.
+# Users should fetch from PubChem FTP per NOTICE.
+data/raw/reference/CID-SMILES
+data/raw/reference/CID-SMILES.gz
+
+# Large unsupervised pretraining intermediates: hosted on Zenodo.
+# See NOTICE and data/README.md for download instructions.
+data/processed/adme_pretrain/adme_unsupervised.csv
+data/processed/adme_pretrain/adme_unsupervised_sample_10k_graphs.pt
+data/processed/adme_pretrain/*_graphs.pt
+
+# === Track these (override broad exclusions) ===
+# Per-drug PK datasets ARE committed (small, regeneratable).
+# Per-drug molecular graphs ARE committed (small).
+# Per-drug model checkpoints ARE committed (each < 2 MB).
+# DO NOT add patterns above that would exclude these.
+
+# Keep placeholder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/adme_pretrain/.gitkeep
+!data/processed/adme_pretrain/.gitkeep
+!data/raw/reference/.gitkeep
+!artifacts/.gitkeep
+!artifacts/models/.gitkeep
+
+# === Internal materials and demo frontend ===
+manuscript_submission_package/
+frontend/

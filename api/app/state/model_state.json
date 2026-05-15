@@ -1,0 +1,46 @@
+{
+  "calibration": {
+    "a": 1.9,
+    "b": 1.9,
+    "c": 0.0,
+    "cmax_ref": 2000.0,
+    "auc_ref": 30000.0,
+    "threshold": 0.55
+  },
+  "update_flag": true,
+  "updated_at": "2026-05-13T10:22:18.680340+00:00",
+  "population": {
+    "omega_cl": 0.25,
+    "omega_v": 0.2,
+    "omega_ka": 0.3,
+    "n_samples": 200
+  },
+  "pbpk": {
+    "enabled": true,
+    "Q_co_ref_L_per_h": 420.0,
+    "flow_fracs": {
+      "liver": 0.25,
+      "kidney": 0.2,
+      "muscle": 0.25,
+      "adipose": 0.05,
+      "lung": 0.25
+    },
+    "vol_fracs": {
+      "central": 0.07,
+      "liver": 0.025,
+      "kidney": 0.004,
+      "muscle": 0.4,
+      "adipose": 0.2,
+      "lung": 0.01
+    },
+    "Kp": {
+      "liver": 2.0,
+      "kidney": 1.5,
+      "muscle": 1.0,
+      "adipose": 3.0,
+      "lung": 1.2
+    },
+    "f_hep": 0.7,
+    "fu": 1.0
+  }
+}

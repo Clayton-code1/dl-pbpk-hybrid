@@ -1,0 +1,10 @@
+{
+  "n_subjects": 12,
+  "n_points_total": 132,
+  "time_min": 0.0,
+  "time_max": 24.65,
+  "conc_min": 0.0,
+  "conc_max": 11.4,
+  "mean_weight_kg": 69.58,
+  "mean_dose_mgkg": 4.626
+}

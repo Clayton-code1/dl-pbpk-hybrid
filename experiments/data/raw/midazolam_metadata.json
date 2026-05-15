@@ -1,0 +1,20 @@
+{
+  "smiles": "CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F",
+  "MW": 325.8,
+  "logP": 2.5,
+  "CL_L_h": 0.42,
+  "Vd_L_kg": 1.1,
+  "t_half_h": 2.5,
+  "F": 0.44,
+  "Cmax_mg_L": 0.12,
+  "AUC_mg_h_L": 0.3,
+  "therapeutic_min_mg_L": 0.04,
+  "therapeutic_max_mg_L": 0.3,
+  "standard_dose_mg": 7.5,
+  "reference": "Smith et al., 1981",
+  "api_sources": [
+    "literature",
+    "pharmgkb",
+    "pubchem (pubchempy)"
+  ]
+}

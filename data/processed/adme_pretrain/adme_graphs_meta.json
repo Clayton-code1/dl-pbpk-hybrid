@@ -1,0 +1,8 @@
+{
+  "total_rows": 5304,
+  "valid_molecules": 5304,
+  "skipped_rows": 0,
+  "skipped_indices": [],
+  "cache_file": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\data\\processed\\adme_pretrain\\adme_graphs.pt",
+  "elapsed_seconds": 5.43
+}

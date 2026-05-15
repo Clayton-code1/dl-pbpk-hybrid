@@ -1,0 +1,20 @@
+{
+  "smiles": "CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O",
+  "MW": 308.3,
+  "logP": 2.7,
+  "CL_L_h": 0.0022,
+  "Vd_L_kg": 0.14,
+  "t_half_h": 40.0,
+  "F": 0.99,
+  "Cmax_mg_L": 2.5,
+  "AUC_mg_h_L": 100.0,
+  "therapeutic_min_mg_L": 0.5,
+  "therapeutic_max_mg_L": 3.0,
+  "standard_dose_mg": 5.0,
+  "reference": "Holford, 1986",
+  "api_sources": [
+    "literature",
+    "pharmgkb",
+    "pubchem (pubchempy)"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "smiles": "CC(C)Cc1ccc(cc1)C(C)C(=O)O",
+  "MW": 206.28,
+  "logP": 3.97,
+  "CL_L_h": 0.035,
+  "Vd_L_kg": 0.15,
+  "t_half_h": 2.0,
+  "F": 1.0,
+  "Cmax_mg_L": 45.0,
+  "AUC_mg_h_L": 90.0,
+  "therapeutic_min_mg_L": 10.0,
+  "therapeutic_max_mg_L": 50.0,
+  "standard_dose_mg": 400.0,
+  "reference": "Greenblatt & Koch-Weser, 1975",
+  "api_sources": [
+    "literature"
+  ]
+}

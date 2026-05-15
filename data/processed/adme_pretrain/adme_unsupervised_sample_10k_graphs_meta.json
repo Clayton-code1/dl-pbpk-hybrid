@@ -1,0 +1,9 @@
+{
+  "total_rows": 10000,
+  "valid_molecules": 10000,
+  "skipped_rows": 0,
+  "skipped_indices": [],
+  "cache_file": "data\\processed\\adme_pretrain\\adme_unsupervised_sample_10k_graphs.pt",
+  "has_labels": true,
+  "elapsed_seconds": 12.49
+}

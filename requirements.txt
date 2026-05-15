@@ -1,0 +1,33 @@
+# DL-PBPK Hybrid — pinned dependencies for full manuscript reproduction
+# Tested with Python 3.11.0
+# Install: pip install -r requirements.txt
+
+# === Core scientific stack ===
+numpy>=1.24,<2
+pandas>=2.0,<3
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+
+# === Deep learning ===
+torch>=2.2,<3
+
+# === Cheminformatics ===
+rdkit-pypi>=2022.9.2
+
+# === Gradient boosting baseline ===
+xgboost>=2.0,<3
+
+# === Explainability ===
+shap>=0.44,<1
+
+# === Visualisation ===
+matplotlib>=3.7,<4
+seaborn>=0.13,<1
+
+# === Data download (optional, used by experiments.data.download_pk_data) ===
+requests>=2.31,<3
+pubchempy>=1.0.4,<2
+
+# === Development utilities (optional) ===
+# pytest>=7.0
+# ruff>=0.1
