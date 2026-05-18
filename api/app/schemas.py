@@ -159,6 +159,18 @@ class SafeRecommendation(BaseModel):
     delta_auc_pct: float = 0.0
 
 
+class ClinicalReasoningItem(BaseModel):
+    """Literature-band interpretation for examiner-facing /recommend payloads."""
+
+    context: str = Field(..., description="baseline | recommended_regimen")
+    adjustment_pct: float | None = Field(None)
+    reasoning_text: str
+    evidence_tier: str = Field(
+        ...,
+        description="literature_band | extrapolation | out_of_scope",
+    )
+
+
 class RecommendResponse(BaseModel):
     baseline: PredictV2Response
     strategies: list[StrategyResult]
@@ -167,6 +179,10 @@ class RecommendResponse(BaseModel):
     )
     search_summary: str = Field(
         "", description="Human-readable explanation of the automatic safe-dose search"
+    )
+    clinical_reasoning: list[ClinicalReasoningItem] = Field(
+        default_factory=list,
+        description="Therapeutic-window narrative aligned with experiments.reference_pk",
     )
 
 

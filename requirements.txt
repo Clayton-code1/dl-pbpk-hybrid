@@ -23,6 +23,7 @@ shap>=0.44,<1
 # === Visualisation ===
 matplotlib>=3.7,<4
 seaborn>=0.13,<1
+reportlab>=4.0,<5
 
 # === Data download (optional, used by experiments.data.download_pk_data) ===
 requests>=2.31,<3

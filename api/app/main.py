@@ -49,6 +49,7 @@ from app.schemas import (
     SafeRecommendation,
     ModelMeta,
     StrategyResult,
+    ClinicalReasoningItem,
     ExplainV2Request,
     ExplainV2Response,
     SHAPResult,
@@ -71,6 +72,7 @@ from app.services import xai_service
 from app.services import report_service
 from app.services import population_adapter
 from app.services import pbpk_service
+from app.services import clinical_rules_service
 
 logger = logging.getLogger("uvicorn.error")
 
@@ -407,6 +409,46 @@ def _scale_regimen(regimen: list[RegimenEvent], scale: float) -> list[RegimenEve
     ]
 
 
+def _build_clinical_reasoning_items(
+    panel_slug: str | None,
+    baseline: PredictV2Response,
+    safe_rec: SafeRecommendation | None,
+) -> list[ClinicalReasoningItem]:
+    if not panel_slug:
+        return []
+    items: list[ClinicalReasoningItem] = []
+    b = clinical_rules_service.explain_for_recommendation(
+        panel_slug,
+        baseline.pk_metrics.cmax_ng_ml / 1000.0,
+        baseline.pk_metrics.auc_0_inf / 1000.0,
+        "baseline",
+    )
+    items.append(
+        ClinicalReasoningItem(
+            context=b.context,
+            adjustment_pct=b.adjustment_pct,
+            reasoning_text=b.reasoning_text,
+            evidence_tier=b.evidence_tier,
+        ),
+    )
+    if safe_rec is not None:
+        r = clinical_rules_service.explain_for_recommendation(
+            panel_slug,
+            safe_rec.pk_metrics.cmax_ng_ml / 1000.0,
+            safe_rec.pk_metrics.auc_0_inf / 1000.0,
+            "recommended_regimen",
+        )
+        items.append(
+            ClinicalReasoningItem(
+                context=r.context,
+                adjustment_pct=r.adjustment_pct,
+                reasoning_text=r.reasoning_text,
+                evidence_tier=r.evidence_tier,
+            ),
+        )
+    return items
+
+
 @app.post("/recommend", response_model=RecommendResponse, tags=["recommendation"])
 async def recommend(req: RecommendRequest):
     _require_model()
@@ -600,11 +642,18 @@ async def recommend(req: RecommendRequest):
                 delta_auc_pct=round(delta_auc, 2),
             )
 
+    panel_slug = infer.resolve_panel_drug_slug(
+        req.patient.compound_name,
+        req.drug.panel_drug if req.drug else None,
+    )
+    clinical = _build_clinical_reasoning_items(panel_slug, baseline, safe_rec)
+
     return RecommendResponse(
         baseline=baseline,
         strategies=strategies,
         safe_recommendation=safe_rec,
         search_summary=search_summary,
+        clinical_reasoning=clinical,
     )
 
 

@@ -1,0 +1,18 @@
+{
+  "models": {
+    "theophylline": {
+      "active": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\artifacts\\models\\hybrid_gnn_pbpk_theophylline_v1",
+      "candidates": [
+        {
+          "path": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\artifacts\\models\\hybrid_gnn_pbpk_theophylline_v_finetuned",
+          "validation_metrics": {
+            "feedback_rmse_before": 0.04100844059192616,
+            "feedback_rmse_after": 0.041144793961068724
+          },
+          "registered_at": "2026-05-18T10:44:45.877458+00:00"
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-05-18T10:44:45.877458+00:00"
+}

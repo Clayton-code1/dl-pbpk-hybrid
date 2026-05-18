@@ -1,14 +1,14 @@
 {
   "calibration": {
-    "a": 1.9,
-    "b": 1.9,
+    "a": 1.8,
+    "b": 1.8,
     "c": 0.0,
     "cmax_ref": 2000.0,
     "auc_ref": 30000.0,
-    "threshold": 0.55
+    "threshold": 0.6
   },
   "update_flag": true,
-  "updated_at": "2026-05-13T10:22:18.680340+00:00",
+  "updated_at": "2026-05-18T11:00:40.082000+00:00",
   "population": {
     "omega_cl": 0.25,
     "omega_v": 0.2,

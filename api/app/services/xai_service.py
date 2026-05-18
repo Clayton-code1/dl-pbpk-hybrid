@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import logging
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -18,7 +19,11 @@ import numpy as np
 
 logger = logging.getLogger("uvicorn.error")
 
-_DATA_PATH = Path(__file__).resolve().parents[3] / "data" / "processed" / "theoph" / "theoph_subjects.json"
+_PROJECT_ROOT = Path(__file__).resolve().parents[3]
+_DATA_PATH = _PROJECT_ROOT / "data" / "processed" / "theoph" / "theoph_subjects.json"
+
+# Cached KernelSHAP backgrounds sampled from real training CSVs (panel path).
+_PANEL_SHAP_BACKGROUND_CACHE: dict[tuple[str, int, int], np.ndarray] = {}
 
 
 # ---------------------------------------------------------------------------
@@ -49,7 +54,10 @@ def _build_panel_background(
     n: int,
     seed: int | None,
 ) -> np.ndarray:
-    """Perturb raw training-scale features for KernelSHAP background (panel path)."""
+    """Perturb raw training-scale features for KernelSHAP background (panel path).
+
+    Kept as a fallback when training CSV sampling fails.
+    """
     rng = np.random.default_rng(seed)
     ref = np.asarray(ref_raw, dtype=np.float64).reshape(-1)
     bg = np.zeros((n, len(ref)), dtype=np.float64)
@@ -62,6 +70,84 @@ def _build_panel_background(
                 row[j] = max(ref[j] * float(rng.uniform(0.75, 1.25)), 1e-9)
         bg[i] = row
     return bg
+
+
+def _ensure_experiments_on_path() -> Path:
+    root = Path(__file__).resolve().parents[3]
+    if str(root) not in sys.path:
+        sys.path.insert(0, str(root))
+    return root
+
+
+def load_panel_shap_background_training(
+    drug: str,
+    feature_names: list[str],
+    *,
+    n: int = 50,
+    seed: int = 42,
+) -> np.ndarray | None:
+    """Sample ``n`` raw covariate rows from the drug's *training* CSV split (SEED logic aligned with training)."""
+    cache_key = (drug, int(n), int(seed))
+    if cache_key in _PANEL_SHAP_BACKGROUND_CACHE:
+        return _PANEL_SHAP_BACKGROUND_CACHE[cache_key]
+
+    _ensure_experiments_on_path()
+    try:
+        import pandas as pd
+
+        from experiments.config import PROCESSED_DATA_DIR
+        from experiments.training.multidrug_utils import (
+            patient_feature_columns,
+            split_patient_ids,
+            split_rng_seed_for_drug,
+        )
+    except Exception as exc:
+        logger.warning("Panel SHAP background import failed: %s", exc)
+        return None
+
+    csv_path = PROCESSED_DATA_DIR / f"{drug}_pk_dataset.csv"
+    if not csv_path.exists():
+        logger.warning("PK CSV missing for panel SHAP background: %s", csv_path)
+        return None
+
+    try:
+        df = pd.read_csv(csv_path)
+        if "dose_mgkg" not in df.columns:
+            df["dose_mgkg"] = df["dose_mg"] / df["weight_kg"].replace(0, np.nan)
+        df["dose_mg_per_kg"] = df["dose_mg"] / df["weight_kg"].replace(0, np.nan)
+        df["log_dose_mg_per_kg"] = np.log(df["dose_mg_per_kg"] + 1e-8)
+
+        n_patients = int(df["patient_id"].max()) + 1
+        split_seed = split_rng_seed_for_drug(drug)
+        train_ids, _, _ = split_patient_ids(n_patients, seed=split_seed)
+        train_df = df[df["patient_id"].isin(train_ids)].copy()
+        first = train_df.groupby("patient_id", sort=True).head(1)
+        if len(first) == 0:
+            return None
+
+        need_cols = patient_feature_columns(drug)
+        for c in need_cols:
+            if c not in first.columns:
+                logger.warning("Column %s missing for %s background", c, drug)
+                return None
+
+        rng = np.random.default_rng(seed)
+        k = min(n, len(first))
+        pick = rng.choice(len(first), size=k, replace=False)
+        rows = first.iloc[pick]
+
+        bg = np.zeros((k, len(feature_names)), dtype=np.float64)
+        for i in range(k):
+            row = rows.iloc[i]
+            vec = np.array([float(row[c]) for c in feature_names], dtype=np.float64)
+            bg[i] = vec
+
+        _PANEL_SHAP_BACKGROUND_CACHE[cache_key] = bg
+        logger.info("Panel SHAP: loaded %d-row training background for %s", k, drug)
+        return bg
+    except Exception:
+        logger.exception("Failed building training SHAP background for %s", drug)
+        return None
 
 
 def _humanize_feature_names(names: list[str]) -> list[str]:
@@ -212,7 +298,14 @@ def _explain_shap_panel(
 
     try:
         import shap
-        bg = _build_panel_background(ref_raw, bundle.feature_names, 24, shap_seed)
+        bg = load_panel_shap_background_training(
+            panel_drug,
+            bundle.feature_names,
+            n=50,
+            seed=shap_seed if shap_seed is not None else 42,
+        )
+        if bg is None:
+            bg = _build_panel_background(ref_raw, bundle.feature_names, 24, shap_seed)
         explainer = shap.KernelExplainer(_model_fn, bg, link="identity")
         x_input = ref_raw.reshape(1, -1)
         sv = explainer.shap_values(x_input, nsamples=96, silent=True)

@@ -57,7 +57,26 @@ python -m experiments.statistics.significance_tests
 python -m experiments.safety.safety_thresholds
 python -m experiments.uncertainty.monte_carlo_calibration
 python -m experiments.explainability.shap_interpretation
+python experiments/explainability/graph_shap_lite.py
+python experiments/explainability/error_attribution.py
 ```
+
+## Corrective actions and continual learning
+
+The API exposes **algorithmic dose search** via `POST /recommend`, **literature-band clinical narratives** via `clinical_reasoning` in the same response, and **risk-score calibration** via `POST /model/update`. For **offline continual improvement**, PK observations can be logged to `experiments/data/feedback/feedback_log.csv` and a short fine-tuning pass can be run **without** retraining the six base hybrids from scratch:
+
+```bash
+# After accumulating feedback rows for one panel drug (≥20 concentration points by default):
+python experiments/training/finetune_from_feedback.py --drug theophylline --epochs 10 --output-suffix v_finetuned
+```
+
+This writes `artifacts/models/hybrid_gnn_pbpk_theophylline_v_finetuned/` with `finetune_report.json` (**before/after RMSE** on the feedback set) and registers the path as a **candidate** in `api/app/state/model_registry.json` (the service **does not** auto-switch checkpoints). Operators decide whether to repoint deployment to the new folder.
+
+**Helpers:**
+
+- `api/app/services/feedback_service.py` — append/query the feedback log.
+- `api/app/services/clinical_rules_service.py` — therapeutic-window tiering from `experiments/reference_pk.py`.
+- `api/app/services/model_registry.py` — track active vs candidate checkpoints.
 
 Total reproduction time: approximately 6–8 hours on CPU-only hardware 
 (Intel Core i7 with 16 GB RAM).
