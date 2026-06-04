@@ -1,0 +1,1128 @@
+drug_name_raw,therapeutic_raw,therapeutic_min_mg_L,therapeutic_max_mg_L,toxic_raw,toxic_min_mg_L,toxic_max_mg_L,comatose_raw,comatose_min_mg_L,thalf_raw,references,unit_flag,source,page
+Abacavir (ABC),0.9-3.9,0.9,3.9,,,,,,appr. 1.5,"[1, 2]",,Schulz_2020_CritCare,1
+Abiraterone,appr. 0.02-0.2,0.02,0.2,,,,,,12,[780],,Schulz_2020_CritCare,1
+Acamprosate,0.25-0.7,0.25,0.7,1,1,1,,,(3-) 13-20 (-33),[3-5],,Schulz_2020_CritCare,1
+Acebutolol,0.2-2 (0.5-1.26),0.2,2,,,,15-20,15,3-11,[6-8],,Schulz_2020_CritCare,1
+Acecarbromal(um),10-20 (sum),10,20,25-30,25,30,,,,"[8, 9], [13]",,Schulz_2020_CritCare,1
+Acenocoumarol,0.03-0.1,0.03,0.1,0.1-0.15,0.1,0.15,,,3-11,"[3], [9-11]",,Schulz_2020_CritCare,1
+Acetaldehyde,0-30,0,30,100-125,100,125,,,,"[10, 11]",,Schulz_2020_CritCare,1
+Acetazolamide,(4-) 10-20,10,20,25-30,25,30,,,2-6 (-13),"[3], [11-14]",,Schulz_2020_CritCare,2
+Acetohexamide,20-70,20,70,500,500,500,,,1.3,"[15], [779]",,Schulz_2020_CritCare,2
+Acetone,(2-) 5-20,5,20,100-400; 2000,100,400,550,550,(6-) 8-31,"[11], [16, 17]",,Schulz_2020_CritCare,2
+Acetonitrile,,,,,,,0.77,0.77,32,[11],,Schulz_2020_CritCare,2
+Acetylfentanyl,,,,,,,0.23-0.27,0.23,,[945-947],,Schulz_2020_CritCare,2
+"Acetylsalicylic acid (aspirin, ASS, ASA)",20-200,20,200,300-350,300,350,(400-) 500,500,3-20,[28-34],,Schulz_2020_CritCare,2
+Acitretin,0.01-0.29 (-0.5),0.01,0.29,,,,,,2-4 days,"[35, 36], [948, 949]",,Schulz_2020_CritCare,2
+Acrivastine,-0.07,-0.07,-0.07,,,,,,1-2,[8],,Schulz_2020_CritCare,2
+Acrylfentanyl,,,,,,,0.01-5 ng/g; 0.5-2.1 ng/mL,0.01,,"[950, 951], [1071]",NON-MGL:comatose:'ng/g':'0.01-5 ng/g; 0.5-2.1 ng/mL',Schulz_2020_CritCare,2
+Acyclovir,0.4-1.5,0.4,1.5,,,,,,2-5,"[3], [10], [37-39]",,Schulz_2020_CritCare,2
+Adalimumab,≥ 4.9 (5-9),4.9,4.9,,,,,,appr. 14 days,"[40], [787]",,Schulz_2020_CritCare,2
+Adipiodone(-meglumine),850-1200,850,1200,,,,,,0.5,[41],,Schulz_2020_CritCare,3
+Agomelatine,0.007-0.3,0.007,0.3,0.6,0.6,0.6,,,1-2,[4],,Schulz_2020_CritCare,3
+AH-7921,,,,,,,350 (30-9100) ng/mL,350,,"[1011], [1041], [1071]",NON-MGL:comatose:'ng/mL':'350 (30-9100) ng/mL',Schulz_2020_CritCare,3
+Ajmaline,(0.1-) 0.53-2.21 (?),0.53,2.21,,,,5.5,5.5,"1.3-1.6, 5-6","[3], [42], [952]",,Schulz_2020_CritCare,3
+Albendazole,0.5-1.5,0.5,1.5,,,,,,8-9,[43-46],,Schulz_2020_CritCare,3
+Alcuronium,0.3-3,0.3,3,,,,,,3.3 ± 1.3,[47],,Schulz_2020_CritCare,3
+Aldrin,-0.0015,-0.0015,-0.0015,0.0035,0.0035,0.0035,,,50-167 days (as dieldrin),"[11], [48]",,Schulz_2020_CritCare,3
+Alendronate (Alendronic acid),< 0.005,0.005,0.005,,,,,,1-2; terminal: days,"[49-51], [999]",,Schulz_2020_CritCare,3
+Alfentanil,0.03-0.6,0.03,0.6,,,,0.1-0.2,0.1,0.6-2.3,"[52-55], [1071]",,Schulz_2020_CritCare,3
+Alfuzosine,0.003-0.06,0.003,0.06,0.12,0.12,0.12,,,3-9,"[8], [780]",,Schulz_2020_CritCare,3
+Alimemazine (Trimeprazine),0.05-0.4,0.05,0.4,0.5,0.5,0.5,1-3.2,1,8,"[56, 57]",,Schulz_2020_CritCare,3
+Aliskiren,0.07-0.45,0.07,0.45,,,,,,30-70,[47],,Schulz_2020_CritCare,3
+Alizapride,0.1-2,0.1,2,,,,,,2-3,[15],,Schulz_2020_CritCare,3
+Allobarbital,2-5,2,5,10,10,10,20,20,40-48,"[8], [11], [13], [58], [779]",,Schulz_2020_CritCare,4
+Allopurinol,2-19,2,19,,,,,,0.5-3,"[11], [47]",,Schulz_2020_CritCare,4
+Almotriptan,0.05-0.07,0.05,0.07,,,,,,3-4,[47],,Schulz_2020_CritCare,4
+Alogliptin,0.06-0.87,0.06,0.87,,,,,,21,[780],,Schulz_2020_CritCare,4
+Alphaprodine,0.87-1,0.87,1,,,,,,1.6-2.6,[11],,Schulz_2020_CritCare,4
+Alprazolam,0.005-0.05 (-0.08),0.005,0.05,0.1-0.4,0.1,0.4,0.3,0.3,(6-) 12-15 (-20),"[4], [56], [59-63], [1231]",,Schulz_2020_CritCare,4
+Alprenolol,0.025-0.14,0.025,0.14,1-2,1,2,40-48,40,2-7,"[7, 8]",,Schulz_2020_CritCare,4
+Aluminium,0.001 (< 0.005 ),0.001,0.001,0.02-0.15,0.02,0.15,4.4,4.4,160 days,"[11], [47], [64-66], [953]",,Schulz_2020_CritCare,4
+Amantadine,(0.06-) 0.2-0.6 (-1),0.2,0.6,1.2 ; 2.4,1.2,1.2,21-48,21,9-15,"[4], [47, 48]",,Schulz_2020_CritCare,4
+5F-AMB (5F-AMB-PINACA),,,,,,,0.3 ng/mL,0.3,,[1037],NON-MGL:comatose:'ng/mL':'0.3 ng/mL',Schulz_2020_CritCare,4
+Amikacin,10-25,10,25,30,30,30,,,(0.5-) 2-3,"[67], [954]",,Schulz_2020_CritCare,4
+Amiloride,0.017-0.026,0.017,0.026,,,,,,(6-) 17-24,[47],,Schulz_2020_CritCare,4
+Aminobenzoic acid,300-600,300,600,600,600,600,,,,[66],,Schulz_2020_CritCare,4
+Aminoglutethimide,(0.05-) 7.5-25,7.5,25,,,,,,10-15,"[8], [11]",,Schulz_2020_CritCare,4
+Aminophenazone,10-20,10,20,,,,,,appr. 2-4,[15],,Schulz_2020_CritCare,4
+5-(2-Aminopropyl)benzofuran (5-APB),appr. 0.1,0.1,0.1,,,,0.1-4.2,0.1,,"[781], [955]",,Schulz_2020_CritCare,5
+"5-(2-Aminopropyl)indole (5-API, 5-IT)",,,,0.015-0.59,0.015,0.59,0.7-18.6 mg/kg,0.7,,"[956, 957]",,Schulz_2020_CritCare,5
+4-Aminopyridine (Fampridine),0.025-0.075,0.025,0.075,0.14 ; 0.2,0.14,0.14,,,3-3.5,"[10, 11], [68]",,Schulz_2020_CritCare,5
+Amiodarone,(0.5-) 1-2 (-2.5),1,2,2.5-3,2.5,3,,,30-120days,"[3], [64], [69-71]",,Schulz_2020_CritCare,5
+Amisulpride,0.1-0.4,0.1,0.4,0.64,0.64,0.64,9.3 ; 41.7,9.3,12-20,"[4], [8], [72], [958]",,Schulz_2020_CritCare,5
+Amitriptyline Amitriptyline + Nortriptyline,0.05-0.3 0.08-0.2,0.05,0.3,0.5-0.6 0.3,0.5,0.6,1.5-2,1.5,(10-) 30-50,"[4], [56], [73-83], [1084], [1231]",,Schulz_2020_CritCare,5
+Amlodipine,0.003-0.015,0.003,0.015,0.088,0.088,0.088,0.1-0.2,0.1,34-50,"[84-86], [780], [1064], [1151]",,Schulz_2020_CritCare,5
+Ammonia,0.5-1.7,0.5,1.7,,,,,,,[11],,Schulz_2020_CritCare,5
+Amobarbital,1-5,1,5,(5-6) 10-30,10,30,13-96,13,15-30,"[48], [87]",,Schulz_2020_CritCare,5
+Amodiaquine,-0.05,-0.05,-0.05,,,,,,-,[88],,Schulz_2020_CritCare,5
+Amoxapine,0.18-0.6,0.18,0.6,3,3,3,5,5,8,[9],,Schulz_2020_CritCare,5
+Amoxicillin,0.5-1 (5-15),0.5,1,,,,,,1-2,[15],,Schulz_2020_CritCare,5
+Amphetamine,0.02-0.1,0.02,0.1,0.2,0.2,0.2,0.5-1,0.5,4-8 (7-34),"[66], [89]",,Schulz_2020_CritCare,5
+Amphotericin B,(0.1-) 0.2-3,0.2,3,(3-) 5-10,5,10,5.3,5.3,24-48,"[47], [90-93]",,Schulz_2020_CritCare,5
+Ampicillin,0.02-2 (2-20),0.02,2,,,,,,1,[67],,Schulz_2020_CritCare,5
+Amrinone,1-2 (-4),1,2,,,,,,3-12,"[3], [94, 95]",,Schulz_2020_CritCare,6
+Amsacrine,(0.1-) 1-5.5,1,5.5,,,,,,5-7,[96],,Schulz_2020_CritCare,6
+Anileridine,< 0.5,0.5,0.5,,,,0.9,0.9,,"[11], [48]",,Schulz_2020_CritCare,6
+Aniline,-0.02 (urine),-0.02,-0.02,0.13,0.13,0.13,6,6,(2-) 3-4 (-7),"[11], [47, 48], [97-99]",,Schulz_2020_CritCare,6
+Antimony,-0.01,-0.01,-0.01,0.05-0.2,0.05,0.2,,,,"[64], [100], [959]",,Schulz_2020_CritCare,6
+Apixaban,appr. 0.03-0.3,0.03,0.3,,,,0.39,0.39,9-14,"[794-797], [960]",,Schulz_2020_CritCare,6
+Apomorphine,0.002-0.02,0.002,0.02,,,,,,appr. 0.75,"[3], [10]",,Schulz_2020_CritCare,6
+Aprindine,1-2,1,2,2-3,2,3,,,13-50,"[15], [58]",,Schulz_2020_CritCare,6
+Aprobarbital,4-20,4,20,30-40,30,40,50,50,14-34,"[11], [47], [58]",,Schulz_2020_CritCare,6
+Aripiprazole Aripiprazole + Dehydroaripiprazole,0.1-0.35 0.15-0.5,0.1,0.35,1,1,1,1.9,1.9,60-80,"[4], [101, 102], [798]",,Schulz_2020_CritCare,6
+Armodafinil,0.001-0.01,0.001,0.01,,,,,,10-20,"[47], [780]",,Schulz_2020_CritCare,6
+Arsenic,0.002-0.012 (-0.07),0.002,0.012,0.05-0.25,0.05,0.25,0.6-9.3 (-15),0.6,10-14,"[11], [47], [64], [87], [100], [103], [799], [1230]",,Schulz_2020_CritCare,7
+Articaine,< 1.5-2 (?),1.5,2,,,,,,0.3 (-1),[104],,Schulz_2020_CritCare,7
+Ascorbic acid (Vitamin C),4-15,4,15,,,,,,days,"[3], [105-108], [800]",,Schulz_2020_CritCare,7
+Asenapine,0.001-0.005,0.001,0.005,0.01,0.01,0.01,,,13-39,[4],,Schulz_2020_CritCare,7
+Astemizole,0.002-0.05,0.002,0.05,14,14,14,,,2-4 days,"[3], [109], [961]",,Schulz_2020_CritCare,7
+Atazanavir (ATV),> 0.15,0.15,0.15,,,,,,(4-) 6.5-8.6 (-11),"[2], [47], [110, 111]",,Schulz_2020_CritCare,7
+Atenolol,0.1-1 (-2),0.1,1,2-3,2,3,27,27,4-14,"[7], [42], [64], [112]",,Schulz_2020_CritCare,7
+Atomoxetine,0.2-1,0.2,1,2,2,2,5.4,5.4,appr. 4,"[4], [962]",,Schulz_2020_CritCare,7
+Atorvastatin,0.007-0.01 (-0.25),0.007,0.01,0.05,0.05,0.05,,,11-24,"[47], [780], [1063]",,Schulz_2020_CritCare,7
+Atovaquone,13.9 ± 6.9 (> 15),13.9,13.9,,,,,,2-3days,[113],,Schulz_2020_CritCare,7
+Atracurium(besylate),0.1-0.5 (-5),0.1,0.5,,,,,,appr. 0.5,"[47], [58]",,Schulz_2020_CritCare,7
+Atropine,0.002-0.025,0.002,0.025,0.03-0.1,0.03,0.1,0.2,0.2,"2-6.5, 13-38","[11], [66], [114]",,Schulz_2020_CritCare,7
+Avanafil,-,,,,,,,,6-20,[47],,Schulz_2020_CritCare,7
+Avobenzone,0.001-0.009,0.001,0.009,,,,,,(29-) 74-112 (-480),"[801], [1122]",,Schulz_2020_CritCare,7
+Azapropazone (Apazone),40-90,40,90,,,,,,8-24,"[8], [13]",,Schulz_2020_CritCare,7
+Azathioprine,0.05-2,0.05,2,,,,,,1-2 (-4),"[13], [15], [123]",,Schulz_2020_CritCare,8
+Azelastine,0.002-0.003 (-0.01),0.002,0.003,,,,,,22-25,[15],,Schulz_2020_CritCare,8
+Azelnidipine,< 0.03 ?,0.03,0.03,,,,,,(9-) 14-20,"[802, 803]",,Schulz_2020_CritCare,8
+Azilsartan medoxomil,appr. 4-5,4,5,,,,,,12-20,[47],,Schulz_2020_CritCare,8
+Azithromycin,appr. 0.04-1,0.04,1,,,,,,50-60 (2-4 days),[115-119],,Schulz_2020_CritCare,8
+Aztreonam,1-10 (50-250),1,10,,,,,,1.5-2,[11],,Schulz_2020_CritCare,8
+Baclofen,0.08-0.4 (-0.6),0.08,0.4,1.1-3.8,1.1,3.8,6-9.6,6,6.8 ± 0.7 (2-8),"[9], [11], [47], [804]",,Schulz_2020_CritCare,8
+Barbexaclone,active metabolite = Phenobarbital (see there),,,,,,,,,[12],,Schulz_2020_CritCare,8
+Barbital,2-20,2,20,20-50,20,50,50,50,57-120,"[13], [15]",,Schulz_2020_CritCare,8
+Barium,-0.001,-0.001,-0.001,,,,0.37; 16-23,0.37,10-18,[47],,Schulz_2020_CritCare,8
+Benazepril,0.003-0.007,0.003,0.007,,,,,,10.5,[780],,Schulz_2020_CritCare,8
+Bendrofluazide,0.05-0.1,0.05,0.1,,,,,,appr. 3,[42],,Schulz_2020_CritCare,8
+Bendroflumethiazide,0.02-0.09,0.02,0.09,,,,,,2.4-3.8,"[47], [1152]",,Schulz_2020_CritCare,8
+Benoxaprofen,-50,-50,-50,,,,,,19-39,[3],,Schulz_2020_CritCare,9
+Benperidol,0.001-0.01,0.001,0.01,0.02,0.02,0.02,,,4-8,"[4], [8]",,Schulz_2020_CritCare,9
+Benzbromarone,2-10,2,10,,,,,,2-4,"[927, 928]",,Schulz_2020_CritCare,9
+Benzene,-0.0002,-0.0002,-0.0002,,,,0.95,0.95,9-24,"[47], [58]",,Schulz_2020_CritCare,9
+Benzonatate,,,,2.5,2.5,2.5,0.8 ; 4-35,0.8,appr. 1-3,"[8], [47], [963]",,Schulz_2020_CritCare,9
+Benzoylecgonine,-0.1,-0.1,-0.1,,,,1,1,4-5,[8],,Schulz_2020_CritCare,9
+Benzphetamine,0.025-0.5,0.025,0.5,0.5,0.5,0.5,14,14,,"[8], [11], [47]",,Schulz_2020_CritCare,9
+Benztropine,0.01-0.18,0.01,0.18,0.05,0.05,0.05,0.2-0.7,0.2,12-24,"[8], [11], [47]",,Schulz_2020_CritCare,9
+Benzydamine,-,,,,,,,,6-23 (oral); 14-35 (topical),[47],,Schulz_2020_CritCare,9
+Benzyl alcohol,-,,,18,18,18,,,-,"[3], [47], [120, 121]",,Schulz_2020_CritCare,9
+Benzylpenicillin,1.2-12,1.2,12,,,,,,1,"[41], [67]",,Schulz_2020_CritCare,9
+N-Benzylpiperazine,0.01-1.2,0.01,1.2,0.7-6.3,0.7,6.3,8.3-20,8.3,4-6,[47],,Schulz_2020_CritCare,9
+Bepridil,0.6-2.5,0.6,2.5,,,,,,33-42 (30-130),"[8], [122]",,Schulz_2020_CritCare,9
+Beryllium,-0.0003,-0.0003,-0.0003,,,,,,,[58],,Schulz_2020_CritCare,9
+Betacarotene,4-6,4,6,,,,,,,"[3], [124]",,Schulz_2020_CritCare,9
+Betaxolol,0.005-0.05,0.005,0.05,,,,36,36,14-22,"[7], [47], [125]",,Schulz_2020_CritCare,10
+Bethanidine,0.02-0.5,0.02,0.5,,,,,,9-10,"[3], [58]",,Schulz_2020_CritCare,10
+Bevantolol,0.2-2,0.2,2,,,,,,2,[8],,Schulz_2020_CritCare,10
+Bezafibrate,-15,-15,-15,,,,,,2,[3],,Schulz_2020_CritCare,10
+Bicalutamide,1.5-17.5 (-25),1.5,17.5,,,,,,(3-) 7-10days,[126],,Schulz_2020_CritCare,10
+Biperiden,0.001-0.0065,0.001,0.0065,0.013,0.013,0.013,0.25,0.25,18-24,"[4], [56]",,Schulz_2020_CritCare,10
+Bismut (Bismuth),< 0.05 (-0.1),0.05,0.05,0.05-0.1,0.05,0.1,,,days,"[47], [64]",,Schulz_2020_CritCare,10
+Bisoprolol,0.01-0.1,0.01,0.1,0.2,0.2,0.2,0.17,0.17,10-12,"[7], [780], [964], [1064]",,Schulz_2020_CritCare,10
+Bopindolol,0.001-0.015,0.001,0.015,,,,,,4-8,"[7], [965]",,Schulz_2020_CritCare,10
+Borate,0-7,0,7,20,20,20,200,200,12-27,"[47], [66]",,Schulz_2020_CritCare,10
+Boron,0.8-6,0.8,6,20-50,20,50,50-150,50,,[58],,Schulz_2020_CritCare,10
+Bornaprine,0.0007-0.0072,0.0007,0.0072,0.014,0.014,0.014,,,appr. 30,[4],,Schulz_2020_CritCare,10
+Bosentan,0.7-1.6,0.7,1.6,,,,,,3.5-5.1,[47],,Schulz_2020_CritCare,10
+Brallobarbital (Brallobarbitone),4-8,4,8,8-10,8,10,15,15,20-40,"[8], [13]",,Schulz_2020_CritCare,10
+Bretylium,0.8-2.4,0.8,2.4,,,,,,6-11,"[3], [58]",,Schulz_2020_CritCare,10
+Brexiprazole,0.04-0.14,0.04,0.14,0.28,0.28,0.28,,,91,[4],,Schulz_2020_CritCare,10
+Brivaracetam,0.5-0.9,0.5,0.9,1.8,1.8,1.8,,,7-11,[4],,Schulz_2020_CritCare,11
+Brodifacoum,,,,0.02,0.02,0.02,0.03-0.17; acute: 3.9,0.03,20-60 days,"[58], [127]",,Schulz_2020_CritCare,11
+Bromadiolon,,,,0.02,0.02,0.02,,,"3-6 days (early), 10- 24 days (late phase)","[11], [47], [58]",,Schulz_2020_CritCare,11
+Bromazepam,(0.05-) 0.08-0.2,0.08,0.2,0.3-0.4,0.3,0.4,(1-) 2,2,8-22 (-35),"[4], [59]",,Schulz_2020_CritCare,11
+Bromide,75-100 (-300),75,100,500-1500; 3000,500,1500,2000,2000,9-15 days,"[47], [58], [128-130]",,Schulz_2020_CritCare,11
+Bromisoval,10-20,10,20,30-40,30,40,,,appr. 4,"[13], [58]",,Schulz_2020_CritCare,11
+"Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF)",,,,0.5-2 ng/mL,0.5,2,4.7 ng/mL,4.7,,"[967, 968]",NON-MGL:toxic:'ng/mL':'0.5-2 ng/mL'; NON-MGL:comatose:'ng/mL':'4.7 ng/mL',Schulz_2020_CritCare,11
+Bromocriptine,0.1-0.3 (-4) ng/mL,0.1,0.3,8 ng/mL,8,8,,,appr. 38,[4],NON-MGL:therapeutic:'ng/mL':'0.1-0.3 (-4) ng/mL'; NON-MGL:toxic:'ng/mL':'8 ng/mL',Schulz_2020_CritCare,11
+"25B-NBOMe (2-(4-bromo-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",,,,0.038,0.038,0.038,0.06-0.66,0.06,,[966],,Schulz_2020_CritCare,11
+Bromoxynil,,,,20,20,20,79 ; 137,79,,"[58], [969]",,Schulz_2020_CritCare,11
+Bromperidol,0.012-0.02,0.012,0.02,0.03,0.03,0.03,,,20-36,[4],,Schulz_2020_CritCare,11
+Brompheniramine,0.005-0.015,0.005,0.015,0.2,0.2,0.2,,,2-10 (-20),"[15], [47]",,Schulz_2020_CritCare,11
+Brotizolam,0.001-0.01 (-0.02),0.001,0.01,0.02,0.02,0.02,0.01-0.03 ; 0.21,0.01,4-10,"[4], [47], [131], [970]",,Schulz_2020_CritCare,11
+Budesonide,appr. 0.009-0.045,0.009,0.045,,,,,,2-3,[780],,Schulz_2020_CritCare,11
+Budipine,appr. 0.1-0.3,0.1,0.3,,,,,,30,[15],,Schulz_2020_CritCare,12
+Buflomedil,appr. 0.2-0.5 (-1.0),0.2,0.5,15-25,15,25,25-50; 275,25,2-4,"[11], [42], [58]",,Schulz_2020_CritCare,12
+Bumetanide,0.001-0.005,0.001,0.005,,,,,,0.8-1.5,"[780], [1205]",,Schulz_2020_CritCare,12
+Bunitrolol,0.001-0.015,0.001,0.015,,,,,,2-6,[7],,Schulz_2020_CritCare,12
+Bupivacaine,(0.25-) 0.5-1.5 (-2),0.5,1.5,2-4,2,4,3.8,3.8,0.5-3,"[3], [132-134], [971]",,Schulz_2020_CritCare,12
+Bupranolol,-,,,,,,,,2-4,"[7], [972]",,Schulz_2020_CritCare,12
+Buprenorphine,0.0005-0.005 (-0.014),0.0005,0.005,0.01 ; 0.03-0.1,0.01,0.01,0.008-0.029,0.008,2-5 (i.v.); 18-49 (sublingual); appr. 19 (buccal),"[3, 4], [47], [135-141], [1006]",,Schulz_2020_CritCare,12
+Bupropion (Amfebutamone),0.01-0.02; 0.05-0.1 ; 0.55-1.5,0.01,0.02,1.2-2 ; 2,1.2,2,4 ; 4.2 ; 7.3,4,(4-) 10-20; 17-47,"[4], [47], [80], [142-148], [973]",,Schulz_2020_CritCare,12
+Buspirone,0.001-0.004 (-0.01),0.001,0.004,0.03,0.03,0.03,0.2 (0.05-1.1),0.2,1-5 (4-7),"[4], [1012], [1194]",,Schulz_2020_CritCare,12
+Busulfan,> 0.9,0.9,0.9,,,,,,2-4,[149-154],,Schulz_2020_CritCare,12
+Butalbital,1-5,1,5,10-15,10,15,15-30,15,30-40,"[13], [15], [58]",,Schulz_2020_CritCare,12
+Butanone,-10,-10,-10,500,500,500,,,,[58],,Schulz_2020_CritCare,12
+Butaperazine,0.02-0.3 (-0.7),0.02,0.3,,,,,,12,"[15], [779]",,Schulz_2020_CritCare,13
+Butorphanol,0.0006-0.002,0.0006,0.002,,,,,,4-9,"[8], [779]",,Schulz_2020_CritCare,13
+Butriptyline,0.07-0.15,0.07,0.15,0.4-0.5,0.4,0.5,15,15,18-22,"[15], [47], [779]",,Schulz_2020_CritCare,13
+Butylone,,,,0.2,0.2,0.2,0.13-129,0.13,,"[955], [1014, 1015]",,Schulz_2020_CritCare,13
+Butylscopolamine,-0.7,-0.7,-0.7,,,,,,4-5,[8],,Schulz_2020_CritCare,13
+Buturylfentanyl,,,,,,,99 ng/mL,99,,"[974], [1071]",NON-MGL:comatose:'ng/mL':'99 ng/mL',Schulz_2020_CritCare,13
+Cabergoline,0.058-0.144 ng/mL,0.058,0.144,0.39 ng/mL,0.39,0.39,,,63-68,[4],NON-MGL:therapeutic:'ng/mL':'0.058-0.144 ng/mL'; NON-MGL:toxic:'ng/mL':'0.39 ng/mL',Schulz_2020_CritCare,13
+Cadmium,< 0.0003-0.0065,0.0003,0.0065,0.015-0.05,0.015,0.05,,,appr. 16 years,"[47], [58], [100]",,Schulz_2020_CritCare,13
+Caffeine (Coffein),(2-) 4-10,4,10,15-20,15,20,80-180,80,2-10,"[47], [64], [155-157]",,Schulz_2020_CritCare,13
+Calcifediol (Calcidiol; see also Vitamin D),0.01-0.05,0.01,0.05,,,,,,,[66],,Schulz_2020_CritCare,13
+Camazepam,0.1-0.6,0.1,0.6,2,2,2,,,20-24,[59],,Schulz_2020_CritCare,13
+Camostat,87.1 ± 29.5 ng/mL,87.1,87.1,,,,,,100 ± 40 min,"[1227, 1228]",NON-MGL:therapeutic:'ng/mL':'87.1 ± 29.5 ng/mL',Schulz_2020_CritCare,13
+Camphor,,,,0.3-0.4,0.3,0.4,1.7,1.7,2-8,"[8], [47], [158]",,Schulz_2020_CritCare,13
+Canagliflozin,0.17-1.3,0.17,1.3,,,,,,(8-) 10-12 (-15),"[47], [780]",,Schulz_2020_CritCare,13
+Candesartan,0.08-0.18 (-0.4),0.08,0.18,0.54,0.54,0.54,,,"5-7, 8-13","[15], [47], [780], [1064]",,Schulz_2020_CritCare,13
+Captopril,0.05-0.5 (-1),0.05,0.5,5-6,5,6,60,60,1-2 (-6),"[42], [47], [84], [159]",,Schulz_2020_CritCare,14
+Carazolol,-0.015,-0.015,-0.015,,,,,,9,[7],,Schulz_2020_CritCare,14
+Carbachol,appr. 0.01 ?,0.01,0.01,,,,3.6,3.6,,"[3], [160]",,Schulz_2020_CritCare,14
+Carbamazepine,2-8 (4-12),2,8,10,10,10,20,20,12-60 (7-35),"[12], [56], [161-166], [1231]",,Schulz_2020_CritCare,14
+Carbaryl,,,,5,5,5,6-27,6,,"[47], [167]",,Schulz_2020_CritCare,14
+Carbenoxolone,appr. 5-30,5,30,,,,,,8-20,[66],,Schulz_2020_CritCare,14
+Carbidopa,0.02-0.2,0.02,0.2,0.4,0.4,0.4,,,2,[4],,Schulz_2020_CritCare,14
+Carbimazole,0.5-3.4,0.5,3.4,,,,,,3-6,"[8], [13]",,Schulz_2020_CritCare,14
+Carbinoxamine,appr. 0.02-0.04,0.02,0.04,,,,,,appr. 10-15,[168],,Schulz_2020_CritCare,14
+Carbocromene (Carbochromene),0.8-2.4 (-3),0.8,2.4,,,,,,0.2-1.5,[8],,Schulz_2020_CritCare,14
+Carbon monoxide,-,,,17-30%,17,30,50-60%,50,,"[10], [47], [58], [975-978]",,Schulz_2020_CritCare,14
+Carbon tetrachloride,-0.07,-0.07,-0.07,0.12 ; 7.1 ; 11 ; 10-50,0.12,0.12,100-200,100,appr. 24; 42.6,"[58], [169-173]",,Schulz_2020_CritCare,14
+Carboplatin,peak 10-25,10,25,,,,,,2.5-6,[47],,Schulz_2020_CritCare,14
+Carbromal(um),2-10,2,10,15-20,15,20,40,40,7-15,"[13], [58]",,Schulz_2020_CritCare,14
+Carfentanil,,,,,,,0.12 ; 0.145 ; 0.221 ; 1.3 ng/mL,0.12,,"[979, 980], [1071]",NON-MGL:comatose:'ng/mL':'0.12 ; 0.145 ; 0.221 ; 1.3 ng/mL',Schulz_2020_CritCare,14
+Cariprazine,0.01-0.02,0.01,0.02,0.04,0.04,0.04,,,48-120,"[4], [47]",,Schulz_2020_CritCare,15
+Carisoprodol,2.5-10,2.5,10,40; 30-50,40,40,8-65 ; 110,8,0.9-2.4,"[47], [56], [58], [982]",,Schulz_2020_CritCare,15
+Carteolol,0.01-0.1,0.01,0.1,,,,,,3-7,[7],,Schulz_2020_CritCare,15
+Carvedilol,appr. 0.02-0.15 (-0.3),0.02,0.15,0.47,0.47,0.47,,,6-10,"[3], [8], [95], [983]",,Schulz_2020_CritCare,15
+Cathine,0.054-0.087 ; 0.11-0.2 ; 0.016-0.31,0.054,0.087,,,,,,1.8-8.6,"[984, 985]",,Schulz_2020_CritCare,15
+Cathinone,0.047-0.087 ; 0.009-0.17,0.047,0.087,,,,,,0.7-2.3,"[984, 985]",,Schulz_2020_CritCare,15
+Cefaclor,13-35 (i.v. -900),13,35,,,,,,0.5-1 (-2),"[3], [8], [11]",,Schulz_2020_CritCare,15
+Cefadroxil,-30,-30,-30,,,,,,1-2,[8],,Schulz_2020_CritCare,15
+Cefalexin,-65,-65,-65,,,,,,1-1.5,[41],,Schulz_2020_CritCare,15
+Cefaloridine,20-80,20,80,,,,,,1.5,[41],,Schulz_2020_CritCare,15
+Cefamandole,1-5 (10-40-150),1,5,,,,,,0.5-1.2,"[41], [58]",,Schulz_2020_CritCare,15
+Cefazolin,-150,-150,-150,,,,,,1.5-2,"[8], [41], [67]",,Schulz_2020_CritCare,15
+Cefdinir,-4,-4,-4,,,,,,1.1-2.3,"[8], [47]",,Schulz_2020_CritCare,15
+Cefepime,-160,-160,-160,,,,,,2,[8],,Schulz_2020_CritCare,15
+Cefetamet,-7,-7,-7,,,,,,2-3,[8],,Schulz_2020_CritCare,16
+Cefixime,-7,-7,-7,,,,,,3-4,[8],,Schulz_2020_CritCare,16
+Cefmenoxime,-200,-200,-200,,,,,,1-2,[8],,Schulz_2020_CritCare,16
+Cefodizime,-400,-400,-400,,,,,,2-4,[8],,Schulz_2020_CritCare,16
+Cefoperazone,-250,-250,-250,,,,,,1-2 (-5),"[8], [174]",,Schulz_2020_CritCare,16
+Cefotaxime,0.5-2 (10-50; i.v. -225),0.5,2,,,,,,1-1.5,[67],,Schulz_2020_CritCare,16
+Cefotetan,65-90,65,90,,,,,,3.5,[41],,Schulz_2020_CritCare,16
+Cefotiam,-150,-150,-150,,,,,,0.7-1.5 (-2),"[41], [175]",,Schulz_2020_CritCare,16
+Cefoxitin,-150,-150,-150,,,,,,0.7-1,[41],,Schulz_2020_CritCare,16
+Cefpodoxime,-7,-7,-7,,,,,,2-3,[8],,Schulz_2020_CritCare,16
+Cefsulodin,20-100,20,100,,,,,,1.6-1.9,"[3], [8], [11]",,Schulz_2020_CritCare,16
+Ceftazidime,20-40 (50-200),20,40,,,,,,1-4,"[3], [8], [11]",,Schulz_2020_CritCare,16
+Ceftibuten,appr. 3-20,3,20,,,,,,2-4,[8],,Schulz_2020_CritCare,16
+Ceftizoxime,40-160,40,160,,,,,,6-9,[41],,Schulz_2020_CritCare,16
+Ceftriaxone,15-75,15,75,,,,,,4.5-8.5,"[67], [1186]",,Schulz_2020_CritCare,16
+Cefuroxime,0.5-1 (10-60; i.v. -180),0.5,1,,,,,,1.1-1.3,"[3], [10], [58], [176, 177]",,Schulz_2020_CritCare,16
+Celecoxib,0.36-0.8,0.36,0.8,,,,,,7-16,[47],,Schulz_2020_CritCare,17
+Celiprolol,0.05-0.5 (-1),0.05,0.5,,,,,,3-6,[58],,Schulz_2020_CritCare,17
+Cephalothin (Cefalotin),-30,-30,-30,,,,,,0.5-0.6,"[3], [41]",,Schulz_2020_CritCare,17
+Cerivastatin,0.002-0.04,0.002,0.04,,,,,,1.5-3,[8],,Schulz_2020_CritCare,17
+Cetirizine,appr. 0.1-0.6,0.1,0.6,2-5,2,5,,,7-10,"[15], [47]",,Schulz_2020_CritCare,17
+Chloralhydrate,1.5-15,1.5,15,40-50,40,50,60-100,60,6-10 (-30),"[47], [58]",,Schulz_2020_CritCare,17
+Chlorambucil,0.15-0.3,0.15,0.3,,,,,,1.5-3,[15],,Schulz_2020_CritCare,17
+Chloramphenicol,5-10 (-15),5,10,25,25,25,28-108; 180,28,2-6,"[11], [47], [58], [178], [1069]",,Schulz_2020_CritCare,17
+Chlordane,-0.001,-0.001,-0.001,0.0025,0.0025,0.0025,1-7,1,88days,"[11], [58]",,Schulz_2020_CritCare,17
+Chlordecone,,,,0.6-32,0.6,32,,,63-148days,[47],,Schulz_2020_CritCare,17
+Chlordiazepoxide,0.4-3,0.4,3,3.5-10 (-15); 20.5,3.5,10,20 ; 26,20,6-27,"[11], [47], [56], [58], [179, 180]",,Schulz_2020_CritCare,17
+Chlorhexidine,,,,,,,,,appr. 12 (dermally in rats),[47],,Schulz_2020_CritCare,17
+Chlormezanone,(3-) 5-9 (-14),5,9,appr. 20,20,20,18 ; 53,18,20-30 (-60),"[43], [47], [56], [181]",,Schulz_2020_CritCare,18
+Chlorobutanol,,,,75,75,75,,,,[66],,Schulz_2020_CritCare,18
+Chloroform,20-50 (-100),20,50,appr. 70,70,70,33 ; 64 ; 69 ; 91,33,1.5,"[11], [47], [58], [182]",,Schulz_2020_CritCare,18
+Chlorophacinone,,,,,,,3.4-28; 26,3.4,6-23days,[47],,Schulz_2020_CritCare,18
+Chloroquine,0.02-0.5 (-0.7),0.02,0.5,0.8-1,0.8,1,3; 8 ; 15 ; 18,3,dose-dependent (3-14 (-30-60)) days,"[30], [47], [56], [183], [806], [1232]",,Schulz_2020_CritCare,18
+Chlorothiazide,2-18,2,18,,,,,,0.5-2,"[3], [11], [58], [780]",,Schulz_2020_CritCare,18
+Chlorphenamine (Chlorpheniramine),(0.003-) 0.01-0.02,0.01,0.02,,,,1.1,1.1,(12-) 15-25 (-43),"[3], [11], [47], [58]",,Schulz_2020_CritCare,18
+Chlorpromazine,0.03-0.1 (-0.5),0.03,0.1,0.6 ; 1-2,0.6,0.6,3-4,3,10-30,"[4], [56], [184, 185]",,Schulz_2020_CritCare,18
+Chlorpropamide,30-250,30,250,200-750,200,750,,,25-60,"[58], [66]",,Schulz_2020_CritCare,18
+Chlorprothixene,0.02-0.3,0.02,0.3,0.4,0.4,0.4,0.4-0.9,0.4,8-12,"[4], [47], [798]",,Schulz_2020_CritCare,18
+Chlorpyrifos,,,,0.2,0.2,0.2,0.5 (0.14-1.2),0.5,56-74,"[47], [186]",,Schulz_2020_CritCare,18
+Chlortalidone,0.15-0.3 (-1.4),0.15,0.3,appr. 2,2,2,,,44-48 (24-89),"[47], [58]",,Schulz_2020_CritCare,18
+Chlortetracycline,1-5 (-10),1,5,30,30,30,,,5-6,"[9], [13, 14], [58]",,Schulz_2020_CritCare,18
+Chromium,< 0.0005,0.0005,0.0005,0.001-0.091 (- 0.3) (inhalative exposition); 0.2-4.6 (after oral intake),0.001,0.091,1 ; 32 ; 68,1,3-4 years,"[47], [805], [987]",,Schulz_2020_CritCare,19
+Cibenzoline,0.2-0.4 (-0.9),0.2,0.4,(0.5-) 1,1,1,3.4-23,3.4,(6)- 7-8 (-15),"[3], [47], [187]",,Schulz_2020_CritCare,19
+Cicletanine,appr. 1-2,1,2,,,,,,5-23,"[3], [8]",,Schulz_2020_CritCare,19
+"Ciclosporine A (Cyclosporine, CsA)",< 0.1-0.25,0.1,0.25,0.3-0.4,0.3,0.4,,,10-27,[188-193],,Schulz_2020_CritCare,19
+Cidofovir,appr. 7-43,7,43,,,,,,2.5,"[3], [8]",,Schulz_2020_CritCare,19
+Cilazapril (Cilazaprilat),0.003-0.09,0.003,0.09,,,,,,30-50,[8],,Schulz_2020_CritCare,19
+Cilostazol,0.18-0.54,0.18,0.54,,,,,,12,[780],,Schulz_2020_CritCare,19
+Cimetidine,0.25-3 (0.75-4),0.25,3,19-50,19,50,110,110,1.5-4,"[47], [58], [194, 195]",,Schulz_2020_CritCare,19
+Cinnarizine,0.04-0.33,0.04,0.33,7.4,7.4,7.4,1.1,1.1,12-34,[47],,Schulz_2020_CritCare,19
+Cinoxacin,appr. 15,15,15,,,,,,1.5-4,[8],,Schulz_2020_CritCare,19
+Ciprofloxacin,2.5-4,2.5,4,11.5,11.5,11.5,,,3-6 (-8),"[47], [196-199], [203]",,Schulz_2020_CritCare,19
+Cisaprid,0.04-0.08,0.04,0.08,,,,,,6-12,[8],,Schulz_2020_CritCare,19
+Citalopram,0.05-0.11,0.05,0.11,0.22 ; 2.45,0.22,0.22,3.4-10.5 (5-6 ),3.4,25-48,"[4], [8], [47], [56], [200-202], [204-207], [807, 808], [1084]",,Schulz_2020_CritCare,19
+Cladribine,appr. 0.006,0.006,0.006,,,,,,0.1-0.2 (6.4-19.7),[208-210],,Schulz_2020_CritCare,19
+Clarithromycin,appr. 0.2-2,0.2,2,,,,,,3-7,"[8], [115], [118], [211-213]",,Schulz_2020_CritCare,20
+Clemastine,appr. 0.001-0.002,0.001,0.002,,,,,,10-32,"[8], [47], [214]",,Schulz_2020_CritCare,20
+Clenbuterol,0.0003-0.0006,0.0003,0.0006,0.003,0.003,0.003,0.001,0.001,30-35,"[47], [940-942]",,Schulz_2020_CritCare,20
+Clindamycin,appr. 0.5-2,0.5,2,,,,,,2-3,"[8], [47]",,Schulz_2020_CritCare,20
+Clobazam,0.03-0.3,0.03,0.3,0.5,0.5,0.5,0.7 ; 3.9,0.7,18-42,"[4], [47], [59], [215]",,Schulz_2020_CritCare,20
+Clobutinol,appr. 0.05-0.2,0.05,0.2,,,,,,23-34,"[3], [8]",,Schulz_2020_CritCare,20
+Clodronate (Clodronic acid),0.7-1,0.7,1,,,,,,(2.5-) 7-8; terminal: days,"[49], [996, 997]",,Schulz_2020_CritCare,20
+Clofibrate,50-250,50,250,,,,,,10-18,[88],,Schulz_2020_CritCare,20
+Clomethiazole (Chlormethiazole),0.1-5,0.1,5,(2.8-) 4-15,4,15,10-214,10,(2-) 3-5 (-7),"[4], [9], [13], [47], [216, 217]",,Schulz_2020_CritCare,20
+Clomipramine Clomipramin + N-Desmethylclomipramin,(0.02-) 0.09-0.25 (-0.4) 0.23-0.45,0.09,0.25,0.4-0.6 0.45,0.4,0.6,1-2,1,16-60,"[4], [76], [80], [218-223], [1084]",,Schulz_2020_CritCare,20
+Clonazepam,(0.004-) 0.02-0.07,0.02,0.07,0.08 ; 0.1,0.08,0.08,,,20-60,"[4], [60], [161], [224]",,Schulz_2020_CritCare,20
+Clonazolam,-,,,-,,,,,,[835],,Schulz_2020_CritCare,20
+Clonidine,0.001-0.002 (-0.004),0.001,0.002,0.009 ; 0.025-0.05,0.009,0.009,0.023 ; 0.23 ; 5.2,0.023,5-20,"[47], [225-227]",,Schulz_2020_CritCare,20
+Clopamide,appr. 0.06-0.18,0.06,0.18,,,,,,6-14,[47],,Schulz_2020_CritCare,20
+Clopenthixol (Clopentixol),0.002-0.015,0.002,0.015,0.1-0.3,0.1,0.3,,,15-25,"[8], [11]",,Schulz_2020_CritCare,20
+Clopidogrel,0.001-0.006,0.001,0.006,,,,,,1.5-4 (-7),[47],,Schulz_2020_CritCare,21
+Clotiapin,0.007-0.15,0.007,0.15,0.12-0.38,0.12,0.38,0.3 ; 1.3,0.3,4-10,[47],,Schulz_2020_CritCare,21
+Clotiazepam,0.1-0.7,0.1,0.7,,,,,,3-15,[8],,Schulz_2020_CritCare,21
+Cloxacillin,5-30 (-85),5,30,,,,,,0.5-1 (0.3-2),"[8], [11], [58]",,Schulz_2020_CritCare,21
+Clozapine,(0.1-) 0.35-0.6,0.35,0.6,0.6-1 (9.5 ),0.6,1,1.2 ; 2 ; 5.2,1.2,(6-) 12-16,"[4], [72], [101], [228-240], [809]",,Schulz_2020_CritCare,21
+"25C-NBOMe (2-(4-chloro-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",,,,0.16 ng/mL,0.16,0.16,0.8 ng/g,0.8,,"[47], [988, 989], [995]",NON-MGL:toxic:'ng/mL':'0.16 ng/mL'; NON-MGL:comatose:'ng/g':'0.8 ng/g',Schulz_2020_CritCare,21
+Cobalt,0.0001-0.001,0.0001,0.001,0.4-0.5,0.4,0.5,0.42,0.42,2 (early); 38 (late phase),"[11], [47], [58]",,Schulz_2020_CritCare,21
+Cocaine,0.05-0.3,0.05,0.3,(0.25-) 0.5-1 (-5.2),0.5,1,0.9-21,0.9,0.5-1,"[13, 14], [47], [58], [241, 242], [990], [1083]",,Schulz_2020_CritCare,21
+Codeine,0.03-0.25,0.03,0.25,0.5-1,0.5,1,0.45-2 (-48),0.45,3-4,"[3], [47], [243, 244]",,Schulz_2020_CritCare,21
+Colchicine,0.0003-0.0025,0.0003,0.0025,0.005 (0.019 ),0.005,0.005,0.009 ; 0.024 ; 0.066,0.009,11-32 (-60),"[10], [47], [245-248]",,Schulz_2020_CritCare,21
+Colistin,1-5,1,5,,,,,,1.5-2 (-5),[47],,Schulz_2020_CritCare,22
+Copper,0.6-1.5,0.6,1.5,0.8-2,0.8,2,2.5-5 (-66),2.5,26days,[66],,Schulz_2020_CritCare,22
+Coumatetralyl,,,,0.009 ; 0.12,0.009,0.009,,,12-13,"[47], [249]",,Schulz_2020_CritCare,22
+Cresol (Methylphenols),-,,,appr. 50,50,50,120,120,,"[58], [991]",,Schulz_2020_CritCare,22
+Cromolyn (Cromoglycate),appr. -0.01,-0.01,-0.01,,,,,,1-1.5,[3],,Schulz_2020_CritCare,22
+5F-Cumyl-PEGACLONE,,,,,,,0.09-0.45 ng/mL,0.09,,"[1081, 1082]",NON-MGL:comatose:'ng/mL':'0.09-0.45 ng/mL',Schulz_2020_CritCare,22
+Cyamenazine,0.0009-0.016,0.0009,0.016,,,,1.8 ; 3.6 ; 9.8,1.8,10-12,[47],,Schulz_2020_CritCare,22
+Cyanide,-,,,(0.2-) 0.5; 0.514,0.5,0.5,1-3,1,0.7-2.1 (whole blood); appr. 19,"[47], [130], [250-256], [788-793]",,Schulz_2020_CritCare,22
+Cyclizine,0.1-0.25,0.1,0.25,0.75-1,0.75,1,15; 16,15,7-24,"[11], [47], [58], [810]",,Schulz_2020_CritCare,22
+Cyclobarbital,2-6,2,6,10,10,10,20; 68 ; 70,20,8-17,"[811, 812]",,Schulz_2020_CritCare,22
+Cyclobenzaprine,appr. 0.003-0.04,0.003,0.04,0.4,0.4,0.4,0.8; 1,0.8,18 (9-40),"[11], [58], [257], [992]",,Schulz_2020_CritCare,22
+Cyclohexane,-0.4,-0.4,-0.4,,,,,,1-3,[47],,Schulz_2020_CritCare,22
+"1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine (MT-45)",-,,,,,,0.52 ; 2.9,0.52,,"[993], [1070]",,Schulz_2020_CritCare,22
+Cyclophosphamide,10-25,10,25,,,,,,(1.3-) 4-8 (-16),"[3], [8]",,Schulz_2020_CritCare,22
+Cyclopropane,80-180,80,180,,,,,,,"[11], [58]",,Schulz_2020_CritCare,23
+Cyclopropylfentanyl,-,,,,,,1.4-43 ; 51 ; 76 ng/mL,1.4,,"[813-816], [1015], [1071]",NON-MGL:comatose:'ng/mL':'1.4-43 ; 51 ; 76 ng/mL',Schulz_2020_CritCare,23
+Cyproheptadine,appr. -0.05,-0.05,-0.05,0.13,0.13,0.13,0.47,0.47,8-9; 20-40,"[3], [47]",,Schulz_2020_CritCare,23
+Cyproterone acetate,0.01-0.2,0.01,0.2,,,,,,30-40 (-120),"[47], [126]",,Schulz_2020_CritCare,23
+Cysteamine,appr. > 1.55,1.55,1.55,,,,,,appr. 1,"[3], [258]",,Schulz_2020_CritCare,23
+Cytarabine,0.05-0.5,0.05,0.5,,,,,,0.1-0.2 (1.9-2.5),"[9], [209]",,Schulz_2020_CritCare,23
+Dabigatran,(0.03-) 0.04-0.2 (-0.3),0.04,0.2,0.2?; 2.7,0.2,0.2,5.6,5.6,9-14,"[794], [796, 797], [817-820], [960]",,Schulz_2020_CritCare,23
+Dalfampridine,0.015-0.055,0.015,0.055,,,,,,5.8,[780],,Schulz_2020_CritCare,23
+Danazol,appr. -0.2,-0.2,-0.2,,,,,,4.5,[3],,Schulz_2020_CritCare,23
+Dantrolene,(0.1-) 0.4-1.5 (-3),0.4,1.5,,,,,,4-12,"[3], [9], [259]",,Schulz_2020_CritCare,23
+Dapagliflozin,0.006-0.285,0.006,0.285,,,,,,12.9,[780],,Schulz_2020_CritCare,23
+Dapsone,0.5-2,0.5,2,10,10,10,18,18,25-31,"[260, 261]",,Schulz_2020_CritCare,23
+Daptomycin,> 3.2 (trough),3.2,3.2,24.3 (trough),24.3,24.3,,,(4-) 7-9 (-12),"[821-825], [1186]",,Schulz_2020_CritCare,23
+Darifenacin,0.0015-0.02,0.0015,0.02,,,,,,16,[780],,Schulz_2020_CritCare,24
+Darunavir (DRV),> 3.3 (1.3-7.4),3.3,3.3,,,,,,appr. 15,"[2], [110], [262]",,Schulz_2020_CritCare,24
+Deferoxamine (Desferrioxamine),3-15,3,15,,,,,,4-6,"[8], [47]",,Schulz_2020_CritCare,24
+Delorazepam,0.01-0.07,0.01,0.07,,,,,,80-115,[47],,Schulz_2020_CritCare,24
+Demoxepam,0.5-0.74,0.5,0.74,1,1,1,2.7,2.7,,"[66], [1194]",,Schulz_2020_CritCare,24
+Desipramine,0.01-0.5 (0.1-0.3),0.01,0.5,0.3 ; 0.5-1,0.3,0.3,3,3,15-25,"[4], [74], [78-80], [263, 264]",,Schulz_2020_CritCare,24
+Desloratadine,0.002-0.006,0.002,0.006,0.012,0.012,0.012,,,17-27,[4],,Schulz_2020_CritCare,24
+Des(methyl)venlafaxine,0.1-0.4,0.1,0.4,0.8,0.8,0.8,,,10-17,[4],,Schulz_2020_CritCare,24
+Detajmium,0.01-0.7,0.01,0.7,,,,1.8,1.8,13-14,[8],,Schulz_2020_CritCare,24
+Dexamethasone,appr. 0.05-0.27,0.05,0.27,0.8,0.8,0.8,,,2.5-9.5,"[3], [265]",,Schulz_2020_CritCare,24
+Dexfenfluramine,appr. 0.03-0.06,0.03,0.06,0.15-0.25,0.15,0.25,,,appr. 18,"[11], [58], [66]",,Schulz_2020_CritCare,24
+Dexketoprofen,appr. 3.7,3.7,3.7,,,,,,0.5-2,[47],,Schulz_2020_CritCare,24
+Dexmedetomidine,-appr. 3.5 ng/mL,3.5,3.5,,,,,,3-10,"[47], [1017]",NON-MGL:therapeutic:'ng/mL':'-appr. 3.5 ng/mL',Schulz_2020_CritCare,24
+Dexmethylphenidate,0.013-0.023,0.013,0.023,0.044,0.044,0.044,,,appr. 2,[4],,Schulz_2020_CritCare,25
+Dextromethorphan,0.001-0.04 (0.23 ),0.001,0.04,0.1-2.8,0.1,2.8,1.1-3 (-20),1.1,2-4 (23-42 ),"[47], [266-270]",,Schulz_2020_CritCare,25
+Dextromoramide,0.05-0.15,0.05,0.15,0.2,0.2,0.2,0.1-1.5,0.1,1.5-4-7,"[8], [47], [58], [271, 272]",,Schulz_2020_CritCare,25
+Dextropropoxyphene,0.05-0.3 (-0.5),0.05,0.3,0.6-1,0.6,1,1-2,1,10-30,"[30], [48]",,Schulz_2020_CritCare,25
+"3,4-Diaminopyridin (DAP)",< 0.04,0.04,0.04,0.1 (?),0.1,0.1,,,0.3-2,[282],,Schulz_2020_CritCare,25
+Diazepam,0.1-2 (-2.5),0.1,2,3 -5,3,5,,,24-48,"[4], [13, 14], [59], [224], [241], [283-286]",,Schulz_2020_CritCare,25
+Diazinon,-,,,0.05-0.1 (-0.5),0.05,0.1,0.7-277,0.7,,"[47], [58]",,Schulz_2020_CritCare,25
+Diazoxide,10-20 (-50),10,20,50 (-100),50,50,,,20-36 (-48),"[3], [10], [42], [58], [84]",,Schulz_2020_CritCare,25
+Dibenzepine,0.025-0.15 (0.1-0.5),0.025,0.15,3,3,3,18,18,3.5-5,"[11], [58]",,Schulz_2020_CritCare,25
+Dichloromethane,-,,,,,,50-280 (-2200),50,0.6 (early); 4-8 (late phase),[47],,Schulz_2020_CritCare,25
+"2,4-Dichlorophenoxyacetic acid (2,4-D)",-,,,appr. 100,100,100,200; 392 ; 720,200,4-140,"[3], [11], [47], [58]",,Schulz_2020_CritCare,25
+Dichlorprop,-,,,52,52,52,250 ; 450,250,70-90,[47],,Schulz_2020_CritCare,25
+"Dichlorvos (2,2-Dichlorvinyl-dimethyl- phosphate, DDVP)",-,,,,,,29,29,0.16,[47],,Schulz_2020_CritCare,25
+Diclazepam,-,,,,,,,,,[1016],,Schulz_2020_CritCare,26
+Diclofenac,0.5-3,0.5,3,50; 60,50,50,,,1-3,"[47], [287-289]",,Schulz_2020_CritCare,26
+Dicoumarol,8-30,8,30,22-192,22,192,,,1-4days,"[8], [11]",,Schulz_2020_CritCare,26
+Dicyclomine (Dicycloverin),-0.1,-0.1,-0.1,appr. 0.2,0.2,0.2,0.2 ; 0.5,0.2,1.8-2 (-5),"[8], [47]",,Schulz_2020_CritCare,26
+Didanosine (DDI),appr. 1-30 µmol/L,1,30,,,,,,appr. 1.4,"[2, 3], [38], [290, 291]",NEEDS-MOLAR-CONVERSION:therapeutic:'appr. 1-30 µmol/L',Schulz_2020_CritCare,26
+Dieldrin,-0.0015,-0.0015,-0.0015,0.15-0.3,0.15,0.3,0.5,0.5,2-12 months,"[11], [47], [58]",,Schulz_2020_CritCare,26
+Diethylcarbamazine,> 0.8-1.0,0.8,1.0,,,,,,4-15,[292],,Schulz_2020_CritCare,26
+Diethylene glycol,-,,,0.04 ; 17 ; 200-500,0.04,0.04,0.2 -360,0.2,3-4,[47],,Schulz_2020_CritCare,26
+"N,N-Diethyl-3-methylbenzamide (N,N- Diethyl-m-toluamide; DEET)",-,,,1.6,1.6,1.6,112 ; 240,112,appr. 2.5,[47],,Schulz_2020_CritCare,26
+Diethylpentenamide (Valdetamide),2-10,2,10,20,20,20,45,45,6-7,"[8], [13]",,Schulz_2020_CritCare,26
+Diethylpropion,0.003-0.007 (-0.2),0.003,0.007,2,2,2,5.4,5.4,4-8,"[3], [8], [58]",,Schulz_2020_CritCare,26
+Difenacoum,-,,,0.5,0.5,0.5,,,11-42days,[47],,Schulz_2020_CritCare,26
+Diflunisal,40-100 (-200),40,100,300,300,300,260 ; 370 ; 520,260,5-12,"[3], [9], [47], [58], [293]",,Schulz_2020_CritCare,26
+Digitoxin,0.008-0.018,0.008,0.018,0.03,0.03,0.03,0.04,0.04,140-200 (7-9days),"[294, 295], [783]",,Schulz_2020_CritCare,26
+Digoxin,0.0005-0.0009,0.0005,0.0009,(0.0012-) 0.002,0.002,0.002,0.004-0.005,0.004,40-70,"[18-27], [782-786]",,Schulz_2020_CritCare,26
+Dihydrocodeine,0.03-0.25,0.03,0.25,0.5-1 (-12),0.5,1,0.4-166,0.4,3-4,"[14], [47], [58]",,Schulz_2020_CritCare,27
+Dihydroergotamine,0.001-0.01,0.001,0.01,,,,,,4-15,"[3], [8], [47]",,Schulz_2020_CritCare,27
+Diltiazem,0.03-0.13 (-0.25),0.03,0.13,0.8-1,0.8,1,2-6; 7 ; 8,2,2-6 (4-9),"[3], [47], [58], [84]",,Schulz_2020_CritCare,27
+Dimethadione,(350-) 700-1000,700,1000,1000,1000,1000,,,5-10days,"[3], [8], [11, 12]",,Schulz_2020_CritCare,27
+Dimethindene,0.01-0.05,0.01,0.05,,,,,,appr. 6,"[3], [8]",,Schulz_2020_CritCare,27
+Dimethoate,-,,,,,,355.5 (160.0-674.0) µmol/L,355.5,appr. 5,"[47], [186]",NEEDS-MOLAR-CONVERSION:comatose:'355.5 (160.0-674.0) µmol/L',Schulz_2020_CritCare,27
+"2,5-Dimethoxy-4-bromoamphetamine (DOB)",,,,,,,0.01 ; 0.02 ; 0.9,0.01,17-22,[47],,Schulz_2020_CritCare,27
+"2,5-Dimethoxy-4-bromophenethylamine (2C-B)",,,,0.34,0.34,0.34,,,1.1,"[47], [994]",,Schulz_2020_CritCare,27
+"3,4-Dimethylmethcathinone (3,4-DMMC)",,,,,,,,,27,[1018],,Schulz_2020_CritCare,27
+"N,N-Dimethyltryptamine",0.001-0.1,0.001,0.1,,,,,,0.5-1.5,"[47], [58]",,Schulz_2020_CritCare,27
+"4,6-Dinitro-2-methylphenol (Dinitro-O (ortho)-cresol [DNOC])",1-5,1,5,30-60,30,60,34 ; 75,34,5-6 days,"[47], [58]",,Schulz_2020_CritCare,27
+Diphenhydramine,0.05-0.1 (-1),0.05,0.1,(0.1-) 1-2 (-4),1,2,1.1 (in infants); 5-10,1.1,"3-14, 20-60","[47], [58], [114], [296, 297]",,Schulz_2020_CritCare,28
+Diphenidine,,,,,,,0.012-1.38,0.012,,[1015],,Schulz_2020_CritCare,28
+Diphenoxylate,appr. 0.01-0.08,0.01,0.08,,,,0.34,0.34,2-3,[47],,Schulz_2020_CritCare,28
+Dipipanone,appr. -0.05,-0.05,-0.05,0.43,0.43,0.43,< 0.1 (oral); 0.5-6.2 (i.v.),0.1,3.2-3.8,[47],,Schulz_2020_CritCare,28
+Dipyridamole,0.1-1.5 (-2),0.1,1.5,4,4,4,9.2 ; 187,9.2,(6-) 11-13 (-28),"[9], [13, 14], [47]",,Schulz_2020_CritCare,28
+Diquat,-,,,0.1-0.4,0.1,0.4,0.4-4.5; 65,0.4,,"[11], [47]",,Schulz_2020_CritCare,28
+Disopyramide,2-7,2,7,8,8,8,27,27,(3-) 5-8 (-11),"[11], [47], [58], [64], [70], [986]",,Schulz_2020_CritCare,28
+Disulfiram,0.05-0.4,0.05,0.4,0.5 ; 5,0.5,0.5,8 ; 120,8,5-9,"[4], [47], [58]",,Schulz_2020_CritCare,28
+Dixyrazine,appr. 0.3,0.3,0.3,,,,5.5 ; 9.4,5.5,,"[4], [298]",,Schulz_2020_CritCare,28
+Dofetilide,0.002-0.0055,0.002,0.0055,,,,,,(5-) 9-10 (-13.5),[780],,Schulz_2020_CritCare,28
+Domperidone,appr. 0.01-0.1,0.01,0.1,0.2,0.2,0.2,,,12-16,"[3], [299-302]",,Schulz_2020_CritCare,28
+Donepezil,appr. 0.03-0.075,0.03,0.075,0.1,0.1,0.1,,,70-100,"[4], [303, 304]",,Schulz_2020_CritCare,29
+Doripenem,appr. -12,-12,-12,,,,,,(1-) 2.5-8,"[826], [1186]",,Schulz_2020_CritCare,29
+Dothiepin (Dosulepin),0.045-0.1,0.045,0.1,0.2 ; (0.3-) 0.8,0.2,0.2,0.3-5.8,0.3,(8-) 11-20 (-40),"[4], [47], [305, 306]",,Schulz_2020_CritCare,29
+Doxacurium,0.01-0.3,0.01,0.3,,,,,,1-2,[8],,Schulz_2020_CritCare,29
+Doxapram,(1.5-) 2-5,2,5,9,9,9,,,2.4-9.9,"[3], [11], [58], [307]",,Schulz_2020_CritCare,29
+Doxazosin,0.01-0.15,0.01,0.15,0.3,0.3,0.3,,,10-22,"[47], [95]",,Schulz_2020_CritCare,29
+Doxepin Doxepin plus N-desmethyldoxepin,0.01-0.2 (0.03-0.1) 0.05-0.15,0.01,0.2,0.5-1 0.3,0.5,1,2-4,2,(8-) 15-20 (-25),"[4], [73], [77], [80], [264], [308-310]",,Schulz_2020_CritCare,29
+Doxorubicin (Adriamycin),0.006-0.02,0.006,0.02,,,,,,20-48,"[3], [8], [58]",,Schulz_2020_CritCare,29
+Doxycycline,1-5 (-10),1,5,30,30,30,,,15-28,"[8], [58]",,Schulz_2020_CritCare,29
+Doxylamine,0.05-0.2,0.05,0.2,0.32 ; 1-2,0.32,0.32,5,5,(7-) 9-11 (-13),"[4], [47], [87], [311], [827]",,Schulz_2020_CritCare,29
+"Dronabinol (Delta-9-tetrahydrocannabinol, THC)",0.005-0.01 (-0.05),0.005,0.01,,,,,,50-100,"[241], [312, 313]",,Schulz_2020_CritCare,29
+Dronedarone,0.084-0.167,0.084,0.167,,,,,,24-30,"[780], [828]",,Schulz_2020_CritCare,29
+Droperidol,appr. -0.05,-0.05,-0.05,,,,,,1.5-2.5,"[3], [314]",,Schulz_2020_CritCare,29
+Drotrecogin alfa,mean 0.072,0.072,0.072,,,,,,1.6,[315],,Schulz_2020_CritCare,29
+Duloxetine,0.03-0.12,0.03,0.12,0.24,0.24,0.24,,,9-19,"[4], [223]",,Schulz_2020_CritCare,29
+Dutasteride,0.025-0.055,0.025,0.055,,,,,,4-5 weeks,[780],,Schulz_2020_CritCare,30
+Dyphylline,6.5-14 (-20),6.5,14,40,40,40,,,2,"[11], [58]",,Schulz_2020_CritCare,30
+Ecamsule (Mexoryl SX),0.0005-0.012,0.0005,0.012,,,,,,,[801],,Schulz_2020_CritCare,30
+Ecdysterone,appr. -0.008,-0.008,-0.008,,,,,,,"[829], [1066]",,Schulz_2020_CritCare,30
+Edoxaban,0.02-0.1,0.02,0.1,0.15 (-0.2),0.15,0.15,,,(6-) 10-14,"[47], [794], [797], [830], [960]",,Schulz_2020_CritCare,30
+Edrophonium,0.15-0.2,0.15,0.2,appr. 0.15,0.15,0.15,,,1.3-2.4,"[3], [58], [316]",,Schulz_2020_CritCare,30
+Efavirenz (EFV),> 1.0 appr. -3,1.0,1.0,6,6,6,,,40-55,"[2], [110, 111], [780]",,Schulz_2020_CritCare,30
+Eletriptan,0.06-0.23,0.06,0.23,,,,,,3-7,[47],,Schulz_2020_CritCare,30
+Embutramide,,,,,,,2-90,2,9.6,[47],,Schulz_2020_CritCare,30
+Emetine,(0-) 0.005-0.075,0.005,0.075,0.008-0.5,0.008,0.5,2.4,2.4,10-18; 24-48,"[8], [47]",,Schulz_2020_CritCare,30
+Empagliflozin,0.03-0.36,0.03,0.36,,,,,,9-10,[780],,Schulz_2020_CritCare,30
+Emtricitabine,,,,,,,,,appr. 10,[780],,Schulz_2020_CritCare,30
+Enalapril,0.01-0.05 (-0.1),0.01,0.05,0.3,0.3,0.3,2.8,2.8,(6-) 8-11 (-55),"[47], [84], [159]",,Schulz_2020_CritCare,30
+Encainide,-,,,,,,,,1.5-3.5,[3],,Schulz_2020_CritCare,30
+Endrin,-0.003,-0.003,-0.003,0.01-0.03,0.01,0.03,0.62,0.62,,"[47], [58]",,Schulz_2020_CritCare,30
+Enflurane,44-144,44,144,,,,130 ; 710,130,36,[47],,Schulz_2020_CritCare,30
+Enfuvirtide,2.6-3.4,2.6,3.4,,,,,,3-4,"[47], [1001]",,Schulz_2020_CritCare,31
+Enoxacin,1-4,1,4,,,,,,3-6,"[47], [197], [1019]",,Schulz_2020_CritCare,31
+Enoximone, 0.2 (3-4 ?),0.2,0.2,,,,,,4-7,"[3], [8], [95]",,Schulz_2020_CritCare,31
+Enprofylline,1-5,1,5,10,10,10,,,appr. 2,[8],,Schulz_2020_CritCare,31
+Entacapone,0.4-1.0 (-7.0),0.4,1.0,2,2,2,,,(0.5-) 1.5-3.5,"[3, 4], [8]",,Schulz_2020_CritCare,31
+Enzalutamide,appr. 19-25 (-30),19,25,,,,,,appr. 6 (3-10)days,"[831, 832], [1086]",,Schulz_2020_CritCare,31
+Eperisone,appr. 0.0007-0.008,0.0007,0.008,0.16-4.1,0.16,4.1,15.3,15.3,1-4,[47],,Schulz_2020_CritCare,31
+Ephedrine,0.02-0.2,0.02,0.2,0.15 ; 1; 15 ; 22 ; 23,0.15,0.15,2.7 ; 5 ; 3.5-21,2.7,3-11,"[8], [47], [57, 58], [87], [269]",,Schulz_2020_CritCare,31
+Epinephrine (Adrenaline),appr. 6.8 ng/L,6.8,6.8,,,,60 ng/L,60,0.7,"[47], [1073]",,Schulz_2020_CritCare,31
+Epirubicin,appr. (0.05-) 0.2-3,0.2,3,,,,,,10-45,"[47], [1000]",,Schulz_2020_CritCare,31
+Eplerenone,appr. 1-1.7,1,1.7,,,,,,3-6,[47],,Schulz_2020_CritCare,31
+Eprosartan,0.4-1.0 (-1.85),0.4,1.0,,,,,,5-9,"[3], [8]",,Schulz_2020_CritCare,31
+Eptastigmine,0.0002-0.006,0.0002,0.006,,,,,,appr. 1,[8],,Schulz_2020_CritCare,31
+Eptinezumab,,,,,,,,,26-28 days,[1102],,Schulz_2020_CritCare,31
+Erenumab,appr. 10-25 ?,10,25,,,,,,21-28 days,"[1102], [1105, 1106]",,Schulz_2020_CritCare,31
+Ergotamine,0.36-0.42 ng/mL,0.36,0.42,0.82 ng/mL,0.82,0.82,,,1.5-2.5,[47],NON-MGL:therapeutic:'ng/mL':'0.36-0.42 ng/mL'; NON-MGL:toxic:'ng/mL':'0.82 ng/mL',Schulz_2020_CritCare,31
+Ertapenem,appr. -100 (total ),-100,-100,,,,,,3.5-7,"[825], [833, 834], [1186]",,Schulz_2020_CritCare,32
+Erythromycin,0.5-6 (peak 4-12),0.5,6,12-15,12,15,,,1-3,"[11], [58]",,Schulz_2020_CritCare,32
+Escitalopram,0.015-0.08,0.015,0.08,0.16,0.16,0.16,,,26.3 ± 10.8 (27-32),"[4], [223]",,Schulz_2020_CritCare,32
+Eslicarbazepine acetate,10-35,10,35,70,70,70,,,20-40,[4],,Schulz_2020_CritCare,32
+Esmolol,0.15-2,0.15,2,,,,,,4-16 minutes,[7],,Schulz_2020_CritCare,32
+Esomeprazol,appr. 0.6-6.6,0.6,6.6,,,,,,0.6-1.4,[47],,Schulz_2020_CritCare,32
+Estazolam,0.055-0.2,0.055,0.2,,,,0.48 ; 1.25,0.48,10-24,"[3], [47], [58]",,Schulz_2020_CritCare,32
+Eszopiclone,appr. 0.01-0.09,0.01,0.09,0.15,0.15,0.15,,,4-9,"[47], [780], [935]",,Schulz_2020_CritCare,32
+Etacrynic acid (Ethacrynic acid),0.05-0.1,0.05,0.1,,,,,,1-4,"[3], [8, 9]",,Schulz_2020_CritCare,32
+Etamsylate (Ethamsylate),15-20,15,20,,,,,,2.5-4,"[13, 14], [58]",,Schulz_2020_CritCare,32
+Ethadione,500-1000,500,1000,1000,1000,1000,,,,[8],,Schulz_2020_CritCare,32
+Ethambutol,(0.5-) 3-5 (-6.5),3,5,6-10,6,10,84,84,2.5-3.5; 6-15,"[47], [58], [317]",,Schulz_2020_CritCare,32
+Ethanol,,,,1000-2000,1000,2000,3500-4000,3500,-,[13],,Schulz_2020_CritCare,32
+Ethchlorvynol,0.5-8,0.5,8,20,20,20,50,50,10-25 (-35),"[3], [58]",,Schulz_2020_CritCare,32
+Ethinamate,1.5-10,1.5,10,50-100,50,100,200,200,appr. 2,"[8], [13]",,Schulz_2020_CritCare,32
+Ethosuximide,30-100 (40-60),30,100,120 ; 150-200,120,120,250,250,30-60,"[4], [12], [64], [161], [164]",,Schulz_2020_CritCare,32
+Ethyl chloride,-,,,,,,36 ; 200/650,36,,[47],,Schulz_2020_CritCare,33
+Ethylene glycol,,,,200-500,200,500,2000 (500-7750),2000,3-4 (rats); 2-3 ; 14.2-19.7 (31 ),"[47], [66], [318-326], [1020, 1021]",,Schulz_2020_CritCare,33
+Ethylmorphine (Dionin),0.3-0.6,0.3,0.6,,,,0.05 ; 0.3-2.9,0.05,2-3,[47],,Schulz_2020_CritCare,33
+"Ethylone (3,4-Methylenedioxy-N- ethylcathinone, = MDED, bk-MDEA)",,,,,,,,,1.7 ; 0.038-2.57,[1022],,Schulz_2020_CritCare,33
+Ethylphenidate,,,,,,,,,0.026-2.18,[1023],,Schulz_2020_CritCare,33
+Etidocaine,0.5-1.5,0.5,1.5,1.6-2,1.6,2,,,2-3,[327],,Schulz_2020_CritCare,33
+Etilefrine,appr. 0.06,0.06,0.06,,,,,,2-3.5,"[1002], [1053-1054]",,Schulz_2020_CritCare,33
+Etizolam,0.008-0.018,0.008,0.018,0.03,0.03,0.03,0.26,0.26,2-3,"[47], [1024-1028]",,Schulz_2020_CritCare,33
+Etodolac,10-20 (> 14 ),10,20,40,40,40,,,6-8,"[3], [8], [328]",,Schulz_2020_CritCare,33
+Etomidate,0.1-0.5 (-1),0.1,0.5,,,,,,3.9 ± 1.1 (2-11),"[3], [9]",,Schulz_2020_CritCare,33
+Etoposide,2-6 (peak 8-14),2,6,,,,,,4-11,"[3], [11]",,Schulz_2020_CritCare,33
+Etoricoxib,appr. 1.3-3.6,1.3,3.6,,,,,,20-36,[47],,Schulz_2020_CritCare,33
+Etravirine (ETR),0.275 (0.081-2.98),0.275,0.275,,,,,,appr. 41,"[2], [47], [110]",,Schulz_2020_CritCare,33
+Everolimus,0.003-0.008 (-0.014),0.003,0.008,,,,,,28 ± 7,"[329-332], [1029]",,Schulz_2020_CritCare,33
+Ezetimibe,0.005-0.045,0.005,0.045,0.09,0.09,0.09,,,appr. 30,"[333, 334], [780]",,Schulz_2020_CritCare,33
+Famotidine,0.02-0.2,0.02,0.2,0.42,0.42,0.42,,,2-4.5,"[3], [335, 336]",,Schulz_2020_CritCare,34
+Favipiravir,,,,,,,,,4.6 ± 1.2,[1229],,Schulz_2020_CritCare,34
+Febuxostat,0.035-1.45,0.035,1.45,,,,,,6-7,[780],,Schulz_2020_CritCare,34
+Felbamate,(30-) 50-110,50,110,100 ; 150-200,100,100,,,15-23,"[4], [12], [337-339]",,Schulz_2020_CritCare,34
+Felbinac,appr. 0.4-1,0.4,1,,,,,,10-17,"[3], [340]",,Schulz_2020_CritCare,34
+Felodipine,0.001-0.012,0.001,0.012,0.01,0.01,0.01,,,22-27,"[8], [84], [341]",,Schulz_2020_CritCare,34
+Fenbufen,appr. -60,-60,-60,,,,,,10-12,"[3], [58]",,Schulz_2020_CritCare,34
+Fendiline,0.02-0.15,0.02,0.15,,,,,,appr. 20,[58],,Schulz_2020_CritCare,34
+Fenetylline (Fenethylline),,,,,,,,,appr. 1.3,[47],,Schulz_2020_CritCare,34
+Fenfluramine,0.04-0.3,0.04,0.3,0.5 – 0.7,0.5,0.7,6,6,18-25,"[8], [58]",,Schulz_2020_CritCare,34
+Fenitrothion,,,,,,,1.1-17,1.1,33-64,[47],,Schulz_2020_CritCare,34
+Fenofibrate,5-30,5,30,60,60,60,,,20-22,"[3], [342], [780]",,Schulz_2020_CritCare,34
+Fenoldopam,0.003-0.06,0.003,0.06,,,,,,0.1,"[8], [58]",,Schulz_2020_CritCare,34
+Fenoprofen,(25-) 30-60,30,60,120,120,120,,,2-3,"[343], [780]",,Schulz_2020_CritCare,34
+Fenoterol,(0.001-) 0.01-0.04,0.01,0.04,,,,,,appr. 7,"[929, 930]",,Schulz_2020_CritCare,35
+Fentanyl,0.0003 -0.3,0.0003,0.3,-,,,0.003-0.02,0.003,1-3.5 (transdermal patch: appr. 17),"[47], [52], [54], [335], [344-351], [1071], [1078-1080]",,Schulz_2020_CritCare,35
+Fenthion,,,,,,,1.4 (0.2-4.6),1.4,12,"[47], [186]",,Schulz_2020_CritCare,35
+Fesoterodine,0.005,0.005,0.005,,,,,,5-9,"[47], [1030]",,Schulz_2020_CritCare,35
+Fexofenadine,appr. 0.1-0.9,0.1,0.9,2.7,2.7,2.7,,,14-18,"[8], [352], [780]",,Schulz_2020_CritCare,35
+Finasteride,0.008-0.01,0.008,0.01,,,,,,5-7,[353],,Schulz_2020_CritCare,35
+Fingolimod,appr. 0.001-0.018,0.001,0.018,,,,,,6-9 days,[47],,Schulz_2020_CritCare,35
+Flecainide,(0.2-) 0.4-0.8,0.4,0.8,1 ; 1-2,1,1,2.6 ; 13 ; 15,2.6,10-20,"[70], [354], [780]",,Schulz_2020_CritCare,35
+"Flephedrone (4-Fluoromethcathinone, 4-FMC)",,,,,,,0.6 ; 4.4,0.6,,[955],,Schulz_2020_CritCare,35
+Fleroxacin,appr. 5,5,5,,,,,,(8-) 10-12 (-13),[1031],,Schulz_2020_CritCare,35
+Flibanserin,appr. 0.4,0.4,0.4,,,,,,6-14,[1032],,Schulz_2020_CritCare,35
+Flocoumafen,,,,,,,0.005-0.273,0.005,6-7 days,[47],,Schulz_2020_CritCare,35
+Flubromazepam,-,,,0.05-0.08; 0.412,0.05,0.08,0.83,0.83,appr. 100,"[835], [837-839]",,Schulz_2020_CritCare,35
+Flubromazolam,appr. 0.008,0.008,0.008,,,,0.059,0.059,10-20,"[836], [1031], [1033]",,Schulz_2020_CritCare,35
+Flucloxacillin,3-30,3,30,,,,,,1-2,"[11], [58]",,Schulz_2020_CritCare,35
+Fluconazole,appr. 2-6 (-15),2,6,20; 95,20,20,,,22-34,"[11], [91], [355-358], [1186]",,Schulz_2020_CritCare,36
+Flucytosine,(20-) 25-50 (-70),25,50,100,100,100,,,3-5,"[8], [58]",,Schulz_2020_CritCare,36
+Flumazenil,(0.01-) 0.02-0.1,0.02,0.1,0.5,0.5,0.5,,,1-2,[931-934],,Schulz_2020_CritCare,36
+Flunarizine,0.025-0.2,0.025,0.2,0.3,0.3,0.3,,,days,[42],,Schulz_2020_CritCare,36
+Flunitrazepam,0.005-0.015,0.005,0.015,0.05,0.05,0.05,0.3 (0.11-0.74),0.3,10-20 (-30),"[56], [59], [359], [1012], [1034]",,Schulz_2020_CritCare,36
+Fluoride,0.095-0.190 (-0.285),0.095,0.190,0.5-2,0.5,2,3,3,2-9,"[10], [47], [58], [130], [360-362]",,Schulz_2020_CritCare,36
+"5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA)",-,,,,,,0.11-1.92 ng/mL,0.11,,"[1035, 1036]",NON-MGL:comatose:'ng/mL':'0.11-1.92 ng/mL',Schulz_2020_CritCare,36
+4-Fluoroamphetamine,-,,,0.06-0.43,0.06,0.43,0.32,0.32,,[47],,Schulz_2020_CritCare,36
+Fluorofentanyl,-,,,,,,2.4 ng/mL ; 30 ng/mL,2.4,,"[1038], [1071, 1072]",NON-MGL:comatose:'ng/mL':'2.4 ng/mL ; 30 ng/mL',Schulz_2020_CritCare,36
+2-Fluoromethamphetamine (2-FMA),-,,,,,,6.9 ng/mL,6.9,,[1041],NON-MGL:comatose:'ng/mL':'6.9 ng/mL',Schulz_2020_CritCare,36
+4-Fluoromethlyphenidate,-,,,0.032,0.032,0.032,,,,[840],,Schulz_2020_CritCare,36
+5-Fluorouracil,0.05-0.3,0.05,0.3,0.4-0.6,0.4,0.6,,,< 0.5,"[3], [11], [58]",,Schulz_2020_CritCare,36
+Fluoxetine,0.12-0.5,0.12,0.5,1,1,1,2.2; 3.8 ; 6,2.2,2-6 days,"[4], [47], [75], [202], [263, 264], [363, 364, [1084]]",,Schulz_2020_CritCare,36
+Flupentixol (Flupenthixol),0.0005-0.005,0.0005,0.005,0.015,0.015,0.015,,,20-40,[4],,Schulz_2020_CritCare,37
+Fluphenazine,0.001-0.01,0.001,0.01,0.015,0.015,0.015,,,10-18,[4],,Schulz_2020_CritCare,37
+Flupirtine,0.5-1.5,0.5,1.5,appr. 3-4,3,4,11,11,7-11,"[365], [1042]",,Schulz_2020_CritCare,37
+Flurazepam,0.075-0.165,0.075,0.165,0.33 ; 0.2-0.5,0.33,0.33,0.5-2.8 ; 24,0.5,appr. 2-3,"[4], [47]",,Schulz_2020_CritCare,37
+Flurbiprofen,5-15,5,15,,,,,,3-4,[366],,Schulz_2020_CritCare,37
+Fluspirilen,0.0001-0.0022,0.0001,0.0022,0.0044,0.0044,0.0044,,,7-14days,[4],,Schulz_2020_CritCare,37
+Flutamide,0.4-1.5,0.4,1.5,,,,,,7-20,"[43], [367]",,Schulz_2020_CritCare,37
+Fluvastatin,0.05-0.44,0.05,0.44,,,,2.4,2.4,1-3,"[47], [1063]",,Schulz_2020_CritCare,37
+Fluvoxamine,0.06-0.23,0.06,0.23,0.5 -0.65; 1.97,0.5,0.65,2.8 ; 5.4,2.8,(8-) 15-22 (-28),"[4], [47], [202], [368, 369], [1084]",,Schulz_2020_CritCare,37
+Folic acid,appr. 0.004-0.03,0.004,0.03,,,,,,1.5-2,"[800], [944]",,Schulz_2020_CritCare,37
+Fomepizole,8-35,8,35,,,,,,10-40 (dose-dependent),"[47], [1055-1058]",,Schulz_2020_CritCare,37
+Formoterol,appr. 20-80 ng/L,20,80,,,,,,5-13,[47],,Schulz_2020_CritCare,37
+Fosamprenavir (FPV),> 0.4,0.4,0.4,,,,,,4-11; 7.7,"[2], [47], [110, 111]",,Schulz_2020_CritCare,37
+Fosinopril,appr. 0.13-0.25 ; appr. 0.71-1.2,0.13,0.25,,,,,,6-17,[47],,Schulz_2020_CritCare,37
+5F-PB-22,-,,,,,,0.37-1.5 ng/mL,0.37,,"[1039, 1040], [1225]",NON-MGL:comatose:'ng/mL':'0.37-1.5 ng/mL',Schulz_2020_CritCare,38
+Fospropofol,,,,,,,,,0.7-0.9,[47],,Schulz_2020_CritCare,38
+Fremanezumab,,,,,,,,,30-32 days,"[1102], [1104]",,Schulz_2020_CritCare,38
+Frovatriptan,appr. 0.004-0.008,0.004,0.008,,,,,,20-30,[47],,Schulz_2020_CritCare,38
+Furanyl fentanyl,-,,,,,,2.7 (0.4-42.9) ng/mL,2.7,,"[1011], [1071]",NON-MGL:comatose:'ng/mL':'2.7 (0.4-42.9) ng/mL',Schulz_2020_CritCare,38
+Furosemide (Frusemide),2-5 (-10),2,5,25-30,25,30,,,0.7-1.5 (-3),"[3], [47], [58]",,Schulz_2020_CritCare,38
+Fusidic acid,30-200,30,200,,,,,,4-6 (9-13),"[8], [1003]",,Schulz_2020_CritCare,38
+Gabapentin,appr. 0.5-6 (-20-30),0.5,6,25 ; 45 ; 85 ; 105 ; 127,25,25,37,37,5-7 (-9),"[4], [12], [47, 48], [370-382], [804], [841, 842]",,Schulz_2020_CritCare,38
+Galantamine (Galanthamine),(0.01-) 0.03-0.06,0.03,0.06,0.09,0.09,0.09,,,6-10,"[4], [383, 384]",,Schulz_2020_CritCare,38
+Galcanezumab,appr. 10-30 ?,10,30,,,,,,27 days,"[1102, 1103]",,Schulz_2020_CritCare,38
+Gallopamil,0.02-0.1,0.02,0.1,,,,8,8,3-8,"[84], [385]",,Schulz_2020_CritCare,38
+Ganciclovir,(0.29-0.51) 0.5-5,0.5,5,3-5,3,5,,,2-4,"[38, 39], [388]",,Schulz_2020_CritCare,38
+Gemcitabine,3.9-5.3,3.9,5.3,-,,,,,0.05 (0.18-0.43),[209],,Schulz_2020_CritCare,39
+Gemfibrozil,appr. -25,-25,-25,,,,,,1.5,[3],,Schulz_2020_CritCare,39
+Gentamicin,(2-) 4-10,4,10,12,12,12,,,1.5-6,"[20], [67], [389-394]",,Schulz_2020_CritCare,39
+Glibenclamide (Glyburide),0.05-0.2,0.05,0.2,0.6,0.6,0.6,,,10,"[47], [780]",,Schulz_2020_CritCare,39
+Gliclazide,1-3.7,1,3.7,,,,,,6-14,[47],,Schulz_2020_CritCare,39
+Glimepiride,0.09-0.5,0.09,0.5,1,1,1,,,4-15,"[47], [780]",,Schulz_2020_CritCare,39
+Glipizide,0.1-1 (-1.5),0.1,1,2,2,2,,,3-7,"[66], [780]",,Schulz_2020_CritCare,39
+Glutethimide,0.2-5,0.2,5,(5-) 10-30,10,30,15-50 (10-97 ),15,5-20,"[30], [47]",,Schulz_2020_CritCare,39
+Glyphosate,,,,,,,3.7-1980 ; 118-7480,3.7,2-4,"[47], [1059, 1060]",,Schulz_2020_CritCare,39
+Gold,3-8,3,8,(5-) 10-15,10,15,0.4,0.4,21-31 days (oral),"[47, 48], [58], [1045]",,Schulz_2020_CritCare,39
+Granisetron,appr. 0.005-0.017,0.005,0.017,,,,,,3-21,"[3], [8], [47]",,Schulz_2020_CritCare,39
+Griseofulvin,0.3-1.7,0.3,1.7,,,,,,22 (9-33),"[8], [47]",,Schulz_2020_CritCare,40
+Guaifenesin,0.3-1.4,0.3,1.4,,,,25,25,appr. 1,"[3], [8], [47]",,Schulz_2020_CritCare,40
+Guanethidine,0.01,0.01,0.01,,,,,,5-10days,"[3], [58]",,Schulz_2020_CritCare,40
+Guanfacine,appr. 0.001-0.01,0.001,0.01,,,,,,13.5 (10-30),[780],,Schulz_2020_CritCare,40
+Haloperidol,(0.001-) 0.005-0.017,0.005,0.017,0.006/0.023 ; 0.015 ; 0.05,0.006,0.006,0.18 ; 0.5,0.18,10-35,"[4], [43], [47], [185], [193], [240], [395-398]",,Schulz_2020_CritCare,40
+Halothan,22-260,22,260,,,,33-720 ; 3.4/8.3,33,43,"[48], [87]",,Schulz_2020_CritCare,40
+Hematin,50-100,50,100,,,,,,,"[13, 14]",,Schulz_2020_CritCare,40
+Heptabarb (Heptabarbital),0.5-4,0.5,4,8-15,8,15,20,20,6-11,"[13, 14]",,Schulz_2020_CritCare,40
+Heptaminol,appr. 0.2-1 (-1.5),0.2,1,,,,,,2-3,"[13, 14]",,Schulz_2020_CritCare,40
+"Heroin (Diacetylmorphine, Diamorphine)",-,,,-,,,,,2-5 minutes,"[273-281], [1046]",,Schulz_2020_CritCare,40
+Hexachlorobenzene (HCB),-0.0001,-0.0001,-0.0001,,,,,,appr. 2 years,[100],,Schulz_2020_CritCare,40
+"ß-Hexachlorocyclohexane (ß-HCH, ß-Lindane)",-0.0001,-0.0001,-0.0001,,,,,,appr. 7 years,[100],,Schulz_2020_CritCare,40
+Hexachlorophene,0.003-0.65 (-1),0.003,0.65,,,,35,35,6-44,"[11], [58]",,Schulz_2020_CritCare,40
+n-Hexane,< 0.09 ng/mL,0.09,0.09,,,,,,1.5-2,[47],NON-MGL:therapeutic:'ng/mL':'< 0.09 ng/mL',Schulz_2020_CritCare,41
+Hexapropymate,2-5,2,5,10-20,10,20,,,,"[8], [11]",,Schulz_2020_CritCare,41
+Hexobarbital,1-5,1,5,10-20,10,20,50,50,4-6,"[13, 14], [58]",,Schulz_2020_CritCare,41
+Hirudin-rec,-,,,-,,,,,(1-) 2.5-3,"[3], [43], [399]",,Schulz_2020_CritCare,41
+Homosalate,0.004-0.023,0.004,0.023,,,,,,(18-) 47-78 (-162),[1122],,Schulz_2020_CritCare,41
+Hydralazine,0.05-0.5 (-1.5),0.05,0.5,,,,,,2-6,[84],,Schulz_2020_CritCare,41
+Hydrochlorothiazide,appr. 0.04-0.45 (-2),0.04,0.45,4,4,4,,,(6-) 9-12 (-15),"[3], [42], [779, 780], [1150, 1151]",,Schulz_2020_CritCare,41
+Hydrocodone,0.01-0.04 (0.05),0.01,0.04,0.1,0.1,0.1,0.13-7,0.13,appr. 4,"[8], [47], [244], [780]",,Schulz_2020_CritCare,41
+Hydromorphone,appr. 0.005-0.015 (-0.03),0.005,0.015,0.1,0.1,0.1,0.03 ; 0.06 ; 0.2,0.03,2-3,"[8, 9], [270], [400], [780], [1047], [1075]",,Schulz_2020_CritCare,41
+Hydroxychloroquine,0.1-0.5,0.1,0.5,0.5-0.8,0.5,0.8,4; 48 ; 104,4,dose-dependent days,"[3], [13, 14], [47], [403], [780], [848-852], [1226]",,Schulz_2020_CritCare,41
+4-Hydroxy-3-methoxymethamphetamine (HMMA),-,,,,,,,,11.5-13.5,[404-406],,Schulz_2020_CritCare,41
+Hydroxytryptophan (5-HTP),appr. 0.5-1.5 (-9.4 ),0.5,1.5,,,,,,2-7,[47],,Schulz_2020_CritCare,41
+Hydroxyzine,0.05-0.1,0.05,0.1,0.1,0.1,0.1,0.7 ; 2.5 ; 3 ; 39,0.7,7-20,"[11], [47], [56], [58]",,Schulz_2020_CritCare,42
+Hyoscyamine,0.0004-0.006,0.0004,0.006,,,,,,7.5,[780],,Schulz_2020_CritCare,42
+Ibandronat (Ibandronic acid),< 0.1,0.1,0.1,,,,,,10-60; terminal: days,"[47], [49], [1004, 1005]",,Schulz_2020_CritCare,42
+Ibuprofen,15-30 (-50),15,30,200,200,200,185 ; 260 ; 352 ; 1233,185,0.9-2.5 (-3),"[47], [293], [343], [407, 408], [926]",,Schulz_2020_CritCare,42
+Idebenone,0.05-0.2,0.05,0.2,,,,,,(8-) 16-22 (-26),"[3], [47], [409], [1048]",,Schulz_2020_CritCare,42
+Iloperidone,0.005-0.01,0.005,0.01,0.02 ; 0.07,0.02,0.02,,,18-33,"[4], [1049]",,Schulz_2020_CritCare,42
+Iloprost,appr. 0.0001,0.0001,0.0001,,,,,,appr. 0.5,"[936, 937]",,Schulz_2020_CritCare,42
+Imatinib,0.72,0.72,0.72,,,,,,appr. 18,"[410, 411]",,Schulz_2020_CritCare,42
+Imipenem,0.5-5 (20-75),0.5,5,,,,,,1-1.5,"[8], [412], [825], [833], [1186]",,Schulz_2020_CritCare,42
+Imipramine plus Desipramine,0.05-0.35 0.175-0.3,0.05,0.35,0.5-1 0.3,0.5,1,1.5-2,1.5,(6-) 11-25,"[4], [74], [76-80], [308, 309], [413], [1084]",,Schulz_2020_CritCare,42
+Inamrinone,-,,,,,,76,76,4-6,[47],,Schulz_2020_CritCare,42
+Indapamide,0.13-0.25,0.13,0.25,,,,,,14-15,[780],,Schulz_2020_CritCare,42
+Indinavir (IDV),> 0.1,0.1,0.1,appr. 0.5,0.5,0.5,,,1.5-2,"[2, 3], [110, 111], [211], [414]",,Schulz_2020_CritCare,42
+Indometacin (Indomethacin),0.3-1 (-3),0.3,1,4-5,4,5,,,5-10 (adults); 10-33 (neonates),"[47], [415], [780]",,Schulz_2020_CritCare,42
+Indoramin,appr. 0.025-0.1,0.025,0.1,,,,,,12 (3.5-15),[95],,Schulz_2020_CritCare,42
+Infliximab,3-7,3,7,,,,,,6-12 days,"[47], [1077]",,Schulz_2020_CritCare,43
+Iproniazid,appr. -5 ?,-5,-5,,,,,,,[58],,Schulz_2020_CritCare,43
+Irbesartan,appr. 1.9-3.3,1.9,3.3,,,,,,11-15,[47],,Schulz_2020_CritCare,43
+Iridium,-0.02,-0.02,-0.02,,,,,,,,,Schulz_2020_CritCare,43
+Iron,0.5-2,0.5,2,6,6,6,17,17,3-8,"[42], [47], [58], [64]",,Schulz_2020_CritCare,43
+Isavuconazole,appr. 2.5,2.5,2.5,,,,,,50-110,[47],,Schulz_2020_CritCare,43
+Isoflurane,appr. 20-150,20,150,,,,1.8-48,1.8,7 min to 58 h,[47],,Schulz_2020_CritCare,43
+Isoniazid (INH),5-10,5,10,20,20,20,(30-) 100,100,(0.6-) 1-3 (-6.7),"[3], [8], [317]",,Schulz_2020_CritCare,43
+Isopropanol,,,,200-400,200,400,330 ; 730 ; 1000,330,2.5-3,"[47], [58]",,Schulz_2020_CritCare,43
+Isosorbide-dinitrate (ISDN),appr. 0.02-0.2,0.02,0.2,,,,,,0.4-0.8,[47],,Schulz_2020_CritCare,43
+Isosorbide-5-mononitrate (IS-5-MN),0.1-1,0.1,1,3.1,3.1,3.1,,,2-5 (-8),"[47], [95]",,Schulz_2020_CritCare,43
+Isotretinoin,appr. 0.001-0.002 (topical),0.001,0.002,,,,,,10-20,"[3], [416, 417]",,Schulz_2020_CritCare,43
+Isoxicam,5-15,5,15,,,,,,20-50,"[8], [853]",,Schulz_2020_CritCare,43
+Isradipine,0.0005-0.002 (-0.01),0.0005,0.002,0.01,0.01,0.01,0.26,0.26,5-10,"[3], [84], [418-420]",,Schulz_2020_CritCare,43
+Itraconazole,appr. 0.4-2,0.4,2,,,,,,24-36,[421-424],,Schulz_2020_CritCare,44
+Ivabradine,appr. 0.01-0.06,0.01,0.06,0.11 ; 0.37 ; 0.52,0.11,0.11,,,1.3-2.8,[47],,Schulz_2020_CritCare,44
+Ivermectin,appr. 0.05,0.05,0.05,,,,0.09,0.09,16-28,"[3], [47], [425]",,Schulz_2020_CritCare,44
+Kanamycin,trough: 1-4; peak: 10-25,1,4,25-30,25,30,,,(0.5-)2-3 (-5),[8],,Schulz_2020_CritCare,44
+Kavain,appr. 0.05,0.05,0.05,0.18-5,0.18,5,1.4,1.4,2.8-6.7,[47],,Schulz_2020_CritCare,44
+Ketamine,(0.1-) 1-6,1,6,0.02 ; 0.42 ; 7 (abuse),0.02,0.02,3.8 ; 6.9,3.8,1-3 (-4),"[47], [56], [58], [426-428]",,Schulz_2020_CritCare,44
+Ketanserin,0.05-0.5,0.05,0.5,,,,2.8,2.8,10-22,"[8], [47]",,Schulz_2020_CritCare,44
+Ketazolam,0.001-0.02,0.001,0.02,,,,,,1-3,[59],,Schulz_2020_CritCare,44
+Ketobemidone,0.01-0.05,0.01,0.05,,,,0.2-3.2,0.2,1.8-4.2,"[3], [47], [426], [428]",,Schulz_2020_CritCare,44
+Ketoconazole,1-3 (-6),1,3,,,,,,6-10,[8],,Schulz_2020_CritCare,44
+Ketoprofen,1-6 (-20),1,6,12,12,12,1100,1100,"1,1-2 (-4.2)","[47], [429-433], [780]",,Schulz_2020_CritCare,44
+Ketorolac,0.5-3,0.5,3,5,5,5,,,4-10,"[3], [8], [780]",,Schulz_2020_CritCare,44
+Ketotifen,0.0004-0.004,0.0004,0.004,0.02,0.02,0.02,1.2 ?,1.2,(4-) 7-21 (-27),"[57], [1061, 1062], [1076]",,Schulz_2020_CritCare,44
+Labetalol,0.03-0.2 (-0.65),0.03,0.2,1 ; 2.9,1,1,1.7,1.7,3-10,"[3], [7], [47], [95]",,Schulz_2020_CritCare,45
+Lacidipine,0.001-0.006,0.001,0.006,,,,,,12-19,"[8], [1087]",,Schulz_2020_CritCare,45
+Lacosamide,1-10,1,10,20,20,20,,,10-15,[4],,Schulz_2020_CritCare,45
+Lamivudine,-,,,,,,,,5-7,"[2, 3], [434]",,Schulz_2020_CritCare,45
+Lamotrigine,1-15,1,15,20,20,20,36 ; 50,36,(15-) 23-37,"[4], [8], [47], [435-437]",,Schulz_2020_CritCare,45
+Lansoprazole,0.06-0.4,0.06,0.4,,,,,,1-2,"[780], [1088]",,Schulz_2020_CritCare,45
+Lead,-0.09,-0.09,-0.09,0.4-0.6,0.4,0.6,3,3,-,"[47], [64], [100], [438, 439]",,Schulz_2020_CritCare,45
+Leflunomide,6-100,6,100,,,,,,4-28days,"[3], [440-442]",,Schulz_2020_CritCare,45
+Lenalidomide,0.06-1,0.06,1,2613 ng/h/mL,2613,2613,,,3-4,"[854-856], [1989, 1090]",,Schulz_2020_CritCare,45
+Lercanidipine,appr. 0.1-10 ng/mL,0.1,10,0.28,0.28,0.28,,,6-10,"[47], [1064]",NON-MGL:therapeutic:'ng/mL':'appr. 0.1-10 ng/mL',Schulz_2020_CritCare,45
+Levacetylmethadol (= Acetylmethadol),appr. 0.02-0.06,0.02,0.06,,,,,,32-116,"[8], [47]",,Schulz_2020_CritCare,45
+Levamisole,appr. 0.1-0.7 (0.7-2.5),0.1,0.7,,,,,,2-8,"[8], [47], [1091, 1092]",,Schulz_2020_CritCare,45
+Levetiracetam,(3-) 10-40,10,40,50 ; 400,50,50,,,4-10,"[4], [8], [443]",,Schulz_2020_CritCare,45
+Levocabastine,< 0.001-0.01,0.001,0.01,,,,,,30-40,"[444], [1093]",,Schulz_2020_CritCare,45
+Levocetirizine,0.3-0.5,0.3,0.5,,,,,,6-10,[47],,Schulz_2020_CritCare,45
+Levodopa (L-Dopa),0.3-2,0.3,2,5 ; 20,5,5,650,650,1-3,"[4], [445-449]",,Schulz_2020_CritCare,46
+Levomepromazine,0.005-0.025 (-0.2),0.005,0.025,0.32 ; 0.4,0.32,0.32,0.5,0.5,16-78,"[4], [270], [1094]",,Schulz_2020_CritCare,46
+Levomethadone,0.04-0.4,0.04,0.4,0.4 ; 0.5,0.4,0.4,0.04 ; 0.1-0.2,0.04,24-48 (-55),"[3, 4], [270], [450], [1095]",,Schulz_2020_CritCare,46
+Levomilnacipran,0.08-0.12,0.08,0.12,0.2,0.2,0.2,,,6-9 (-12),"[4], [780]",,Schulz_2020_CritCare,46
+Levorphanol,0.007-0.02,0.007,0.02,0.1,0.1,0.1,0.9 ; 2.7,0.9,11-30,"[8], [47], [1096]",,Schulz_2020_CritCare,46
+Levothyroxine,0.045-0.14,0.045,0.14,,,,,,6-8 (-10)days,"[451], [1097]",,Schulz_2020_CritCare,46
+Lidocaine (Lignocaine),0.5-5,0.5,5,6-7,6,7,"10, 12",10,1-4,"[47], [57], [70], [327], [452-454]",,Schulz_2020_CritCare,46
+Linagliptin,0.002-0.004,0.002,0.004,,,,,,50-90 (single dose); 110-150 (multiple dose),"[47], [780]",,Schulz_2020_CritCare,46
+Linezolid,0.5-4,0.5,4,appr. 7.5,7.5,7.5,,,4-6,"[8], [823], [1098], [1186]",,Schulz_2020_CritCare,46
+Lisinopril,(0.005-) 0.02-0.07,0.02,0.07,0.5,0.5,0.5,,,4-12,"[47], [84]",,Schulz_2020_CritCare,46
+Lithium,4-8,4,8,8 ; 13,8,8,16,16,8-50,"[4], [47], [80], [264], [455-457]",,Schulz_2020_CritCare,46
+Lofepramine,0.003-0.01,0.003,0.01,,,,,,0.5-5,"[47], [57], [458]",,Schulz_2020_CritCare,46
+Loperamide,0.00024-0.0031,0.00024,0.0031,0.12,0.12,0.12,0.077 ; 0.18,0.077,7-15,"[459], [857-860]",,Schulz_2020_CritCare,46
+Lopinavir (LPV),> 1.0,1.0,1.0,,,,,,5-6,"[2], [110, 111]",,Schulz_2020_CritCare,46
+Loprazolam,0.003-0.01,0.003,0.01,,,,,,11-20,[59],,Schulz_2020_CritCare,47
+Loratadine,0.001-0.02,0.001,0.02,,,,,,2-15,"[460, 461]",,Schulz_2020_CritCare,47
+Lorazepam,(0.02-) 0.03-0.25,0.03,0.25,0.3-0.5,0.3,0.5,,,10-16 (-40),"[4], [59], [224], [462, 463]",,Schulz_2020_CritCare,47
+Lorcainide,0.1-0.4 (-0.9),0.1,0.4,,,,,,5-10,"[8], [464-466]",,Schulz_2020_CritCare,47
+Lormetazepam,0.002-0.01 (-0.025),0.002,0.01,0.1,0.1,0.1,,,8-15,"[4], [59]",,Schulz_2020_CritCare,47
+Lornoxicam,0.1-0.8,0.1,0.8,,,,,,2-6,[8],,Schulz_2020_CritCare,47
+Losartan,< 0.2 (-0.65),0.2,0.2,1.8,1.8,1.8,,,1.5-2,"[3], [8], [780]",,Schulz_2020_CritCare,47
+Lovastatin,0.003-0.018,0.003,0.018,,,,,,2-3,"[47], [1063]",,Schulz_2020_CritCare,47
+Loxapine,0.005-0.03 (-0.1),0.005,0.03,0.02 ; 1,0.02,0.02,7.7,7.7,6-8,"[4], [8], [11], [58]",,Schulz_2020_CritCare,47
+Lurasidone,0.015-0.04,0.015,0.04,0.12,0.12,0.12,,,20-40,"[4], [780]",,Schulz_2020_CritCare,47
+"Lysergide (lysergic acid diethyl amide, LSD)",0.0005-0.005,0.0005,0.005,0.001,0.001,0.001,0.002-0.005,0.002,appr. 2-5,"[8], [11], [58], [467]",,Schulz_2020_CritCare,47
+Macitentan,0.2-0.4,0.2,0.4,,,,,,10-18,[47],,Schulz_2020_CritCare,47
+Magnesium,55-75,55,75,120-140,120,140,150-180,150,2.1-2.9,"[3], [47], [58], [468]",,Schulz_2020_CritCare,47
+Malathione,-,,,0.35 ; 0.5,0.35,0.35,1.8 ; 175 517,1.8,3-6,"[47], [58]",,Schulz_2020_CritCare,47
+Manganese,0.0005-0.0015,0.0005,0.0015,,,,6.7,6.7,12-36days,"[47], [58]",,Schulz_2020_CritCare,47
+Mannitol,,,,,,,,,0.25-1.2,[3],,Schulz_2020_CritCare,47
+Maprotiline,0.075-0.13,0.075,0.13,0.22 ; 0.5-1,0.22,0.22,1-5,1,20-60,"[4], [8], [1084]",,Schulz_2020_CritCare,48
+Maraviroc (MVC),> 0.05,0.05,0.05,,,,,,,[110],,Schulz_2020_CritCare,48
+Mebendazole, 0.1,0.1,0.1,,,,,,3-9,"[47], [1099]",,Schulz_2020_CritCare,48
+Meclizine (Meclozine),0.001-0.045 (-0.15),0.001,0.045,,,,,,appr. 5-7,"[47], [780], [861]",,Schulz_2020_CritCare,48
+Meclofenamic acid (Meclofenamate),appr. (1-) 2-7,2,7,,,,,,0.8-5.3,"[3], [780], [1214]",,Schulz_2020_CritCare,48
+Medazepam,0.1-0.5 (-1),0.1,0.5,0.6,0.6,0.6,,,2-5,"[8], [47], [59], [61]",,Schulz_2020_CritCare,48
+Mefenamic acid,2-10 (-20),2,10,25,25,25,,,2-4,"[9], [47]",,Schulz_2020_CritCare,49
+Mefloquine,0.4-1,0.4,1,1.5-2,1.5,2,,,10-30days,"[47], [469, 470]",,Schulz_2020_CritCare,49
+Melatonin,0.0005-0.1,0.0005,0.1,,,,,,0.5-1,[47],,Schulz_2020_CritCare,49
+Melitracen,0.01-0.1,0.01,0.1,,,,,,12-24,[8],,Schulz_2020_CritCare,49
+Meloxicam,0.4-2,0.4,2,4,4,4,,,17-22,"[8], [471]",,Schulz_2020_CritCare,49
+Melperone,0.03-0.1,0.03,0.1,0.2,0.2,0.2,17,17,4-8,"[4], [8], [472, 473], [780]",,Schulz_2020_CritCare,49
+Melphalan,-1.5,-1.5,-1.5,,,,,,1.5-2,[8],,Schulz_2020_CritCare,49
+Memantine,0.09-0.15,0.09,0.15,0.3,0.3,0.3,12,12,60-100,"[4], [47]",,Schulz_2020_CritCare,49
+Mephenesin,3-10,3,10,,,,16,16,1-4,"[8], [47]",,Schulz_2020_CritCare,49
+Mepindolol,0.007-0.07,0.007,0.07,,,,,,3-6,"[7], [1100]",,Schulz_2020_CritCare,49
+Mepivacaine,appr. 0.4-4,0.4,4,5,5,5,50,50,1-3,"[15], [58]",,Schulz_2020_CritCare,49
+Meprobamate,5-10,5,10,10,10,10,30,30,6-17,"[8], [56]",,Schulz_2020_CritCare,49
+Meptazinol,0.025-0.25,0.025,0.25,,,,16,16,1-4,"[8], [47], [1101]",,Schulz_2020_CritCare,49
+Mercaptopurine,0.03-0.1,0.03,0.1,1-2,1,2,,,0.5-1.5,"[8], [47]",,Schulz_2020_CritCare,49
+Mercury,appr. 0.0015-0.002 (< 0.005),0.0015,0.002,0.05,0.05,0.05,0.5,0.5,> 18-24 days,"[47], [64], [66], [100], [474-478]",,Schulz_2020_CritCare,49
+Meropenem,> 2-8 (-12),2,8,25,25,25,,,1 (-7),[862],,Schulz_2020_CritCare,50
+Mescaline,1.5-3.8,1.5,3.8,,,,,,6,[47],,Schulz_2020_CritCare,50
+Mesalazine (Mesalamine),appr. -1,-1,-1,,,,,,0.5-2.4,[479],,Schulz_2020_CritCare,50
+Mesoridazine,0.1-1,0.1,1,3-5,3,5,3 ; 4 ; 16,3,2-9 (-20),"[15], [47], [58]",,Schulz_2020_CritCare,50
+Metaclazepam,0.05-0.2,0.05,0.2,,,,,,7-23,"[8], [59]",,Schulz_2020_CritCare,50
+Metamizole (Dipyrone),10,10,10,20,20,20,,,5-8,[8],,Schulz_2020_CritCare,50
+Metandienone (Methandienone),,,,,,,0.008,0.008,,[940],,Schulz_2020_CritCare,50
+Metaxalone,0.6-3,0.6,3,11,11,11,37,37,2-14,"[47], [780]",,Schulz_2020_CritCare,50
+Metformin,0.1-2,0.1,2,5-10,5,10,91 ; 119 ; 166,91,2-9,"[8], [58], [480, 481], [863-865], [938, 939]",,Schulz_2020_CritCare,50
+Methadone,(0.05-) 0.1-0.6,0.1,0.6,0.3 ; 0.6,0.3,0.3,0.4 (0.05-1),0.4,24-48 (-55),"[4], [482-489], [1095]",,Schulz_2020_CritCare,50
+Methamphetamine (Methylamphetamine),-0.1,-0.1,-0.1,0.2-1,0.2,1,1-18 ; 40,1,6-15,"[8], [47]",,Schulz_2020_CritCare,50
+Methanol,appr. -3,-3,-3,200,200,200,900,900,10-12 (-24),"[8], [47], [58], [325], [490]",,Schulz_2020_CritCare,50
+Methapyrilene,appr. 0.1,0.1,0.1,4,4,4,4.4 ; 12 ; 380,4.4,,"[11], [771], [867]",,Schulz_2020_CritCare,50
+Methaqualone,1-3,1,3,3-5,3,5,5-10,5,10-40,[8],,Schulz_2020_CritCare,50
+Methemoglobin (Met-Hb),-,,,25-30%,25,30,50-70%,50,,"[3], [10, 11], [467]",,Schulz_2020_CritCare,50
+Methimazole,0.5-2.5,0.5,2.5,,,,,,2-28,"[8], [467]",,Schulz_2020_CritCare,51
+Methocarbamol,25-40 (-50),25,40,250,250,250,,,1-2,"[3], [11], [58]",,Schulz_2020_CritCare,51
+Methohexital,0.5-5 (-11),0.5,5,2-20,2,20,,,1-6,"[8, 9], [1107]",,Schulz_2020_CritCare,51
+Methomyl,-,,,0.61 ; 1.6,0.61,0.61,1.6 ; 26 (8-57),1.6,,[47],,Schulz_2020_CritCare,51
+Methotrexate (MTX),0.01 – appr. 0.5,0.01,0.01,0.75-1,0.75,1,0.12,0.12,(3-) 6-8 (low dose); 8-17 (high dose),"[3], [47], [1108]",,Schulz_2020_CritCare,51
+Methoxsalen (8-Methoxypsoralene),0.025-0.1 (-0.2),0.025,0.1,0.6 ; 1,0.6,0.6,,,0.5-1.5,"[3], [10], [47], [58]",,Schulz_2020_CritCare,51
+Methsuximide (Mesuximide),10-40,10,40,45 ; 40-50,45,45,,,20-40 (-45),"[3, 4], [8], [11], [58], [491]",,Schulz_2020_CritCare,51
+4’-Methyl-alpha- pyrrolidinohexanophenone (MPHP),-,,,,,,0.1,0.1,,[868],,Schulz_2020_CritCare,51
+2-Methyl-4-chlorophenoxyacetic acid (MCPA),-,,,appr. 100,100,100,180 ; 456,180,12-72,"[3], [11], [47], [492]",,Schulz_2020_CritCare,51
+"2-Methyl-4-chlorophenoxypropionic acid (MCPP, Mecoprop)",-,,,appr. 100,100,100,669 ; 715,669,14-39,"[3], [11], [47]",,Schulz_2020_CritCare,51
+Methyldopa,1-5,1,5,7,7,7,9,9,1.5-3 (4-14),"[9], [13, 14], [47]",,Schulz_2020_CritCare,51
+"3,4-Methylenedioxyamphetamine (MDA)",-0.4,-0.4,-0.4,1.5,1.5,1.5,1.6-26,1.6,(6-) 10.5-12.5 (-30),"[8], [47], [58], [404-406], [467], [493, 494]",,Schulz_2020_CritCare,51
+"3,4-Methylenedioxyethylamphetamine (MDEA, MDE)",-0.2,-0.2,-0.2,,,,1-4.2 ; 12,1,4-8,"[47], [493], [495-497]",,Schulz_2020_CritCare,52
+"3,4-Methylenedioxymethylamphetamine (MDMA, Ecstasy, XTC)",0.1-0.35,0.1,0.35,0.35-0.5,0.35,0.5,0.4-0.8; 2.9,0.4,(4-) 7-8 (-10),"[8], [58], [404-406], [467], [493, 494], [498, 499]",,Schulz_2020_CritCare,52
+3-Methyl-fentanyl,-,,,,,,0.3-1.9 ng /mL,0.3,,"[1071, 1072]",,Schulz_2020_CritCare,52
+Methylphenidate,0.01-0.06,0.01,0.06,0.05 ; 0.1-0.5; 0.107,0.05,0.05,2,2,2-7,"[4], [8], [270], [866]",,Schulz_2020_CritCare,52
+"4-Methylthioamphetamine (4-MTA, p-MTA)",,,,1,1,1,2 ; 4.6 ; 7.4,2,7,"[47], [500-504]",,Schulz_2020_CritCare,52
+Methyprylon(e),1-20,1,20,12-25,12,25,50; 66,50,3-11,"[8, 9], [1109, 1110]",,Schulz_2020_CritCare,52
+Metiamide,0.01-0.06,0.01,0.06,,,,,,,"[58], [1111]",,Schulz_2020_CritCare,52
+Metipranolol,0.02-0.08 (-0.17),0.02,0.08,,,,,,2-3.5,"[15], [869]",,Schulz_2020_CritCare,52
+Metoclopramide,(0.01-) 0.05-0.15,0.05,0.15,0.2,0.2,0.2,4.4,4.4,3-6,"[15], [66]",,Schulz_2020_CritCare,52
+Metocurine,appr. 0.4-1,0.4,1,,,,,,5-7,[1112],,Schulz_2020_CritCare,52
+Metolazone,0.005-0.05,0.005,0.05,,,,,,6-11,"[47], [780], [1113]",,Schulz_2020_CritCare,52
+Metoprolol,(0.02-) 0.035-0.5 (-0.6),0.035,0.5,0.65 ; 7.8; 12,0.65,0.65,4.7 ; 18 ; 25 ; 63 ; 142,4.7,2.5-7.5,"[3], [7], [47], [870]",,Schulz_2020_CritCare,52
+Metrifonate,appr. 1.4-3.6,1.4,3.6,,,,,,2-5,"[8], [47]",,Schulz_2020_CritCare,53
+Metronidazole,3-10 (-30),3,10,,,,,,6-14,"[8], [1186]",,Schulz_2020_CritCare,53
+Mexiletine,0.5-2,0.5,2,1.5-2,1.5,2,21-45,21,6-17 (-26),"[47], [70], [505]",,Schulz_2020_CritCare,53
+Mianserin,0.015-0.07,0.015,0.07,0.14 ; 0.25-0.5,0.14,0.14,1.6 ; 8.6,1.6,14-33,"[4], [8], [56], [223], [1084]",,Schulz_2020_CritCare,53
+Mibefradil,appr. 0.2-0.3,0.2,0.3,,,,,,17-25,[8],,Schulz_2020_CritCare,53
+Miconazole,< 1,1,1,,,,,,24,[8],,Schulz_2020_CritCare,53
+Midazolam,0.04-0.1 (-0.25),0.04,0.1,1-1.5,1,1.5,,,1-3,"[8], [61], [224], [506-508]",,Schulz_2020_CritCare,53
+Mifepristone (RU-486),0.1-4,0.1,4,,,,,,(20-) 24-48 (-54),"[47], [509], [1114]",,Schulz_2020_CritCare,53
+Milnacipran,(0.05-) 0.1-0.15,0.1,0.15,0.3,0.3,0.3,22,22,5-8,"[4], [1115]",,Schulz_2020_CritCare,53
+Milrinone,0.15-0.25,0.15,0.25,0.3,0.3,0.3,,,1-3,"[3], [8], [42], [95]",,Schulz_2020_CritCare,53
+Minaprine,appr. 0.1-0.4 (-1)?,0.1,0.4,,,,,,appr. 25-34,"[1119, 1120]",,Schulz_2020_CritCare,53
+Minoxidil,appr. 0.02-0.2,0.02,0.2,3.1,3.1,3.1,,,1-4,"[3], [84], [1116]",,Schulz_2020_CritCare,53
+Mirabegron,0.005-0.03 (-0.1),0.005,0.03,,,,,,30-50,"[780], [1117]",,Schulz_2020_CritCare,53
+Mirtazapine,0.03-0.08 (-0.3),0.03,0.08,0.16 ; 1-2,0.16,0.16,2-3,2,20-40,"[3, 4], [510], [1084]",,Schulz_2020_CritCare,53
+Misoprostol,-,,,,,,,,0.5-1,"[3], [511, 512], [1118]",,Schulz_2020_CritCare,53
+Mitotane,14-20,14,20,20,20,20,,,18-159days,[513],,Schulz_2020_CritCare,54
+Mitragynine (Kratom),0.02-0.1,0.02,0.1,,,,; 0.23 ; 0.6 ; 1.06,0.23,23 ± 16,"[241], [871-877]",,Schulz_2020_CritCare,54
+Mizolastine,appr. 0.2-0.8,0.2,0.8,,,,,,5-17,"[3], [8], [47]",,Schulz_2020_CritCare,54
+Moclobemide,0.3-1.0 (-3),0.3,1.0,2 ; (2.8; 18; 60.9),2,2,11 ; 30,11,1-7,"[514-519], [1084, 1085], [1127]",,Schulz_2020_CritCare,54
+Modafinil,1-1.7 (-4),1,1.7,3.4,3.4,3.4,35,35,10-15,"[4], [89], [520], [1126]",,Schulz_2020_CritCare,54
+Moexiprilat,0.005-0.04,0.005,0.04,,,,,,2-10,[8],,Schulz_2020_CritCare,54
+Molindone,0.005-0.5,0.005,0.5,0.15,0.15,0.15,6 ; 9.3,6,1.2-2.8,[47],,Schulz_2020_CritCare,54
+Molsidomine,0.002-0.03,0.002,0.03,,,,,,1-2.5,[95],,Schulz_2020_CritCare,54
+Molybdenum,-0.005,-0.005,-0.005,0.0077,0.0077,0.0077,,,,"[47], [1129]",,Schulz_2020_CritCare,54
+Montelukast (MK-0476),0.02-0.3,0.02,0.3,0.6,0.6,0.6,,,3-6,"[3], [521], [1130]",,Schulz_2020_CritCare,54
+Moricizine,0.12-1.27,0.12,1.27,,,,,,(3-) 6-13,"[8], [467], [1131, 1132]",,Schulz_2020_CritCare,54
+Morphine,0.01-0.1,0.01,0.1,0.1,0.1,0.1,0.1,0.1,1-4,"[87], [522-525]",,Schulz_2020_CritCare,54
+Moxonidine,0.001-0.002 (-0.004),0.001,0.002,,,,,,2-4,"[8], [95]",,Schulz_2020_CritCare,54
+Muromonab-CD3 (OKT 3),0.1-1.5,0.1,1.5,,,,,,appr. 18,"[1133, 1134]",,Schulz_2020_CritCare,54
+Mycophenolate mofetil,0.3-3.5,0.3,3.5,44,44,44,,,16-18,"[526-529], [1135]",,Schulz_2020_CritCare,55
+Nabumetone,-,,,,,,,,-,"[47], [530], [780]",,Schulz_2020_CritCare,55
+Nadolol,0.01-0.25,0.01,0.25,,,,1.3,1.3,(14-) 20-24,"[7, 8], [47]",,Schulz_2020_CritCare,55
+Naftidrofuryl (Nafronyl),< 0.5,0.5,0.5,,,,7.5,7.5,1-2,"[47], [1136]",,Schulz_2020_CritCare,55
+Nalbuphine,0.02-0.2,0.02,0.2,,,,,,2.5-7,[8],,Schulz_2020_CritCare,55
+Nalidixic acid,10-30,10,30,40-50,40,50,,,1-2 (-7),"[3], [8, 9]",,Schulz_2020_CritCare,55
+Nalmefene,0.01-0.05,0.01,0.05,0.2,0.2,0.2,,,5-11,"[3, 4]",,Schulz_2020_CritCare,55
+Naloxone,0.01-0.03,0.01,0.03,,,,,,1-2,[8],,Schulz_2020_CritCare,55
+Naltrexone,0.003-0.05,0.003,0.05,0.2,0.2,0.2,,,2-5 (-13),[4],,Schulz_2020_CritCare,55
+Naphyrone (Naphthylpyrovalerone),,,,0.03,0.03,0.03,,,appr. 34,[531],,Schulz_2020_CritCare,55
+Naproxen,(20-) 50-100,50,100,200; 414,200,200,840 ; 1040 ; 1320,840,9-22,"[8], [47], [293], [343], [532, 533], [1155]",,Schulz_2020_CritCare,55
+Naratriptan,appr. 0.01-0.05,0.01,0.05,,,,,,5-6,"[3], [8]",,Schulz_2020_CritCare,55
+Nateglinide,0.09-1.2 (-6),0.09,1.2,,,,,,1-2,"[47], [780], [1136]",,Schulz_2020_CritCare,55
+"25I-NBOMe 2-(4-iodo-2, 5- dimethoxyphenyl)-N-(2- methoxybenzyl)ethanamine",,,,0.3-2.8 ng/mL,0.3,2.8,0.24 ; 0.76 ; 4.7 ; 16,0.24,,"[47], [1050-1052]",NON-MGL:toxic:'ng/mL':'0.3-2.8 ng/mL',Schulz_2020_CritCare,55
+Nebivolol,0.001-0.02 (-0.06),0.001,0.02,0.12 ; 0.48,0.12,0.12,,,8-14 (-27),"[3], [8], [47], [534-536], [780]",,Schulz_2020_CritCare,55
+Nedocromil,< 0.02,0.02,0.02,,,,,,1.5-3.3,"[3], [47]",,Schulz_2020_CritCare,56
+Nefazodone,0.03-2.5,0.03,2.5,5.5,5.5,5.5,,,2-6,"[3], [8], [537-542]",,Schulz_2020_CritCare,56
+Nefopam,0.01-0.1,0.01,0.1,0.6 ; 4,0.6,0.6,12,12,3-8,"[8], [47]",,Schulz_2020_CritCare,56
+Nelfinavir (NFV),> 0.8,0.8,0.8,,,,,,3.5-5,"[2], [87], [110, 111]",,Schulz_2020_CritCare,56
+Neostigmine,appr. 0.001-0.01,0.001,0.01,,,,,,0.4-1.3,"[316], [543]",,Schulz_2020_CritCare,56
+Netilmicin,0.5-2; 6-10,0.5,2,appr. 15-20,15,20,,,0.5-3,"[8], [878], [1137]",,Schulz_2020_CritCare,56
+Nevirapine (NVP),> 3.0,3.0,3.0,,,,,,25-30,"[2], [110, 111]",,Schulz_2020_CritCare,56
+Nicardipine,0.07-0.1,0.07,0.1,,,,5,5,7-12,"[84], [1138]",,Schulz_2020_CritCare,56
+Nickel,0.0015-0-005,0.0015,0,appr. 3,3,3,7.5 ; 19,7.5,,"[47], [58], [100]",,Schulz_2020_CritCare,56
+Nicotine,0.005-0.03,0.005,0.03,0.4,0.4,0.4,1-2,1,1-4,"[3], [8], [270], [544, 545], [1007-1010]",,Schulz_2020_CritCare,56
+Nicotinic acid,4-18,4,18,,,,,,0.3-1,[8],,Schulz_2020_CritCare,56
+Nifedipine,0.01-0.2,0.01,0.2,,,,0.15 ; 1.2 ; 5.4,0.15,2-5,"[47], [84]",,Schulz_2020_CritCare,56
+Niflumic acid,2-35,2,35,,,,,,2-3,[8],,Schulz_2020_CritCare,56
+Nilvadipine,< 0.01,0.01,0.01,,,,,,9-13,"[84], [1139]",,Schulz_2020_CritCare,56
+Nimesulide,3-6.5,3,6.5,,,,,,2-7 (11-20),"[3], [8], [546]",,Schulz_2020_CritCare,56
+Nimodipine,0.01-0.05,0.01,0.05,,,,,,1-2,"[8], [84]",,Schulz_2020_CritCare,56
+Nimustine (ACNU),0.2-0.5 ng/mL,0.2,0.5,,,,,,,[58],NON-MGL:therapeutic:'ng/mL':'0.2-0.5 ng/mL',Schulz_2020_CritCare,57
+Nisoldipine,0.001-0.003,0.001,0.003,1.5,1.5,1.5,,,7-12 (-15),"[3], [47], [84]",,Schulz_2020_CritCare,57
+Nitrazepam,0.03-0.1,0.03,0.1,0.2,0.2,0.2,5,5,18-30,"[4], [8], [59]",,Schulz_2020_CritCare,57
+Nitrendipine,(0.005-) 0.01-0.05,0.01,0.05,,,,,,8-12,"[8], [84]",,Schulz_2020_CritCare,57
+p-Nitroaniline (4-Nitroaniline),-,,,,,,4.2,4.2,,[547],,Schulz_2020_CritCare,57
+Nitrofurantoin,0.5-5,0.5,5,,,,,,0.7-1.5,"[8], [1140]",,Schulz_2020_CritCare,57
+"Nitroglycerin (Glyceryl trinitrate, GTN)",appr. -0.015,-0.015,-0.015,,,,,,20-30 minutes,[548],,Schulz_2020_CritCare,57
+Nizatidine,0.05-1,0.05,1,,,,,,0.7-2.1,"[8], [47]",,Schulz_2020_CritCare,57
+Nomifensin(e),0.01-0.1,0.01,0.1,8,8,8,17,17,2-5,"[8], [87]",,Schulz_2020_CritCare,57
+Nordazepam (Desmethlydiazepam),(0.02 -) 0.12 -0.8,0.12,0.8,1.5,1.5,1.5,,,30-90,"[4], [8], [284, 285], [467]",,Schulz_2020_CritCare,57
+Norfenefrine,< 0.002 (-0.4),0.002,0.002,,,,,,(2-) 3-7,"[8], [1141]",,Schulz_2020_CritCare,57
+Norfloxacin,0.5-5,0.5,5,,,,,,3-4 (-6),"[3], [47], [58]",,Schulz_2020_CritCare,57
+Normesuximide (N-Desmethylmesuximide),10-40,10,40,45,45,45,,,36-45,[4],,Schulz_2020_CritCare,58
+Nortriptyline (see also Amitriptyline),0.07-0.17 (0.05-0.15),0.07,0.17,0.3 ; 0.5,0.3,0.3,1-3,1,18-44 (-56),"[4], [76], [80-82], [223], [1084]",,Schulz_2020_CritCare,58
+Noscapine,0.02-0.4,0.02,0.4,,,,,,1.5-4,[47],,Schulz_2020_CritCare,58
+Obidoxime,1-10 (appr. 10-20 µmol/L),1,10,,,,,,1-12,"[58], [549], [1142]",NEEDS-MOLAR-CONVERSION:therapeutic:'1-10 (appr. 10-20 µmol/L)',Schulz_2020_CritCare,58
+Ocfentanil,-,,,,,,3.6 ; 9.1 15.3 ng/mL,3.6,,"[880-883], [1071]",NON-MGL:comatose:'ng/mL':'3.6 ; 9.1 15.3 ng/mL',Schulz_2020_CritCare,58
+Octisalate,0.001-0.006 (-0.017),0.001,0.006,,,,,,27-77,[1122],,Schulz_2020_CritCare,58
+Octinoxate,0.001-0.008 (-0.03),0.001,0.008,,,,,,50-157,[1122],,Schulz_2020_CritCare,58
+Octocrylene,0.001-0.02,0.001,0.02,,,,,,50-80,"[801], [1122]",,Schulz_2020_CritCare,58
+Ofloxacin,2-3 (-5.5),2,3,39,39,39,,,5-8,"[3], [550], [1143]",,Schulz_2020_CritCare,58
+Olanzapine,(0.001-) 0.02-0.08,0.02,0.08,0.1 ; 0.12,0.1,0.1,0.25 ; 1 ; 2.5 ; 4.9,0.25,(20-) 30-60,"[4], [72], [101], [551-555]",,Schulz_2020_CritCare,58
+Olmesartan,0.1-1,0.1,1,,,,,,6-15,"[47], [780]",,Schulz_2020_CritCare,58
+Omecamtiv mecarbil,0.03-0.5,0.03,0.5,appr. > 1.2,1.2,1.2,,,18-21,[884-888],,Schulz_2020_CritCare,58
+Omeprazole,0.05-4,0.05,4,8,8,8,,,0.5-1 (-1.5),[780],,Schulz_2020_CritCare,59
+Ondansetron,0.03-0.3,0.03,0.3,,,,,,3-5.5,"[8], [66]",,Schulz_2020_CritCare,59
+Opipramol,0.05-0.5,0.05,0.5,1,1,1,3 -10,3,6-12,"[4], [8], [43], [556]",,Schulz_2020_CritCare,59
+Orphenadrine,(0.05-) 0.1-0.2 (-0.8),0.1,0.2,1.7,1.7,1.7,3.6 ; 5,3.6,13-20,"[9], [47], [56], [296], [557]",,Schulz_2020_CritCare,59
+Oxaprozin,60-200,60,200,,,,,,30-70,"[47], [780]",,Schulz_2020_CritCare,59
+Oxatomide,0.02-0.1,0.02,0.1,0.25,0.25,0.25,0.9,0.9,14-30,"[3], [47]",,Schulz_2020_CritCare,59
+Oxazepam,0.2-1.5,0.2,1.5,2,2,2,3.5; 4.4 ; 5.3,3.5,4-20,"[3, 4], [56], [59], [283], [1231]",,Schulz_2020_CritCare,59
+Oxcarbazepine,10-35,10,35,35 ; 40 -45,35,35,,,1-5,"[3, 4], [12], [47], [381], [558-560]",,Schulz_2020_CritCare,59
+Oxprenolol,0.05-0.3 (-1.0),0.05,0.3,2-3,2,3,10,10,1-4,"[7, 8]",,Schulz_2020_CritCare,59
+Oxybenzone,0.083-0.532,0.083,0.532,,,,,,appr. 79,"[801], [1122]",,Schulz_2020_CritCare,59
+Oxybutinin (Oxybutynin),0.001-0.02,0.001,0.02,,,,,,2-5 (-12),"[8], [47], [780]",,Schulz_2020_CritCare,59
+Oxycodone,0.005-0.1,0.005,0.1,0.2,0.2,0.2,0.6-0.7; 5,0.6,2-5,"[47], [58], [244], [270], [1231]",,Schulz_2020_CritCare,59
+Oxyfedrine,appr. 0.06,0.06,0.06,,,,,,4.2,[95],,Schulz_2020_CritCare,59
+Oxymorphone,0.5-5 ng/mL,0.5,5,-,,,,,(4-) 7-9 (-12),"[47], [780], [1146]",NON-MGL:therapeutic:'ng/mL':'0.5-5 ng/mL',Schulz_2020_CritCare,59
+Oxyphenbutazone,25-100,25,100,200,200,200,,,48-72,"[8], [47]",,Schulz_2020_CritCare,60
+Oxypurinol,5-15,5,15,20,20,20,,,18-30,"[8], [11], [58]",,Schulz_2020_CritCare,60
+Oxytocin,appr. -0.2 ng/mL,-0.2,-0.2,,,,,,3-5 minutes,[3],NON-MGL:therapeutic:'ng/mL':'appr. -0.2 ng/mL',Schulz_2020_CritCare,60
+Paclitaxel,0.25-7,0.25,7,-,,,,,(4-) 8-20,"[8], [47], [1147]",,Schulz_2020_CritCare,60
+Paliperidone (9-Hydroxyrisperidone),0.02-0.06,0.02,0.06,0.12,0.12,0.12,,,17-24 (-30),"[4], [47], [1194]",,Schulz_2020_CritCare,60
+Pamidronate (Pamidronic acid),< 0.02,0.02,0.02,,,,,,days,"[49], [561]",,Schulz_2020_CritCare,60
+Pancuronium,0.025-0.1 (-0.6),0.025,0.1,0.4,0.4,0.4,0.7 ; 1.6,0.7,1.5-2.5,"[8], [47], [562]",,Schulz_2020_CritCare,60
+Pantoprazole,1.5-14,1.5,14,28,28,28,,,1-2,"[3], [8], [47]",,Schulz_2020_CritCare,60
+Papaverine,0.2-2,0.2,2,,,,,,1-2 (6-7),"[47], [57], [780]",,Schulz_2020_CritCare,60
+Paracetamol,(5-) 10-25,10,25,100-150,100,150,200-300,200,2-4,"[243], [563-571], [1148, 1149]",,Schulz_2020_CritCare,60
+Paraldehyde,10-100,10,100,200,200,200,500,500,(3-) 4-10,"[48], [87]",,Schulz_2020_CritCare,60
+Paraoxon,-,,,0.005,0.005,0.005,,,,[11],,Schulz_2020_CritCare,60
+Paraquat,-,,,0.05,0.05,0.05,0.12 ; 1-2,0.12,8-12,"[3], [11], [572-580]",,Schulz_2020_CritCare,60
+Parathion,-,,,0.01-0.05,0.01,0.05,0.05-0.08,0.05,,"[3], [10], [58]",,Schulz_2020_CritCare,60
+Paroxetine,0.002-0.065,0.002,0.065,0.12 ; 0.4,0.12,0.12,1.2 ; 3.7 ; 4,1.2,16-24,"[4], [202], [263], [368], [581-583], [1084, 1085]",,Schulz_2020_CritCare,60
+Pefloxacin,(0.1-) 1-10,1,10,25,25,25,,,8-15,"[8, 9], [58]",,Schulz_2020_CritCare,60
+Pemoline,1-7,1,7,,,,,,7-13,[8],,Schulz_2020_CritCare,61
+Penbutolol,0.01-0.3 (-1.0),0.01,0.3,,,,,,17-26,[7-9],,Schulz_2020_CritCare,61
+Penfluridol,0.004-0.025,0.004,0.025,,,,,,70,"[3], [58]",,Schulz_2020_CritCare,61
+(D-)Penicillamine,1.7-5.6 (-11),1.7,5.6,,,,,,1-3,[8],,Schulz_2020_CritCare,61
+Penicillin G,0.1-2.5 (-10),0.1,2.5,,,,,,0.5-1,"[9], [780]",,Schulz_2020_CritCare,61
+Pentachlorophenol (PCP),-0.2,-0.2,-0.2,30,30,30,38 ; 45,38,13-19 days,"[11], [47]",,Schulz_2020_CritCare,61
+Pentamidine,0.3-0.5,0.3,0.5,appr. 0.8,0.8,0.8,,,6-9,"[3], [8]",,Schulz_2020_CritCare,61
+Pentazocine,0.01-0.2,0.01,0.2,1-2,1,2,3,3,2-5,[8],,Schulz_2020_CritCare,61
+Pentobarbital,1-5,1,5,5,5,5,10,10,20-48,"[8, 9], [47], [87]",,Schulz_2020_CritCare,61
+Pentoxifylline,appr. 0.5-2,0.5,2,4,4,4,33,33,0.5-3,"[8], [47], [780]",,Schulz_2020_CritCare,61
+Pentoxyverine,-0.18,-0.18,-0.18,,,,,,2-3 (-6),"[8], [47]",,Schulz_2020_CritCare,61
+Perampanel,0.18-0.98,0.18,0.98,1,1,1,,,48-105,[4],,Schulz_2020_CritCare,61
+Perazine,(0.01-) 0.1-0.23,0.1,0.23,0.46 ; 6.1,0.46,0.46,9.6,9.6,8-16 (-35),"[4], [8], [584], [1156]",,Schulz_2020_CritCare,61
+Perhexiline,0.11-0.6,0.11,0.6,0.6-1.2,0.6,1.2,,,(7-) 12-18 (-23),"[3], [585, 586]",,Schulz_2020_CritCare,61
+Periciazine (Pericyazine),0.005-0.03,0.005,0.03,0.1,0.1,0.1,,,7-9,"[9], [1154]",,Schulz_2020_CritCare,61
+Perindopril,0.08-0.15,0.08,0.15,,,,,,0.8-3,"[3], [8]",,Schulz_2020_CritCare,61
+Perphenazine,0.6-2.4 ng/mL,0.6,2.4,5 ng/mL,5,5,,,8-12 (-21),"[4], [587]",NON-MGL:therapeutic:'ng/mL':'0.6-2.4 ng/mL'; NON-MGL:toxic:'ng/mL':'5 ng/mL',Schulz_2020_CritCare,62
+Pethidine (Meperidine),0.1-0.8,0.1,0.8,1-2,1,2,1 (-2),1,3-6 (-10),[588-592],,Schulz_2020_CritCare,62
+Phenacetin,5-10 (-20),5,10,50,50,50,,,appr. 1,"[9], [13], [779]",,Schulz_2020_CritCare,62
+Phenazepam,0.02-0.04,0.02,0.04,,,,1 ; 1.6,1,60,"[47], [1157]",,Schulz_2020_CritCare,62
+Phenazone (Antipyrine),1-25,1,25,50,50,50,,,10-12 (-16),"[8, 9]",,Schulz_2020_CritCare,62
+Phencyclidine (PCP),0.01-0.2,0.01,0.2,0.007-0.24 (-0.8),0.007,0.24,(0.3-) 1-5,1,1-12 (-50),"[8], [58], [467], [779]",,Schulz_2020_CritCare,62
+Phendimetrazine,0.02-0.1,0.02,0.1,,,,0.3 ; 0.7,0.3,2-4,"[8], [47], [1158]",,Schulz_2020_CritCare,62
+Phenelzine,0.001-0.002 (-0.2),0.001,0.002,0.5,0.5,0.5,1.5,1.5,6-8,"[3], [58]",,Schulz_2020_CritCare,62
+Pheneturide,,,,5-20,5,20,,,30-90,[12],,Schulz_2020_CritCare,62
+Phenformin,0.03-0.1,0.03,0.1,0.6,0.6,0.6,3,3,4-13,"[3], [8]",,Schulz_2020_CritCare,62
+Pheniramine,0.01-0.27,0.01,0.27,,,,appr. 2,2,16-19,"[3], [8]",,Schulz_2020_CritCare,62
+Phenmetrazine,0.02-0.25,0.02,0.25,0.5,0.5,0.5,4,4,appr. 8,[8],,Schulz_2020_CritCare,62
+Phenobarbital,10-40,10,40,40; 50,40,40,50-60,50,60-130,"[4], [8], [12], [161], [164], [415]",,Schulz_2020_CritCare,62
+Phenol,< 10 (in urine),10,10,50; 21.6,50,50,50 ; 90,50,0.5-1 (-4.5); 14,"[11], [47], [889]",,Schulz_2020_CritCare,62
+Phenprocoumon,1-3 (-5),1,3,5,5,5,,,100-160,"[11], [58]",,Schulz_2020_CritCare,62
+Phensuximide,4-10 (-20),4,10,80,80,80,,,4-12,"[8], [58], [779]",,Schulz_2020_CritCare,62
+Phentermine,0.03-0.1,0.03,0.1,0.9,0.9,0.9,1; 7.6,1,appr. 20,"[8], [47], [58]",,Schulz_2020_CritCare,63
+Phenylbutazone,50-100,50,100,120-200,120,200,400,400,30-175,"[9], [13]",,Schulz_2020_CritCare,63
+Phenylephrine,0.4-3.4 ng/mL,0.4,3.4,,,,,,0.5-4,"[47], [168], [890-892]",NON-MGL:therapeutic:'ng/mL':'0.4-3.4 ng/mL',Schulz_2020_CritCare,63
+Phenylpropanolamine (Norephedrine),0.1-0.5,0.1,0.5,2,2,2,4.6 ; 48,4.6,3-7,"[9], [47]",,Schulz_2020_CritCare,63
+Phenytoin,(5-15) 10-20,10,20,20-25,20,25,38 ; 43,38,10-60,"[4], [161], [164], [593-600]",,Schulz_2020_CritCare,63
+Pholcodine,0.02-0.08,0.02,0.08,0.1,0.1,0.1,1; 2.5,1,35-75,"[47], [1159]",,Schulz_2020_CritCare,63
+Physostigmine,0.04-0.06,0.04,0.06,,,,,,0.3-1.5,"[303], [316], [601]",,Schulz_2020_CritCare,63
+Pimozide,(0.003-) 0.015-0.02,0.015,0.02,0.02,0.02,0.02,,,24-55 (-214),"[4], [47], [1160]",,Schulz_2020_CritCare,63
+Pinazepam,0.01-0.05,0.01,0.05,,,,,,16,"[59], [1161]",,Schulz_2020_CritCare,63
+Pindolol,0.02-0.15,0.02,0.15,0.7-1.5,0.7,1.5,,,2-5,[7],,Schulz_2020_CritCare,63
+Pioglitazone,0.4-2,0.4,2,,,,,,3-11 (-20),"[47], [780], [893], [1194]",,Schulz_2020_CritCare,63
+Pipamperone,0.1-0.4,0.1,0.4,0.5 ; 3.2,0.5,0.5,,,17-22,"[4], [47]",,Schulz_2020_CritCare,63
+Piperacillin,1-5 (20-70),1,5,,,,,,1-2 (-4),"[8], [58], [1186]",,Schulz_2020_CritCare,63
+Piperazine,0.02-0.1,0.02,0.1,0.5,0.5,0.5,,,,"[42], [58]",,Schulz_2020_CritCare,63
+Pipotiazine,0.001-0.06,0.001,0.06,0.1,0.1,0.1,,,8-11,"[3], [8, 9], [58]",,Schulz_2020_CritCare,63
+Piracetam,appr. 20-50,20,50,,,,,,4.5-7,[8],,Schulz_2020_CritCare,63
+Pirenzepine,0.03-0.45,0.03,0.45,,,,,,8-20,[8],,Schulz_2020_CritCare,64
+Piretanide,appr. 0.1-1 (-4),0.1,1,,,,,,0.6-1.7,"[47], [1203, 1204]",,Schulz_2020_CritCare,64
+Piritramide,0.0035-0.014,0.0035,0.014,-,,,0.11,0.11,4-10,"[8], [47], [602]",,Schulz_2020_CritCare,64
+Pirmenol,1-4,1,4,,,,,,6-18,"[3], [8], [11]",,Schulz_2020_CritCare,64
+Piroxicam,2-6,2,6,14,14,14,,,30-70,[8],,Schulz_2020_CritCare,64
+Pitavastatin,0.031-0.081,0.031,0.081,,,,,,5-13,"[47], [1063]",,Schulz_2020_CritCare,64
+Pizotifen (Pizotyline),0.007-0.009,0.007,0.009,,,,,,26,[58],,Schulz_2020_CritCare,64
+Posaconazole,> 0.5-0.7,0.5,0.7,,,,,,20-66,"[47], [603-605], [894, 895], [1162]",,Schulz_2020_CritCare,64
+Practolol,1.5-5,1.5,5,,,,,,5-13,[7-9],,Schulz_2020_CritCare,64
+Prajmalium (Prajmaline),0.06-0.44,0.06,0.44,,,,3.9,3.9,5-7,"[8], [47]",,Schulz_2020_CritCare,64
+Pramipexole,appr. 0.0002-0.007,0.0002,0.007,0.015,0.015,0.015,,,8-14,"[4], [8], [467]",,Schulz_2020_CritCare,64
+Pranlukast,appr. 0.2-1.2,0.2,1.2,,,,,,appr. 2-9,"[3], [8]",,Schulz_2020_CritCare,64
+Pravastatin,0.0025-0.0063,0.0025,0.0063,,,,,,appr. 3,[780],,Schulz_2020_CritCare,64
+Praziquantel,appr. 0.2,0.2,0.2,,,,,,1-2.5,"[8], [1163]",,Schulz_2020_CritCare,64
+Prazosin,0.001-0.02,0.001,0.02,0.9,0.9,0.9,,,2-3,"[42], [47], [95]",,Schulz_2020_CritCare,64
+Prednisolone,0.5-1,0.5,1,2,2,2,,,2-6,"[8], [780]",,Schulz_2020_CritCare,65
+Pregabalin,2-8 (-17),2,8,10 ; 13 ; 60 ; 67,10,10,76 ; 110,76,appr. 6,"[4], [373], [606, 607], [842], [897-899]",,Schulz_2020_CritCare,65
+Prilocaine,0.5-1.5 (-2),0.5,1.5,5-6,5,6,appr. 20,20,1-2,"[8], [327], [608]",,Schulz_2020_CritCare,65
+Primaquine,appr. 0.1-0.2,0.1,0.2,,,,,,4-7,[8],,Schulz_2020_CritCare,65
+Primidone,5-10 (-15),5,10,25,25,25,65,65,4-12 (-22),"[4], [8], [47], [161], [164]",,Schulz_2020_CritCare,65
+Probenecid,20-200,20,200,,,,,,3-17,"[8], [47]",,Schulz_2020_CritCare,65
+Procaine,0.2-2.5 (-15),0.2,2.5,20,20,20,,,-0.5,"[15], [58]",,Schulz_2020_CritCare,65
+Procainamide,2.5-14,2.5,14,8-15,8,15,20,20,2-5 (-8),"[8], [70], [609]",,Schulz_2020_CritCare,65
+Prochlorperazine,(0.001-) 0.01-0.05,0.01,0.05,0.2-0.3,0.2,0.3,5,5,7-9 (-18),"[3], [9], [47], [58]",,Schulz_2020_CritCare,65
+Procyclidine,0.08-1,0.08,1,1-2,1,2,7.8,7.8,7-16,"[8], [11]",,Schulz_2020_CritCare,65
+Proguanil,appr. 0.04-0.15,0.04,0.15,,,,,,13-24,"[58], [610]",,Schulz_2020_CritCare,65
+Promazine,0.01-0.05 (-0.4),0.01,0.05,1,1,1,5,5,5-41 (8 ± 7),[8],,Schulz_2020_CritCare,65
+Promethazine,0.01-0.05 (-0.2),0.01,0.05,0.1 ; 1-2,0.1,0.1,2.4 ; 1.8-5.4,2.4,5-20,"[4], [8], [56], [611, 612]",,Schulz_2020_CritCare,65
+Propafenone,(0.04-) 0.3-2,0.3,2,1.1 ; 2,1.1,1.1,1.4 ; 7.7 ; 9,1.4,"2-10 , 10-32","[42], [47], [70], [613]",,Schulz_2020_CritCare,65
+Propallylonal,0.3-10,0.3,10,appr. > 10,10,10,,,appr. 3,[8],,Schulz_2020_CritCare,65
+Propantheline,0.002-0.05,0.002,0.05,,,,,,1-4,"[3], [47]",,Schulz_2020_CritCare,66
+Propiomazine,0.05-0.2,0.05,0.2,,,,0.1-5.4,0.1,2-15,"[47], [56], [614]",,Schulz_2020_CritCare,66
+Propofol,1-8,1,8,,,,2.4 ; 2.5 ; 4.3 ; 5.3,2.4,3-8,"[615, 616], [900-903]",,Schulz_2020_CritCare,66
+Propoxur,-,,,,,,0.3,0.3,,[87],,Schulz_2020_CritCare,66
+Propranolol,0.02-0.3,0.02,0.3,1,1,1,4-10,4,2-6,"[7], [9], [42], [112], [1153]",,Schulz_2020_CritCare,66
+Propylene glycol,0.05-0.5,0.05,0.5,1000; 4700,1000,1000,,,2-5,"[47], [58], [617]",,Schulz_2020_CritCare,66
+Propylhexedrine,0.01,0.01,0.01,0.5,0.5,0.5,1.7 ; 2-3,1.7,1 (nasal inhalation); 4 ± 1.5 (oral),"[58], [871], [904], [1164]",,Schulz_2020_CritCare,66
+Propyphenazone,1.5-12.5,1.5,12.5,,,,,,1-3,"[8, 9], [1165, 1166]",,Schulz_2020_CritCare,66
+Prothipendyl,0.03-0.08,0.03,0.08,0.05 ; 0.5 (-1),0.05,0.05,60,60,2-3,"[4], [8], [1167]",,Schulz_2020_CritCare,66
+Protriptyline,0.05-0.3,0.05,0.3,0.5,0.5,0.5,1; 20.7,1,50-200,"[8], [58], [87]",,Schulz_2020_CritCare,66
+Pseudoephedrine,(0.05-) 0.5-0.8,0.5,0.8,1.6,1.6,1.6,19-20,19,9-16,"[11], [58], [266, 267], [269], [618, 619]",,Schulz_2020_CritCare,66
+Psilocin,appr. 0.008,0.008,0.008,0.018,0.018,0.018,,,1.8-4.5,"[47], [1168]",,Schulz_2020_CritCare,66
+Pyrazinamide,30-75,30,75,,,,,,(5-) 9-10 (-25),"[3], [9], [620]",,Schulz_2020_CritCare,67
+Pyridostigmine,< 0.05-0.2,0.05,0.2,,,,,,0.5-1.5 (-2.5),"[316], [621, 622]",,Schulz_2020_CritCare,67
+Pyridoxine (Vitamin B ),0.003-0.018,0.003,0.018,,,,,,3-6,"[66], [800]",,Schulz_2020_CritCare,67
+Pyrilamine,,,,,,,11 ; 5-27,11,,"[47], [87]",,Schulz_2020_CritCare,67
+Pyrimethamine,0.1-2,0.1,2,,,,1-10,1,70-96,"[3], [47], [1169]",,Schulz_2020_CritCare,67
+Pyrithyldione,1-10,1,10,,,,,,11-20,"[9], [14]",,Schulz_2020_CritCare,67
+Quazepam,0.01-0.05 (-0.15),0.01,0.05,,,,,,39 (25-41),"[8], [11], [58, 59]",,Schulz_2020_CritCare,67
+Quetiapine,0.1-0.5,0.1,0.5,1 ; 1.8,1,1,0.95 ; 1.4 ; 1.9 ; 9 ; 12.7,0.95,appr. 5-7,"[4], [47], [87], [623-628], [807], [905], [1171], [1187]",,Schulz_2020_CritCare,67
+Quinapril,0.15-0.5,0.15,0.5,,,,,,2-3,[47],,Schulz_2020_CritCare,67
+Quinidine,2-5 (-8),2,5,8-10,8,10,10-28,10,4-12,"[23], [70], [1170]",,Schulz_2020_CritCare,67
+Quinine,1-7,1,7,10,10,10,,,4-15,"[8], [58], [629, 630]",,Schulz_2020_CritCare,67
+Rabeprazole,0.2-1.8,0.2,1.8,3.6,3.6,3.6,,,1-2,"[8], [780]",,Schulz_2020_CritCare,67
+Raloxifene,0.67-1.3 ng/mL,0.67,1.3,,,,,,15-45,"[47], [780]",NON-MGL:therapeutic:'ng/mL':'0.67-1.3 ng/mL',Schulz_2020_CritCare,67
+Raltegravir (RAL),0.072 (0.029-0.118),0.072,0.072,,,,,,7-12,"[47], [110]",,Schulz_2020_CritCare,67
+Ramipril,appr. 0.001-0.04,0.001,0.04,0.08,0.08,0.08,,,1-5,"[3], [8], [780]",,Schulz_2020_CritCare,67
+Ranitidine,0.05-1,0.05,1,3,3,3,,,2-4,"[8], [631], [780]",,Schulz_2020_CritCare,67
+Ranolazine,0.37-1.1,0.37,1.1,,,,,,3-15,"[47], [780], [1172]",,Schulz_2020_CritCare,68
+Reboxetine,0.06-0.35,0.06,0.35,0.7,0.7,0.7,,,(8-) 12-14 (-30),"[3, 4], [632, 633]",,Schulz_2020_CritCare,68
+Recainam,1.3-5.7,1.3,5.7,,,,,,5-7,"[634], [1173]",,Schulz_2020_CritCare,68
+Remacemide,appr. 0.1-1,0.1,1,,,,,,4,[8],,Schulz_2020_CritCare,68
+Remifentanil,-0.02,-0.02,-0.02,,,,,,3-10 minutes,"[8], [1071], [1174]",,Schulz_2020_CritCare,68
+Remoxipride,2.15 ± 0.59,2.15,2.15,,,,41-150,41,5-10,"[56], [635, 636]",,Schulz_2020_CritCare,68
+Repaglinide,0.004-0.06 (-0.2),0.004,0.06,,,,,,0.5-2.5,"[47], [780], [1175]",,Schulz_2020_CritCare,68
+Reserpine,-0.0015-0.003,-0.0015,0.003,,,,,,75 (2-12 days),"[47], [780], [1176]",,Schulz_2020_CritCare,68
+Retigabine,0.45-0.9,0.45,0.9,1.8,1.8,1.8,,,8-10,[4],,Schulz_2020_CritCare,68
+Retinol (Vitamin A),0.2-0.8 (0.7-2.8 µmol/L),0.2,0.8,,,,1.2,1.2,,"[66], [637], [800]",NEEDS-MOLAR-CONVERSION:therapeutic:'0.2-0.8 (0.7-2.8 µmol/L)',Schulz_2020_CritCare,68
+Ricin,0.003-0.01,0.003,0.01,1.5,1.5,1.5,,,,"[47], [638], [1177]",,Schulz_2020_CritCare,68
+Rifabutin,0.05-0.15 (-1.1),0.05,0.15,,,,,,24-58,"[3], [47], [1178]",,Schulz_2020_CritCare,68
+Rifampicin (Rifampin),0.1-10,0.1,10,204,204,204,55,55,1-6,"[47], [317], [620], [639]",,Schulz_2020_CritCare,68
+Rifapentine,4-24,4,24,,,,,,10-15,"[47], [620], [1179]",,Schulz_2020_CritCare,68
+Rilmenidine,0.003-0.006,0.003,0.006,,,,,,6-10,[47],,Schulz_2020_CritCare,68
+Riluzole,0.05-0.5 (-1.5),0.05,0.5,,,,,,(5-) 9-15,"[8], [47], [467]",,Schulz_2020_CritCare,69
+Risedronat (Risedronic acid),appr. 0.4-5 ng/mL,0.4,5,,,,,,4-12 days,"[47], [49], [998], [1180]",NON-MGL:therapeutic:'ng/mL':'appr. 0.4-5 ng/mL',Schulz_2020_CritCare,69
+Risperidone,0.02-0.06,0.02,0.06,0.12,0.12,0.12,1.8,1.8,2-4,"[4], [47], [457], [640, 641], [906, 907]",,Schulz_2020_CritCare,69
+Ritonavir,appr. 5-11 (-20),5,11,,,,,,3-5,"[2, 3], [642]",,Schulz_2020_CritCare,69
+Rivaroxaban,(0.001-) 0.01-0.36,0.01,0.36,0.005-0.35,0.005,0.35,,,5-9; elderly 11-13,"[794], [796, 797], [819], [908], [960], [1181]",,Schulz_2020_CritCare,69
+Rivastigmine,0.008-0.02,0.008,0.02,0.04,0.04,0.04,,,1-2 (oral); appr. 3 (transdermal patch),"[4], [8], [303], [643, 644]",,Schulz_2020_CritCare,69
+Rizatriptan,0.015-0.1,0.015,0.1,,,,,,2-3,"[3], [8], [47]",,Schulz_2020_CritCare,69
+Rocuronium,5-10 (-17),5,10,,,,1.5 ; 4.9,1.5,appr. 1.5,"[8], [47], [1182]",,Schulz_2020_CritCare,69
+Roflumilast,0.0013-0.0024,0.0013,0.0024,,,,,,10-30,"[47], [780], [1183]",,Schulz_2020_CritCare,69
+Ropinirole,0.4-6 ng/mL,0.4,6,12 ng/mL,12,12,,,2-10,"[4], [8], [645]",NON-MGL:therapeutic:'ng/mL':'0.4-6 ng/mL'; NON-MGL:toxic:'ng/mL':'12 ng/mL',Schulz_2020_CritCare,69
+Ropivacaine,0.4-1.8,0.4,1.8,(1-) 2,2,2,,,2,"[47], [646-648]",,Schulz_2020_CritCare,69
+Rosiglitazone,0.1-0.3 (-0.65),0.1,0.3,,,,,,3-4,"[8], [1184]",,Schulz_2020_CritCare,69
+Rosuvastatin,0.006-0.02,0.006,0.02,,,,,,12-32,"[47], [780], [1063]",,Schulz_2020_CritCare,69
+Rotigotine,0.1-0.7 ng/mL,0.1,0.7,2 ng/mL,2,2,,,5-7,[4],NON-MGL:therapeutic:'ng/mL':'0.1-0.7 ng/mL'; NON-MGL:toxic:'ng/mL':'2 ng/mL',Schulz_2020_CritCare,69
+Roxatidine,0.1-0.8,0.1,0.8,,,,,,5-6,[8],,Schulz_2020_CritCare,69
+Roxithromycin,4-12,4,12,,,,,,6-15,"[3], [47], [115]",,Schulz_2020_CritCare,70
+Rufinamide,(2-) 5-30,5,30,40,40,40,,,6-10,"[4], [47]",,Schulz_2020_CritCare,70
+Sacubitril,appr. -3 (appr. -16 for Sacubitrilat),-3,-3,,,,,,3.9 ± 3.6,[909],,Schulz_2020_CritCare,70
+Salbutamol (Albuterol),0.004-0.014 (-0.02),0.004,0.014,0.018-0.45,0.018,0.45,0.16,0.16,3-6,"[58], [649], [1185]",,Schulz_2020_CritCare,70
+Salicylamide,5-40,5,40,,,,,,appr. 1,[8],,Schulz_2020_CritCare,70
+Salicylic acid,20-200,20,200,300-400,300,400,(400-) 500,500,3-20,"[3], [28], [30-33]",,Schulz_2020_CritCare,70
+Salvinorin A,0.01-0.04,0.01,0.04,,,,,,40-80 minutes,"[29], [47]",,Schulz_2020_CritCare,70
+Saquinavir (SQV),> 0.1-0.25,0.1,0.25,,,,,,(1-) 3-7 (-12),"[2], [47], [110, 111]",,Schulz_2020_CritCare,70
+Saxagliptin,0.008-0.025,0.008,0.025,,,,,,2.5,"[780], [910-912]",,Schulz_2020_CritCare,70
+Scopolamine,0.1-0.3 (-1) ng/mL,0.1,0.3,,,,1.2 ng/mL,1.2,2-6,"[8], [11], [47]",NON-MGL:therapeutic:'ng/mL':'0.1-0.3 (-1) ng/mL'; NON-MGL:comatose:'ng/mL':'1.2 ng/mL',Schulz_2020_CritCare,70
+Secbutabarbital,5-10 (-15),5,10,20,20,20,30,30,34-42,[8],,Schulz_2020_CritCare,70
+Secobarbital,1.5-5,1.5,5,7-10,7,10,10-15,10,15-30,"[8], [87]",,Schulz_2020_CritCare,70
+Selenium,0.045-0.13 (-0.19),0.045,0.13,0.4-1,0.4,1,2; (2.6 ; 2.8 ; 18.4 ; 38 ),2,69-77days,"[3], [47], [87], [650-652]",,Schulz_2020_CritCare,70
+Seratrodast,3-25,3,25,,,,,,,"[8], [1188]",,Schulz_2020_CritCare,71
+Sertindole,0.05-0.1,0.05,0.1,0.2,0.2,0.2,,,55-90,"[4], [101]",,Schulz_2020_CritCare,71
+Sertraline,0.01-0.15 (-0.5),0.01,0.15,0.29 ; 0.3,0.29,0.29,1.1-1.5; 1.6 ; 3,1.1,(22-) 24-28 (36),"[4], [58], [223], [653], [879], [1084, 1085]",,Schulz_2020_CritCare,71
+Sevoflurane,40-80 (appr. -134),40,80,,,,8 ; 26,8,1.8-3.8,[47],,Schulz_2020_CritCare,71
+Sibutramine,appr. 0.001-0.01,0.001,0.01,0.11,0.11,0.11,,,4-8,"[8], [47]",,Schulz_2020_CritCare,71
+Sildenafil,appr. 0.05-0.5,0.05,0.5,1,1,1,6.2,6.2,3-5,"[8], [780], [1189]",,Schulz_2020_CritCare,71
+Silver,-0.005 (-0.02 ),-0.005,-0.005,,,,,,48-52 days,"[47], [58]",,Schulz_2020_CritCare,71
+Simvastatin,0.003-0.006,0.003,0.006,0.01,0.01,0.01,,,2-4,"[48], [780], [1063]",,Schulz_2020_CritCare,71
+Sirolimus (Rapamycin),0.005-0.015,0.005,0.015,0.015 (-0.06),0.015,0.015,,,57-63,[654-657],,Schulz_2020_CritCare,71
+Sisomicin,0.5-10,0.5,10,,,,,,appr. 1,"[8], [1191]",,Schulz_2020_CritCare,71
+Sitagliptin,0.05-0.38,0.05,0.38,0.72 ; 3.8,0.72,0.72,,,8-14,"[47], [780], [911], [1190]",,Schulz_2020_CritCare,71
+Sotalol,0.5-3 (-4),0.5,3,7.5-16,7.5,16,36 ; 40 ; 43,36,5-13 (-18),"[7, 8], [70], [658, 659]",,Schulz_2020_CritCare,71
+Sparteine,0.5-1,0.5,1,,,,,,2.5,[8],,Schulz_2020_CritCare,72
+Spiramycin,0.4-3,0.4,3,,,,,,5-8,"[3], [660]",,Schulz_2020_CritCare,72
+Spiraprilate,0.006-0.045,0.006,0.045,,,,,,33-41,[8],,Schulz_2020_CritCare,72
+Spironolactone,0.05-0.25 (-0.5),0.05,0.25,,,,,,13-24,"[8], [47], [58], [1064]",,Schulz_2020_CritCare,72
+Stanozolol,,,,,,,0.056 ; 0.257,0.056,,"[940], [943]",,Schulz_2020_CritCare,72
+Stiripentol,1-10,1,10,15,15,15,,,4-13,"[3, 4], [8]",,Schulz_2020_CritCare,72
+Streptomycin,1-5 (15-40),1,5,40,40,40,,,2-4,"[8], [11], [58], [467]",,Schulz_2020_CritCare,72
+Strontium,-0.075,-0.075,-0.075,,,,,,30-60,[47],,Schulz_2020_CritCare,72
+Strychnine,,,,0.075-0.1,0.075,0.1,(0.2-) 1.6 -4.7,1.6,10-15,"[8], [11], [661-667]",,Schulz_2020_CritCare,72
+STS-135,,,,,,,,,3 min (in vitro),"[1224, 1225]",,Schulz_2020_CritCare,72
+Sufentanil,(0.02-) 0.5-10 ng/mL,0.5,10,-,,,1-7 ng/mL ; 27 ng/mL,1,1.6-6.3 (7-49),"[47], [54], [344], [346], [668-671], [1071]",NON-MGL:therapeutic:'ng/mL':'(0.02-) 0.5-10 ng/mL'; NON-MGL:comatose:'ng/mL':'1-7 ng/mL ; 27 ng/mL',Schulz_2020_CritCare,72
+Sulbactam,8-80,8,80,,,,,,1-2,"[3], [47], [174]",,Schulz_2020_CritCare,72
+Sulfamethoxazole,30-60,30,60,400,400,400,,,9-12,"[8], [672]",,Schulz_2020_CritCare,72
+Sulfasalazine,5-30,5,30,50,50,50,130,130,4-10,[8],,Schulz_2020_CritCare,72
+Sulfisoxazole,90-100 (-210),90,100,,,,,,5-8,"[48], [1192]",,Schulz_2020_CritCare,72
+Sulfinpyrazone,6-17,6,17,,,,,,3-5,[8],,Schulz_2020_CritCare,72
+Sulindac,1-5,1,5,10,10,10,130,130,appr. 7,"[87], [673], [780]",,Schulz_2020_CritCare,73
+Sulpiride,0.05-0.4 (-1),0.05,0.4,1 ; 5,1,1,3.8-39,3.8,4-14,"[4], [43], [47], [58]",,Schulz_2020_CritCare,73
+Sultiam (Sulthiame),0.5-12.5 (2-8),0.5,12.5,12-15,12,15,20-25,20,3-30,"[8], [491], [677]",,Schulz_2020_CritCare,73
+Sumatriptan,0.018-0.06,0.018,0.06,0.12,0.12,0.12,,,1-4,"[8], [47], [780]",,Schulz_2020_CritCare,73
+Suramin,> 100,100,100,300,300,300,,,44-54,"[8], [58], [674]",,Schulz_2020_CritCare,73
+Tacrine,appr. 0.01,0.01,0.01,0.02,0.02,0.02,,,2-4,"[8], [303]",,Schulz_2020_CritCare,73
+Tacrolimus,(0.0005-) 0.005-0.015 (-0.02),0.005,0.015,(0.015-) 0.02- 0.025; 0.123,0.02,0.025,,,9-16,"[11], [191], [675-684]",,Schulz_2020_CritCare,73
+Tadalafil,0.09-0.48,0.09,0.48,0.96,0.96,0.96,,,16-19,"[47], [780]",,Schulz_2020_CritCare,73
+Talinolol,0.04-0.15,0.04,0.15,,,,5 ; 20,5,10-14 (-20),"[7, 8], [47], [685, 686]",,Schulz_2020_CritCare,73
+Talipexole,appr. 0.0001-0.001,0.0001,0.001,,,,,,5-9,[8],,Schulz_2020_CritCare,73
+Tamoxifen,0.05-0.5,0.05,0.5,,,,,,5-7days,"[3], [47]",,Schulz_2020_CritCare,73
+Tamsulosin,0.003-0.022,0.003,0.022,,,,,,5-16,"[47], [780]",,Schulz_2020_CritCare,73
+Tapentadol,0.01-0.13 (-0.3),0.01,0.13,-,,,0.3 ; 1.1 ; 2 ; 6.6,0.3,3-7,"[47], [680], [684]",,Schulz_2020_CritCare,73
+Teicoplanin,(10-) 15-20 (-40),15,20,200,200,200,,,10-15; 83-168,"[8], [58], [688], [913]",,Schulz_2020_CritCare,74
+Telmisartan,0.006-0.225 (-1.2),0.006,0.225,,,,,,(18-) 21-25 (-30),"[47], [780], [1151]",,Schulz_2020_CritCare,74
+Temazepam,0.02-0.15 (-0.9),0.02,0.15,1,1,1,3.8 ; 8.2 ; 9,3.8,6-25,"[8], [58, 59], [689], [702]",,Schulz_2020_CritCare,74
+Tenoxicam,1.5-4 (-10),1.5,4,,,,,,(50-) 70-90,"[8], [47], [690, 691], [1193]",,Schulz_2020_CritCare,74
+Terazosin,0.02-0.08,0.02,0.08,0.16,0.16,0.16,,,8-12,"[8], [780]",,Schulz_2020_CritCare,74
+Terbinafine,0.01-0.03,0.01,0.03,,,,,,20-36,"[3], [10], [47], [58]",,Schulz_2020_CritCare,74
+Terbutaline,0.001-0.006 (-0.03),0.001,0.006,,,,0.04,0.04,16-20,"[8], [58], [1195]",,Schulz_2020_CritCare,74
+Terfenadine,< 0.01,0.01,0.01,0.04-0.06,0.04,0.06,0.4,0.4,15-22,"[3], [47], [692]",,Schulz_2020_CritCare,74
+Tetrachloroethylene,-,,,,,,4-5; 22 ; 44 ; 66,4,33-72,"[47], [58], [87]",,Schulz_2020_CritCare,74
+Tetracycline,1-5 (5-10),1,5,30,30,30,,,6-10,"[3], [8], [11]",,Schulz_2020_CritCare,74
+Tetrazepam,0.05-0.6 (-1),0.05,0.6,,,,,,(10-) 16-44,"[8], [47], [58, 59]",,Schulz_2020_CritCare,74
+Thalidomide,0.5-1.5 (-8),0.5,1.5,,,,,,5-9,"[3], [8]",,Schulz_2020_CritCare,74
+Thallium,-0.002 (-0.0006 ),-0.002,-0.002,(0.003-) 0.1- 0.5 ; 5.6,0.1,0.5,0.5-11,0.5,2-4 days,"[3], [11], [47], [100], [693, 694]",,Schulz_2020_CritCare,74
+Theobromine,(4-) 10-15,10,15,20,20,20,,,6-10,"[11], [58]",,Schulz_2020_CritCare,74
+Theophylline,(5-) 8-15 (-20),8,15,20,20,20,50,50,6-9,"[415], [695-701], [703-705]",,Schulz_2020_CritCare,74
+Thiamphenicol,0.5-3-10 (-15),0.5,3,20,20,20,,,2-7,[8],,Schulz_2020_CritCare,75
+Thiamylal,appr. 5,5,5,,,,29,29,0.6-0.8 (initial); 12-34 (terminal),"[47], [87]",,Schulz_2020_CritCare,75
+Thiazinamium,0.05-0.15,0.05,0.15,0.3,0.3,0.3,,,,"[8], [11], [467], [1196]",,Schulz_2020_CritCare,75
+"Thiocyanate, from Nitroprusside",5-30,5,30,35-100,35,100,200,200,3-4days,"[8], [11], [255], [706], [1197, 1198]",,Schulz_2020_CritCare,75
+Thiopental,1-5,1,5,7,7,7,10-15,10,3-8,"[8], [48], [707], [1199]",,Schulz_2020_CritCare,75
+Thioproperazine,appr. 0.001-0.02,0.001,0.02,0.1,0.1,0.1,,,,"[8, 9]",,Schulz_2020_CritCare,75
+Thioridazine,0.1-0.2 (-2),0.1,0.2,0.4,0.4,0.4,2.4 ; 3-10,2.4,7-13 (-36),"[4], [8], [56]",,Schulz_2020_CritCare,75
+Tiagabine,0.02-0.2,0.02,0.2,0.3 ; 0.5-0.6; 3.1,0.3,0.3,,,7-9,"[3, 4], [8], [12], [381], [708-712]",,Schulz_2020_CritCare,75
+Tianeptine,0.03-0.08,0.03,0.08,0.16,0.16,0.16,5.1,5.1,2.5-3,"[4], [1200]",,Schulz_2020_CritCare,75
+Tiapride,1-2,1,2,4,4,4,,,2-6,"[8, 9], [47]",,Schulz_2020_CritCare,75
+Tiaprofenic acid,appr. 15-40,15,40,,,,,,1.5-3 (-6),"[3], [713, 714]",,Schulz_2020_CritCare,75
+Ticlopidine,< 1-2,1,2,,,,,,70-130,"[47], [58]",,Schulz_2020_CritCare,75
+Tiletamine,,,,,,,0.85,0.85,1-4 (in animals),"[47], [87]",,Schulz_2020_CritCare,75
+Tilidine,0.05-0.3,0.05,0.3,-,,,1.7,1.7,1-7,"[9], [47], [715, 716]",,Schulz_2020_CritCare,76
+Tiludronate (Tiludronic acid),0.2-1.5 (-8),0.2,1.5,,,,,,65-78 (-150),"[49], [58], [717]",,Schulz_2020_CritCare,76
+Timolol,0.005-0.05 (-0.1),0.005,0.05,,,,,,2-6,[8],,Schulz_2020_CritCare,76
+Tin,0.03-0.14,0.03,0.14,,,,,,,[58],,Schulz_2020_CritCare,76
+Tinidazol,10-50 (-60),10,50,,,,,,11-15 (-20),"[3], [47], [58]",,Schulz_2020_CritCare,76
+Tiopronin,2-5,2,5,,,,,,12-37,"[58], [718], [1201]",,Schulz_2020_CritCare,76
+Tiotixene (Thiothixene),0.001-0.02 (0.01-0.1),0.001,0.02,0.1,0.1,0.1,,,12-36,"[47, 48], [58], [185]",,Schulz_2020_CritCare,76
+Tiotropium,16 ng/L,16,16,,,,,,5-6days,[719],,Schulz_2020_CritCare,76
+Tipranavir (TPV),> 20.5,20.5,20.5,,,,,,5.5-6,"[2], [110, 111]",,Schulz_2020_CritCare,76
+Tizanidine,0.005 -0.045,0.005,0.045,0.09,0.09,0.09,,,2-4,"[3], [47], [780]",,Schulz_2020_CritCare,76
+Tobramycin,< 2- (5-10),2,2,12-15,12,15,,,0.5-3,"[3], [67], [198], [878]",,Schulz_2020_CritCare,76
+Tocainide,4-12 (6-10),4,12,13-15; 20,13,15,74 ; 78 ; 140,74,8-25,"[3], [8], [47], [58], [720, 721]",,Schulz_2020_CritCare,76
+Tofenacin(e),0.025-0.1,0.025,0.1,0.5-1,0.5,1,,,,"[9], [58]",,Schulz_2020_CritCare,76
+Tolbutamide,45-100,45,100,(120-) 400-500,400,500,640,640,4-12,"[8], [58], [722]",,Schulz_2020_CritCare,76
+Tolcapone,3-6,3,6,12,12,12,,,2,[4],,Schulz_2020_CritCare,76
+Tolmetin,10-80,10,80,160,160,160,,,2-4,"[58], [780]",,Schulz_2020_CritCare,76
+Tolperisone,0.09-0.3,0.09,0.3,0.7,0.7,0.7,7-14,7,1.8-2.9,[47],,Schulz_2020_CritCare,77
+Tolterodine,0.0008-0.002 (-0.005 ),0.0008,0.002,,,,,,2-3,"[47], [780], [804], [1030]",,Schulz_2020_CritCare,77
+Toluene,,,,,,,10 (-48 ),10,13-68,"[47], [58]",,Schulz_2020_CritCare,77
+Topiramate,2-10,2,10,16,16,16,49,49,18-30,"[4], [8], [381], [712], [1202]",,Schulz_2020_CritCare,77
+Topotecan,appr. 0.001-0.01,0.001,0.01,,,,,,2-3,"[3], [723, 724]",,Schulz_2020_CritCare,77
+Torasemide (Torsemide),0.064-0.52 (-2),0.064,0.52,,,,,,2-6,"[47], [780], [1206-1208]",,Schulz_2020_CritCare,77
+Tramadol,0.1-1 (> 0.3),0.1,1,1,1,1,2 ; 5.2 ; 5.3 ; 9.4 ; 13 ; 38.3,2,5-10,"[11], [63], [244], [725, 726], [902], [1067, 1068], [1123-1125], [1231]",,Schulz_2020_CritCare,77
+Trandolapril,0.43-3 ng/mL,0.43,3,,,,58 ng/mL,58,0.6-0.8,[47],NON-MGL:therapeutic:'ng/mL':'0.43-3 ng/mL'; NON-MGL:comatose:'ng/mL':'58 ng/mL',Schulz_2020_CritCare,77
+Tranexamic acid,10-50,10,50,,,,,,1-3 (-10),"[8], [47]",,Schulz_2020_CritCare,77
+Tranylcypromine,< 0.05,0.05,0.05,0.1 ; 0.5,0.1,0.1,0.7 ; 5,0.7,1-3.5,"[4], [727]",,Schulz_2020_CritCare,77
+Trapidil,(4-) 6-10,6,10,,,,,,2-6,"[8], [95], [728]",,Schulz_2020_CritCare,77
+Trazodone,0.7-1 (-2),0.7,1,1.2 ; 3-4,1.2,1.2,9; 12-15,9,4-11 (-13),"[4], [43], [58], [64], [263], [729]",,Schulz_2020_CritCare,77
+Trenbolone,,,,,,,0.163,0.163,,[943],,Schulz_2020_CritCare,77
+Triamterene,0.01-0.1 (-0.2),0.01,0.1,0.2,0.2,0.2,,,1.5-4 (-6),"[8], [42], [780]",,Schulz_2020_CritCare,77
+Triazolam,0.002-0.02,0.002,0.02,0.04,0.04,0.04,0.03,0.03,(1-) 2-5,"[4], [58], [423], [730, 731]",,Schulz_2020_CritCare,77
+"2,2,2-Tribromoethanol",,,,50,50,50,90,90,,[58],,Schulz_2020_CritCare,78
+"1,1,1-Trichloroethane",,,,,,,(15 ); 100-1000,100,20-26,"[47], [58]",,Schulz_2020_CritCare,78
+"2,2,2-Trichloroethanol",5-15,5,15,40-70,40,70,60-100,60,6-10,"[47], [58]",,Schulz_2020_CritCare,78
+Trichloroethylene,,,,,,,9.7 ; 16 ; 21,9.7,30-38,"[47], [87]",,Schulz_2020_CritCare,78
+"2,4,5-Trichlorophenoxyacetic acid (2,4,5-T)",-,,,appr. 100,100,100,200,200,11-23 (-33),"[3], [11], [47]",,Schulz_2020_CritCare,78
+Trifluoperazine,0.001-0.01 (-0.05),0.001,0.01,0.1-0.2,0.1,0.2,0.4,0.4,7-18,"[8], [87]",,Schulz_2020_CritCare,78
+Triflupromazine,0.03-0.1,0.03,0.1,0.3-0.5,0.3,0.5,,,appr. 6,[8],,Schulz_2020_CritCare,78
+Trihexyphenidyl (Trihex),0.05-0.2,0.05,0.2,0.5,0.5,0.5,0.12,0.12,(3-5) 24-41,"[9], [47], [114], [1215]",,Schulz_2020_CritCare,78
+Trimethadione,20-40,20,40,,,,,,16,[58],,Schulz_2020_CritCare,78
+Trimethobenzamide,1-2,1,2,,,,184,184,7-9,"[11], [47], [58]",,Schulz_2020_CritCare,78
+Trimethoprim,1.5-2.5,1.5,2.5,20,20,20,,,8-11,"[8], [672]",,Schulz_2020_CritCare,78
+Trimipramine,(0.01-) 0.15-0.3,0.15,0.3,0.6,0.6,0.6,1.7-8.2,1.7,10-20 (-40),"[4], [56], [223], [1084, 1085]",,Schulz_2020_CritCare,78
+Tripelenamine,0.02-0.06,0.02,0.06,,,,10,10,5-8,"[8], [11], [57], [87]",,Schulz_2020_CritCare,78
+Triprolidine,0.004-0.045,0.004,0.045,,,,,,1-5,"[47], [57]",,Schulz_2020_CritCare,78
+Tropisetron,(0.003-) 0.02-0.05 (-0.08),0.02,0.05,,,,,,7-9 (-30),"[8], [47], [66]",,Schulz_2020_CritCare,78
+Tubocurarine,(0.04-) 0.4-3 (-6),0.4,3,,,,,,2-4,"[8], [48], [58], [1216]",,Schulz_2020_CritCare,79
+Tungsten,-0.035,-0.035,-0.035,,,,5,5,2-4,"[47], [58]",,Schulz_2020_CritCare,79
+U-47700,-,,,0.24 ; 0.394,0.24,0.24,0.017-0.49; 0.32 ; 0.37 ; 0.53 ; 0.82 ; 1.1 ; 1.52 ; 3.04,0.017,appr. 6,"[837], [914-920], [1071]",,Schulz_2020_CritCare,79
+Uranium,0.04 ng/mL,0.04,0.04,,,,0.77,0.77,450 days,"[47], [100]",NON-MGL:therapeutic:'ng/mL':'0.04 ng/mL',Schulz_2020_CritCare,79
+Urapidil,appr. 0.1-0.2,0.1,0.2,,,,,,2-3 (-7),"[3], [58], [95]",,Schulz_2020_CritCare,79
+Valnoctamide,5-6 (-25),5,6,40,40,40,,,7-14,"[58], [1217]",,Schulz_2020_CritCare,79
+Valproic acid,(40-) 50-100 (-150),50,100,120 ; 150-200,120,120,556 ; 720,556,7-17 (-20),"[4], [47], [64], [161], [164]",,Schulz_2020_CritCare,79
+Valsartan,appr. 0.8-6,0.8,6,12,12,12,,,5-12 (-14),"[8], [780], [909]",,Schulz_2020_CritCare,79
+Vanadium,-0.05,-0.05,-0.05,0.0058,0.0058,0.0058,6.2,6.2,4-12days,[47],,Schulz_2020_CritCare,79
+Vancomycin,10-20,10,20,30 (-40),30,30,,,3.6-11,"[47], [67], [390], [732-736], [823], [878]",,Schulz_2020_CritCare,79
+Vardenafil,0.002-0.004 (-0.04),0.002,0.004,,,,,,2-5,"[47], [780]",,Schulz_2020_CritCare,79
+Varenicline,0.004-0.005,0.004,0.005,0.01,0.01,0.01,0.26,0.26,23-39,"[4], [1218]",,Schulz_2020_CritCare,79
+Vecuronium,appr. 0.2-0.37 (-0.5),0.2,0.37,,,,1.2,1.2,1-1.5,"[8, 9], [47], [1219]",,Schulz_2020_CritCare,79
+Vedolizumab,> 14-16,14,16,,,,,,appr. 25-26days,[921],,Schulz_2020_CritCare,79
+Venlafaxine,(0.06-) 0.1-0.4,0.1,0.4,0.8 ; 1-1.5,0.8,0.8,3.2-24,3.2,3-7 (-14),"[4], [11], [101], [223], [737], [807], [1084, 1085]",,Schulz_2020_CritCare,80
+Verapamil,(0.01-) 0.02-0.25 (-0.4),0.02,0.25,1,1,1,2.5; 0.9 ; 3.9 ; 85,2.5,6-14,"[8], [42], [56], [64], [84], [721], [738, 739], [870], [922]",,Schulz_2020_CritCare,80
+Vigabatrin,2-10 (-15),2,10,20,20,20,,,5-8,"[4], [47], [381]",,Schulz_2020_CritCare,80
+Vilazodone,0.03-0.07,0.03,0.07,0.14,0.14,0.14,,,18-32,[4],,Schulz_2020_CritCare,80
+Vildagliptin,0.18-0.3 (-1.6),0.18,0.3,,,,,,2-3,"[911], [923, 924]",,Schulz_2020_CritCare,80
+Viloxazine,1-4 (-8?),1,4,47 ; 60,47,47,40 ; 45,40,2-5,"[8], [43], [47]",,Schulz_2020_CritCare,80
+Vincamine,< 0.25,0.25,0.25,,,,,,1-2,"[8], [47]",,Schulz_2020_CritCare,80
+Vinylbital,1-3,1,3,5,5,5,8,8,18-33,[8],,Schulz_2020_CritCare,80
+Viquidil,0.15-0.25,0.15,0.25,,,,,,6-12,[11],,Schulz_2020_CritCare,80
+Vitamin B,(200-) 300-500 (-750) pg/mL,300,500,,,,,,21-29,"[800], [944]",,Schulz_2020_CritCare,80
+Vitamin D,(0.02-) 0.03-0.09,0.03,0.09,0.2; 0.46,0.2,0.2,,,appr. 30days,"[740-743], [800], [925]",,Schulz_2020_CritCare,80
+Voriconazole,1-6,1,6,3.5 (-6.0),3.5,3.5,,,4-10,"[47], [603], [744, 745], [895], [1186]",,Schulz_2020_CritCare,81
+Vortioxetine,0.006-0.04 (-0.07),0.006,0.04,0.08,0.08,0.08,,,57-66,"[4], [780], [1194]",,Schulz_2020_CritCare,81
+Warfarin,1-3 (-7),1,3,10-12,10,12,100,100,37-50,"[3], [14], [42], [746]",,Schulz_2020_CritCare,81
+Xamoterol,appr. 0.02-0.05 (-0.2),0.02,0.05,,,,,,13-30,"[58], [1210-1213], [1220]",,Schulz_2020_CritCare,81
+Xipamide,3-11 (-20),3,11,,,,,,5-8,"[47], [1209]",,Schulz_2020_CritCare,81
+Xylene,< 0.002,0.002,0.002,,,,3-40,3,20-30,"[47], [58]",,Schulz_2020_CritCare,81
+Yohimbine,appr. 0.05-0.3,0.05,0.3,,,,5.2 ; 5.4 ; 7.4 ; 8,5.2,1-3,"[8], [47], [1065], [1221]",,Schulz_2020_CritCare,81
+Zafirlukast,0.005-0.03 (0.7),0.005,0.03,,,,,,5-20,"[8], [47]",,Schulz_2020_CritCare,81
+Zalcitabine,appr. 0.1 (0.5 µmol/L),0.1,0.1,,,,,,1-3,"[38], [290]",NEEDS-MOLAR-CONVERSION:therapeutic:'appr. 0.1 (0.5 µmol/L)',Schulz_2020_CritCare,81
+Zaleplon(e),(0.001-) 0.02-0.04 (-0.1),0.02,0.04,0.2,0.2,0.2,,,1-2,"[4], [8], [935]",,Schulz_2020_CritCare,81
+Zanoterone,0.1-0.5,0.1,0.5,,,,,,,[747],,Schulz_2020_CritCare,81
+Zidovudine,0.1-0.3 (-1),0.1,0.3,2-3; 24,2,3,,,0.5-3,"[2], [38], [47], [290], [748-750]",,Schulz_2020_CritCare,81
+Zinc,0.6-1.3,0.6,1.3,2,2,2,42,42,5-16 months,"[47], [66], [1222]",,Schulz_2020_CritCare,81
+Zipeprol,0.1-0.7,0.1,0.7,,,,2.3-31,2.3,1.2,"[47], [57]",,Schulz_2020_CritCare,81
+Ziprasidone,(0.02-) 0.05-0.2,0.05,0.2,0.4,0.4,0.4,,,2-8,"[4], [8]",,Schulz_2020_CritCare,81
+Zoledronat (Zoledronic acid),0.22-2.2,0.22,2.2,,,,,,1-189days,"[47], [49], [751-753]",,Schulz_2020_CritCare,82
+Zolmitriptan,0.003-0.01,0.003,0.01,,,,,,1.6-3.8,"[8], [47]",,Schulz_2020_CritCare,82
+Zolpidem,0.08-0.16 (-0.2),0.08,0.16,0.32 ; 0.5,0.32,0.32,1.5-4,1.5,1-5,"[4], [8], [11], [310], [754-756], [935], [1231]",,Schulz_2020_CritCare,82
+Zomepirac,0.1-4,0.1,4,,,,152,152,4-10,"[8], [87]",,Schulz_2020_CritCare,82
+Zonisamide,(10-) 20-30 (-40),20,30,40-70,40,70,100,100,50-70,"[8], [47], [381], [712], [757, 758]",,Schulz_2020_CritCare,82
+Zopiclone,(0.01-) 0.055-0.085 (-0.12),0.055,0.085,0.15; 0.3,0.15,0.15,0.6-1.8,0.6,2-8,"[4], [11], [15], [56], [935]",,Schulz_2020_CritCare,82
+Zotepine,0.01-0.15,0.01,0.15,0.3,0.3,0.3,,,13-16,[4],,Schulz_2020_CritCare,82
+Zuclopenthixol,0.004-0.05 (-0.1),0.004,0.05,0.1,0.1,0.1,,,15-25,"[4], [15], [1223]",,Schulz_2020_CritCare,82
+(unusual) high doses.,,,,,,,,,,,,Schulz_2020_CritCare,84

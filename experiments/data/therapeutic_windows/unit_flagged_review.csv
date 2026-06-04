@@ -1,0 +1,53 @@
+drug_name_raw,field,original_value,detected_unit,converted_mg_L,conversion_note,therapeutic_raw
+Acrylfentanyl,comatose,0.01-5 ng/g; 0.5-2.1 ng/mL,ng/g,1e-05-0.005,CONVERTED:div1000,
+AH-7921,comatose,350 (30-9100) ng/mL,ng/mL,0.35,CONVERTED:div1000,
+5F-AMB (5F-AMB-PINACA),comatose,0.3 ng/mL,ng/mL,0.0003,CONVERTED:div1000,
+"Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF)",toxic,0.5-2 ng/mL,ng/mL,0.0005-0.002,CONVERTED:div1000,
+"Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF)",comatose,4.7 ng/mL,ng/mL,0.0047,CONVERTED:div1000,
+Bromocriptine,therapeutic,0.1-0.3 (-4) ng/mL,ng/mL,0.0001-0.0003,CONVERTED:div1000,0.1-0.3 (-4) ng/mL
+Bromocriptine,toxic,8 ng/mL,ng/mL,0.008,CONVERTED:div1000,0.1-0.3 (-4) ng/mL
+Buturylfentanyl,comatose,99 ng/mL,ng/mL,0.099,CONVERTED:div1000,
+Cabergoline,therapeutic,0.058-0.144 ng/mL,ng/mL,5.8e-05-0.000144,CONVERTED:div1000,0.058-0.144 ng/mL
+Cabergoline,toxic,0.39 ng/mL,ng/mL,0.00039,CONVERTED:div1000,0.058-0.144 ng/mL
+Camostat,therapeutic,87.1 ± 29.5 ng/mL,ng/mL,0.0871,CONVERTED:div1000,87.1 ± 29.5 ng/mL
+Carfentanil,comatose,0.12 ; 0.145 ; 0.221 ; 1.3 ng/mL,ng/mL,0.00012,CONVERTED:div1000,
+"25C-NBOMe (2-(4-chloro-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",toxic,0.16 ng/mL,ng/mL,0.00016,CONVERTED:div1000,
+"25C-NBOMe (2-(4-chloro-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",comatose,0.8 ng/g,ng/g,0.0008,CONVERTED:div1000,
+5F-Cumyl-PEGACLONE,comatose,0.09-0.45 ng/mL,ng/mL,9e-05-0.00045,CONVERTED:div1000,
+Cyclopropylfentanyl,comatose,1.4-43 ; 51 ; 76 ng/mL,ng/mL,0.0014-0.043,CONVERTED:div1000,-
+Dexmedetomidine,therapeutic,-appr. 3.5 ng/mL,ng/mL,,UNCLEAR:could-not-parse-number,-appr. 3.5 ng/mL
+Didanosine (DDI),therapeutic,appr. 1-30 µmol/L,µmol/L,,NEEDS-MOLAR-CONVERSION,appr. 1-30 µmol/L
+Dimethoate,comatose,355.5 (160.0-674.0) µmol/L,µmol/L,,NEEDS-MOLAR-CONVERSION,-
+Ergotamine,therapeutic,0.36-0.42 ng/mL,ng/mL,0.00036-0.00042,CONVERTED:div1000,0.36-0.42 ng/mL
+Ergotamine,toxic,0.82 ng/mL,ng/mL,0.00082,CONVERTED:div1000,0.36-0.42 ng/mL
+"5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA)",comatose,0.11-1.92 ng/mL,ng/mL,0.00011-0.00192,CONVERTED:div1000,-
+Fluorofentanyl,comatose,2.4 ng/mL ; 30 ng/mL,ng/mL,0.0024,CONVERTED:div1000,-
+2-Fluoromethamphetamine (2-FMA),comatose,6.9 ng/mL,ng/mL,0.0069,CONVERTED:div1000,-
+5F-PB-22,comatose,0.37-1.5 ng/mL,ng/mL,0.00037-0.0015,CONVERTED:div1000,-
+Furanyl fentanyl,comatose,2.7 (0.4-42.9) ng/mL,ng/mL,0.0027,CONVERTED:div1000,-
+n-Hexane,therapeutic,< 0.09 ng/mL,ng/mL,9e-05,CONVERTED:div1000,< 0.09 ng/mL
+Lercanidipine,therapeutic,appr. 0.1-10 ng/mL,ng/mL,,UNCLEAR:could-not-parse-number,appr. 0.1-10 ng/mL
+"25I-NBOMe 2-(4-iodo-2, 5- dimethoxyphenyl)-N-(2- methoxybenzyl)ethanamine",toxic,0.3-2.8 ng/mL,ng/mL,0.0003-0.0028,CONVERTED:div1000,
+Nimustine (ACNU),therapeutic,0.2-0.5 ng/mL,ng/mL,0.0002-0.0005,CONVERTED:div1000,0.2-0.5 ng/mL
+Obidoxime,therapeutic,1-10 (appr. 10-20 µmol/L),µmol/L,,NEEDS-MOLAR-CONVERSION,1-10 (appr. 10-20 µmol/L)
+Ocfentanil,comatose,3.6 ; 9.1 15.3 ng/mL,ng/mL,0.0036,CONVERTED:div1000,-
+Oxymorphone,therapeutic,0.5-5 ng/mL,ng/mL,0.0005-0.005,CONVERTED:div1000,0.5-5 ng/mL
+Oxytocin,therapeutic,appr. -0.2 ng/mL,ng/mL,,UNCLEAR:could-not-parse-number,appr. -0.2 ng/mL
+Perphenazine,therapeutic,0.6-2.4 ng/mL,ng/mL,0.0006-0.0024,CONVERTED:div1000,0.6-2.4 ng/mL
+Perphenazine,toxic,5 ng/mL,ng/mL,0.005,CONVERTED:div1000,0.6-2.4 ng/mL
+Phenylephrine,therapeutic,0.4-3.4 ng/mL,ng/mL,0.0004-0.0034,CONVERTED:div1000,0.4-3.4 ng/mL
+Raloxifene,therapeutic,0.67-1.3 ng/mL,ng/mL,0.00067-0.0013,CONVERTED:div1000,0.67-1.3 ng/mL
+Retinol (Vitamin A),therapeutic,0.2-0.8 (0.7-2.8 µmol/L),µmol/L,,NEEDS-MOLAR-CONVERSION,0.2-0.8 (0.7-2.8 µmol/L)
+Risedronat (Risedronic acid),therapeutic,appr. 0.4-5 ng/mL,ng/mL,,UNCLEAR:could-not-parse-number,appr. 0.4-5 ng/mL
+Ropinirole,therapeutic,0.4-6 ng/mL,ng/mL,0.0004-0.006,CONVERTED:div1000,0.4-6 ng/mL
+Ropinirole,toxic,12 ng/mL,ng/mL,0.012,CONVERTED:div1000,0.4-6 ng/mL
+Rotigotine,therapeutic,0.1-0.7 ng/mL,ng/mL,0.0001-0.0007,CONVERTED:div1000,0.1-0.7 ng/mL
+Rotigotine,toxic,2 ng/mL,ng/mL,0.002,CONVERTED:div1000,0.1-0.7 ng/mL
+Scopolamine,therapeutic,0.1-0.3 (-1) ng/mL,ng/mL,0.0001-0.0003,CONVERTED:div1000,0.1-0.3 (-1) ng/mL
+Scopolamine,comatose,1.2 ng/mL,ng/mL,0.0012,CONVERTED:div1000,0.1-0.3 (-1) ng/mL
+Sufentanil,therapeutic,(0.02-) 0.5-10 ng/mL,ng/mL,2e-05,CONVERTED:div1000,(0.02-) 0.5-10 ng/mL
+Sufentanil,comatose,1-7 ng/mL ; 27 ng/mL,ng/mL,0.001-0.007,CONVERTED:div1000,(0.02-) 0.5-10 ng/mL
+Trandolapril,therapeutic,0.43-3 ng/mL,ng/mL,0.00043-0.003,CONVERTED:div1000,0.43-3 ng/mL
+Trandolapril,comatose,58 ng/mL,ng/mL,0.058,CONVERTED:div1000,0.43-3 ng/mL
+Uranium,therapeutic,0.04 ng/mL,ng/mL,4e-05,CONVERTED:div1000,0.04 ng/mL
+Zalcitabine,therapeutic,appr. 0.1 (0.5 µmol/L),µmol/L,,NEEDS-MOLAR-CONVERSION,appr. 0.1 (0.5 µmol/L)

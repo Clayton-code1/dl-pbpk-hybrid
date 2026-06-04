@@ -1,0 +1,37 @@
+======================================================================
+THERAPEUTIC WINDOW DATASET — BUILD REPORT
+======================================================================
+Schulz rows in:        1127
+Drugs in final dataset:974
+Total dropped:         153
+
+Drop reasons:
+  no_therapeutic_range                               117
+  no_pubchem_smiles                                  27
+  unit_flag:NEEDS-MOLAR-CONVERSION (µmol/L or %)     5
+  unit_flag:UNCLEAR (could not parse non-mg/L value) 4
+
+Rows with unit conversion (ng/mL->mg/L): 16
+Rows excluded for NEEDS-MOLAR-CONVERSION: 5
+Rows excluded for UNCLEAR unit:           4
+
+Sample of 15 rows (drug_name, smiles[0:30], t_min, t_max, toxic_min, t½):
+----------------------------------------------------------------------
+drug_name                       smiles[:30]                     t_min       t_max       toxic       t1/2_h    
+----------------------------------------------------------------------
+Octocrylene                     CCCCC(CC)COC(=O)C(=C(C1=CC=CC=  0.001       0.02                    50        
+Bretylium                       CC[N+](C)(C)CC1=CC=CC=C1Br      0.8         2.4                     6         
+Alizapride                      COC1=CC2=C(C=C1C(=O)NCC3CCCN3C  0.1         2                       2         
+Promethazine                    CC(CN1C2=CC=CC=C2SC3=CC=CC=C31  0.01        0.05        0.1         5         
+Dibenzepine                     CN1C2=CC=CC=C2C(=O)N(C3=CC=CC=  0.025       0.15        3           3.5       
+Cyclohexane                     C1CCCCC1                        -0.4        -0.4                    1         
+Clodronate (Clodronic acid)     C(P(=O)(O)O)(P(=O)(O)O)(Cl)Cl   0.7         1                       168       
+Calcifediol (Calcidiol; see al  CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=  0.01        0.05                              
+Procainamide                    CCN(CC)CCNC(=O)C1=CC=C(C=C1)N   2.5         14          8           2         
+Bezafibrate                     CC(C)(C(=O)O)OC1=CC=C(C=C1)CCN  -15         -15                     2         
+Pentazocine                     CC1C2CC3=C(C1(CCN2CC=C(C)C)C)C  0.01        0.2         1           2         
+Promazine                       CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC  0.01        0.05        1           5         
+Tramadol                        CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC  0.1         1           1           5         
+Metamizole (Dipyrone)           CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N  10          10          20          5         
+Benoxaprofen                    CC(C1=CC2=C(C=C1)OC(=N2)C3=CC=  -50         -50                     19        
+======================================================================
