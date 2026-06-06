@@ -174,6 +174,13 @@ def _run_v2(
     safety_kw: dict[str, Any] = {}
     if panel is not None:
         safety_kw["drug"] = panel
+    elif (
+        drug is not None
+        and drug.therapeutic_min_mg_L is not None
+        and drug.therapeutic_max_mg_L is not None
+    ):
+        safety_kw["therapeutic_min_mg_L"] = drug.therapeutic_min_mg_L
+        safety_kw["therapeutic_max_mg_L"] = drug.therapeutic_max_mg_L
     safety_dict = risk_service.assess_risk(
         metrics.cmax_ng_ml, metrics.auc_0_inf, **safety_kw,
     )

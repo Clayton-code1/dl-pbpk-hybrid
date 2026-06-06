@@ -18,10 +18,23 @@ class PKMetrics(BaseModel):
     vd_l: float
 
 
+class SuppliedWindowDetail(BaseModel):
+    therapeutic_min_mg_L: float
+    therapeutic_max_mg_L: float
+    zone: str = Field(description="'therapeutic' | 'below_therapeutic' | 'above_therapeutic'")
+
+
 class SafetyBlock(BaseModel):
     is_safe: bool
     risk_score: float
     reason: str
+    supplied_window: SuppliedWindowDetail | None = Field(
+        None,
+        description=(
+            "Present only when a caller-supplied therapeutic window was used "
+            "for classification. Null for panel drugs and generic fallback."
+        ),
+    )
 
 
 class ModelMeta(BaseModel):
@@ -63,6 +76,20 @@ class DrugInfo(BaseModel):
             "Optional canonical slug: theophylline|warfarin|midazolam|caffeine|acetaminophen|digoxin. "
             "When set, loads artifacts/models/hybrid_gnn_pbpk_{slug}_v1 (paper-aligned)."
         ),
+    )
+    therapeutic_min_mg_L: float | None = Field(
+        None,
+        gt=0,
+        description=(
+            "Lower bound of the therapeutic window (mg/L). When both bounds are supplied "
+            "and the drug is not a panel drug, safety classification uses this window "
+            "instead of the generic calibration fallback."
+        ),
+    )
+    therapeutic_max_mg_L: float | None = Field(
+        None,
+        gt=0,
+        description="Upper bound of the therapeutic window (mg/L).",
     )
 
 
