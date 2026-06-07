@@ -1,0 +1,48 @@
+drug_name_raw,queries_tried,last_http_status,note
+Adalimumab,Adalimumab,no_match:404,from_cache
+AH-7921,AH-,no_match:404,from_cache
+Aminobenzoic acid,Aminobenzoic acid; Aminobenzoic,no_match:404,from_cache
+Ascorbic acid (Vitamin C),Ascorbic acid (Vitamin C); Ascorbic acid; Ascorbic,no_match:404,from_cache
+Bismut (Bismuth),Bismut (Bismuth); Bismut,no_match:404,from_cache
+Brexiprazole,Brexiprazole,no_match:404,from_cache
+"Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF)","Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF); Bromobenzodifuranylisopropylamine",no_match:404,from_cache
+Buturylfentanyl,Buturylfentanyl,no_match:404,from_cache
+Cisaprid,Cisaprid,no_match:404,from_cache
+Clotiapin,Clotiapin,no_match:404,from_cache
+Cresol (Methylphenols),Cresol (Methylphenols); Cresol,no_match:404,from_cache
+Cyamenazine,Cyamenazine,no_match:404,from_cache
+"1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine (MT-45)","1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine (MT-45); 1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine; 1-Cyclohexyl-4-(1",no_match:404,from_cache
+Des(methyl)venlafaxine,Des(methyl)venlafaxine,no_match:404,from_cache
+"3,4-Diaminopyridin (DAP)","3,4-Diaminopyridin (DAP); 3,4-Diaminopyridin",no_match:404,from_cache
+Diethylene glycol,Diethylene glycol; Diethylene,no_match:404,from_cache
+"4,6-Dinitro-2-methylphenol (Dinitro-O (ortho)-cresol [DNOC])","4,6-Dinitro-2-methylphenol (Dinitro-O (ortho)-cresol [DNOC])",no_match:404,from_cache
+Drotrecogin alfa,Drotrecogin alfa; Drotrecogin,no_match:404,from_cache
+Eptinezumab,Eptinezumab,no_match:404,from_cache
+Erenumab,Erenumab,no_match:404,from_cache
+Etacrynic acid (Ethacrynic acid),Etacrynic acid (Ethacrynic acid); Etacrynic acid; Etacrynic,no_match:404,from_cache
+"5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA)","5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA); 5-Fluoro",no_match:404,from_cache
+Fluorofentanyl,Fluorofentanyl,no_match:404,from_cache
+4-Fluoromethlyphenidate,4-Fluoromethlyphenidate,no_match:404,from_cache
+5F-PB-22,5F-PB-; 5F-PB,no_match:404,from_cache
+Fremanezumab,Fremanezumab,no_match:404,from_cache
+Furanyl fentanyl,Furanyl fentanyl; Furanyl,no_match:404,from_cache
+Fusidic acid,Fusidic acid; Fusidic,no_match:404,from_cache
+Galcanezumab,Galcanezumab,no_match:404,from_cache
+"ß-Hexachlorocyclohexane (ß-HCH, ß-Lindane)","ß-Hexachlorocyclohexane (ß-HCH, ß-Lindane); ß-Hexachlorocyclohexane",no_match:404,from_cache
+Hirudin-rec,Hirudin-rec,no_match:404,from_cache
+Ibandronat (Ibandronic acid),Ibandronat (Ibandronic acid); Ibandronat,no_match:404,from_cache
+Infliximab,Infliximab,404,
+Ivermectin,Ivermectin,404,
+Methemoglobin (Met-Hb),Methemoglobin (Met-Hb); Methemoglobin,404,
+4’-Methyl-alpha- pyrrolidinohexanophenone (MPHP),4’-Methyl-alpha- pyrrolidinohexanophenone (MPHP); 4’-Methyl-alpha- pyrrolidinohexanophenone; 4’-Methyl-alpha,404,
+"3,4-Methylenedioxymethylamphetamine (MDMA, Ecstasy, XTC)","3,4-Methylenedioxymethylamphetamine (MDMA, Ecstasy, XTC); 3,4-Methylenedioxymethylamphetamine",404,
+Muromonab-CD3 (OKT 3),Muromonab-CD3 (OKT 3); Muromonab-CD3,404,
+Ricin,Ricin,404,
+Risedronat (Risedronic acid),Risedronat (Risedronic acid); Risedronat,404,
+STS-135,STS-; STS,404,
+U-47700,U-,404,
+Vedolizumab,Vedolizumab,404,
+Vitamin D,Vitamin D; Vitamin,404,
+Xylene,Xylene,404,
+Zoledronat (Zoledronic acid),Zoledronat (Zoledronic acid); Zoledronat,404,
+(unusual) high doses.,(unusual) high doses.; unusual,404,

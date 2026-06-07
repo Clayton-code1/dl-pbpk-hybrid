@@ -106,8 +106,17 @@ def assess_risk(
     auc_ng_h_ml: float,
     *,
     drug: str | None = None,
+    therapeutic_min_mg_L: float | None = None,
+    therapeutic_max_mg_L: float | None = None,
 ) -> dict[str, Any]:
-    """Return risk assessment dict with is_safe, risk_score, reason."""
+    """Return risk assessment dict with is_safe, risk_score, reason.
+
+    When *both* therapeutic_min_mg_L and therapeutic_max_mg_L are supplied the
+    safety decision is made by comparing predicted Cmax against that window.
+    The sigmoid risk_score is still computed and returned for reference.
+    This path is only reached for non-panel drugs (panel drugs never supply a
+    window — main.py guards this with an elif so panel behaviour is unchanged).
+    """
     state = _load_state()
     cal = state.get("calibration", _DEFAULTS)
 
@@ -120,11 +129,56 @@ def assess_risk(
 
     log_cmax_r = math.log(cmax_ng_ml + _EPS) - math.log(cmax_ref)
     log_auc_r  = math.log(auc_ng_h_ml + _EPS) - math.log(auc_ref)
-
     score = _sigmoid(a * log_cmax_r + b * log_auc_r + c)
+
+    use_supplied_window = (
+        therapeutic_min_mg_L is not None and therapeutic_max_mg_L is not None
+    )
+
+    if use_supplied_window:
+        # Safety gate: is predicted Cmax within the caller-supplied window?
+        cmax_mg_L = cmax_ng_ml / 1000.0
+        lo = float(therapeutic_min_mg_L)  # type: ignore[arg-type]
+        hi = float(therapeutic_max_mg_L)  # type: ignore[arg-type]
+
+        if cmax_mg_L < lo:
+            zone = "below_therapeutic"
+            is_safe = False
+            reason = (
+                f"Predicted Cmax ({cmax_mg_L:.3g} mg/L) is below the supplied "
+                f"therapeutic minimum ({lo:.3g} mg/L)."
+            )
+        elif cmax_mg_L > hi:
+            zone = "above_therapeutic"
+            is_safe = False
+            reason = (
+                f"Predicted Cmax ({cmax_mg_L:.3g} mg/L) exceeds the supplied "
+                f"therapeutic maximum ({hi:.3g} mg/L)."
+            )
+        else:
+            zone = "therapeutic"
+            is_safe = True
+            reason = (
+                f"Predicted Cmax ({cmax_mg_L:.3g} mg/L) is within the supplied "
+                f"therapeutic window ({lo:.3g}–{hi:.3g} mg/L)."
+            )
+
+        out: dict[str, Any] = {
+            "is_safe": is_safe,
+            "risk_score": round(score, 4),
+            "reason": reason,
+            "supplied_window": {
+                "therapeutic_min_mg_L": lo,
+                "therapeutic_max_mg_L": hi,
+                "zone": zone,
+            },
+        }
+        return out
+
+    # --- Original path: generic calibration fallback (panel drugs and unknown
+    #     drugs without a supplied window reach here unchanged) ---
     is_safe = score < threshold
 
-    # Build reason string
     cmax_high = log_cmax_r > 0
     auc_high  = log_auc_r > 0
     if not cmax_high and not auc_high:
@@ -136,7 +190,7 @@ def assess_risk(
     else:
         reason = f"AUC ({auc_ng_h_ml:.0f} ng*h/mL) exceeds reference ({auc_ref:.0f} ng*h/mL)."
 
-    out: dict[str, Any] = {
+    out = {
         "is_safe": is_safe,
         "risk_score": round(score, 4),
         "reason": reason,

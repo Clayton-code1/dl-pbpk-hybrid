@@ -1,0 +1,1128 @@
+drug_name_raw,query_name,status,cid,smiles,mw,logp,iupac
+Adalimumab,Adalimumab,no_match:404,,,,,
+AH-7921,AH-,no_match:404,,,,,
+Aminobenzoic acid,Aminobenzoic acid; Aminobenzoic,no_match:404,,,,,
+Ascorbic acid (Vitamin C),Ascorbic acid (Vitamin C); Ascorbic acid; Ascorbic,no_match:404,,,,,
+Bismut (Bismuth),Bismut (Bismuth); Bismut,no_match:404,,,,,
+Brexiprazole,Brexiprazole,no_match:404,,,,,
+"Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF)","Bromobenzodifuranylisopropylamine (Bromo-DragonFLY, BDF); Bromobenzodifuranylisopropylamine",no_match:404,,,,,
+Buturylfentanyl,Buturylfentanyl,no_match:404,,,,,
+Cisaprid,Cisaprid,no_match:404,,,,,
+Clotiapin,Clotiapin,no_match:404,,,,,
+Cresol (Methylphenols),Cresol (Methylphenols); Cresol,no_match:404,,,,,
+Cyamenazine,Cyamenazine,no_match:404,,,,,
+"1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine (MT-45)","1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine (MT-45); 1-Cyclohexyl-4-(1,2- diphenylethyl)piperazine; 1-Cyclohexyl-4-(1",no_match:404,,,,,
+Des(methyl)venlafaxine,Des(methyl)venlafaxine,no_match:404,,,,,
+"3,4-Diaminopyridin (DAP)","3,4-Diaminopyridin (DAP); 3,4-Diaminopyridin",no_match:404,,,,,
+Diethylene glycol,Diethylene glycol; Diethylene,no_match:404,,,,,
+"4,6-Dinitro-2-methylphenol (Dinitro-O (ortho)-cresol [DNOC])","4,6-Dinitro-2-methylphenol (Dinitro-O (ortho)-cresol [DNOC])",no_match:404,,,,,
+Drotrecogin alfa,Drotrecogin alfa; Drotrecogin,no_match:404,,,,,
+Eptinezumab,Eptinezumab,no_match:404,,,,,
+Erenumab,Erenumab,no_match:404,,,,,
+Etacrynic acid (Ethacrynic acid),Etacrynic acid (Ethacrynic acid); Etacrynic acid; Etacrynic,no_match:404,,,,,
+"5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA)","5-Fluoro ADB (Methyl 2-[1-(5- fluoropentyl)-1H-indazole-3- carboxamide]-3,3-dimethylbutanoate = 5-Fluoro MDMB-PINACA); 5-Fluoro",no_match:404,,,,,
+Fluorofentanyl,Fluorofentanyl,no_match:404,,,,,
+4-Fluoromethlyphenidate,4-Fluoromethlyphenidate,no_match:404,,,,,
+5F-PB-22,5F-PB-; 5F-PB,no_match:404,,,,,
+Fremanezumab,Fremanezumab,no_match:404,,,,,
+Furanyl fentanyl,Furanyl fentanyl; Furanyl,no_match:404,,,,,
+Fusidic acid,Fusidic acid; Fusidic,no_match:404,,,,,
+Galcanezumab,Galcanezumab,no_match:404,,,,,
+"ß-Hexachlorocyclohexane (ß-HCH, ß-Lindane)","ß-Hexachlorocyclohexane (ß-HCH, ß-Lindane); ß-Hexachlorocyclohexane",no_match:404,,,,,
+Hirudin-rec,Hirudin-rec,no_match:404,,,,,
+Ibandronat (Ibandronic acid),Ibandronat (Ibandronic acid); Ibandronat,no_match:404,,,,,
+Abacavir (ABC),Abacavir,match,441300,C1CC1NC2=C3C(=NC(=N2)N)N(C=N3)C4CC(C=C4)CO,286.33,0.9,"[(1S,4R)-4-[2-amino-6-(cyclopropylamino)purin-9-yl]cyclopent-2-en-1-yl]methanol"
+Abiraterone,Abiraterone,match,132971,CC12CCC(CC1=CCC3C2CCC4(C3CC=C4C5=CN=CC=C5)C)O,349.5,4.6,"(3S,8R,9S,10R,13S,14S)-10,13-dimethyl-17-pyridin-3-yl-2,3,4,7,8,9,11,12,14,15-decahydro-1H-cyclopenta[a]phenanthren-3-ol"
+Acamprosate,Acamprosate,match,71158,CC(=O)NCCCS(=O)(=O)O,181.21,-1.2,3-acetamidopropane-1-sulfonic acid
+Acebutolol,Acebutolol,match,1978,CCCC(=O)NC1=CC(=C(C=C1)OCC(CNC(C)C)O)C(=O)C,336.4,1.7,N-[3-acetyl-4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]butanamide
+Acecarbromal(um),Acecarbromal,match,6489,CCC(CC)(C(=O)NC(=O)NC(=O)C)Br,279.13,2.3,N-(acetylcarbamoyl)-2-bromo-2-ethylbutanamide
+Acenocoumarol,Acenocoumarol,match,54676537,CC(=O)CC(C1=CC=C(C=C1)[N+](=O)[O-])C2=C(C3=CC=CC=C3OC2=O)O,353.3,2.5,4-hydroxy-3-[1-(4-nitrophenyl)-3-oxobutyl]chromen-2-one
+Acetaldehyde,Acetaldehyde,match,177,CC=O,44.05,-0.3,acetaldehyde
+Acetazolamide,Acetazolamide,match,1986,CC(=O)NC1=NN=C(S1)S(=O)(=O)N,222.3,-0.3,"N-(5-sulfamoyl-1,3,4-thiadiazol-2-yl)acetamide"
+Acetohexamide,Acetohexamide,match,1989,CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC2CCCCC2,324.4,2.4,1-(4-acetylphenyl)sulfonyl-3-cyclohexylurea
+Acetone,Acetone,match,180,CC(=O)C,58.08,-0.1,propan-2-one
+Acetonitrile,Acetonitrile,match,6342,CC#N,41.05,0,acetonitrile
+Acetylfentanyl,Acetylfentanyl,match,527015,CC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3,322.4,3.6,N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]acetamide
+"Acetylsalicylic acid (aspirin, ASS, ASA)",Acetylsalicylic acid,match,2244,CC(=O)OC1=CC=CC=C1C(=O)O,180.16,1.2,2-acetyloxybenzoic acid
+Acitretin,Acitretin,match,5284513,CC1=CC(=C(C(=C1C=CC(=CC=CC(=CC(=O)O)C)C)C)C)OC,326.4,6.1,"(2E,4E,6E,8E)-9-(4-methoxy-2,3,6-trimethylphenyl)-3,7-dimethylnona-2,4,6,8-tetraenoic acid"
+Acrivastine,Acrivastine,match,5284514,CC1=CC=C(C=C1)C(=CCN2CCCC2)C3=CC=CC(=N3)C=CC(=O)O,348.4,1.6,(E)-3-[6-[(E)-1-(4-methylphenyl)-3-pyrrolidin-1-ylprop-1-enyl]-2-pyridinyl]prop-2-enoic acid
+Acrylfentanyl,Acrylfentanyl,match,10314851,C=CC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3,334.5,4.2,N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]prop-2-enamide
+Acyclovir,Acyclovir,match,135398513,C1=NC2=C(N1COCCO)N=C(NC2=O)N,225.20,-1.9,2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one
+Adipiodone(-meglumine),Adipiodone,match,3739,C1=C(C(=C(C(=C1I)NC(=O)CCCCC(=O)NC2=C(C=C(C(=C2I)C(=O)O)I)I)I)C(=O)O)I,1139.8,5.5,"3-[[6-(3-carboxy-2,4,6-triiodoanilino)-6-oxohexanoyl]amino]-2,4,6-triiodobenzoic acid"
+Agomelatine,Agomelatine,match,82148,CC(=O)NCCC1=CC=CC2=C1C=C(C=C2)OC,243.30,2.7,N-[2-(7-methoxynaphthalen-1-yl)ethyl]acetamide
+Ajmaline,Ajmaline,match,6100671,CCC1C2CC3C4C5(CC(C2C5O)N3C1O)C6=CC=CC=C6N4C,326.4,1.8,"(1R,9R,10S,12R,13S,14R,16S,17S,18R)-13-ethyl-8-methyl-8,15-diazahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6-triene-14,18-diol"
+Albendazole,Albendazole,match,2082,CCCSC1=CC2=C(C=C1)N=C(N2)NC(=O)OC,265.33,2.9,methyl N-(6-propylsulfanyl-1H-benzimidazol-2-yl)carbamate
+Alcuronium,Alcuronium,match,21158560,C=CC[N+]12CCC34C1CC(C(=CCO)C2)C5=CN6C7C(=CN(C53)C8=CC=CC=C48)C9CC1C7(CC[N+]1(CC9=CCO)CC=C)C1=CC=CC=C16,666.9,3.1,"(2E)-2-[(1S,9Z,11S,13S,14R,17S,25Z,27S,30R,33S,35S,36S,38E)-38-(2-hydroxyethylidene)-14,30-bis(prop-2-enyl)-8,24-diaza-14,30-diazoniaundecacyclo[25.5.2.211,14.11,26.110,17.02,7.013,17.018,23.030,33.08,35.024,36]octatriaconta-2,4,6,9,18,20,22,25-octaen-28-ylidene]ethanol"
+Aldrin,Aldrin,match,12310947,C1C2C=CC1C3C2C4(C(=C(C3(C4(Cl)Cl)Cl)Cl)Cl)Cl,364.9,4.5,"(1S,2S,3S,6R,7R,8R)-1,8,9,10,11,11-hexachlorotetracyclo[6.2.1.13,6.02,7]dodeca-4,9-diene"
+Alendronate (Alendronic acid),Alendronate,match,2088,C(CC(O)(P(=O)(O)O)P(=O)(O)O)CN,249.10,-6.5,(4-amino-1-hydroxy-1-phosphonobutyl)phosphonic acid
+Alfentanil,Alfentanil,match,51263,CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCN3C(=O)N(N=N3)CC)COC,416.5,2.2,N-[1-[2-(4-ethyl-5-oxotetrazol-1-yl)ethyl]-4-(methoxymethyl)piperidin-4-yl]-N-phenylpropanamide
+Alfuzosine,Alfuzosine,match,2092,CN(CCCNC(=O)C1CCCO1)C2=NC3=CC(=C(C=C3C(=N2)N)OC)OC,389.4,1.7,"N-[3-[(4-amino-6,7-dimethoxyquinazolin-2-yl)-methylamino]propyl]oxolane-2-carboxamide"
+Alimemazine (Trimeprazine),Alimemazine,match,5574,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)CN(C)C,298.4,4.7,"N,N,2-trimethyl-3-phenothiazin-10-ylpropan-1-amine"
+Aliskiren,Aliskiren,match,5493444,CC(C)C(CC1=CC(=C(C=C1)OC)OCCCOC)CC(C(CC(C(C)C)C(=O)NCC(C)(C)C(=O)N)O)N,551.8,3.5,"(2S,4S,5S,7S)-5-amino-N-(3-amino-2,2-dimethyl-3-oxopropyl)-4-hydroxy-7-[[4-methoxy-3-(3-methoxypropoxy)phenyl]methyl]-8-methyl-2-propan-2-ylnonanamide"
+Alizapride,Alizapride,match,135413504,COC1=CC2=C(C=C1C(=O)NCC3CCCN3CC=C)NN=N2,315.37,1.6,6-methoxy-N-[(1-prop-2-enylpyrrolidin-2-yl)methyl]-3H-benzotriazole-5-carboxamide
+Allobarbital,Allobarbital,match,5842,C=CCC1(C(=O)NC(=O)NC1=O)CC=C,208.21,1,"5,5-bis(prop-2-enyl)-1,3-diazinane-2,4,6-trione"
+Allopurinol,Allopurinol,match,135401907,C1=NNC2=C1C(=O)NC=N2,136.11,-0.7,"1,5-dihydropyrazolo[5,4-d]pyrimidin-4-one"
+Almotriptan,Almotriptan,match,123606,CN(C)CCC1=CNC2=C1C=C(C=C2)CS(=O)(=O)N3CCCC3,335.5,1.6,"N,N-dimethyl-2-[5-(pyrrolidin-1-ylsulfonylmethyl)-1H-indol-3-yl]ethanamine"
+Alogliptin,Alogliptin,match,11450633,CN1C(=O)C=C(N(C1=O)CC2=CC=CC=C2C#N)N3CCCC(C3)N,339.4,0.6,"2-[[6-[(3R)-3-aminopiperidin-1-yl]-3-methyl-2,4-dioxopyrimidin-1-yl]methyl]benzonitrile"
+Alphaprodine,Alphaprodine,match,120738,CCC(=O)OC1(CCN(CC1C)C)C2=CC=CC=C2,261.36,2.8,"[(3S,4R)-1,3-dimethyl-4-phenylpiperidin-4-yl] propanoate"
+Alprazolam,Alprazolam,match,2118,CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4,308.8,2.1,"8-chloro-1-methyl-6-phenyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+Alprenolol,Alprenolol,match,2119,CC(C)NCC(COC1=CC=CC=C1CC=C)O,249.35,3.1,1-(propan-2-ylamino)-3-(2-prop-2-enylphenoxy)propan-2-ol
+Aluminium,Aluminium,match,5359268,[Al],26.981538,,aluminum
+Amantadine,Amantadine,match,2130,C1C2CC3CC1CC(C2)(C3)N,151.25,2.4,adamantan-1-amine
+5F-AMB (5F-AMB-PINACA),5F-AMB,match,119025812,CC(C)C(C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CCCCCF,363.4,3.8,methyl (2S)-2-[[1-(5-fluoropentyl)indazole-3-carbonyl]amino]-3-methylbutanoate
+Amikacin,Amikacin,match,37768,C1C(C(C(C(C1NC(=O)C(CCN)O)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(C(C(C(O3)CN)O)O)O)N,585.6,-7.9,"(2S)-4-amino-N-[(1R,2S,3S,4R,5S)-5-amino-2-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-[(2R,3R,4S,5S,6R)-6-(aminomethyl)-3,4,5-trihydroxyoxan-2-yl]oxy-3-hydroxycyclohexyl]-2-hydroxybutanamide"
+Amiloride,Amiloride,match,16231,C1(=C(N=C(C(=N1)Cl)N)N)C(=O)N=C(N)N,229.63,-0.7,"3,5-diamino-6-chloro-N-(diaminomethylidene)pyrazine-2-carboxamide"
+Aminoglutethimide,Aminoglutethimide,match,2145,CCC1(CCC(=O)NC1=O)C2=CC=C(C=C2)N,232.28,1.2,"3-(4-aminophenyl)-3-ethylpiperidine-2,6-dione"
+Aminophenazone,Aminophenazone,match,6009,CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N(C)C,231.29,1,"4-(dimethylamino)-1,5-dimethyl-2-phenylpyrazol-3-one"
+5-(2-Aminopropyl)benzofuran (5-APB),5-(2-Aminopropyl)benzofuran,match,9837232,CC(CC1=CC2=C(C=C1)OC=C2)N,175.23,2.1,1-(1-benzofuran-5-yl)propan-2-amine
+"5-(2-Aminopropyl)indole (5-API, 5-IT)",5-(2-Aminopropyl)indole,match,55253543,CC(CC1=CC2=C(C=C1)NC=C2)N,174.24,2.1,1-(1H-indol-5-yl)propan-2-amine
+4-Aminopyridine (Fampridine),4-Aminopyridine,match,1727,C1=CN=CC=C1N,94.11,0.3,pyridin-4-amine
+Amiodarone,Amiodarone,match,2157,CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I,645.3,7.6,"(2-butyl-1-benzofuran-3-yl)-[4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl]methanone"
+Amisulpride,Amisulpride,match,2159,CCN1CCCC1CNC(=O)C2=CC(=C(C=C2OC)N)S(=O)(=O)CC,369.5,1.5,4-amino-N-[(1-ethylpyrrolidin-2-yl)methyl]-5-ethylsulfonyl-2-methoxybenzamide
+Amitriptyline Amitriptyline + Nortriptyline,Amitriptyline,match,2160,CN(C)CCC=C1C2=CC=CC=C2CCC3=CC=CC=C31,277.4,5,"N,N-dimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine"
+Amlodipine,Amlodipine,match,2162,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2Cl)C(=O)OC)C)COCCN,408.9,3,"3-O-ethyl 5-O-methyl 2-(2-aminoethoxymethyl)-4-(2-chlorophenyl)-6-methyl-1,4-dihydropyridine-3,5-dicarboxylate"
+Ammonia,Ammonia,match,222,N,17.031,-0.7,azane
+Amobarbital,Amobarbital,match,2164,CCC1(C(=O)NC(=O)NC1=O)CCC(C)C,226.27,2.1,"5-ethyl-5-(3-methylbutyl)-1,3-diazinane-2,4,6-trione"
+Amodiaquine,Amodiaquine,match,2165,CCN(CC)CC1=C(C=CC(=C1)NC2=C3C=CC(=CC3=NC=C2)Cl)O,355.9,2.6,4-[(7-chloroquinolin-4-yl)amino]-2-(diethylaminomethyl)phenol
+Amoxapine,Amoxapine,match,2170,C1CN(CCN1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl,313.8,2.6,"8-chloro-6-piperazin-1-ylbenzo[b][1,4]benzoxazepine"
+Amoxicillin,Amoxicillin,match,33613,CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)C(=O)O)C,365.4,-2,"(2S,5R,6R)-6-[[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Amphetamine,Amphetamine,match,3007,CC(CC1=CC=CC=C1)N,135.21,1.8,1-phenylpropan-2-amine
+Amphotericin B,Amphotericin B,match,5280965,CC1C=CC=CC=CC=CC=CC=CC=CC(CC2C(C(CC(O2)(CC(CC(C(CCC(CC(CC(=O)OC(C(C1O)C)C)O)O)O)O)O)O)O)C(=O)O)OC3C(C(C(C(O3)C)O)N)O,924.1,0,"(1R,3S,5R,6R,9R,11R,15S,16R,17R,18S,19E,21E,23E,25E,27E,29E,31E,33R,35S,36R,37S)-33-[(2R,3S,4S,5S,6R)-4-amino-3,5-dihydroxy-6-methyloxan-2-yl]oxy-1,3,5,6,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid"
+Ampicillin,Ampicillin,match,6249,CC1(C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)C,349.4,-1.1,"(2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Amrinone,Amrinone,match,3698,C1=CN=CC=C1C2=CNC(=O)C(=C2)N,187.20,-0.2,3-amino-5-pyridin-4-yl-1H-pyridin-2-one
+Amsacrine,Amsacrine,match,2179,COC1=C(C=CC(=C1)NS(=O)(=O)C)NC2=C3C=CC=CC3=NC4=CC=CC=C42,393.5,4,N-[4-(acridin-9-ylamino)-3-methoxyphenyl]methanesulfonamide
+Anileridine,Anileridine,match,8944,CCOC(=O)C1(CCN(CC1)CCC2=CC=C(C=C2)N)C3=CC=CC=C3,352.5,3.7,ethyl 1-[2-(4-aminophenyl)ethyl]-4-phenylpiperidine-4-carboxylate
+Aniline,Aniline,match,6115,C1=CC=C(C=C1)N,93.13,0.9,aniline
+Antimony,Antimony,match,5354495,[Sb],121.760,,antimony
+Apixaban,Apixaban,match,10182969,COC1=CC=C(C=C1)N2C3=C(CCN(C3=O)C4=CC=C(C=C4)N5CCCCC5=O)C(=N2)C(=O)N,459.5,2.2,"1-(4-methoxyphenyl)-7-oxo-6-[4-(2-oxopiperidin-1-yl)phenyl]-4,5-dihydropyrazolo[5,4-c]pyridine-3-carboxamide"
+Apomorphine,Apomorphine,match,6005,CN1CCC2=C3C1CC4=C(C3=CC=C2)C(=C(C=C4)O)O,267.32,2.3,"(6aR)-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline-10,11-diol"
+Aprindine,Aprindine,match,2218,CCN(CC)CCCN(C1CC2=CC=CC=C2C1)C3=CC=CC=C3,322.5,5.2,"N'-(2,3-dihydro-1H-inden-2-yl)-N,N-diethyl-N'-phenylpropane-1,3-diamine"
+Aprobarbital,Aprobarbital,match,6464,CC(C)C1(C(=O)NC(=O)NC1=O)CC=C,210.23,1.1,"5-propan-2-yl-5-prop-2-enyl-1,3-diazinane-2,4,6-trione"
+Aripiprazole Aripiprazole + Dehydroaripiprazole,Aripiprazole,match,60795,C1CC(=O)NC2=C1C=CC(=C2)OCCCCN3CCN(CC3)C4=C(C(=CC=C4)Cl)Cl,448.4,4.6,"7-[4-[4-(2,3-dichlorophenyl)piperazin-1-yl]butoxy]-3,4-dihydro-1H-quinolin-2-one"
+Armodafinil,Armodafinil,match,9690109,C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N,273.4,1.7,2-[(R)-benzhydrylsulfinyl]acetamide
+Arsenic,Arsenic,match,5359596,[As],74.92159,,arsenic
+Articaine,Articaine,match,32170,CCCNC(C)C(=O)NC1=C(SC=C1C)C(=O)OC,284.38,2.8,methyl 4-methyl-3-[2-(propylamino)propanoylamino]thiophene-2-carboxylate
+Asenapine,Asenapine,match,163091,CN1CC2C(C1)C3=C(C=CC(=C3)Cl)OC4=CC=CC=C24,285.8,3.8,"(2S,6S)-9-chloro-4-methyl-13-oxa-4-azatetracyclo[12.4.0.02,6.07,12]octadeca-1(18),7(12),8,10,14,16-hexaene"
+Astemizole,Astemizole,match,2247,COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F,458.6,6,1-[(4-fluorophenyl)methyl]-N-[1-[2-(4-methoxyphenyl)ethyl]piperidin-4-yl]benzimidazol-2-amine
+Atazanavir (ATV),Atazanavir,match,148192,CC(C)(C)C(C(=O)NC(CC1=CC=CC=C1)C(CN(CC2=CC=C(C=C2)C3=CC=CC=N3)NC(=O)C(C(C)(C)C)NC(=O)OC)O)NC(=O)OC,704.9,5.6,"methyl N-[(2S)-1-[2-[(2S,3S)-2-hydroxy-3-[[(2S)-2-(methoxycarbonylamino)-3,3-dimethylbutanoyl]amino]-4-phenylbutyl]-2-[(4-pyridin-2-ylphenyl)methyl]hydrazinyl]-3,3-dimethyl-1-oxobutan-2-yl]carbamate"
+Atenolol,Atenolol,match,2249,CC(C)NCC(COC1=CC=C(C=C1)CC(=O)N)O,266.34,0.2,2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide
+Atomoxetine,Atomoxetine,match,54841,CC1=CC=CC=C1OC(CCNC)C2=CC=CC=C2,255.35,3.7,(3R)-N-methyl-3-(2-methylphenoxy)-3-phenylpropan-1-amine
+Atorvastatin,Atorvastatin,match,60823,CC(C)C1=C(C(=C(N1CCC(CC(CC(=O)O)O)O)C2=CC=C(C=C2)F)C3=CC=CC=C3)C(=O)NC4=CC=CC=C4,558.6,5,"(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid"
+Atovaquone,Atovaquone,match,74989,C1CC(CCC1C2=CC=C(C=C2)Cl)C3=C(C4=CC=CC=C4C(=O)C3=O)O,366.8,5.2,"3-[4-(4-chlorophenyl)cyclohexyl]-4-hydroxynaphthalene-1,2-dione"
+Atracurium(besylate),Atracurium,match,47319,C[N+]1(CCC2=CC(=C(C=C2C1CC3=CC(=C(C=C3)OC)OC)OC)OC)CCC(=O)OCCCCCOC(=O)CC[N+]4(CCC5=CC(=C(C=C5C4CC6=CC(=C(C=C6)OC)OC)OC)OC)C,929.1,7.9,"5-[3-[1-[(3,4-dimethoxyphenyl)methyl]-6,7-dimethoxy-2-methyl-3,4-dihydro-1H-isoquinolin-2-ium-2-yl]propanoyloxy]pentyl 3-[1-[(3,4-dimethoxyphenyl)methyl]-6,7-dimethoxy-2-methyl-3,4-dihydro-1H-isoquinolin-2-ium-2-yl]propanoate"
+Atropine,Atropine,match,174174,CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3,289.4,1.8,"[(1S,5R)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3-hydroxy-2-phenylpropanoate"
+Avanafil,Avanafil,match,9869929,COC1=C(C=C(C=C1)CNC2=NC(=NC=C2C(=O)NCC3=NC=CC=N3)N4CCCC4CO)Cl,483.9,2.6,4-[(3-chloro-4-methoxyphenyl)methylamino]-2-[(2S)-2-(hydroxymethyl)pyrrolidin-1-yl]-N-(pyrimidin-2-ylmethyl)pyrimidine-5-carboxamide
+Avobenzone,Avobenzone,match,51040,CC(C)(C)C1=CC=C(C=C1)C(=O)CC(=O)C2=CC=C(C=C2)OC,310.4,4.8,"1-(4-tert-butylphenyl)-3-(4-methoxyphenyl)propane-1,3-dione"
+Azapropazone (Apazone),Azapropazone,match,26098,CCCC1C(=O)N2C3=C(C=CC(=C3)C)N=C(N2C1=O)N(C)C,300.36,4,"5-(dimethylamino)-9-methyl-2-propylpyrazolo[1,2-a][1,2,4]benzotriazine-1,3-dione"
+Azathioprine,Azathioprine,match,2265,CN1C=NC(=C1SC2=NC=NC3=C2NC=N3)[N+](=O)[O-],277.27,0.1,6-(3-methyl-5-nitroimidazol-4-yl)sulfanyl-7H-purine
+Azelastine,Azelastine,match,2267,CN1CCCC(CC1)N2C(=O)C3=CC=CC=C3C(=N2)CC4=CC=C(C=C4)Cl,381.9,4.4,4-[(4-chlorophenyl)methyl]-2-(1-methylazepan-4-yl)phthalazin-1-one
+Azelnidipine,Azelnidipine,match,65948,CC1=C(C(C(=C(N1)N)C(=O)OC2CN(C2)C(C3=CC=CC=C3)C4=CC=CC=C4)C5=CC(=CC=C5)[N+](=O)[O-])C(=O)OC(C)C,582.6,6,"3-O-(1-benzhydrylazetidin-3-yl) 5-O-propan-2-yl 2-amino-6-methyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Azilsartan medoxomil,Azilsartan medoxomil,match,135409642,CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NOC(=O)N5)C(=O)OCC6=C(OC(=O)O6)C,568.5,4.9,"(5-methyl-2-oxo-1,3-dioxol-4-yl)methyl 2-ethoxy-3-[[4-[2-(5-oxo-4H-1,2,4-oxadiazol-3-yl)phenyl]phenyl]methyl]benzimidazole-4-carboxylate"
+Azithromycin,Azithromycin,match,447043,CCC1C(C(C(N(CC(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O,749.0,4,"(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-11-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-3,4,10-trihydroxy-13-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,6,8,10,12,14-heptamethyl-1-oxa-6-azacyclopentadecan-15-one"
+Aztreonam,Aztreonam,match,5742832,CC1C(C(=O)N1S(=O)(=O)O)NC(=O)C(=NOC(C)(C)C(=O)O)C2=CSC(=N2)N,435.4,0.3,"2-[(Z)-[1-(2-amino-1,3-thiazol-4-yl)-2-[[(2S,3S)-2-methyl-4-oxo-1-sulfoazetidin-3-yl]amino]-2-oxoethylidene]amino]oxy-2-methylpropanoic acid"
+Baclofen,Baclofen,match,2284,C1=CC(=CC=C1C(CC(=O)O)CN)Cl,213.66,-1,4-amino-3-(4-chlorophenyl)butanoic acid
+Barbexaclone,Barbexaclone,match,71196,CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2.CC(CC1CCCCC1)NC,387.5,,"(2S)-1-cyclohexyl-N-methylpropan-2-amine;5-ethyl-5-phenyl-1,3-diazinane-2,4,6-trione"
+Barbital,Barbital,match,2294,CCC1(C(=O)NC(=O)NC1=O)CC,184.19,0.6,"5,5-diethyl-1,3-diazinane-2,4,6-trione"
+Barium,Barium,match,5355457,[Ba],137.33,,barium
+Benazepril,Benazepril,match,5362124,CCOC(=O)C(CCC1=CC=CC=C1)NC2CCC3=CC=CC=C3N(C2=O)CC(=O)O,424.5,1.3,"2-[(3S)-3-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]-2-oxo-4,5-dihydro-3H-1-benzazepin-1-yl]acetic acid"
+Bendrofluazide,Bendrofluazide,match,2315,C1=CC=C(C=C1)CC2NC3=C(C=C(C(=C3)C(F)(F)F)S(=O)(=O)N)S(=O)(=O)N2,421.4,1.2,"3-benzyl-1,1-dioxo-6-(trifluoromethyl)-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide"
+Bendroflumethiazide,Bendroflumethiazide,match,2315,C1=CC=C(C=C1)CC2NC3=C(C=C(C(=C3)C(F)(F)F)S(=O)(=O)N)S(=O)(=O)N2,421.4,1.2,"3-benzyl-1,1-dioxo-6-(trifluoromethyl)-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide"
+Benoxaprofen,Benoxaprofen,match,39941,CC(C1=CC2=C(C=C1)OC(=N2)C3=CC=C(C=C3)Cl)C(=O)O,301.72,4.1,"2-[2-(4-chlorophenyl)-1,3-benzoxazol-5-yl]propanoic acid"
+Benperidol,Benperidol,match,16363,C1CN(CCC1N2C3=CC=CC=C3NC2=O)CCCC(=O)C4=CC=C(C=C4)F,381.4,3.7,3-[1-[4-(4-fluorophenyl)-4-oxobutyl]piperidin-4-yl]-1H-benzimidazol-2-one
+Benzbromarone,Benzbromarone,match,2333,CCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)Br)O)Br,424.1,5.7,"(3,5-dibromo-4-hydroxyphenyl)-(2-ethyl-1-benzofuran-3-yl)methanone"
+Benzene,Benzene,match,241,C1=CC=CC=C1,78.11,2.1,benzene
+Benzonatate,Benzonatate,match,7699,CCCCNC1=CC=C(C=C1)C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC,603.7,2.4,2-[2-[2-[2-[2-[2-[2-[2-(2-methoxyethoxy)ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethoxy]ethyl 4-(butylamino)benzoate
+Benzoylecgonine,Benzoylecgonine,match,448223,CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)O,289.33,-0.3,"(1R,2R,3S,5S)-3-benzoyloxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylic acid"
+Benzphetamine,Benzphetamine,match,5311017,CC(CC1=CC=CC=C1)N(C)CC2=CC=CC=C2,239.35,4.1,(2S)-N-benzyl-N-methyl-1-phenylpropan-2-amine
+Benztropine,Benztropine,match,1201549,CN1C2CCC1CC(C2)OC(C3=CC=CC=C3)C4=CC=CC=C4,307.4,4.5,"(1R,5S)-3-benzhydryloxy-8-methyl-8-azabicyclo[3.2.1]octane"
+Benzydamine,Benzydamine,match,12555,CN(C)CCCOC1=NN(C2=CC=CC=C21)CC3=CC=CC=C3,309.4,3.9,"3-(1-benzylindazol-3-yl)oxy-N,N-dimethylpropan-1-amine"
+Benzyl alcohol,Benzyl alcohol,match,244,C1=CC=C(C=C1)CO,108.14,1.1,phenylmethanol
+Benzylpenicillin,Benzylpenicillin,match,5904,CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,334.4,1.8,"(2S,5R,6R)-3,3-dimethyl-7-oxo-6-[(2-phenylacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+N-Benzylpiperazine,N-Benzylpiperazine,match,75994,C1CN(CCN1)CC2=CC=CC=C2,176.26,1.3,1-benzylpiperazine
+Bepridil,Bepridil,match,2351,CC(C)COCC(CN(CC1=CC=CC=C1)C2=CC=CC=C2)N3CCCC3,366.5,5.3,N-benzyl-N-[3-(2-methylpropoxy)-2-pyrrolidin-1-ylpropyl]aniline
+Beryllium,Beryllium,match,5460467,[Be],9.012183,,beryllium
+Betacarotene,Betacarotene,match,5280489,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC=CC=C(C)C=CC=C(C)C=CC2=C(CCCC2(C)C)C)C)C,536.9,13.5,"1,3,3-trimethyl-2-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]cyclohexene"
+Betaxolol,Betaxolol,match,2369,CC(C)NCC(COC1=CC=C(C=C1)CCOCC2CC2)O,307.4,2.8,1-[4-[2-(cyclopropylmethoxy)ethyl]phenoxy]-3-(propan-2-ylamino)propan-2-ol
+Bethanidine,Bethanidine,match,2368,CNC(=NC)NCC1=CC=CC=C1,177.25,0.9,"1-benzyl-2,3-dimethylguanidine"
+Bevantolol,Bevantolol,match,2372,CC1=CC(=CC=C1)OCC(CNCCC2=CC(=C(C=C2)OC)OC)O,345.4,3,"1-[2-(3,4-dimethoxyphenyl)ethylamino]-3-(3-methylphenoxy)propan-2-ol"
+Bezafibrate,Bezafibrate,match,39042,CC(C)(C(=O)O)OC1=CC=C(C=C1)CCNC(=O)C2=CC=C(C=C2)Cl,361.8,3.8,2-[4-[2-[(4-chlorobenzoyl)amino]ethyl]phenoxy]-2-methylpropanoic acid
+Bicalutamide,Bicalutamide,match,2375,CC(CS(=O)(=O)C1=CC=C(C=C1)F)(C(=O)NC2=CC(=C(C=C2)C#N)C(F)(F)F)O,430.4,2.3,N-[4-cyano-3-(trifluoromethyl)phenyl]-3-(4-fluorophenyl)sulfonyl-2-hydroxy-2-methylpropanamide
+Biperiden,Biperiden,match,2381,C1CCN(CC1)CCC(C2CC3CC2C=C3)(C4=CC=CC=C4)O,311.5,4.3,1-(2-bicyclo[2.2.1]hept-5-enyl)-1-phenyl-3-piperidin-1-ylpropan-1-ol
+Bisoprolol,Bisoprolol,match,2405,CC(C)NCC(COC1=CC=C(C=C1)COCCOC(C)C)O,325.4,1.9,1-(propan-2-ylamino)-3-[4-(2-propan-2-yloxyethoxymethyl)phenoxy]propan-2-ol
+Bopindolol,Bopindolol,match,44112,CC1=CC2=C(N1)C=CC=C2OCC(CNC(C)(C)C)OC(=O)C3=CC=CC=C3,380.5,4.7,[1-(tert-butylamino)-3-[(2-methyl-1H-indol-4-yl)oxy]propan-2-yl] benzoate
+Borate,Borate,match,26574,B([O-])([O-])[O-],58.81,,borate
+Boron,Boron,match,5462311,[B],10.81,,boron
+Bornaprine,Bornaprine,match,70687267,CCN(CC)CCCOC(=O)C1(CC2CCC1C2)C3=CC=CC=C3,329.5,4.7,"3-(diethylamino)propyl (1S,4R)-2-phenylbicyclo[2.2.1]heptane-2-carboxylate"
+Bosentan,Bosentan,match,104865,CC(C)(C)C1=CC=C(C=C1)S(=O)(=O)NC2=C(C(=NC(=N2)C3=NC=CC=N3)OCCO)OC4=CC=CC=C4OC,551.6,3.8,4-tert-butyl-N-[6-(2-hydroxyethoxy)-5-(2-methoxyphenoxy)-2-pyrimidin-2-ylpyrimidin-4-yl]benzenesulfonamide
+Brallobarbital (Brallobarbitone),Brallobarbital,match,68416,C=CCC1(C(=O)NC(=O)NC1=O)CC(=C)Br,287.11,1.5,"5-(2-bromoprop-2-enyl)-5-prop-2-enyl-1,3-diazinane-2,4,6-trione"
+Bretylium,Bretylium,match,2431,CC[N+](C)(C)CC1=CC=CC=C1Br,243.16,2.8,(2-bromophenyl)methyl-ethyl-dimethylazanium
+Brivaracetam,Brivaracetam,match,9837243,CCCC1CC(=O)N(C1)C(CC)C(=O)N,212.29,1,(2S)-2-[(4R)-2-oxo-4-propylpyrrolidin-1-yl]butanamide
+Brodifacoum,Brodifacoum,match,54680676,C1C(CC2=CC=CC=C2C1C3=C(C4=CC=CC=C4OC3=O)O)C5=CC=C(C=C5)C6=CC=C(C=C6)Br,523.4,7.6,"3-[3-[4-(4-bromophenyl)phenyl]-1,2,3,4-tetrahydronaphthalen-1-yl]-4-hydroxychromen-2-one"
+Bromadiolon,Bromadiolon,match,54680085,C1=CC=C(C=C1)C(CC(C2=CC=C(C=C2)C3=CC=C(C=C3)Br)O)C4=C(C5=CC=CC=C5OC4=O)O,527.4,6.1,3-[3-[4-(4-bromophenyl)phenyl]-3-hydroxy-1-phenylpropyl]-4-hydroxychromen-2-one
+Bromazepam,Bromazepam,match,2441,C1C(=O)NC2=C(C=C(C=C2)Br)C(=N1)C3=CC=CC=N3,316.15,1.7,"7-bromo-5-pyridin-2-yl-1,3-dihydro-1,4-benzodiazepin-2-one"
+Bromide,Bromide,match,259,[Br-],79.90,1,bromide
+Bromisoval,Bromisoval,match,2447,CC(C)C(C(=O)NC(=O)N)Br,223.07,1.1,2-bromo-N-carbamoyl-3-methylbutanamide
+Bromocriptine,Bromocriptine,match,31101,CC(C)CC1C(=O)N2CCCC2C3(N1C(=O)C(O3)(C(C)C)NC(=O)C4CN(C5CC6=C(NC7=CC=CC(=C67)C5=C4)Br)C)O,654.6,3.8,"(6aR,9R)-5-bromo-N-[(1S,2S,4R,7S)-2-hydroxy-7-(2-methylpropyl)-5,8-dioxo-4-propan-2-yl-3-oxa-6,9-diazatricyclo[7.3.0.02,6]dodecan-4-yl]-7-methyl-6,6a,8,9-tetrahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+"25B-NBOMe (2-(4-bromo-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",25B-NBOMe,match,9977044,COC1=CC=CC=C1CNCCC2=CC(=C(C=C2OC)Br)OC,380.3,3.9,"2-(4-bromo-2,5-dimethoxyphenyl)-N-[(2-methoxyphenyl)methyl]ethanamine"
+Bromoxynil,Bromoxynil,match,15531,C1=C(C=C(C(=C1Br)O)Br)C#N,276.91,3.5,"3,5-dibromo-4-hydroxybenzonitrile"
+Bromperidol,Bromperidol,match,2448,C1CN(CCC1(C2=CC=C(C=C2)Br)O)CCCC(=O)C3=CC=C(C=C3)F,420.3,3.3,4-[4-(4-bromophenyl)-4-hydroxypiperidin-1-yl]-1-(4-fluorophenyl)butan-1-one
+Brompheniramine,Brompheniramine,match,6834,CN(C)CCC(C1=CC=C(C=C1)Br)C2=CC=CC=N2,319.24,3.5,"3-(4-bromophenyl)-N,N-dimethyl-3-pyridin-2-ylpropan-1-amine"
+Brotizolam,Brotizolam,match,2451,CC1=NN=C2N1C3=C(C=C(S3)Br)C(=NC2)C4=CC=CC=C4Cl,393.7,2.8,"4-bromo-7-(2-chlorophenyl)-13-methyl-3-thia-1,8,11,12-tetrazatricyclo[8.3.0.02,6]trideca-2(6),4,7,10,12-pentaene"
+Budesonide,Budesonide,match,5281004,CCCC1OC2CC3C4CCC5=CC(=O)C=CC5(C4C(CC3(C2(O1)C(=O)CO)C)O)C,430.5,2.5,"(1S,2S,4R,8S,9S,11S,12S,13R)-11-hydroxy-8-(2-hydroxyacetyl)-9,13-dimethyl-6-propyl-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-14,17-dien-16-one"
+Budipine,Budipine,match,68778,CC(C)(C)N1CCC(CC1)(C2=CC=CC=C2)C3=CC=CC=C3,293.4,5.2,"1-tert-butyl-4,4-diphenylpiperidine"
+Buflomedil,Buflomedil,match,2467,COC1=CC(=C(C(=C1)OC)C(=O)CCCN2CCCC2)OC,307.4,2.3,"4-pyrrolidin-1-yl-1-(2,4,6-trimethoxyphenyl)butan-1-one"
+Bumetanide,Bumetanide,match,2471,CCCCNC1=C(C(=CC(=C1)C(=O)O)S(=O)(=O)N)OC2=CC=CC=C2,364.4,2.8,3-(butylamino)-4-phenoxy-5-sulfamoylbenzoic acid
+Bunitrolol,Bunitrolol,match,2473,CC(C)(C)NCC(COC1=CC=CC=C1C#N)O,248.32,1.9,2-[3-(tert-butylamino)-2-hydroxypropoxy]benzonitrile
+Bupivacaine,Bupivacaine,match,2474,CCCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C,288.4,3.4,"1-butyl-N-(2,6-dimethylphenyl)piperidine-2-carboxamide"
+Bupranolol,Bupranolol,match,2475,CC1=CC(=C(C=C1)Cl)OCC(CNC(C)(C)C)O,271.78,2.8,1-(tert-butylamino)-3-(2-chloro-5-methylphenoxy)propan-2-ol
+Buprenorphine,Buprenorphine,match,644073,CC(C)(C)C(C)(C1CC23CCC1(C4C25CCN(C3CC6=C5C(=C(C=C6)O)O4)CC7CC7)OC)O,467.6,5,"(1S,2S,6R,14R,15R,16R)-5-(cyclopropylmethyl)-16-[(2S)-2-hydroxy-3,3-dimethylbutan-2-yl]-15-methoxy-13-oxa-5-azahexacyclo[13.2.2.12,8.01,6.02,14.012,20]icosa-8(20),9,11-trien-11-ol"
+Bupropion (Amfebutamone),Bupropion,match,444,CC(C(=O)C1=CC(=CC=C1)Cl)NC(C)(C)C,239.74,3.2,2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one
+Buspirone,Buspirone,match,2477,C1CCC2(C1)CC(=O)N(C(=O)C2)CCCCN3CCN(CC3)C4=NC=CC=N4,385.5,2.6,"8-[4-(4-pyrimidin-2-ylpiperazin-1-yl)butyl]-8-azaspiro[4.5]decane-7,9-dione"
+Busulfan,Busulfan,match,2478,CS(=O)(=O)OCCCCOS(=O)(=O)C,246.3,-0.5,4-methylsulfonyloxybutyl methanesulfonate
+Butalbital,Butalbital,match,2481,CC(C)CC1(C(=O)NC(=O)NC1=O)CC=C,224.26,1.7,"5-(2-methylpropyl)-5-prop-2-enyl-1,3-diazinane-2,4,6-trione"
+Butanone,Butanone,match,6569,CCC(=O)C,72.11,0.3,butan-2-one
+Butaperazine,Butaperazine,match,12598,CCCC(=O)C1=CC2=C(C=C1)SC3=CC=CC=C3N2CCCN4CCN(CC4)C,409.6,5,1-[10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazin-2-yl]butan-1-one
+Butorphanol,Butorphanol,match,5361092,C1CCC2(C3CC4=C(C2(C1)CCN3CC5CCC5)C=C(C=C4)O)O,327.5,3.8,"(1S,9R,10S)-17-(cyclobutylmethyl)-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene-4,10-diol"
+Butriptyline,Butriptyline,match,21772,CC(CC1C2=CC=CC=C2CCC3=CC=CC=C13)CN(C)C,293.4,5.1,"N,N,2-trimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenyl)propan-1-amine"
+Butylone,Butylone,match,56843046,CCC(C(=O)C1=CC2=C(C=C1)OCO2)NC,221.25,1.9,"1-(1,3-benzodioxol-5-yl)-2-(methylamino)butan-1-one"
+Butylscopolamine,Butylscopolamine,match,160883,CCCC[N+]1(C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4)C,360.5,2.6,"[(1R,2R,4S,5S)-9-butyl-9-methyl-3-oxa-9-azoniatricyclo[3.3.1.02,4]nonan-7-yl] (2S)-3-hydroxy-2-phenylpropanoate"
+Cabergoline,Cabergoline,match,54746,CCNC(=O)N(CCCN(C)C)C(=O)C1CC2C(CC3=CNC4=CC=CC2=C34)N(C1)CC=C,451.6,3.4,"(6aR,9R,10aR)-N-[3-(dimethylamino)propyl]-N-(ethylcarbamoyl)-7-prop-2-enyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+Cadmium,Cadmium,match,23973,[Cd],112.41,,cadmium
+Caffeine (Coffein),Caffeine,match,2519,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,194.19,-0.1,"1,3,7-trimethylpurine-2,6-dione"
+Calcifediol (Calcidiol; see also Vitamin D),Calcifediol,match,5283731,CC(CCCC(C)(C)O)C1CCC2C1(CCCC2=CC=C3CC(CCC3=C)O)C,400.6,6.2,"(1S,3Z)-3-[(2E)-2-[(1R,3aS,7aR)-1-[(2R)-6-hydroxy-6-methylheptan-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol"
+Camazepam,Camazepam,match,37367,CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)OC(=O)N(C)C)C3=CC=CC=C3,371.8,2.8,"(7-chloro-1-methyl-2-oxo-5-phenyl-3H-1,4-benzodiazepin-3-yl) N,N-dimethylcarbamate"
+Camostat,Camostat,match,2536,CN(C)C(=O)COC(=O)CC1=CC=C(C=C1)OC(=O)C2=CC=C(C=C2)N=C(N)N,398.4,1.1,[4-[2-[2-(dimethylamino)-2-oxoethoxy]-2-oxoethyl]phenyl] 4-(diaminomethylideneamino)benzoate
+Camphor,Camphor,match,2537,CC1(C2CCC1(C(=O)C2)C)C,152.23,2.2,"1,7,7-trimethylbicyclo[2.2.1]heptan-2-one"
+Canagliflozin,Canagliflozin,match,24812758,CC1=C(C=C(C=C1)C2C(C(C(C(O2)CO)O)O)O)CC3=CC=C(S3)C4=CC=C(C=C4)F,444.5,3.2,"(2S,3R,4R,5S,6R)-2-[3-[[5-(4-fluorophenyl)thiophen-2-yl]methyl]-4-methylphenyl]-6-(hydroxymethyl)oxane-3,4,5-triol"
+Candesartan,Candesartan,match,2541,CCOC1=NC2=CC=CC(=C2N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5)C(=O)O,440.5,4.1,2-ethoxy-3-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]benzimidazole-4-carboxylic acid
+Captopril,Captopril,match,44093,CC(CS)C(=O)N1CCCC1C(=O)O,217.29,0.3,(2S)-1-[(2S)-2-methyl-3-sulfanylpropanoyl]pyrrolidine-2-carboxylic acid
+Carazolol,Carazolol,match,71739,CC(C)NCC(COC1=CC=CC2=C1C3=CC=CC=C3N2)O,298.4,3.6,1-(9H-carbazol-4-yloxy)-3-(propan-2-ylamino)propan-2-ol
+Carbachol,Carbachol,match,5831,C[N+](C)(C)CCOC(=O)N.[Cl-],182.65,,2-carbamoyloxyethyl(trimethyl)azanium chloride
+Carbamazepine,Carbamazepine,match,2554,C1=CC=C2C(=C1)C=CC3=CC=CC=C3N2C(=O)N,236.27,2.5,benzo[b][1]benzazepine-11-carboxamide
+Carbaryl,Carbaryl,match,6129,CNC(=O)OC1=CC=CC2=CC=CC=C21,201.22,2.4,naphthalen-1-yl N-methylcarbamate
+Carbenoxolone,Carbenoxolone,match,636403,CC1(C2CCC3(C(C2(CCC1OC(=O)CCC(=O)O)C)C(=O)C=C4C3(CCC5(C4CC(CC5)(C)C(=O)O)C)C)C)C,570.8,6.4,"(2S,4aS,6aR,6aS,6bR,8aR,10S,12aS,14bR)-10-(3-carboxypropanoyloxy)-2,4a,6a,6b,9,9,12a-heptamethyl-13-oxo-3,4,5,6,6a,7,8,8a,10,11,12,14b-dodecahydro-1H-picene-2-carboxylic acid"
+Carbidopa,Carbidopa,match,34359,CC(CC1=CC(=C(C=C1)O)O)(C(=O)O)NN,226.23,-2.2,"(2S)-3-(3,4-dihydroxyphenyl)-2-hydrazinyl-2-methylpropanoic acid"
+Carbimazole,Carbimazole,match,31072,CCOC(=O)N1C=CN(C1=S)C,186.23,0.7,ethyl 3-methyl-2-sulfanylideneimidazole-1-carboxylate
+Carbinoxamine,Carbinoxamine,match,2564,CN(C)CCOC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2,290.79,2.9,"2-[(4-chlorophenyl)-pyridin-2-ylmethoxy]-N,N-dimethylethanamine"
+Carbocromene (Carbochromene),Carbocromene,match,12604,CCN(CC)CCC1=C(C2=C(C=C(C=C2)OCC(=O)OCC)OC1=O)C,361.4,3.1,ethyl 2-[3-[2-(diethylamino)ethyl]-4-methyl-2-oxochromen-7-yl]oxyacetate
+Carbon monoxide,Carbon monoxide,match,281,[C-]#[O+],28.010,0.7,carbon monoxide
+Carbon tetrachloride,Carbon tetrachloride,match,5943,C(Cl)(Cl)(Cl)Cl,153.8,2.8,tetrachloromethane
+Carboplatin,Carboplatin,match,10339178,C1CC(C1)(C(=O)[O-])C(=O)[O-].N.N.[Pt+2],371.25,,"azane;cyclobutane-1,1-dicarboxylate;platinum(2+)"
+Carbromal(um),Carbromal,match,6488,CCC(CC)(C(=O)NC(=O)N)Br,237.09,1.5,2-bromo-N-carbamoyl-2-ethylbutanamide
+Carfentanil,Carfentanil,match,62156,CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC3=CC=CC=C3)C(=O)OC,394.5,3.8,methyl 1-(2-phenylethyl)-4-(N-propanoylanilino)piperidine-4-carboxylate
+Cariprazine,Cariprazine,match,11154555,CN(C)C(=O)NC1CCC(CC1)CCN2CCN(CC2)C3=C(C(=CC=C3)Cl)Cl,427.4,4.3,"3-[4-[2-[4-(2,3-dichlorophenyl)piperazin-1-yl]ethyl]cyclohexyl]-1,1-dimethylurea"
+Carisoprodol,Carisoprodol,match,2576,CCCC(C)(COC(=O)N)COC(=O)NC(C)C,260.33,1.9,[2-(carbamoyloxymethyl)-2-methylpentyl] N-propan-2-ylcarbamate
+Carteolol,Carteolol,match,2583,CC(C)(C)NCC(COC1=CC=CC2=C1CCC(=O)N2)O,292.37,1,"5-[3-(tert-butylamino)-2-hydroxypropoxy]-3,4-dihydro-1H-quinolin-2-one"
+Carvedilol,Carvedilol,match,2585,COC1=CC=CC=C1OCCNCC(COC2=CC=CC3=C2C4=CC=CC=C4N3)O,406.5,4.2,1-(9H-carbazol-4-yloxy)-3-[2-(2-methoxyphenoxy)ethylamino]propan-2-ol
+Cathine,Cathine,match,441457,CC(C(C1=CC=CC=C1)O)N,151.21,0.8,"(1S,2S)-2-amino-1-phenylpropan-1-ol"
+Cathinone,Cathinone,match,62258,CC(C(=O)C1=CC=CC=C1)N,149.19,1.1,(2S)-2-amino-1-phenylpropan-1-one
+Cefaclor,Cefaclor,match,51039,C1C(=C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)N)C(=O)O)Cl,367.8,-1.8,"(6R,7R)-7-[[(2R)-2-amino-2-phenylacetyl]amino]-3-chloro-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefadroxil,Cefadroxil,match,47965,CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=C(C=C3)O)N)SC1)C(=O)O,363.4,-2.1,"(6R,7R)-7-[[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino]-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefalexin,Cefalexin,match,27447,CC1=C(N2C(C(C2=O)NC(=O)C(C3=CC=CC=C3)N)SC1)C(=O)O,347.4,0.6,"(6R,7R)-7-[[(2R)-2-amino-2-phenylacetyl]amino]-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefaloridine,Cefaloridine,match,5773,C1C(=C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CS3)C(=O)[O-])C[N+]4=CC=CC=C4,415.5,1.9,"(6R,7R)-8-oxo-3-(pyridin-1-ium-1-ylmethyl)-7-[(2-thiophen-2-ylacetyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+Cefamandole,Cefamandole,match,456255,CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)NC(=O)C(C4=CC=CC=C4)O)SC2)C(=O)O,462.5,-0.9,"(6R,7R)-7-[[(2R)-2-hydroxy-2-phenylacetyl]amino]-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefazolin,Cefazolin,match,33255,CC1=NN=C(S1)SCC2=C(N3C(C(C3=O)NC(=O)CN4C=NN=N4)SC2)C(=O)O,454.5,-0.4,"(6R,7R)-3-[(5-methyl-1,3,4-thiadiazol-2-yl)sulfanylmethyl]-8-oxo-7-[[2-(tetrazol-1-yl)acetyl]amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefdinir,Cefdinir,match,6915944,C=CC1=C(N2C(C(C2=O)NC(=O)C(=NO)C3=CSC(=N3)N)SC1)C(=O)O,395.4,0,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-hydroxyiminoacetyl]amino]-3-ethenyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefepime,Cefepime,match,5479537,C[N+]1(CCCC1)CC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)[O-],480.6,-0.1,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(1-methylpyrrolidin-1-ium-1-yl)methyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+Cefetamet,Cefetamet,match,5487888,CC1=C(N2C(C(C2=O)NC(=O)C(=NOC)C3=CSC(=N3)N)SC1)C(=O)O,397.4,-0.7,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-methyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefixime,Cefixime,match,5362065,C=CC1=C(N2C(C(C2=O)NC(=O)C(=NOCC(=O)O)C3=CSC(=N3)N)SC1)C(=O)O,453.5,-0.7,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(carboxymethoxyimino)acetyl]amino]-3-ethenyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefmenoxime,Cefmenoxime,match,9570757,CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)O,511.6,0,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefodizime,Cefodizime,match,5361871,CC1=C(SC(=N1)SCC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)O)CC(=O)O,584.7,0.2,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[[5-(carboxymethyl)-4-methyl-1,3-thiazol-2-yl]sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefoperazone,Cefoperazone,match,44187,CCN1CCN(C(=O)C1=O)C(=O)NC(C2=CC=C(C=C2)O)C(=O)NC3C4N(C3=O)C(=C(CS4)CSC5=NN=NN5C)C(=O)O,645.7,-0.7,"(6R,7R)-7-[[(2R)-2-[(4-ethyl-2,3-dioxopiperazine-1-carbonyl)amino]-2-(4-hydroxyphenyl)acetyl]amino]-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefotaxime,Cefotaxime,match,5742673,CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)C(=NOC)C3=CSC(=N3)N)SC1)C(=O)O,455.5,-1.4,"(6R,7R)-3-(acetyloxymethyl)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefotetan,Cefotetan,match,53025,CN1C(=NN=N1)SCC2=C(N3C(C(C3=O)(NC(=O)C4SC(=C(C(=O)N)C(=O)O)S4)OC)SC2)C(=O)O,575.6,0.1,"(6R,7S)-7-[[4-(2-amino-1-carboxy-2-oxoethylidene)-1,3-dithietane-2-carbonyl]amino]-7-methoxy-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefotiam,Cefotiam,match,43708,CN(C)CCN1C(=NN=N1)SCC2=C(N3C(C(C3=O)NC(=O)CC4=CSC(=N4)N)SC2)C(=O)O,525.6,-2.4,"(6R,7R)-7-[[2-(2-amino-1,3-thiazol-4-yl)acetyl]amino]-3-[[1-[2-(dimethylamino)ethyl]tetrazol-5-yl]sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefoxitin,Cefoxitin,match,441199,COC1(C2N(C1=O)C(=C(CS2)COC(=O)N)C(=O)O)NC(=O)CC3=CC=CS3,427.5,0,"(6R,7S)-3-(carbamoyloxymethyl)-7-methoxy-8-oxo-7-[(2-thiophen-2-ylacetyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefpodoxime,Cefpodoxime,match,6335986,COCC1=C(N2C(C(C2=O)NC(=O)C(=NOC)C3=CSC(=N3)N)SC1)C(=O)O,427.5,-1.4,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-(methoxymethyl)-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefsulodin,Cefsulodin,match,656575,C1C(=C(N2C(S1)C(C2=O)NC(=O)C(C3=CC=CC=C3)S(=O)(=O)O)C(=O)[O-])C[N+]4=CC=C(C=C4)C(=O)N,532.6,0.2,"(6R,7R)-3-[(4-carbamoylpyridin-1-ium-1-yl)methyl]-8-oxo-7-[[(2R)-2-phenyl-2-sulfoacetyl]amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+Ceftazidime,Ceftazidime,match,5481173,CC(C)(C(=O)O)ON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=C(CS3)C[N+]4=CC=CC=C4)C(=O)[O-],546.6,0.4,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(2-carboxypropan-2-yloxyimino)acetyl]amino]-8-oxo-3-(pyridin-1-ium-1-ylmethyl)-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate"
+Ceftibuten,Ceftibuten,match,5282242,C1C=C(N2C(S1)C(C2=O)NC(=O)C(=CCC(=O)O)C3=CSC(=N3)N)C(=O)O,410.4,-0.3,"(6R,7R)-7-[[(Z)-2-(2-amino-1,3-thiazol-4-yl)-4-carboxybut-2-enoyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Ceftizoxime,Ceftizoxime,match,6533629,CON=C(C1=CSC(=N1)N)C(=O)NC2C3N(C2=O)C(=CCS3)C(=O)O,383.4,0,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Ceftriaxone,Ceftriaxone,match,5479530,CN1C(=NC(=O)C(=O)N1)SCC2=C(N3C(C(C3=O)NC(=O)C(=NOC)C4=CSC(=N4)N)SC2)C(=O)O,554.6,-1.3,"(6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(2-methyl-5,6-dioxo-1H-1,2,4-triazin-3-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cefuroxime,Cefuroxime,match,5479529,CON=C(C1=CC=CO1)C(=O)NC2C3N(C2=O)C(=C(CS3)COC(=O)N)C(=O)O,424.4,-0.2,"(6R,7R)-3-(carbamoyloxymethyl)-7-[[(2Z)-2-(furan-2-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Celecoxib,Celecoxib,match,2662,CC1=CC=C(C=C1)C2=CC(=NN2C3=CC=C(C=C3)S(=O)(=O)N)C(F)(F)F,381.4,3.4,4-[5-(4-methylphenyl)-3-(trifluoromethyl)pyrazol-1-yl]benzenesulfonamide
+Celiprolol,Celiprolol,match,2663,CCN(CC)C(=O)NC1=CC(=C(C=C1)OCC(CNC(C)(C)C)O)C(=O)C,379.5,1.9,"3-[3-acetyl-4-[3-(tert-butylamino)-2-hydroxypropoxy]phenyl]-1,1-diethylurea"
+Cephalothin (Cefalotin),Cephalothin,match,6024,CC(=O)OCC1=C(N2C(C(C2=O)NC(=O)CC3=CC=CS3)SC1)C(=O)O,396.4,-0.4,"(6R,7R)-3-(acetyloxymethyl)-8-oxo-7-[(2-thiophen-2-ylacetyl)amino]-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid"
+Cerivastatin,Cerivastatin,match,446156,CC(C)C1=C(C(=C(C(=N1)C(C)C)COC)C2=CC=C(C=C2)F)C=CC(CC(CC(=O)O)O)O,459.5,3.6,"(E,3R,5S)-7-[4-(4-fluorophenyl)-5-(methoxymethyl)-2,6-di(propan-2-yl)-3-pyridinyl]-3,5-dihydroxyhept-6-enoic acid"
+Cetirizine,Cetirizine,match,2678,C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,388.9,1.7,2-[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]acetic acid
+Chloralhydrate,Chloralhydrate,match,2707,C(C(Cl)(Cl)Cl)(O)O,165.40,1,"2,2,2-trichloroethane-1,1-diol"
+Chlorambucil,Chlorambucil,match,2708,C1=CC(=CC=C1CCCC(=O)O)N(CCCl)CCCl,304.2,1.7,4-[4-[bis(2-chloroethyl)amino]phenyl]butanoic acid
+Chloramphenicol,Chloramphenicol,match,5959,C1=CC(=CC=C1C(C(CO)NC(=O)C(Cl)Cl)O)[N+](=O)[O-],323.13,1.1,"2,2-dichloro-N-[(1R,2R)-1,3-dihydroxy-1-(4-nitrophenyl)propan-2-yl]acetamide"
+Chlordane,Chlordane,match,11954021,C1C2C(C(C1Cl)Cl)C3(C(=C(C2(C3(Cl)Cl)Cl)Cl)Cl)Cl,409.8,4.9,"(1R,7S)-1,3,4,7,8,9,10,10-octachlorotricyclo[5.2.1.02,6]dec-8-ene"
+Chlordecone,Chlordecone,match,299,C1(=O)C2(C3(C4(C1(C5(C2(C3(C(C45Cl)(Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl)Cl,490.6,3.9,"1,2,3,4,6,7,8,9,10,10-decachloropentacyclo[5.3.0.02,6.03,9.04,8]decan-5-one"
+Chlordiazepoxide,Chlordiazepoxide,match,2712,CN=C1CN(C(=C2C=C(C=CC2=N1)Cl)C3=CC=CC=C3)O,299.75,2.4,"7-chloro-4-hydroxy-N-methyl-5-phenyl-3H-1,4-benzodiazepin-2-imine"
+Chlorhexidine,Chlorhexidine,match,9552079,C1=CC(=CC=C1NC(=NC(=NCCCCCCN=C(N)N=C(N)NC2=CC=C(C=C2)Cl)N)N)Cl,505.4,0.1,(1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine
+Chlormezanone,Chlormezanone,match,2717,CN1C(S(=O)(=O)CCC1=O)C2=CC=C(C=C2)Cl,273.74,1.1,"2-(4-chlorophenyl)-3-methyl-1,1-dioxo-1,3-thiazinan-4-one"
+Chlorobutanol,Chlorobutanol,match,5977,CC(C)(C(Cl)(Cl)Cl)O,177.45,2,"1,1,1-trichloro-2-methylpropan-2-ol"
+Chloroform,Chloroform,match,6212,C(Cl)(Cl)Cl,119.37,2.3,chloroform
+Chlorophacinone,Chlorophacinone,match,19402,C1=CC=C(C=C1)C(C2=CC=C(C=C2)Cl)C(=O)C3C(=O)C4=CC=CC=C4C3=O,374.8,4.3,"2-[2-(4-chlorophenyl)-2-phenylacetyl]indene-1,3-dione"
+Chloroquine,Chloroquine,match,2719,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl,319.9,4.6,"4-N-(7-chloroquinolin-4-yl)-1-N,1-N-diethylpentane-1,4-diamine"
+Chlorothiazide,Chlorothiazide,match,2720,C1=C2C(=CC(=C1Cl)S(=O)(=O)N)S(=O)(=O)N=CN2,295.7,-0.2,"6-chloro-1,1-dioxo-4H-1lambda6,2,4-benzothiadiazine-7-sulfonamide"
+Chlorphenamine (Chlorpheniramine),Chlorphenamine,match,2725,CN(C)CCC(C1=CC=C(C=C1)Cl)C2=CC=CC=N2,274.79,3.4,"3-(4-chlorophenyl)-N,N-dimethyl-3-pyridin-2-ylpropan-1-amine"
+Chlorpromazine,Chlorpromazine,match,2726,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,318.9,5.2,"3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine"
+Chlorpropamide,Chlorpropamide,match,2727,CCCNC(=O)NS(=O)(=O)C1=CC=C(C=C1)Cl,276.74,2.3,1-(4-chlorophenyl)sulfonyl-3-propylurea
+Chlorprothixene,Chlorprothixene,match,667467,CN(C)CCC=C1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,315.9,5.2,"(3Z)-3-(2-chlorothioxanthen-9-ylidene)-N,N-dimethylpropan-1-amine"
+Chlorpyrifos,Chlorpyrifos,match,2730,CCOP(=S)(OCC)OC1=NC(=C(C=C1Cl)Cl)Cl,350.6,5.3,"diethoxy-sulfanylidene-[(3,5,6-trichloro-2-pyridinyl)oxy]-lambda5-phosphane"
+Chlortalidone,Chlortalidone,match,2732,C1=CC=C2C(=C1)C(=O)NC2(C3=CC(=C(C=C3)Cl)S(=O)(=O)N)O,338.8,0.9,2-chloro-5-(1-hydroxy-3-oxo-2H-isoindol-1-yl)benzenesulfonamide
+Chlortetracycline,Chlortetracycline,match,54675777,CC1(C2CC3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C(C=CC(=C41)Cl)O)O)O)O)C(=O)N)N(C)C)O,478.9,-1.3,"(4S,4aS,5aS,6S,12aR)-7-chloro-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide"
+Chromium,Chromium,match,23976,[Cr],51.996,,chromium
+Cibenzoline,Cibenzoline,match,2747,C1CN=C(N1)C2CC2(C3=CC=CC=C3)C4=CC=CC=C4,262.3,2.7,"2-(2,2-diphenylcyclopropyl)-4,5-dihydro-1H-imidazole"
+Cicletanine,Cicletanine,match,54910,CC1=NC=C2C(OCC2=C1O)C3=CC=C(C=C3)Cl,261.70,2.4,"3-(4-chlorophenyl)-6-methyl-1,3-dihydrofuro[3,4-c]pyridin-7-ol"
+"Ciclosporine A (Cyclosporine, CsA)",Ciclosporine,match,5284373,CCC1C(=O)N(CC(=O)N(C(C(=O)NC(C(=O)N(C(C(=O)NC(C(=O)NC(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N(C(C(=O)N1)C(C(C)CC=CC)O)C)C(C)C)C)CC(C)C)C)CC(C)C)C)C)C)CC(C)C)C)C(C)C)CC(C)C)C)C,1202.6,7.5,"(3S,6S,9S,12R,15S,18S,21S,24S,30S,33S)-30-ethyl-33-[(E,1R,2R)-1-hydroxy-2-methylhex-4-enyl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-di(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-2,5,8,11,14,17,20,23,26,29,32-undecone"
+Cidofovir,Cidofovir,match,60613,C1=CN(C(=O)N=C1N)CC(CO)OCP(=O)(O)O,279.19,-3.6,[(2S)-1-(4-amino-2-oxopyrimidin-1-yl)-3-hydroxypropan-2-yl]oxymethylphosphonic acid
+Cilazapril (Cilazaprilat),Cilazapril,match,56330,CCOC(=O)C(CCC1=CC=CC=C1)NC2CCCN3CCCC(N3C2=O)C(=O)O,417.5,0.6,"(4S,7S)-7-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]-6-oxo-1,2,3,4,7,8,9,10-octahydropyridazino[1,2-a]diazepine-4-carboxylic acid"
+Cilostazol,Cilostazol,match,2754,C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4,369.5,3.1,"6-[4-(1-cyclohexyltetrazol-5-yl)butoxy]-3,4-dihydro-1H-quinolin-2-one"
+Cimetidine,Cimetidine,match,2756,CC1=C(N=CN1)CSCCNC(=NC)NC#N,252.34,0.4,1-cyano-2-methyl-3-[2-[(5-methyl-1H-imidazol-4-yl)methylsulfanyl]ethyl]guanidine
+Cinnarizine,Cinnarizine,match,1547484,C1CN(CCN1CC=CC2=CC=CC=C2)C(C3=CC=CC=C3)C4=CC=CC=C4,368.5,5.8,1-benzhydryl-4-[(E)-3-phenylprop-2-enyl]piperazine
+Cinoxacin,Cinoxacin,match,2762,CCN1C2=CC3=C(C=C2C(=O)C(=N1)C(=O)O)OCO3,262.22,2.1,"1-ethyl-4-oxo-[1,3]dioxolo[4,5-g]cinnoline-3-carboxylic acid"
+Ciprofloxacin,Ciprofloxacin,match,2764,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,331.34,-1.1,1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid
+Citalopram,Citalopram,match,2771,CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F,324.4,3.2,1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile
+Cladribine,Cladribine,match,20279,C1C(C(OC1N2C=NC3=C(N=C(N=C32)Cl)N)CO)O,285.69,0.8,"(2R,3S,5R)-5-(6-amino-2-chloropurin-9-yl)-2-(hydroxymethyl)oxolan-3-ol"
+Clarithromycin,Clarithromycin,match,84029,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,748.0,3.2,"(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-12,13-dihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-7-methoxy-3,5,7,9,11,13-hexamethyl-oxacyclotetradecane-2,10-dione"
+Clemastine,Clemastine,match,26987,CC(C1=CC=CC=C1)(C2=CC=C(C=C2)Cl)OCCC3CCCN3C,343.9,5,(2R)-2-[2-[(1R)-1-(4-chlorophenyl)-1-phenylethoxy]ethyl]-1-methylpyrrolidine
+Clenbuterol,Clenbuterol,match,2783,CC(C)(C)NCC(C1=CC(=C(C(=C1)Cl)N)Cl)O,277.19,2.2,"1-(4-amino-3,5-dichlorophenyl)-2-(tert-butylamino)ethanol"
+Clindamycin,Clindamycin,match,446598,CCCC1CC(N(C1)C)C(=O)NC(C2C(C(C(C(O2)SC)O)O)O)C(C)Cl,425.0,2.2,"(2S,4R)-N-[(1S,2S)-2-chloro-1-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-methylsulfanyloxan-2-yl]propyl]-1-methyl-4-propylpyrrolidine-2-carboxamide"
+Clobazam,Clobazam,match,2789,CN1C(=O)CC(=O)N(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,300.74,2.1,"7-chloro-1-methyl-5-phenyl-1,5-benzodiazepine-2,4-dione"
+Clobutinol,Clobutinol,match,26937,CC(CN(C)C)C(C)(CC1=CC=C(C=C1)Cl)O,255.78,3.2,"1-(4-chlorophenyl)-4-(dimethylamino)-2,3-dimethylbutan-2-ol"
+Clodronate (Clodronic acid),Clodronate,match,25419,C(P(=O)(O)O)(P(=O)(O)O)(Cl)Cl,244.89,-2.1,[dichloro(phosphono)methyl]phosphonic acid
+Clofibrate,Clofibrate,match,2796,CCOC(=O)C(C)(C)OC1=CC=C(C=C1)Cl,242.70,3.3,ethyl 2-(4-chlorophenoxy)-2-methylpropanoate
+Clomethiazole (Chlormethiazole),Clomethiazole,match,10783,CC1=C(SC=N1)CCCl,161.65,2.1,"5-(2-chloroethyl)-4-methyl-1,3-thiazole"
+Clomipramine Clomipramin + N-Desmethylclomipramin,Clomipramine,match,2801,CN(C)CCCN1C2=CC=CC=C2CCC3=C1C=C(C=C3)Cl,314.9,5.2,"3-(2-chloro-5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine"
+Clonazepam,Clonazepam,match,2802,C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3Cl,315.71,2.4,"5-(2-chlorophenyl)-7-nitro-1,3-dihydro-1,4-benzodiazepin-2-one"
+Clonazolam,Clonazolam,match,12317881,CC1=NN=C2N1C3=C(C=C(C=C3)[N+](=O)[O-])C(=NC2)C4=CC=CC=C4Cl,353.8,1.6,"6-(2-chlorophenyl)-1-methyl-8-nitro-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+Clonidine,Clonidine,match,2803,C1CN=C(N1)NC2=C(C=CC=C2Cl)Cl,230.09,1.6,"N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine"
+Clopamide,Clopamide,match,12492,CC1CCCC(N1NC(=O)C2=CC(=C(C=C2)Cl)S(=O)(=O)N)C,345.8,2.3,"4-chloro-N-[(2S,6R)-2,6-dimethylpiperidin-1-yl]-3-sulfamoylbenzamide"
+Clopenthixol (Clopentixol),Clopenthixol,match,12454,C1CN(CCN1CCC=C2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO,401.0,4.3,2-[4-[3-(2-chlorothioxanthen-9-ylidene)propyl]piperazin-1-yl]ethanol
+Clopidogrel,Clopidogrel,match,60606,COC(=O)C(C1=CC=CC=C1Cl)N2CCC3=C(C2)C=CS3,321.8,3.8,"methyl (2S)-2-(2-chlorophenyl)-2-(6,7-dihydro-4H-thieno[3,2-c]pyridin-5-yl)acetate"
+Clotiazepam,Clotiazepam,match,2811,CCC1=CC2=C(S1)N(C(=O)CN=C2C3=CC=CC=C3Cl)C,318.8,3.5,"5-(2-chlorophenyl)-7-ethyl-1-methyl-3H-thieno[2,3-e][1,4]diazepin-2-one"
+Cloxacillin,Cloxacillin,match,6098,CC1=C(C(=NO1)C2=CC=CC=C2Cl)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O,435.9,2.4,"(2S,5R,6R)-6-[[3-(2-chlorophenyl)-5-methyl-1,2-oxazole-4-carbonyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Clozapine,Clozapine,match,135398737,CN1CCN(CC1)C2=NC3=C(C=CC(=C3)Cl)NC4=CC=CC=C42,326.8,3.1,"3-chloro-6-(4-methylpiperazin-1-yl)-11H-benzo[b][1,4]benzodiazepine"
+"25C-NBOMe (2-(4-chloro-2,5- dimethoxyphenyl)-N-[(2- methoxyphenyl)methyl]ethanamine)",25C-NBOMe,match,46856354,COC1=CC=CC=C1CNCCC2=CC(=C(C=C2OC)Cl)OC,335.8,3.8,"2-(4-chloro-2,5-dimethoxyphenyl)-N-[(2-methoxyphenyl)methyl]ethanamine"
+Cobalt,Cobalt,match,104730,[Co],58.93319,,cobalt
+Cocaine,Cocaine,match,446220,CN1C2CCC1C(C(C2)OC(=O)C3=CC=CC=C3)C(=O)OC,303.35,2.3,"methyl (1R,2R,3S,5S)-3-benzoyloxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate"
+Codeine,Codeine,match,5284371,CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(C=C4)O,299.4,1.1,"(4R,4aR,7S,7aR,12bS)-9-methoxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol"
+Colchicine,Colchicine,match,6167,CC(=O)NC1CCC2=CC(=C(C(=C2C3=CC=C(C(=O)C=C13)OC)OC)OC)OC,399.4,1,"N-[(7S)-1,2,3,10-tetramethoxy-9-oxo-6,7-dihydro-5H-benzo[a]heptalen-7-yl]acetamide"
+Colistin,Colistin,match,5311054,CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(C)O)C(=O)NC(CCN)C(=O)NC1CCNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC1=O)CCN)CC(C)C)CC(C)C)CCN)CCN)C(C)O,1155.4,-3.3,"N-[(2S)-4-amino-1-[[(2S,3R)-1-[[(2S)-4-amino-1-oxo-1-[[(3S,6S,9S,12S,15R,18S,21S)-6,9,18-tris(2-aminoethyl)-3-[(1R)-1-hydroxyethyl]-12,15-bis(2-methylpropyl)-2,5,8,11,14,17,20-heptaoxo-1,4,7,10,13,16,19-heptazacyclotricos-21-yl]amino]butan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxobutan-2-yl]-5-methylheptanamide"
+Copper,Copper,match,23978,[Cu],63.55,,copper
+Coumatetralyl,Coumatetralyl,match,54678504,C1CC(C2=CC=CC=C2C1)C3=C(C4=CC=CC=C4OC3=O)O,292.3,4.1,"4-hydroxy-3-(1,2,3,4-tetrahydronaphthalen-1-yl)chromen-2-one"
+Cromolyn (Cromoglycate),Cromolyn,match,2882,C1=CC2=C(C(=C1)OCC(COC3=CC=CC4=C3C(=O)C=C(O4)C(=O)O)O)C(=O)C=C(O2)C(=O)O,468.4,1.9,5-[3-(2-carboxy-4-oxochromen-5-yl)oxy-2-hydroxypropoxy]-4-oxochromene-2-carboxylic acid
+5F-Cumyl-PEGACLONE,5F-Cumyl-PEGACLONE,match,134818048,CC(C)(C1=CC=CC=C1)N2C=CC3=C(C2=O)C4=CC=CC=C4N3CCCCCF,390.5,5.1,"5-(5-fluoropentyl)-2-(2-phenylpropan-2-yl)pyrido[4,3-b]indol-1-one"
+Cyanide,Cyanide,match,5975,[C-]#N,26.017,0.1,cyanide
+Cyclizine,Cyclizine,match,6726,CN1CCN(CC1)C(C2=CC=CC=C2)C3=CC=CC=C3,266.4,3.6,1-benzhydryl-4-methylpiperazine
+Cyclobarbital,Cyclobarbital,match,5838,CCC1(C(=O)NC(=O)NC1=O)C2=CCCCC2,236.27,1.8,"5-(cyclohexen-1-yl)-5-ethyl-1,3-diazinane-2,4,6-trione"
+Cyclobenzaprine,Cyclobenzaprine,match,2895,CN(C)CCC=C1C2=CC=CC=C2C=CC3=CC=CC=C31,275.4,5.2,"N,N-dimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenylidene)propan-1-amine"
+Cyclohexane,Cyclohexane,match,8078,C1CCCCC1,84.16,3.4,cyclohexane
+Cyclophosphamide,Cyclophosphamide,match,2907,C1CNP(=O)(OC1)N(CCCl)CCCl,261.08,0.6,"N,N-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine"
+Cyclopropane,Cyclopropane,match,6351,C1CC1,42.08,1.6,cyclopropane
+Cyclopropylfentanyl,Cyclopropylfentanyl,match,137332271,C1CC1C(=O)N(C2CCN(CC2)CCC3=CC=CC=C3)C4=CC=CC=C4,348.5,4,N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]cyclopropanecarboxamide
+Cyproheptadine,Cyproheptadine,match,2913,CN1CCC(=C2C3=CC=CC=C3C=CC4=CC=CC=C42)CC1,287.4,4.7,"1-methyl-4-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenylidene)piperidine"
+Cyproterone acetate,Cyproterone acetate,match,9880,CC(=O)C1(CCC2C1(CCC3C2C=C(C4=CC(=O)C5CC5C34C)Cl)C)OC(=O)C,416.9,3.6,"[(1S,2S,3S,5R,11R,12S,15R,16S)-15-acetyl-9-chloro-2,16-dimethyl-6-oxo-15-pentacyclo[9.7.0.02,8.03,5.012,16]octadeca-7,9-dienyl] acetate"
+Cysteamine,Cysteamine,match,6058,C(CS)N,77.15,-0.4,2-aminoethanethiol
+Cytarabine,Cytarabine,match,6253,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)O,243.22,-2.1,"4-amino-1-[(2R,3S,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one"
+Dabigatran,Dabigatran,match,216210,CN1C2=C(C=C(C=C2)C(=O)N(CCC(=O)O)C3=CC=CC=N3)N=C1CNC4=CC=C(C=C4)C(=N)N,471.5,1.7,3-[[2-[(4-carbamimidoylanilino)methyl]-1-methylbenzimidazole-5-carbonyl]-pyridin-2-ylamino]propanoic acid
+Dalfampridine,Dalfampridine,match,1727,C1=CN=CC=C1N,94.11,0.3,pyridin-4-amine
+Danazol,Danazol,match,28417,CC12CCC3C(C1CCC2(C#C)O)CCC4=CC5=C(CC34C)C=NO5,337.5,3.8,"(1S,2R,13R,14S,17R,18S)-17-ethynyl-2,18-dimethyl-7-oxa-6-azapentacyclo[11.7.0.02,10.04,8.014,18]icosa-4(8),5,9-trien-17-ol"
+Dantrolene,Dantrolene,match,6914273,C1C(=O)NC(=O)N1N=CC2=CC=C(O2)C3=CC=C(C=C3)[N+](=O)[O-],314.25,1.7,"1-[(E)-[5-(4-nitrophenyl)furan-2-yl]methylideneamino]imidazolidine-2,4-dione"
+Dapagliflozin,Dapagliflozin,match,9887712,CCOC1=CC=C(C=C1)CC2=C(C=CC(=C2)C3C(C(C(C(O3)CO)O)O)O)Cl,408.9,2.3,"(2S,3R,4R,5S,6R)-2-[4-chloro-3-[(4-ethoxyphenyl)methyl]phenyl]-6-(hydroxymethyl)oxane-3,4,5-triol"
+Dapsone,Dapsone,match,2955,C1=CC(=CC=C1N)S(=O)(=O)C2=CC=C(C=C2)N,248.30,1,4-(4-aminophenyl)sulfonylaniline
+Daptomycin,Daptomycin,match,21585658,CCCCCCCCCC(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(CC(=O)N)C(=O)NC(CC(=O)O)C(=O)NC3C(OC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC(=O)C(NC(=O)C(NC(=O)C(NC(=O)C(NC(=O)CNC3=O)CCCN)CC(=O)O)C)CC(=O)O)CO)C(C)CC(=O)O)CC(=O)C4=CC=CC=C4N)C,1620.7,-5.1,"(3S)-3-[[(2R)-4-amino-2-[[(2S)-2-(decanoylamino)-3-(1H-indol-3-yl)propanoyl]amino]-4-oxobutanoyl]amino]-4-[[(3S,6S,9R,15S,18R,21S,24S,30S,31R)-3-[2-(2-aminophenyl)-2-oxoethyl]-24-(3-aminopropyl)-15,21-bis(carboxymethyl)-6-[(2R)-1-carboxypropan-2-yl]-9-(hydroxymethyl)-18,31-dimethyl-2,5,8,11,14,17,20,23,26,29-decaoxo-1-oxa-4,7,10,13,16,19,22,25,28-nonazacyclohentriacont-30-yl]amino]-4-oxobutanoic acid"
+Darifenacin,Darifenacin,match,444031,C1CN(CC1C(C2=CC=CC=C2)(C3=CC=CC=C3)C(=O)N)CCC4=CC5=C(C=C4)OCC5,426.5,4.6,"2-[(3S)-1-[2-(2,3-dihydro-1-benzofuran-5-yl)ethyl]pyrrolidin-3-yl]-2,2-diphenylacetamide"
+Darunavir (DRV),Darunavir (DRV),match,213039,CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2COC3C2CCO3)O)S(=O)(=O)C4=CC=C(C=C4)N,547.7,2.9,"[(3aS,4R,6aR)-2,3,3a,4,5,6a-hexahydrofuro[2,3-b]furan-4-yl] N-[(2S,3R)-4-[(4-aminophenyl)sulfonyl-(2-methylpropyl)amino]-3-hydroxy-1-phenylbutan-2-yl]carbamate"
+Deferoxamine (Desferrioxamine),Deferoxamine,match,2973,CC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCNC(=O)CCC(=O)N(CCCCCN)O)O)O,560.7,-2.1,N-[5-[[4-[5-[acetyl(hydroxy)amino]pentylamino]-4-oxobutanoyl]-hydroxyamino]pentyl]-N'-(5-aminopentyl)-N'-hydroxybutanediamide
+Delorazepam,Delorazepam,match,17925,C1C(=O)NC2=C(C=C(C=C2)Cl)C(=N1)C3=CC=CC=C3Cl,305.2,3.1,"7-chloro-5-(2-chlorophenyl)-1,3-dihydro-1,4-benzodiazepin-2-one"
+Demoxepam,Demoxepam,match,13756,C1C(=O)N=C2C=CC(=CC2=C(N1O)C3=CC=CC=C3)Cl,286.71,2.3,"7-chloro-4-hydroxy-5-phenyl-3H-1,4-benzodiazepin-2-one"
+Desipramine,Desipramine,match,2995,CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C31,266.4,4.9,"3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N-methylpropan-1-amine"
+Desloratadine,Desloratadine,match,124087,C1CC2=C(C=CC(=C2)Cl)C(=C3CCNCC3)C4=C1C=CC=N4,310.8,4.5,"13-chloro-2-piperidin-4-ylidene-4-azatricyclo[9.4.0.03,8]pentadeca-1(11),3(8),4,6,12,14-hexaene"
+Detajmium,Detajmium,match,118984402,CCC1C2CC3C4C5(CC(C2C5O)[N+]3(C1O)CC(CN(CC)CC)O)C6=CC=CC=C6N4C,456.6,2,"(1R,9R,10S,13S,14R,15R,16S,17R,18R)-15-[3-(diethylamino)-2-hydroxypropyl]-13-ethyl-8-methyl-8-aza-15-azoniahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6-triene-14,18-diol"
+Dexamethasone,Dexamethasone,match,5743,CC1CC2C3CCC4=CC(=O)C=CC4(C3(C(CC2(C1(C(=O)CO)O)C)O)F)C,392.5,1.9,"(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one"
+Dexfenfluramine,Dexfenfluramine,match,66265,CCNC(C)CC1=CC(=CC=C1)C(F)(F)F,231.26,3.4,(2S)-N-ethyl-1-[3-(trifluoromethyl)phenyl]propan-2-amine
+Dexketoprofen,Dexketoprofen,match,667550,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,254.28,3.1,(2S)-2-(3-benzoylphenyl)propanoic acid
+Dexmedetomidine,Dexmedetomidine,match,5311068,CC1=C(C(=CC=C1)C(C)C2=CN=CN2)C,200.28,3.1,"5-[(1S)-1-(2,3-dimethylphenyl)ethyl]-1H-imidazole"
+Dexmethylphenidate,Dexmethylphenidate,match,154101,COC(=O)C(C1CCCCN1)C2=CC=CC=C2,233.31,0.2,methyl (2R)-2-phenyl-2-[(2R)-piperidin-2-yl]acetate
+Dextromethorphan,Dextromethorphan,match,5360696,CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)OC,271.4,3.4,"(1S,9S,10S)-4-methoxy-17-methyl-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene"
+Dextromoramide,Dextromoramide,match,92943,CC(CN1CCOCC1)C(C2=CC=CC=C2)(C3=CC=CC=C3)C(=O)N4CCCC4,392.5,3.8,"(3S)-3-methyl-4-morpholin-4-yl-2,2-diphenyl-1-pyrrolidin-1-ylbutan-1-one"
+Dextropropoxyphene,Dextropropoxyphene,match,10100,CCC(=O)OC(CC1=CC=CC=C1)(C2=CC=CC=C2)C(C)CN(C)C,339.5,4.2,"[(2S,3R)-4-(dimethylamino)-3-methyl-1,2-diphenylbutan-2-yl] propanoate"
+Diazepam,Diazepam,match,3016,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,284.74,3,"7-chloro-1-methyl-5-phenyl-3H-1,4-benzodiazepin-2-one"
+Diazinon,Diazinon,match,3017,CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C,304.35,3.8,diethoxy-(6-methyl-2-propan-2-ylpyrimidin-4-yl)oxy-sulfanylidene-lambda5-phosphane
+Diazoxide,Diazoxide,match,3019,CC1=NS(=O)(=O)C2=C(N1)C=CC(=C2)Cl,230.67,1.2,"7-chloro-3-methyl-4H-1lambda6,2,4-benzothiadiazine 1,1-dioxide"
+Dibenzepine,Dibenzepine,match,9419,CN1C2=CC=CC=C2C(=O)N(C3=CC=CC=C31)CCN(C)C,295.4,2.7,"5-[2-(dimethylamino)ethyl]-11-methylbenzo[b][1,4]benzodiazepin-6-one"
+Dichloromethane,Dichloromethane,match,6344,C(Cl)Cl,84.93,1.5,dichloromethane
+"2,4-Dichlorophenoxyacetic acid (2,4-D)","2,4-Dichlorophenoxyacetic acid (2,4-D)",match,1486,C1=CC(=C(C=C1Cl)Cl)OCC(=O)O,221.03,2.8,"2-(2,4-dichlorophenoxy)acetic acid"
+Dichlorprop,Dichlorprop,match,8427,CC(C(=O)O)OC1=C(C=C(C=C1)Cl)Cl,235.06,3.4,"2-(2,4-dichlorophenoxy)propanoic acid"
+"Dichlorvos (2,2-Dichlorvinyl-dimethyl- phosphate, DDVP)",Dichlorvos,match,3039,COP(=O)(OC)OC=C(Cl)Cl,220.97,1.4,"2,2-dichloroethenyl dimethyl phosphate"
+Diclazepam,Diclazepam,match,76168,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3Cl,319.2,3.1,"7-chloro-5-(2-chlorophenyl)-1-methyl-3H-1,4-benzodiazepin-2-one"
+Diclofenac,Diclofenac,match,3033,C1=CC=C(C(=C1)CC(=O)O)NC2=C(C=CC=C2Cl)Cl,296.1,4.4,"2-[2-(2,6-dichloroanilino)phenyl]acetic acid"
+Dicoumarol,Dicoumarol,match,54676038,C1=CC=C2C(=C1)C(=C(C(=O)O2)CC3=C(C4=CC=CC=C4OC3=O)O)O,336.3,2.6,4-hydroxy-3-[(4-hydroxy-2-oxochromen-3-yl)methyl]chromen-2-one
+Dicyclomine (Dicycloverin),Dicyclomine,match,3042,CCN(CC)CCOC(=O)C1(CCCCC1)C2CCCCC2,309.5,5.5,2-(diethylamino)ethyl 1-cyclohexylcyclohexane-1-carboxylate
+Didanosine (DDI),Didanosine,match,135398739,C1CC(OC1CO)N2C=NC3=C2N=CNC3=O,236.23,-1.2,"9-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]-1H-purin-6-one"
+Dieldrin,Dieldrin,match,969491,C1C2C3C(C1C4C2O4)C5(C(=C(C3(C5(Cl)Cl)Cl)Cl)Cl)Cl,380.9,3.7,"(1R,2S,3S,6R,7R,8S,9S,11R)-3,4,5,6,13,13-hexachloro-10-oxapentacyclo[6.3.1.13,6.02,7.09,11]tridec-4-ene"
+Diethylcarbamazine,Diethylcarbamazine,match,3052,CCN(CC)C(=O)N1CCN(CC1)C,199.29,0.3,"N,N-diethyl-4-methylpiperazine-1-carboxamide"
+"N,N-Diethyl-3-methylbenzamide (N,N- Diethyl-m-toluamide; DEET)","N,N-Diethyl-3-methylbenzamide",match,4284,CCN(CC)C(=O)C1=CC=CC(=C1)C,191.27,2,"N,N-diethyl-3-methylbenzamide"
+Diethylpentenamide (Valdetamide),Diethylpentenamide,match,129632608,CCC(C)(CC)C=CC(=O)N,155.24,2.4,4-ethyl-4-methylhex-2-enamide
+Diethylpropion,Diethylpropion,match,7029,CCN(CC)C(C)C(=O)C1=CC=CC=C1,205.30,2.8,2-(diethylamino)-1-phenylpropan-1-one
+Difenacoum,Difenacoum,match,54676884,C1C(CC2=CC=CC=C2C1C3=C(C4=CC=CC=C4OC3=O)O)C5=CC=C(C=C5)C6=CC=CC=C6,444.5,6.9,"4-hydroxy-3-[3-(4-phenylphenyl)-1,2,3,4-tetrahydronaphthalen-1-yl]chromen-2-one"
+Diflunisal,Diflunisal,match,3059,C1=CC(=C(C=C1C2=C(C=C(C=C2)F)F)C(=O)O)O,250.20,4.4,"5-(2,4-difluorophenyl)-2-hydroxybenzoic acid"
+Digitoxin,Digitoxin,match,441207,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CCC7(C6(CCC7C8=CC(=O)OC8)O)C)C)C)C)O)O,764.9,2.3,"3-[(3S,5R,8R,9S,10S,13R,14S,17R)-3-[(2R,4S,5S,6R)-5-[(2S,4S,5S,6R)-5-[(2S,4S,5S,6R)-4,5-dihydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-14-hydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one"
+Digoxin,Digoxin,match,2724385,CC1C(C(CC(O1)OC2C(OC(CC2O)OC3C(OC(CC3O)OC4CCC5(C(C4)CCC6C5CC(C7(C6(CCC7C8=CC(=O)OC8)O)C)O)C)C)C)O)O,780.9,1.3,"3-[(3S,5R,8R,9S,10S,12R,13S,14S,17R)-3-[(2R,4S,5S,6R)-5-[(2S,4S,5S,6R)-5-[(2S,4S,5S,6R)-4,5-dihydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-12,14-dihydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one"
+Dihydrocodeine,Dihydrocodeine,match,5284543,CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(CC4)O,301.4,2.2,"(4R,4aR,7S,7aR,12bS)-9-methoxy-3-methyl-2,4,4a,5,6,7,7a,13-octahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol"
+Dihydroergotamine,Dihydroergotamine,match,10531,CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CC6C(CC7=CNC8=CC=CC6=C78)N(C5)C,583.7,2.4,"(6aR,9R,10aR)-N-[(1S,2S,4R,7S)-7-benzyl-2-hydroxy-4-methyl-5,8-dioxo-3-oxa-6,9-diazatricyclo[7.3.0.02,6]dodecan-4-yl]-7-methyl-6,6a,8,9,10,10a-hexahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+Diltiazem,Diltiazem,match,39186,CC(=O)OC1C(SC2=CC=CC=C2N(C1=O)CCN(C)C)C3=CC=C(C=C3)OC,414.5,3.1,"[(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3-dihydro-1,5-benzothiazepin-3-yl] acetate"
+Dimethadione,Dimethadione,match,3081,CC1(C(=O)NC(=O)O1)C,129.11,0.1,"5,5-dimethyl-1,3-oxazolidine-2,4-dione"
+Dimethindene,Dimethindene,match,21855,CC(C1=CC=CC=N1)C2=C(CC3=CC=CC=C32)CCN(C)C,292.4,2.7,"N,N-dimethyl-2-[3-(1-pyridin-2-ylethyl)-1H-inden-2-yl]ethanamine"
+Dimethoate,Dimethoate,match,3082,CNC(=O)CSP(=S)(OC)OC,229.3,0.8,2-dimethoxyphosphinothioylsulfanyl-N-methylacetamide
+"2,5-Dimethoxy-4-bromoamphetamine (DOB)","2,5-Dimethoxy-4-bromoamphetamine",match,62065,CC(CC1=CC(=C(C=C1OC)Br)OC)N,274.15,2.6,"1-(4-bromo-2,5-dimethoxyphenyl)propan-2-amine"
+"2,5-Dimethoxy-4-bromophenethylamine (2C-B)","2,5-Dimethoxy-4-bromophenethylamine",match,98527,COC1=CC(=C(C=C1CCN)OC)Br,260.13,2.1,"2-(4-bromo-2,5-dimethoxyphenyl)ethanamine"
+"3,4-Dimethylmethcathinone (3,4-DMMC)","3,4-Dimethylmethcathinone",match,52988261,CC1=C(C=C(C=C1)C(=O)C(C)NC)C,191.27,2.3,"1-(3,4-dimethylphenyl)-2-(methylamino)propan-1-one"
+"N,N-Dimethyltryptamine","N,N-Dimethyltryptamine",match,6089,CN(C)CCC1=CNC2=CC=CC=C21,188.27,2.5,"2-(1H-indol-3-yl)-N,N-dimethylethanamine"
+Diphenhydramine,Diphenhydramine,match,3100,CN(C)CCOC(C1=CC=CC=C1)C2=CC=CC=C2,255.35,3.3,"2-benzhydryloxy-N,N-dimethylethanamine"
+Diphenidine,Diphenidine,match,206666,C1CCN(CC1)C(CC2=CC=CC=C2)C3=CC=CC=C3,265.4,4.6,"1-(1,2-diphenylethyl)piperidine"
+Diphenoxylate,Diphenoxylate,match,13505,CCOC(=O)C1(CCN(CC1)CCC(C#N)(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4,452.6,5.7,"ethyl 1-(3-cyano-3,3-diphenylpropyl)-4-phenylpiperidine-4-carboxylate"
+Dipipanone,Dipipanone,match,13331,CCC(=O)C(CC(C)N1CCCCC1)(C2=CC=CC=C2)C3=CC=CC=C3,349.5,4.8,"4,4-diphenyl-6-piperidin-1-ylheptan-3-one"
+Dipyridamole,Dipyridamole,match,3108,C1CCN(CC1)C2=NC(=NC3=C2N=C(N=C3N4CCCCC4)N(CCO)CCO)N(CCO)CCO,504.6,0.7,"2-[[2-[bis(2-hydroxyethyl)amino]-4,8-di(piperidin-1-yl)pyrimido[5,4-d]pyrimidin-6-yl]-(2-hydroxyethyl)amino]ethanol"
+Diquat,Diquat,match,6795,C1C[N+]2=CC=CC=C2C3=CC=CC=[N+]31,184.24,1.4,"7,10-diazoniatricyclo[8.4.0.02,7]tetradeca-1(14),2,4,6,10,12-hexaene"
+Disopyramide,Disopyramide,match,3114,CC(C)N(CCC(C1=CC=CC=C1)(C2=CC=CC=N2)C(=O)N)C(C)C,339.5,3.2,4-[di(propan-2-yl)amino]-2-phenyl-2-pyridin-2-ylbutanamide
+Disulfiram,Disulfiram,match,3117,CCN(CC)C(=S)SSC(=S)N(CC)CC,296.5,3.9,"diethylcarbamothioylsulfanyl N,N-diethylcarbamodithioate"
+Dixyrazine,Dixyrazine,match,17182,CC(CN1CCN(CC1)CCOCCO)CN2C3=CC=CC=C3SC4=CC=CC=C42,427.6,3.7,2-[2-[4-(2-methyl-3-phenothiazin-10-ylpropyl)piperazin-1-yl]ethoxy]ethanol
+Dofetilide,Dofetilide,match,71329,CN(CCC1=CC=C(C=C1)NS(=O)(=O)C)CCOC2=CC=C(C=C2)NS(=O)(=O)C,441.6,1.8,N-[4-[2-[2-[4-(methanesulfonamido)phenoxy]ethyl-methylamino]ethyl]phenyl]methanesulfonamide
+Domperidone,Domperidone,match,3151,C1CN(CCC1N2C3=C(C=C(C=C3)Cl)NC2=O)CCCN4C5=CC=CC=C5NC4=O,425.9,3.9,6-chloro-3-[1-[3-(2-oxo-3H-benzimidazol-1-yl)propyl]piperidin-4-yl]-1H-benzimidazol-2-one
+Donepezil,Donepezil,match,3152,COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC,379.5,4.3,"2-[(1-benzylpiperidin-4-yl)methyl]-5,6-dimethoxy-2,3-dihydroinden-1-one"
+Doripenem,Doripenem,match,73303,CC1C2C(C(=O)N2C(=C1SC3CC(NC3)CNS(=O)(=O)N)C(=O)O)C(C)O,420.5,-3.4,"(4R,5S,6S)-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-3-[(3S,5S)-5-[(sulfamoylamino)methyl]pyrrolidin-3-yl]sulfanyl-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
+Dothiepin (Dosulepin),Dothiepin,match,3155,CN(C)CCC=C1C2=CC=CC=C2CSC3=CC=CC=C31,295.4,4.5,"3-(6H-benzo[c][1]benzothiepin-11-ylidene)-N,N-dimethylpropan-1-amine"
+Doxacurium,Doxacurium,match,60169,C[N+]1(CCC2=CC(=C(C(=C2C1CC3=CC(=C(C(=C3)OC)OC)OC)OC)OC)OC)CCCOC(=O)CCC(=O)OCCC[N+]4(CCC5=CC(=C(C(=C5C4CC6=CC(=C(C(=C6)OC)OC)OC)OC)OC)OC)C,1035.2,7.4,"bis[3-[6,7,8-trimethoxy-2-methyl-1-[(3,4,5-trimethoxyphenyl)methyl]-3,4-dihydro-1H-isoquinolin-2-ium-2-yl]propyl] butanedioate"
+Doxapram,Doxapram,match,3156,CCN1CC(C(C1=O)(C2=CC=CC=C2)C3=CC=CC=C3)CCN4CCOCC4,378.5,3.3,"1-ethyl-4-(2-morpholin-4-ylethyl)-3,3-diphenylpyrrolidin-2-one"
+Doxazosin,Doxazosin,match,3157,COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4COC5=CC=CC=C5O4)N)OC,451.5,2.5,"[4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(2,3-dihydro-1,4-benzodioxin-3-yl)methanone"
+Doxepin Doxepin plus N-desmethyldoxepin,Doxepin,match,3158,CN(C)CCC=C1C2=CC=CC=C2COC3=CC=CC=C31,279.4,4.3,"3-(6H-benzo[c][1]benzoxepin-11-ylidene)-N,N-dimethylpropan-1-amine"
+Doxorubicin (Adriamycin),Doxorubicin (Adriamycin),match,51066577,CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O.Cl,580.0,,"(7R,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione;hydrochloride"
+Doxycycline,Doxycycline,match,54671203,CC1C2C(C3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O,444.4,-0.7,"(4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide"
+Doxylamine,Doxylamine,match,3162,CC(C1=CC=CC=C1)(C2=CC=CC=N2)OCCN(C)C,270.37,2.5,"N,N-dimethyl-2-(1-phenyl-1-pyridin-2-ylethoxy)ethanamine"
+"Dronabinol (Delta-9-tetrahydrocannabinol, THC)",Dronabinol,match,16078,CCCCCC1=CC(=C2C3C=C(CCC3C(OC2=C1)(C)C)C)O,314.5,7,"(6aR,10aR)-6,6,9-trimethyl-3-pentyl-6a,7,8,10a-tetrahydrobenzo[c]chromen-1-ol"
+Dronedarone,Dronedarone,match,208898,CCCCC1=C(C2=C(O1)C=CC(=C2)NS(=O)(=O)C)C(=O)C3=CC=C(C=C3)OCCCN(CCCC)CCCC,556.8,7.2,N-[2-butyl-3-[4-[3-(dibutylamino)propoxy]benzoyl]-1-benzofuran-5-yl]methanesulfonamide
+Droperidol,Droperidol,match,3168,C1CN(CC=C1N2C3=CC=CC=C3NC2=O)CCCC(=O)C4=CC=C(C=C4)F,379.4,3.5,"3-[1-[4-(4-fluorophenyl)-4-oxobutyl]-3,6-dihydro-2H-pyridin-4-yl]-1H-benzimidazol-2-one"
+Duloxetine,Duloxetine,match,60835,CNCCC(C1=CC=CS1)OC2=CC=CC3=CC=CC=C32,297.4,4.3,(3S)-N-methyl-3-naphthalen-1-yloxy-3-thiophen-2-ylpropan-1-amine
+Dutasteride,Dutasteride,match,6918296,CC12CCC3C(C1CCC2C(=O)NC4=C(C=CC(=C4)C(F)(F)F)C(F)(F)F)CCC5C3(C=CC(=O)N5)C,528.5,5.4,"(1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-[2,5-bis(trifluoromethyl)phenyl]-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide"
+Dyphylline,Dyphylline,match,3182,CN1C2=C(C(=O)N(C1=O)C)N(C=N2)CC(CO)O,254.24,-1.8,"7-(2,3-dihydroxypropyl)-1,3-dimethylpurine-2,6-dione"
+Ecamsule (Mexoryl SX),Ecamsule,match,146382,CC1(C2CCC1(C(=O)C2=CC3=CC=C(C=C3)C=C4C5CCC(C4=O)(C5(C)C)CS(=O)(=O)O)CS(=O)(=O)O)C,562.7,3.1,"[3-[[4-[[7,7-dimethyl-3-oxo-4-(sulfomethyl)-2-bicyclo[2.2.1]heptanylidene]methyl]phenyl]methylidene]-7,7-dimethyl-2-oxo-1-bicyclo[2.2.1]heptanyl]methanesulfonic acid"
+Ecdysterone,Ecdysterone,match,118701161,CC12CCC3C(=CC(=O)C4C3(CC(C(C4)O)O)C)C1(CCC2C(C)(C(CCC(C)(C)O)O)O)O,480.6,0.5,"(2S,3R,10R,13R,14S,17S)-2,3,14-trihydroxy-10,13-dimethyl-17-[(3R)-2,3,6-trihydroxy-6-methylheptan-2-yl]-2,3,4,5,9,11,12,15,16,17-decahydro-1H-cyclopenta[a]phenanthren-6-one"
+Edoxaban,Edoxaban,match,10280735,CN1CCC2=C(C1)SC(=N2)C(=O)NC3CC(CCC3NC(=O)C(=O)NC4=NC=C(C=C4)Cl)C(=O)N(C)C,548.1,1.4,"N'-(5-chloro-2-pyridinyl)-N-[(1S,2R,4S)-4-(dimethylcarbamoyl)-2-[(5-methyl-6,7-dihydro-4H-[1,3]thiazolo[5,4-c]pyridine-2-carbonyl)amino]cyclohexyl]oxamide"
+Edrophonium,Edrophonium,match,3202,CC[N+](C)(C)C1=CC(=CC=C1)O,166.24,1.8,ethyl-(3-hydroxyphenyl)-dimethylazanium
+Efavirenz (EFV),Efavirenz,match,64139,C1CC1C#CC2(C3=C(C=CC(=C3)Cl)NC(=O)O2)C(F)(F)F,315.67,4,"(4S)-6-chloro-4-(2-cyclopropylethynyl)-4-(trifluoromethyl)-1H-3,1-benzoxazin-2-one"
+Eletriptan,Eletriptan,match,77993,CN1CCCC1CC2=CNC3=C2C=C(C=C3)CCS(=O)(=O)C4=CC=CC=C4,382.5,4.1,5-[2-(benzenesulfonyl)ethyl]-3-[[(2R)-1-methylpyrrolidin-2-yl]methyl]-1H-indole
+Embutramide,Embutramide,match,27453,CCC(CC)(CNC(=O)CCCO)C1=CC(=CC=C1)OC,293.4,2.7,N-[2-ethyl-2-(3-methoxyphenyl)butyl]-4-hydroxybutanamide
+Emetine,Emetine,match,10219,CCC1CN2CCC3=CC(=C(C=C3C2CC1CC4C5=CC(=C(C=C5CCN4)OC)OC)OC)OC,480.6,4.7,"(2S,3R,11bS)-2-[[(1R)-6,7-dimethoxy-1,2,3,4-tetrahydroisoquinolin-1-yl]methyl]-3-ethyl-9,10-dimethoxy-2,3,4,6,7,11b-hexahydro-1H-benzo[a]quinolizine"
+Empagliflozin,Empagliflozin,match,11949646,C1COCC1OC2=CC=C(C=C2)CC3=C(C=CC(=C3)C4C(C(C(C(O4)CO)O)O)O)Cl,450.9,2,"(2S,3R,4R,5S,6R)-2-[4-chloro-3-[[4-[(3S)-oxolan-3-yl]oxyphenyl]methyl]phenyl]-6-(hydroxymethyl)oxane-3,4,5-triol"
+Emtricitabine,Emtricitabine,match,60877,C1C(OC(S1)CO)N2C=C(C(=NC2=O)N)F,247.25,-0.6,"4-amino-5-fluoro-1-[(2R,5S)-2-(hydroxymethyl)-1,3-oxathiolan-5-yl]pyrimidin-2-one"
+Enalapril,Enalapril,match,5388962,CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CCCC2C(=O)O,376.4,-0.1,(2S)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]pyrrolidine-2-carboxylic acid
+Encainide,Encainide,match,48041,CN1CCCCC1CCC2=CC=CC=C2NC(=O)C3=CC=C(C=C3)OC,352.5,4.3,4-methoxy-N-[2-[2-(1-methylpiperidin-2-yl)ethyl]phenyl]benzamide
+Endrin,Endrin,match,12358480,C1C2C3C(C1C4C2O4)C5(C(=C(C3(C5(Cl)Cl)Cl)Cl)Cl)Cl,380.9,3.7,"(1R,2R,3R,6S,7S,8S,9S,11R)-3,4,5,6,13,13-hexachloro-10-oxapentacyclo[6.3.1.13,6.02,7.09,11]tridec-4-ene"
+Enflurane,Enflurane,match,3226,C(C(OC(F)F)(F)F)(F)Cl,184.49,2.1,"2-chloro-1-(difluoromethoxy)-1,1,2-trifluoroethane"
+Enfuvirtide,Enfuvirtide,match,16130199,CCC(C)C(C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CCC(=O)N)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CCC(=O)N)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)NC(CC1=CNC2=CC=CC=C21)C(=O)NC(C)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC3=CNC4=CC=CC=C43)C(=O)NC(CC(=O)N)C(=O)NC(CC5=CNC6=CC=CC=C65)C(=O)NC(CC7=CC=CC=C7)C(=O)N)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(CC8=CN=CN8)NC(=O)C(C(C)CC)NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)C(C(C)O)NC(=O)C(CC9=CC=C(C=C9)O)NC(=O)C,4492,-14.7,"(4S)-4-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-acetamido-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-3-methylpentanoyl]amino]-3-(1H-imidazol-5-yl)propanoyl]amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-3-methylpentanoyl]amino]-4-carboxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxypropanoyl]amino]-5-amino-5-oxopentanoyl]amino]-4-amino-4-oxobutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-5-amino-5-oxopentanoyl]amino]-5-[[(2S)-6-amino-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-oxopentanoic acid"
+Enoxacin,Enoxacin,match,3229,CCN1C=C(C(=O)C2=CC(=C(N=C21)N3CCNCC3)F)C(=O)O,320.32,-0.2,"1-ethyl-6-fluoro-4-oxo-7-piperazin-1-yl-1,8-naphthyridine-3-carboxylic acid"
+Enoximone,Enoximone,match,53708,CC1=C(NC(=O)N1)C(=O)C2=CC=C(C=C2)SC,248.30,1.6,"4-methyl-5-(4-methylsulfanylbenzoyl)-1,3-dihydroimidazol-2-one"
+Enprofylline,Enprofylline,match,1676,CCCN1C2=C(C(=O)NC1=O)NC=N2,194.19,0.3,"3-propyl-7H-purine-2,6-dione"
+Entacapone,Entacapone,match,5281081,CCN(CC)C(=O)C(=CC1=CC(=C(C(=C1)O)O)[N+](=O)[O-])C#N,305.29,2.1,"(E)-2-cyano-3-(3,4-dihydroxy-5-nitrophenyl)-N,N-diethylprop-2-enamide"
+Enzalutamide,Enzalutamide,match,15951529,CC1(C(=O)N(C(=S)N1C2=CC(=C(C=C2)C(=O)NC)F)C3=CC(=C(C=C3)C#N)C(F)(F)F)C,464.4,3.6,"4-[3-[4-cyano-3-(trifluoromethyl)phenyl]-5,5-dimethyl-4-oxo-2-sulfanylideneimidazolidin-1-yl]-2-fluoro-N-methylbenzamide"
+Eperisone,Eperisone,match,3236,CCC1=CC=C(C=C1)C(=O)C(C)CN2CCCCC2,259.4,3.8,1-(4-ethylphenyl)-2-methyl-3-piperidin-1-ylpropan-1-one
+Ephedrine,Ephedrine,match,9294,CC(C(C1=CC=CC=C1)O)NC,165.23,0.9,"(1R,2S)-2-(methylamino)-1-phenylpropan-1-ol"
+Epinephrine (Adrenaline),Epinephrine,match,5816,CNCC(C1=CC(=C(C=C1)O)O)O,183.20,-1.4,"4-[(1R)-1-hydroxy-2-(methylamino)ethyl]benzene-1,2-diol"
+Epirubicin,Epirubicin,match,41867,CC1C(C(CC(O1)OC2CC(CC3=C2C(=C4C(=C3O)C(=O)C5=C(C4=O)C(=CC=C5)OC)O)(C(=O)CO)O)N)O,543.5,1.3,"(7S,9S)-7-[(2R,4S,5R,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione"
+Eplerenone,Eplerenone,match,443872,CC12CCC(=O)C=C1CC(C3C24C(O4)CC5(C3CCC56CCC(=O)O6)C)C(=O)OC,414.5,1.4,"methyl (1R,2S,9R,10R,11S,14R,15S,17R)-2,15-dimethyl-5,5'-dioxospiro[18-oxapentacyclo[8.8.0.01,17.02,7.011,15]octadec-6-ene-14,2'-oxolane]-9-carboxylate"
+Eprosartan,Eprosartan,match,5281037,CCCCC1=NC=C(N1CC2=CC=C(C=C2)C(=O)O)C=C(CC3=CC=CS3)C(=O)O,424.5,4.5,4-[[2-butyl-5-[(E)-2-carboxy-3-thiophen-2-ylprop-1-enyl]imidazol-1-yl]methyl]benzoic acid
+Eptastigmine,Eptastigmine,match,65872,CCCCCCCNC(=O)OC1=CC2=C(C=C1)N(C3C2(CCN3C)C)C,359.5,3.6,"[(3aR,8bS)-3,4,8b-trimethyl-2,3a-dihydro-1H-pyrrolo[2,3-b]indol-7-yl] N-heptylcarbamate"
+Ergotamine,Ergotamine,match,8223,CC1(C(=O)N2C(C(=O)N3CCCC3C2(O1)O)CC4=CC=CC=C4)NC(=O)C5CN(C6CC7=CNC8=CC=CC(=C78)C6=C5)C,581.7,2,"(6aR,9R)-N-[(1S,2S,4R,7S)-7-benzyl-2-hydroxy-4-methyl-5,8-dioxo-3-oxa-6,9-diazatricyclo[7.3.0.02,6]dodecan-4-yl]-7-methyl-6,6a,8,9-tetrahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+Ertapenem,Ertapenem,match,150610,CC1C2C(C(=O)N2C(=C1SC3CC(NC3)C(=O)NC4=CC=CC(=C4)C(=O)O)C(=O)O)C(C)O,475.5,-1.5,"(4R,5S,6S)-3-[(3S,5S)-5-[(3-carboxyphenyl)carbamoyl]pyrrolidin-3-yl]sulfanyl-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
+Erythromycin,Erythromycin,match,12560,CCC1C(C(C(C(=O)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,733.9,2.7,"(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,7,9,11,13-hexamethyl-oxacyclotetradecane-2,10-dione"
+Escitalopram,Escitalopram,match,146570,CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F,324.4,3.2,(1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile
+Eslicarbazepine acetate,Eslicarbazepine acetate,match,179344,CC(=O)OC1CC2=CC=CC=C2N(C3=CC=CC=C13)C(=O)N,296.32,2,"[(5S)-11-carbamoyl-5,6-dihydrobenzo[b][1]benzazepin-5-yl] acetate"
+Esmolol,Esmolol,match,59768,CC(C)NCC(COC1=CC=C(C=C1)CCC(=O)OC)O,295.37,1.9,methyl 3-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]propanoate
+Esomeprazol,Esomeprazol,match,9568614,CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC,345.4,2.2,"6-methoxy-2-[(S)-(4-methoxy-3,5-dimethyl-2-pyridinyl)methylsulfinyl]-1H-benzimidazole"
+Estazolam,Estazolam,match,3261,C1C2=NN=CN2C3=C(C=C(C=C3)Cl)C(=N1)C4=CC=CC=C4,294.74,1.7,"8-chloro-6-phenyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+Eszopiclone,Eszopiclone,match,969472,CN1CCN(CC1)C(=O)OC2C3=NC=CN=C3C(=O)N2C4=NC=C(C=C4)Cl,388.8,0.5,"[(7S)-6-(5-chloro-2-pyridinyl)-5-oxo-7H-pyrrolo[3,4-b]pyrazin-7-yl] 4-methylpiperazine-1-carboxylate"
+Etamsylate (Ethamsylate),Etamsylate,match,17506,CCNCC.C1=CC(=C(C=C1O)S(=O)(=O)O)O,263.31,,"2,5-dihydroxybenzenesulfonic acid;N-ethylethanamine"
+Ethadione,Ethadione,match,10630,CCN1C(=O)C(OC1=O)(C)C,157.17,0.7,"3-ethyl-5,5-dimethyl-1,3-oxazolidine-2,4-dione"
+Ethambutol,Ethambutol,match,14052,CCC(CO)NCCNC(CC)CO,204.31,-0.1,(2S)-2-[2-[[(2S)-1-hydroxybutan-2-yl]amino]ethylamino]butan-1-ol
+Ethanol,Ethanol,match,702,CCO,46.07,-0.1,ethanol
+Ethchlorvynol,Ethchlorvynol,match,5281077,CCC(C=CCl)(C#C)O,144.60,1.5,(E)-1-chloro-3-ethylpent-1-en-4-yn-3-ol
+Ethinamate,Ethinamate,match,3284,C#CC1(CCCCC1)OC(=O)N,167.20,1.3,(1-ethynylcyclohexyl) carbamate
+Ethosuximide,Ethosuximide,match,3291,CCC1(CC(=O)NC1=O)C,141.17,0.4,"3-ethyl-3-methylpyrrolidine-2,5-dione"
+Ethyl chloride,Ethyl chloride,match,6337,CCCl,64.51,1.2,chloroethane
+Ethylene glycol,Ethylene glycol,match,174,C(CO)O,62.07,-1.4,"ethane-1,2-diol"
+Ethylmorphine (Dionin),Ethylmorphine,match,5359271,CCOC1=C2C3=C(CC4C5C3(CCN4C)C(O2)C(C=C5)O)C=C1,313.4,1.5,"(4R,4aR,7S,7aR,12bS)-9-ethoxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol"
+"Ethylone (3,4-Methylenedioxy-N- ethylcathinone, = MDED, bk-MDEA)",Ethylone,match,57252245,CCNC(C)C(=O)C1=CC2=C(C=C1)OCO2,221.25,1.8,"1-(1,3-benzodioxol-5-yl)-2-(ethylamino)propan-1-one"
+Ethylphenidate,Ethylphenidate,match,3080846,CCOC(=O)C(C1CCCCN1)C2=CC=CC=C2,247.33,0.6,ethyl 2-phenyl-2-piperidin-2-ylacetate
+Etidocaine,Etidocaine,match,37497,CCCN(CC)C(CC)C(=O)NC1=C(C=CC=C1C)C,276.4,3.7,"N-(2,6-dimethylphenyl)-2-[ethyl(propyl)amino]butanamide"
+Etilefrine,Etilefrine,match,3306,CCNCC(C1=CC(=CC=C1)O)O,181.23,0.1,3-[2-(ethylamino)-1-hydroxyethyl]phenol
+Etizolam,Etizolam,match,3307,CCC1=CC2=C(S1)N3C(=NN=C3CN=C2C4=CC=CC=C4Cl)C,342.8,2.6,"7-(2-chlorophenyl)-4-ethyl-13-methyl-3-thia-1,8,11,12-tetrazatricyclo[8.3.0.02,6]trideca-2(6),4,7,10,12-pentaene"
+Etodolac,Etodolac,match,3308,CCC1=C2C(=CC=C1)C3=C(N2)C(OCC3)(CC)CC(=O)O,287.35,2.8,"2-(1,8-diethyl-4,9-dihydro-3H-pyrano[3,4-b]indol-1-yl)acetic acid"
+Etomidate,Etomidate,match,667484,CCOC(=O)C1=CN=CN1C(C)C2=CC=CC=C2,244.29,3,ethyl 3-[(1R)-1-phenylethyl]imidazole-4-carboxylate
+Etoposide,Etoposide,match,36462,CC1OCC2C(O1)C(C(C(O2)OC3C4COC(=O)C4C(C5=CC6=C(C=C35)OCO6)C7=CC(=C(C(=C7)OC)O)OC)O)O,588.6,0.6,"(5S,5aR,8aR,9R)-5-[[(2R,4aR,6R,7R,8R,8aS)-7,8-dihydroxy-2-methyl-4,4a,6,7,8,8a-hexahydropyrano[3,2-d][1,3]dioxin-6-yl]oxy]-9-(4-hydroxy-3,5-dimethoxyphenyl)-5a,6,8a,9-tetrahydro-5H-[2]benzofuro[6,5-f][1,3]benzodioxol-8-one"
+Etoricoxib,Etoricoxib,match,123619,CC1=NC=C(C=C1)C2=C(C=C(C=N2)Cl)C3=CC=C(C=C3)S(=O)(=O)C,358.8,3.3,5-chloro-2-(6-methyl-3-pyridinyl)-3-(4-methylsulfonylphenyl)pyridine
+Etravirine (ETR),Etravirine,match,193962,CC1=CC(=CC(=C1OC2=NC(=NC(=C2Br)N)NC3=CC=C(C=C3)C#N)C)C#N,435.3,4.5,"4-[6-amino-5-bromo-2-(4-cyanoanilino)pyrimidin-4-yl]oxy-3,5-dimethylbenzonitrile"
+Everolimus,Everolimus,match,6442177,CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)OCCO)C)C)O)OC)C)C)C)OC,958.2,5.9,"(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-(2-hydroxyethoxy)-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone"
+Ezetimibe,Ezetimibe,match,150311,C1=CC(=CC=C1C2C(C(=O)N2C3=CC=C(C=C3)F)CCC(C4=CC=C(C=C4)F)O)O,409.4,4,"(3R,4S)-1-(4-fluorophenyl)-3-[(3S)-3-(4-fluorophenyl)-3-hydroxypropyl]-4-(4-hydroxyphenyl)azetidin-2-one"
+Famotidine,Famotidine,match,5702160,C1=C(N=C(S1)N=C(N)N)CSCCC(=NS(=O)(=O)N)N,337.5,-0.6,"3-[[2-(diaminomethylideneamino)-1,3-thiazol-4-yl]methylsulfanyl]-N'-sulfamoylpropanimidamide"
+Favipiravir,Favipiravir,match,492405,C1=C(N=C(C(=O)N1)C(=O)N)F,157.10,-0.6,5-fluoro-2-oxo-1H-pyrazine-3-carboxamide
+Febuxostat,Febuxostat,match,134018,CC1=C(SC(=N1)C2=CC(=C(C=C2)OCC(C)C)C#N)C(=O)O,316.4,3.9,"2-[3-cyano-4-(2-methylpropoxy)phenyl]-4-methyl-1,3-thiazole-5-carboxylic acid"
+Felbamate,Felbamate,match,3331,C1=CC=C(C=C1)C(COC(=O)N)COC(=O)N,238.24,0.6,(3-carbamoyloxy-2-phenylpropyl) carbamate
+Felbinac,Felbinac,match,3332,C1=CC=C(C=C1)C2=CC=C(C=C2)CC(=O)O,212.24,3,2-(4-phenylphenyl)acetic acid
+Felodipine,Felodipine,match,3333,CCOC(=O)C1=C(NC(=C(C1C2=C(C(=CC=C2)Cl)Cl)C(=O)OC)C)C,384.2,3.9,"5-O-ethyl 3-O-methyl 4-(2,3-dichlorophenyl)-2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate"
+Fenbufen,Fenbufen,match,3335,C1=CC=C(C=C1)C2=CC=C(C=C2)C(=O)CCC(=O)O,254.28,3.2,4-oxo-4-(4-phenylphenyl)butanoic acid
+Fendiline,Fendiline,match,3336,CC(C1=CC=CC=C1)NCCC(C2=CC=CC=C2)C3=CC=CC=C3,315.5,5.5,"3,3-diphenyl-N-(1-phenylethyl)propan-1-amine"
+Fenetylline (Fenethylline),Fenetylline,match,19527,CC(CC1=CC=CC=C1)NCCN2C=NC3=C2C(=O)N(C(=O)N3C)C,341.4,1.4,"1,3-dimethyl-7-[2-(1-phenylpropan-2-ylamino)ethyl]purine-2,6-dione"
+Fenfluramine,Fenfluramine,match,3337,CCNC(C)CC1=CC(=CC=C1)C(F)(F)F,231.26,3.4,N-ethyl-1-[3-(trifluoromethyl)phenyl]propan-2-amine
+Fenitrothion,Fenitrothion,match,31200,CC1=C(C=CC(=C1)OP(=S)(OC)OC)[N+](=O)[O-],277.24,3.3,dimethoxy-(3-methyl-4-nitrophenoxy)-sulfanylidene-lambda5-phosphane
+Fenofibrate,Fenofibrate,match,3339,CC(C)OC(=O)C(C)(C)OC1=CC=C(C=C1)C(=O)C2=CC=C(C=C2)Cl,360.8,5.2,propan-2-yl 2-[4-(4-chlorobenzoyl)phenoxy]-2-methylpropanoate
+Fenoldopam,Fenoldopam,match,3341,C1CNCC(C2=CC(=C(C(=C21)Cl)O)O)C3=CC=C(C=C3)O,305.75,2.4,"9-chloro-5-(4-hydroxyphenyl)-2,3,4,5-tetrahydro-1H-3-benzazepine-7,8-diol"
+Fenoprofen,Fenoprofen,match,3342,CC(C1=CC(=CC=C1)OC2=CC=CC=C2)C(=O)O,242.27,3.3,2-(3-phenoxyphenyl)propanoic acid
+Fenoterol,Fenoterol,match,3343,CC(CC1=CC=C(C=C1)O)NCC(C2=CC(=CC(=C2)O)O)O,303.35,2,"5-[1-hydroxy-2-[1-(4-hydroxyphenyl)propan-2-ylamino]ethyl]benzene-1,3-diol"
+Fentanyl,Fentanyl,match,3345,CCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3,336.5,4,N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide
+Fenthion,Fenthion,match,3346,CC1=C(C=CC(=C1)OP(=S)(OC)OC)SC,278.3,4.1,dimethoxy-(3-methyl-4-methylsulfanylphenoxy)-sulfanylidene-lambda5-phosphane
+Fesoterodine,Fesoterodine,match,6918558,CC(C)C(=O)OC1=C(C=C(C=C1)CO)C(CCN(C(C)C)C(C)C)C2=CC=CC=C2,411.6,5.5,[2-[(1R)-3-[di(propan-2-yl)amino]-1-phenylpropyl]-4-(hydroxymethyl)phenyl] 2-methylpropanoate
+Fexofenadine,Fexofenadine,match,3348,CC(C)(C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O)C(=O)O,501.7,3,2-[4-[1-hydroxy-4-[4-[hydroxy(diphenyl)methyl]piperidin-1-yl]butyl]phenyl]-2-methylpropanoic acid
+Finasteride,Finasteride,match,57363,CC12CCC3C(C1CCC2C(=O)NC(C)(C)C)CCC4C3(C=CC(=O)N4)C,372.5,3,"(1S,3aS,3bS,5aR,9aR,9bS,11aS)-N-tert-butyl-9a,11a-dimethyl-7-oxo-1,2,3,3a,3b,4,5,5a,6,9b,10,11-dodecahydroindeno[5,4-f]quinoline-1-carboxamide"
+Fingolimod,Fingolimod,match,107970,CCCCCCCCC1=CC=C(C=C1)CCC(CO)(CO)N,307.5,4.2,"2-amino-2-[2-(4-octylphenyl)ethyl]propane-1,3-diol"
+Flecainide,Flecainide,match,3356,C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F,414.34,3.8,"N-(piperidin-2-ylmethyl)-2,5-bis(2,2,2-trifluoroethoxy)benzamide"
+"Flephedrone (4-Fluoromethcathinone, 4-FMC)",Flephedrone,match,49853406,CC(C(=O)C1=CC=C(C=C1)F)NC,181.21,1.7,1-(4-fluorophenyl)-2-(methylamino)propan-1-one
+Fleroxacin,Fleroxacin,match,3357,CN1CCN(CC1)C2=C(C=C3C(=C2F)N(C=C(C3=O)C(=O)O)CCF)F,369.34,-0.1,"6,8-difluoro-1-(2-fluoroethyl)-7-(4-methylpiperazin-1-yl)-4-oxoquinoline-3-carboxylic acid"
+Flibanserin,Flibanserin,match,6918248,C1CN(CCN1CCN2C3=CC=CC=C3NC2=O)C4=CC=CC(=C4)C(F)(F)F,390.4,3.3,3-[2-[4-[3-(trifluoromethyl)phenyl]piperazin-1-yl]ethyl]-1H-benzimidazol-2-one
+Flocoumafen,Flocoumafen,match,54698175,C1C(CC2=CC=CC=C2C1C3=C(C4=CC=CC=C4OC3=O)O)C5=CC=C(C=C5)OCC6=CC=C(C=C6)C(F)(F)F,542.5,7.7,"4-hydroxy-3-[3-[4-[[4-(trifluoromethyl)phenyl]methoxy]phenyl]-1,2,3,4-tetrahydronaphthalen-1-yl]chromen-2-one"
+Flubromazepam,Flubromazepam,match,12947024,C1C(=O)NC2=C(C=C(C=C2)Br)C(=N1)C3=CC=CC=C3F,333.15,3,"7-bromo-5-(2-fluorophenyl)-1,3-dihydro-1,4-benzodiazepin-2-one"
+Flubromazolam,Flubromazolam,match,21930924,CC1=NN=C2N1C3=C(C=C(C=C3)Br)C(=NC2)C4=CC=CC=C4F,371.2,2,"8-bromo-6-(2-fluorophenyl)-1-methyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+Flucloxacillin,Flucloxacillin,match,21319,CC1=C(C(=NO1)C2=C(C=CC=C2Cl)F)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O,453.9,2.6,"(2S,5R,6R)-6-[[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazole-4-carbonyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Fluconazole,Fluconazole,match,3365,C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,306.27,0.4,"2-(2,4-difluorophenyl)-1,3-bis(1,2,4-triazol-1-yl)propan-2-ol"
+Flucytosine,Flucytosine,match,3366,C1=NC(=O)NC(=C1F)N,129.09,-0.9,6-amino-5-fluoro-1H-pyrimidin-2-one
+Flumazenil,Flumazenil,match,3373,CCOC(=O)C1=C2CN(C(=O)C3=C(N2C=N1)C=CC(=C3)F)C,303.29,1,"ethyl 8-fluoro-5-methyl-6-oxo-4H-imidazo[1,5-a][1,4]benzodiazepine-3-carboxylate"
+Flunarizine,Flunarizine,match,941361,C1CN(CCN1CC=CC2=CC=CC=C2)C(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F,404.5,6,1-[bis(4-fluorophenyl)methyl]-4-[(E)-3-phenylprop-2-enyl]piperazine
+Flunitrazepam,Flunitrazepam,match,3380,CN1C(=O)CN=C(C2=C1C=CC(=C2)[N+](=O)[O-])C3=CC=CC=C3F,313.28,2.1,"5-(2-fluorophenyl)-1-methyl-7-nitro-3H-1,4-benzodiazepin-2-one"
+Fluoride,Fluoride,match,28179,[F-],18.99840316,0.6,fluoride
+4-Fluoroamphetamine,4-Fluoroamphetamine,match,9986,CC(CC1=CC=C(C=C1)F)N,153.20,1.9,1-(4-fluorophenyl)propan-2-amine
+2-Fluoromethamphetamine (2-FMA),2-Fluoromethamphetamine,match,24257263,CC(CC1=CC=CC=C1F)NC,167.22,2.3,1-(2-fluorophenyl)-N-methylpropan-2-amine
+5-Fluorouracil,5-Fluorouracil,match,3385,C1=C(C(=O)NC(=O)N1)F,130.08,-0.9,"5-fluoro-1H-pyrimidine-2,4-dione"
+Fluoxetine,Fluoxetine,match,3386,CNCCC(C1=CC=CC=C1)OC2=CC=C(C=C2)C(F)(F)F,309.33,4,N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine
+Flupentixol (Flupenthixol),Flupentixol,match,5281881,C1CN(CCN1CCC=C2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO,434.5,4.5,2-[4-[(3Z)-3-[2-(trifluoromethyl)thioxanthen-9-ylidene]propyl]piperazin-1-yl]ethanol
+Fluphenazine,Fluphenazine,match,3372,C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F)CCO,437.5,4.4,2-[4-[3-[2-(trifluoromethyl)phenothiazin-10-yl]propyl]piperazin-1-yl]ethanol
+Flupirtine,Flupirtine,match,53276,CCOC(=O)NC1=C(N=C(C=C1)NCC2=CC=C(C=C2)F)N,304.32,2.4,ethyl N-[2-amino-6-[(4-fluorophenyl)methylamino]-3-pyridinyl]carbamate
+Flurazepam,Flurazepam,match,3393,CCN(CC)CCN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3F,387.9,3,"7-chloro-1-[2-(diethylamino)ethyl]-5-(2-fluorophenyl)-3H-1,4-benzodiazepin-2-one"
+Flurbiprofen,Flurbiprofen,match,3394,CC(C1=CC(=C(C=C1)C2=CC=CC=C2)F)C(=O)O,244.26,4.2,2-(3-fluoro-4-phenylphenyl)propanoic acid
+Fluspirilen,Fluspirilen,match,3396,C1CN(CCC12C(=O)NCN2C3=CC=CC=C3)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,475.6,5.6,"8-[4,4-bis(4-fluorophenyl)butyl]-1-phenyl-1,3,8-triazaspiro[4.5]decan-4-one"
+Flutamide,Flutamide,match,3397,CC(C)C(=O)NC1=CC(=C(C=C1)[N+](=O)[O-])C(F)(F)F,276.21,3.3,2-methyl-N-[4-nitro-3-(trifluoromethyl)phenyl]propanamide
+Fluvastatin,Fluvastatin,match,1548972,CC(C)N1C2=CC=CC=C2C(=C1C=CC(CC(CC(=O)O)O)O)C3=CC=C(C=C3)F,411.5,3.5,"(E,3S,5R)-7-[3-(4-fluorophenyl)-1-propan-2-ylindol-2-yl]-3,5-dihydroxyhept-6-enoic acid"
+Fluvoxamine,Fluvoxamine,match,5324346,COCCCCC(=NOCCN)C1=CC=C(C=C1)C(F)(F)F,318.33,2.6,2-[(E)-[5-methoxy-1-[4-(trifluoromethyl)phenyl]pentylidene]amino]oxyethanamine
+Folic acid,Folic acid,match,135398658,C1=CC(=CC=C1C(=O)NC(CCC(=O)O)C(=O)O)NCC2=CN=C3C(=N2)C(=O)NC(=N3)N,441.4,-1.1,(2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid
+Fomepizole,Fomepizole,match,3406,CC1=CNN=C1,82.10,1.4,4-methyl-1H-pyrazole
+Formoterol,Formoterol,match,3410,CC(CC1=CC=C(C=C1)OC)NCC(C2=CC(=C(C=C2)O)NC=O)O,344.4,1.8,N-[2-hydroxy-5-[1-hydroxy-2-[1-(4-methoxyphenyl)propan-2-ylamino]ethyl]phenyl]formamide
+Fosamprenavir (FPV),Fosamprenavir,match,131536,CC(C)CN(CC(C(CC1=CC=CC=C1)NC(=O)OC2CCOC2)OP(=O)(O)O)S(=O)(=O)C3=CC=C(C=C3)N,585.6,1.8,"[(3S)-oxolan-3-yl] N-[(2S,3R)-4-[(4-aminophenyl)sulfonyl-(2-methylpropyl)amino]-1-phenyl-3-phosphonooxybutan-2-yl]carbamate"
+Fosinopril,Fosinopril,match,9601226,CCC(=O)OC(C(C)C)OP(=O)(CCCCC1=CC=CC=C1)CC(=O)N2CC(CC2C(=O)O)C3CCCCC3,563.7,6.2,"(2S,4S)-4-cyclohexyl-1-[2-[[(1S)-2-methyl-1-propanoyloxypropoxy]-(4-phenylbutyl)phosphoryl]acetyl]pyrrolidine-2-carboxylic acid"
+Fospropofol,Fospropofol,match,3038498,CC(C)C1=C(C(=CC=C1)C(C)C)OCOP(=O)(O)O,288.28,2.5,"[2,6-di(propan-2-yl)phenoxy]methyl dihydrogen phosphate"
+Frovatriptan,Frovatriptan,match,77992,CNC1CCC2=C(C1)C3=C(N2)C=CC(=C3)C(=O)N,243.30,1.2,"(6R)-6-(methylamino)-6,7,8,9-tetrahydro-5H-carbazole-3-carboxamide"
+Furosemide (Frusemide),Furosemide,match,3440,C1=COC(=C1)CNC2=CC(=C(C=C2C(=O)O)S(=O)(=O)N)Cl,330.74,2,4-chloro-2-(furan-2-ylmethylamino)-5-sulfamoylbenzoic acid
+Gabapentin,Gabapentin,match,3446,C1CCC(CC1)(CC(=O)O)CN,171.24,-1.1,2-[1-(aminomethyl)cyclohexyl]acetic acid
+Galantamine (Galanthamine),Galantamine,match,9651,CN1CCC23C=CC(CC2OC4=C(C=CC(=C34)C1)OC)O,287.35,1.8,"(1S,12S,14R)-9-methoxy-4-methyl-11-oxa-4-azatetracyclo[8.6.1.01,12.06,17]heptadeca-6(17),7,9,15-tetraen-14-ol"
+Gallopamil,Gallopamil,match,1234,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C(=C2)OC)OC)OC,484.6,3.8,"5-[2-(3,4-dimethoxyphenyl)ethyl-methylamino]-2-propan-2-yl-2-(3,4,5-trimethoxyphenyl)pentanenitrile"
+Ganciclovir,Ganciclovir,match,135398740,C1=NC2=C(N1COC(CO)CO)N=C(NC2=O)N,255.23,-2.5,"2-amino-9-(1,3-dihydroxypropan-2-yloxymethyl)-1H-purin-6-one"
+Gemcitabine,Gemcitabine,match,60750,C1=CN(C(=O)N=C1N)C2C(C(C(O2)CO)O)(F)F,263.20,-1.5,"4-amino-1-[(2R,4R,5R)-3,3-difluoro-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one"
+Gemfibrozil,Gemfibrozil,match,3463,CC1=CC(=C(C=C1)C)OCCCC(C)(C)C(=O)O,250.33,3.8,"5-(2,5-dimethylphenoxy)-2,2-dimethylpentanoic acid"
+Gentamicin,Gentamicin,match,3467,CC(C1CCC(C(O1)OC2C(CC(C(C2O)OC3C(C(C(CO3)(C)O)NC)O)N)N)N)NC,477.6,-4.1,"2-[4,6-diamino-3-[3-amino-6-[1-(methylamino)ethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol"
+Glibenclamide (Glyburide),Glibenclamide,match,3488,COC1=C(C=C(C=C1)Cl)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3,494.0,4.8,5-chloro-N-[2-[4-(cyclohexylcarbamoylsulfamoyl)phenyl]ethyl]-2-methoxybenzamide
+Gliclazide,Gliclazide,match,3475,CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN2CC3CCCC3C2,323.4,1.5,"1-(3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrol-2-yl)-3-(4-methylphenyl)sulfonylurea"
+Glimepiride,Glimepiride,match,3476,CCC1=C(CN(C1=O)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCC(CC3)C)C,490.6,3.9,4-ethyl-3-methyl-N-[2-[4-[(4-methylcyclohexyl)carbamoylsulfamoyl]phenyl]ethyl]-5-oxo-2H-pyrrole-1-carboxamide
+Glipizide,Glipizide,match,3478,CC1=CN=C(C=N1)C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)NC3CCCCC3,445.5,1.9,N-[2-[4-(cyclohexylcarbamoylsulfamoyl)phenyl]ethyl]-5-methylpyrazine-2-carboxamide
+Glutethimide,Glutethimide,match,3487,CCC1(CCC(=O)NC1=O)C2=CC=CC=C2,217.26,1.9,"3-ethyl-3-phenylpiperidine-2,6-dione"
+Glyphosate,Glyphosate,match,3496,C(C(=O)O)NCP(=O)(O)O,169.07,-4.6,2-(phosphonomethylamino)acetic acid
+Gold,Gold,match,23985,[Au],196.96657,,gold
+Granisetron,Granisetron,match,5284566,CN1C2CCCC1CC(C2)NC(=O)C3=NN(C4=CC=CC=C43)C,312.4,2.8,"1-methyl-N-[(1R,5S)-9-methyl-9-azabicyclo[3.3.1]nonan-3-yl]indazole-3-carboxamide"
+Griseofulvin,Griseofulvin,match,441140,CC1CC(=O)C=C(C12C(=O)C3=C(O2)C(=C(C=C3OC)OC)Cl)OC,352.8,2.2,"(2S,5'R)-7-chloro-3',4,6-trimethoxy-5'-methylspiro[1-benzofuran-2,4'-cyclohex-2-ene]-1',3-dione"
+Guaifenesin,Guaifenesin,match,3516,COC1=CC=CC=C1OCC(CO)O,198.22,1.4,"3-(2-methoxyphenoxy)propane-1,2-diol"
+Guanethidine,Guanethidine,match,3518,C1CCCN(CCC1)CCN=C(N)N,198.31,0.5,2-[2-(azocan-1-yl)ethyl]guanidine
+Guanfacine,Guanfacine,match,3519,C1=CC(=C(C(=C1)Cl)CC(=O)N=C(N)N)Cl,246.09,2,"N-(diaminomethylidene)-2-(2,6-dichlorophenyl)acetamide"
+Haloperidol,Haloperidol,match,3559,C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F,375.9,3.2,4-[4-(4-chlorophenyl)-4-hydroxypiperidin-1-yl]-1-(4-fluorophenyl)butan-1-one
+Halothan,Halothan,match,3562,C(C(F)(F)F)(Cl)Br,197.38,2.3,"2-bromo-2-chloro-1,1,1-trifluoroethane"
+Hematin,Hematin,match,76964397,CC1=C(C2=CC3=C(C(=C([N-]3)C=C4C(=C(C(=N4)C=C5C(=C(C(=N5)C=C1[N-]2)C)C=C)C)C=C)C)CCC(=O)O)CCC(=O)O.[OH-].[Fe+3],633.5,,"3-[18-(2-carboxyethyl)-8,13-bis(ethenyl)-3,7,12,17-tetramethylporphyrin-21,24-diid-2-yl]propanoic acid;iron(3+);hydroxide"
+Heptabarb (Heptabarbital),Heptabarb,match,10518,CCC1(C(=O)NC(=O)NC1=O)C2=CCCCCC2,250.29,2,"5-(cyclohepten-1-yl)-5-ethyl-1,3-diazinane-2,4,6-trione"
+Heptaminol,Heptaminol,match,3590,CC(CCCC(C)(C)O)N,145.24,0.7,6-amino-2-methylheptan-2-ol
+"Heroin (Diacetylmorphine, Diamorphine)",Heroin,match,5462328,CC(=O)OC1C=CC2C3CC4=C5C2(C1OC5=C(C=C4)OC(=O)C)CCN3C,369.4,1.5,"[(4R,4aR,7S,7aR,12bS)-9-acetyloxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-yl] acetate"
+Hexachlorobenzene (HCB),Hexachlorobenzene,match,8370,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)Cl,284.8,5.7,"1,2,3,4,5,6-hexachlorobenzene"
+Hexachlorophene,Hexachlorophene,match,3598,C1=C(C(=C(C(=C1Cl)Cl)CC2=C(C(=CC(=C2Cl)Cl)Cl)O)O)Cl,406.9,7.5,"3,4,6-trichloro-2-[(2,3,5-trichloro-6-hydroxyphenyl)methyl]phenol"
+n-Hexane,n-Hexane,match,8058,CCCCCC,86.18,3.9,hexane
+Hexapropymate,Hexapropymate,match,9661,C#CCC1(CCCCC1)OC(=O)N,181.23,1.7,(1-prop-2-ynylcyclohexyl) carbamate
+Hexobarbital,Hexobarbital,match,3608,CC1(C(=O)NC(=O)N(C1=O)C)C2=CCCCC2,236.27,1.5,"5-(cyclohexen-1-yl)-1,5-dimethyl-1,3-diazinane-2,4,6-trione"
+Homosalate,Homosalate,match,8362,CC1CC(CC(C1)(C)C)OC(=O)C2=CC=CC=C2O,262.34,5,"(3,3,5-trimethylcyclohexyl) 2-hydroxybenzoate"
+Hydralazine,Hydralazine,match,3637,C1=CC=C2C(=C1)C=NN=C2NN,160.18,0.7,phthalazin-1-ylhydrazine
+Hydrochlorothiazide,Hydrochlorothiazide,match,3639,C1NC2=CC(=C(C=C2S(=O)(=O)N1)S(=O)(=O)N)Cl,297.7,-0.1,"6-chloro-1,1-dioxo-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide"
+Hydrocodone,Hydrocodone,match,5284569,CN1CCC23C4C1CC5=C2C(=C(C=C5)OC)OC3C(=O)CC4,299.4,2.2,"(4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Hydromorphone,Hydromorphone,match,5284570,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(=O)CC4,285.34,1.8,"(4R,4aR,7aR,12bS)-9-hydroxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Hydroxychloroquine,Hydroxychloroquine,match,3652,CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO,335.9,3.6,2-[4-[(7-chloroquinolin-4-yl)amino]pentyl-ethylamino]ethanol
+4-Hydroxy-3-methoxymethamphetamine (HMMA),4-Hydroxy-3-methoxymethamphetamine,match,3081137,CC(CC1=CC(=C(C=C1)O)OC)NC,195.26,1.2,2-methoxy-4-[2-(methylamino)propyl]phenol
+Hydroxytryptophan (5-HTP),Hydroxytryptophan,match,439280,C1=CC2=C(C=C1O)C(=CN2)CC(C(=O)O)N,220.22,-1.2,(2S)-2-amino-3-(5-hydroxy-1H-indol-3-yl)propanoic acid
+Hydroxyzine,Hydroxyzine,match,3658,C1CN(CCN1CCOCCO)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,374.9,3.7,2-[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]ethanol
+Hyoscyamine,Hyoscyamine,match,154417,CN1C2CCC1CC(C2)OC(=O)C(CO)C3=CC=CC=C3,289.4,1.8,"[(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] (2S)-3-hydroxy-2-phenylpropanoate"
+Ibuprofen,Ibuprofen,match,3672,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,206.28,3.5,2-[4-(2-methylpropyl)phenyl]propanoic acid
+Idebenone,Idebenone,match,3686,CC1=C(C(=O)C(=C(C1=O)OC)OC)CCCCCCCCCCO,338.4,4.3,"2-(10-hydroxydecyl)-5,6-dimethoxy-3-methylcyclohexa-2,5-diene-1,4-dione"
+Iloperidone,Iloperidone,match,71360,CC(=O)C1=CC(=C(C=C1)OCCCN2CCC(CC2)C3=NOC4=C3C=CC(=C4)F)OC,426.5,4.1,"1-[4-[3-[4-(6-fluoro-1,2-benzoxazol-3-yl)piperidin-1-yl]propoxy]-3-methoxyphenyl]ethanone"
+Iloprost,Iloprost,match,5311181,CC#CCC(C)C(C=CC1C(CC2C1CC(=CCCCC(=O)O)C2)O)O,360.5,2.8,"(5E)-5-[(3aS,4R,5R,6aS)-5-hydroxy-4-[(E,3S)-3-hydroxy-4-methyloct-1-en-6-ynyl]-3,3a,4,5,6,6a-hexahydro-1H-pentalen-2-ylidene]pentanoic acid"
+Imatinib,Imatinib,match,5291,CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5,493.6,3.5,4-[(4-methylpiperazin-1-yl)methyl]-N-[4-methyl-3-[(4-pyridin-3-ylpyrimidin-2-yl)amino]phenyl]benzamide
+Imipenem,Imipenem,match,104838,CC(C1C2CC(=C(N2C1=O)C(=O)O)SCCN=CN)O,299.35,-0.7,"(5R,6S)-3-[2-(aminomethylideneamino)ethylsulfanyl]-6-[(1R)-1-hydroxyethyl]-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
+Imipramine plus Desipramine,Imipramine,match,3696,CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C31,280.4,4.8,"3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine"
+Inamrinone,Inamrinone,match,3698,C1=CN=CC=C1C2=CNC(=O)C(=C2)N,187.20,-0.2,3-amino-5-pyridin-4-yl-1H-pyridin-2-one
+Indapamide,Indapamide,match,3702,CC1CC2=CC=CC=C2N1NC(=O)C3=CC(=C(C=C3)Cl)S(=O)(=O)N,365.8,2.9,"4-chloro-N-(2-methyl-2,3-dihydroindol-1-yl)-3-sulfamoylbenzamide"
+Indinavir (IDV),Indinavir,match,5362440,CC(C)(C)NC(=O)C1CN(CCN1CC(CC(CC2=CC=CC=C2)C(=O)NC3C(CC4=CC=CC=C34)O)O)CC5=CN=CC=C5,613.8,2.8,"(2S)-1-[(2S,4R)-4-benzyl-2-hydroxy-5-[[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]amino]-5-oxopentyl]-N-tert-butyl-4-(pyridin-3-ylmethyl)piperazine-2-carboxamide"
+Indometacin (Indomethacin),Indometacin (Indomethacin),match,3715,CC1=C(C2=C(N1C(=O)C3=CC=C(C=C3)Cl)C=CC(=C2)OC)CC(=O)O,357.8,4.3,2-[1-(4-chlorobenzoyl)-5-methoxy-2-methylindol-3-yl]acetic acid
+Indoramin,Indoramin,match,33625,C1CN(CCC1NC(=O)C2=CC=CC=C2)CCC3=CNC4=CC=CC=C43,347.5,4.1,N-[1-[2-(1H-indol-3-yl)ethyl]piperidin-4-yl]benzamide
+Infliximab,Infliximab,no_match:404,,,,,
+Iproniazid,Iproniazid,match,3748,CC(C)NNC(=O)C1=CC=NC=C1,179.22,0.4,N'-propan-2-ylpyridine-4-carbohydrazide
+Irbesartan,Irbesartan,match,3749,CCCCC1=NC2(CCCC2)C(=O)N1CC3=CC=C(C=C3)C4=CC=CC=C4C5=NNN=N5,428.5,4.1,"2-butyl-3-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]-1,3-diazaspiro[4.4]non-1-en-4-one"
+Iridium,Iridium,match,23924,[Ir],192.22,,iridium
+Iron,Iron,match,23925,[Fe],55.84,,iron
+Isavuconazole,Isavuconazole,match,6918485,CC(C1=NC(=CS1)C2=CC=C(C=C2)C#N)C(CN3C=NC=N3)(C4=C(C=CC(=C4)F)F)O,437.5,3.5,"4-[2-[(2R,3R)-3-(2,5-difluorophenyl)-3-hydroxy-4-(1,2,4-triazol-1-yl)butan-2-yl]-1,3-thiazol-4-yl]benzonitrile"
+Isoflurane,Isoflurane,match,3763,C(C(F)(F)F)(OC(F)F)Cl,184.49,2.1,"2-chloro-2-(difluoromethoxy)-1,1,1-trifluoroethane"
+Isoniazid (INH),Isoniazid (INH),match,3767,C1=CN=CC=C1C(=O)NN,137.14,-0.7,pyridine-4-carbohydrazide
+Isopropanol,Isopropanol,match,3776,CC(C)O,60.10,0.3,propan-2-ol
+Isosorbide-dinitrate (ISDN),Isosorbide-dinitrate,match,6883,C1C(C2C(O1)C(CO2)O[N+](=O)[O-])O[N+](=O)[O-],236.14,1.3,"[(3S,3aS,6R,6aS)-3-nitrooxy-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-6-yl] nitrate"
+Isosorbide-5-mononitrate (IS-5-MN),Isosorbide-5-mononitrate,match,27661,C1C(C2C(O1)C(CO2)O[N+](=O)[O-])O,191.14,-0.4,"[(3S,3aR,6R,6aS)-3-hydroxy-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-6-yl] nitrate"
+Isotretinoin,Isotretinoin,match,5282379,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C,300.4,6.3,"(2Z,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid"
+Isoxicam,Isoxicam,match,54677972,CC1=CC(=NO1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,335.34,3,"4-hydroxy-2-methyl-N-(5-methyl-1,2-oxazol-3-yl)-1,1-dioxo-1lambda6,2-benzothiazine-3-carboxamide"
+Isradipine,Isradipine,match,3784,CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC=CC3=NON=C32)C(=O)OC,371.4,4.3,"3-O-methyl 5-O-propan-2-yl 4-(2,1,3-benzoxadiazol-4-yl)-2,6-dimethyl-1,4-dihydropyridine-3,5-dicarboxylate"
+Itraconazole,Itraconazole,match,55283,CCC(C)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5COC(O5)(CN6C=NC=N6)C7=C(C=C(C=C7)Cl)Cl,705.6,5.7,"2-butan-2-yl-4-[4-[4-[4-[[(2R,4S)-2-(2,4-dichlorophenyl)-2-(1,2,4-triazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]phenyl]-1,2,4-triazol-3-one"
+Ivabradine,Ivabradine,match,132999,CN(CCCN1CCC2=CC(=C(C=C2CC1=O)OC)OC)CC3CC4=CC(=C(C=C34)OC)OC,468.6,2.4,"3-[3-[[(7S)-3,4-dimethoxy-7-bicyclo[4.2.0]octa-1,3,5-trienyl]methyl-methylamino]propyl]-7,8-dimethoxy-2,5-dihydro-1H-3-benzazepin-4-one"
+Ivermectin,Ivermectin,no_match:404,,,,,
+Kanamycin,Kanamycin,match,6032,C1C(C(C(C(C1N)OC2C(C(C(C(O2)CN)O)O)O)O)OC3C(C(C(C(O3)CO)O)N)O)N,484.5,-6.9,"(2R,3S,4S,5R,6R)-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-3-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxyoxane-3,4,5-triol"
+Kavain,Kavain,match,5281565,COC1=CC(=O)OC(C1)C=CC2=CC=CC=C2,230.26,2.5,"(2R)-4-methoxy-2-[(E)-2-phenylethenyl]-2,3-dihydropyran-6-one"
+Ketamine,Ketamine,match,3821,CNC1(CCCCC1=O)C2=CC=CC=C2Cl,237.72,2.2,2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one
+Ketanserin,Ketanserin,match,3822,C1CN(CCC1C(=O)C2=CC=C(C=C2)F)CCN3C(=O)C4=CC=CC=C4NC3=O,395.4,2.6,"3-[2-[4-(4-fluorobenzoyl)piperidin-1-yl]ethyl]-1H-quinazoline-2,4-dione"
+Ketazolam,Ketazolam,match,33746,CC1=CC(=O)N2CC(=O)N(C3=C(C2(O1)C4=CC=CC=C4)C=C(C=C3)Cl)C,368.8,3,"11-chloro-2,8-dimethyl-12b-phenyl-6H-[1,3]oxazino[3,2-d][1,4]benzodiazepine-4,7-dione"
+Ketobemidone,Ketobemidone,match,10101,CCC(=O)C1(CCN(CC1)C)C2=CC(=CC=C2)O,247.33,1,1-[4-(3-hydroxyphenyl)-1-methylpiperidin-4-yl]propan-1-one
+Ketoconazole,Ketoconazole,match,47576,CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OCC3COC(O3)(CN4C=CN=C4)C5=C(C=C(C=C5)Cl)Cl,531.4,4.3,"1-[4-[4-[[(2S,4R)-2-(2,4-dichlorophenyl)-2-(imidazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]ethanone"
+Ketoprofen,Ketoprofen,match,3825,CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O,254.28,3.1,2-(3-benzoylphenyl)propanoic acid
+Ketorolac,Ketorolac,match,3826,C1CN2C(=CC=C2C(=O)C3=CC=CC=C3)C1C(=O)O,255.27,1.9,"5-benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid"
+Ketotifen,Ketotifen,match,3827,CN1CCC(=C2C3=C(C(=O)CC4=CC=CC=C42)SC=C3)CC1,309.4,3.2,"2-(1-methylpiperidin-4-ylidene)-6-thiatricyclo[8.4.0.03,7]tetradeca-1(14),3(7),4,10,12-pentaen-8-one"
+Labetalol,Labetalol,match,3869,CC(CCC1=CC=CC=C1)NCC(C2=CC(=C(C=C2)O)C(=O)N)O,328.4,3.1,2-hydroxy-5-[1-hydroxy-2-(4-phenylbutan-2-ylamino)ethyl]benzamide
+Lacidipine,Lacidipine,match,5311217,CCOC(=O)C1=C(NC(=C(C1C2=CC=CC=C2C=CC(=O)OC(C)(C)C)C(=O)OCC)C)C,455.5,4.5,"diethyl 2,6-dimethyl-4-[2-[(E)-3-[(2-methylpropan-2-yl)oxy]-3-oxoprop-1-enyl]phenyl]-1,4-dihydropyridine-3,5-dicarboxylate"
+Lacosamide,Lacosamide,match,219078,CC(=O)NC(COC)C(=O)NCC1=CC=CC=C1,250.29,0.3,(2R)-2-acetamido-N-benzyl-3-methoxypropanamide
+Lamivudine,Lamivudine,match,60825,C1C(OC(S1)CO)N2C=CC(=NC2=O)N,229.26,-0.9,"4-amino-1-[(2R,5S)-2-(hydroxymethyl)-1,3-oxathiolan-5-yl]pyrimidin-2-one"
+Lamotrigine,Lamotrigine,match,3878,C1=CC(=C(C(=C1)Cl)Cl)C2=C(N=C(N=N2)N)N,256.09,1.4,"6-(2,3-dichlorophenyl)-1,2,4-triazine-3,5-diamine"
+Lansoprazole,Lansoprazole,match,3883,CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCC(F)(F)F,369.4,2.8,"2-[[3-methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl]methylsulfinyl]-1H-benzimidazole"
+Lead,Lead,match,5352425,[Pb],207,,lead
+Leflunomide,Leflunomide,match,3899,CC1=C(C=NO1)C(=O)NC2=CC=C(C=C2)C(F)(F)F,270.21,2.5,"5-methyl-N-[4-(trifluoromethyl)phenyl]-1,2-oxazole-4-carboxamide"
+Lenalidomide,Lenalidomide,match,216326,C1CC(=O)NC(=O)C1N2CC3=C(C2=O)C=CC=C3N,259.26,-0.5,"3-(7-amino-3-oxo-1H-isoindol-2-yl)piperidine-2,6-dione"
+Lercanidipine,Lercanidipine,match,65866,CC1=C(C(C(=C(N1)C)C(=O)OC(C)(C)CN(C)CCC(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC(=CC=C4)[N+](=O)[O-])C(=O)OC,611.7,6.9,"5-O-[1-[3,3-diphenylpropyl(methyl)amino]-2-methylpropan-2-yl] 3-O-methyl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Levacetylmethadol (= Acetylmethadol),Levacetylmethadol,match,15130,CCC(C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2)OC(=O)C,353.5,4.3,"[(3S,6S)-6-(dimethylamino)-4,4-diphenylheptan-3-yl] acetate"
+Levamisole,Levamisole,match,26879,C1CSC2=NC(CN21)C3=CC=CC=C3,204.29,1.8,"(6S)-6-phenyl-2,3,5,6-tetrahydroimidazo[2,1-b][1,3]thiazole"
+Levetiracetam,Levetiracetam,match,5284583,CCC(C(=O)N)N1CCCC1=O,170.21,-0.3,(2S)-2-(2-oxopyrrolidin-1-yl)butanamide
+Levocabastine,Levocabastine,match,54385,CC1CN(CCC1(C2=CC=CC=C2)C(=O)O)C3CCC(CC3)(C#N)C4=CC=C(C=C4)F,420.5,2.5,"(3S,4R)-1-[4-cyano-4-(4-fluorophenyl)cyclohexyl]-3-methyl-4-phenylpiperidine-4-carboxylic acid"
+Levocetirizine,Levocetirizine,match,1549000,C1CN(CCN1CCOCC(=O)O)C(C2=CC=CC=C2)C3=CC=C(C=C3)Cl,388.9,1.7,2-[2-[4-[(R)-(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]acetic acid
+Levodopa (L-Dopa),Levodopa,match,6047,C1=CC(=C(C=C1CC(C(=O)O)N)O)O,197.19,-2.7,"(2S)-2-amino-3-(3,4-dihydroxyphenyl)propanoic acid"
+Levomepromazine,Levomepromazine,match,72287,CC(CN1C2=CC=CC=C2SC3=C1C=C(C=C3)OC)CN(C)C,328.5,4.7,"(2R)-3-(2-methoxyphenothiazin-10-yl)-N,N,2-trimethylpropan-1-amine"
+Levomethadone,Levomethadone,match,22267,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2,309.4,3.9,"(6R)-6-(dimethylamino)-4,4-diphenylheptan-3-one"
+Levomilnacipran,Levomilnacipran,match,6917779,CCN(CC)C(=O)C1(CC1CN)C2=CC=CC=C2,246.35,1.4,"cis-(1S,2R)-2-(aminomethyl)-N,N-diethyl-1-phenylcyclopropane-1-carboxamide"
+Levorphanol,Levorphanol,match,5359272,CN1CCC23CCCCC2C1CC4=C3C=C(C=C4)O,257.37,3.1,"(1R,9R,10R)-17-methyl-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-trien-4-ol"
+Levothyroxine,Levothyroxine,match,5819,C1=C(C=C(C(=C1I)OC2=CC(=C(C(=C2)I)O)I)I)CC(C(=O)O)N,776.87,2.4,"(2S)-2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl]propanoic acid"
+Lidocaine (Lignocaine),Lidocaine,match,3676,CCN(CC)CC(=O)NC1=C(C=CC=C1C)C,234.34,2.3,"2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide"
+Linagliptin,Linagliptin,match,10096344,CC#CCN1C2=C(N=C1N3CCCC(C3)N)N(C(=O)N(C2=O)CC4=NC5=CC=CC=C5C(=N4)C)C,472.5,1.9,"8-[(3R)-3-aminopiperidin-1-yl]-7-but-2-ynyl-3-methyl-1-[(4-methylquinazolin-2-yl)methyl]purine-2,6-dione"
+Linezolid,Linezolid,match,441401,CC(=O)NCC1CN(C(=O)O1)C2=CC(=C(C=C2)N3CCOCC3)F,337.35,0.7,"N-[[(5S)-3-(3-fluoro-4-morpholin-4-ylphenyl)-2-oxo-1,3-oxazolidin-5-yl]methyl]acetamide"
+Lisinopril,Lisinopril,match,5362119,C1CC(N(C1)C(=O)C(CCCCN)NC(CCC2=CC=CC=C2)C(=O)O)C(=O)O,405.5,-2.9,(2S)-1-[(2S)-6-amino-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]hexanoyl]pyrrolidine-2-carboxylic acid
+Lithium,Lithium,match,3028194,[Li],7.0,,lithium
+Lofepramine,Lofepramine,match,3947,CN(CCCN1C2=CC=CC=C2CCC3=CC=CC=C31)CC(=O)C4=CC=C(C=C4)Cl,419.0,6.8,"1-(4-chlorophenyl)-2-[3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)propyl-methylamino]ethanone"
+Loperamide,Loperamide,match,3955,CN(C)C(=O)C(CCN1CCC(CC1)(C2=CC=C(C=C2)Cl)O)(C3=CC=CC=C3)C4=CC=CC=C4,477.0,5,"4-[4-(4-chlorophenyl)-4-hydroxypiperidin-1-yl]-N,N-dimethyl-2,2-diphenylbutanamide"
+Lopinavir (LPV),Lopinavir,match,92727,CC1=C(C(=CC=C1)C)OCC(=O)NC(CC2=CC=CC=C2)C(CC(CC3=CC=CC=C3)NC(=O)C(C(C)C)N4CCCNC4=O)O,628.8,5.9,"(2S)-N-[(2S,4S,5S)-5-[[2-(2,6-dimethylphenoxy)acetyl]amino]-4-hydroxy-1,6-diphenylhexan-2-yl]-3-methyl-2-(2-oxo-1,3-diazinan-1-yl)butanamide"
+Loprazolam,Loprazolam,match,3033860,CN1CCN(CC1)C=C2C(=O)N3C(=N2)CN=C(C4=C3C=CC(=C4)[N+](=O)[O-])C5=CC=CC=C5Cl,464.9,2.9,"(2Z)-6-(2-chlorophenyl)-2-[(4-methylpiperazin-1-yl)methylidene]-8-nitro-4H-imidazo[1,2-a][1,4]benzodiazepin-1-one"
+Loratadine,Loratadine,match,3957,CCOC(=O)N1CCC(=C2C3=C(CCC4=C2N=CC=C4)C=C(C=C3)Cl)CC1,382.9,5.2,"ethyl 4-(13-chloro-4-azatricyclo[9.4.0.03,8]pentadeca-1(11),3(8),4,6,12,14-hexaen-2-ylidene)piperidine-1-carboxylate"
+Lorazepam,Lorazepam,match,3958,C1=CC=C(C(=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O)Cl,321.2,2.4,"7-chloro-5-(2-chlorophenyl)-3-hydroxy-1,3-dihydro-1,4-benzodiazepin-2-one"
+Lorcainide,Lorcainide,match,42884,CC(C)N1CCC(CC1)N(C2=CC=C(C=C2)Cl)C(=O)CC3=CC=CC=C3,370.9,4.6,N-(4-chlorophenyl)-2-phenyl-N-(1-propan-2-ylpiperidin-4-yl)acetamide
+Lormetazepam,Lormetazepam,match,13314,CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3Cl,335.2,2.4,"7-chloro-5-(2-chlorophenyl)-3-hydroxy-1-methyl-3H-1,4-benzodiazepin-2-one"
+Lornoxicam,Lornoxicam,match,54690031,CN1C(=C(C2=C(S1(=O)=O)C=C(S2)Cl)O)C(=O)NC3=CC=CC=N3,371.8,2.1,"6-chloro-4-hydroxy-2-methyl-1,1-dioxo-N-pyridin-2-ylthieno[2,3-e]thiazine-3-carboxamide"
+Losartan,Losartan,match,3961,CCCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NNN=N4)CO)Cl,422.9,4.3,[2-butyl-5-chloro-3-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]imidazol-4-yl]methanol
+Lovastatin,Lovastatin,match,53232,CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C,404.5,4.3,"[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] (2S)-2-methylbutanoate"
+Loxapine,Loxapine,match,3964,CN1CCN(CC1)C2=NC3=CC=CC=C3OC4=C2C=C(C=C4)Cl,327.8,3.1,"8-chloro-6-(4-methylpiperazin-1-yl)benzo[b][1,4]benzoxazepine"
+Lurasidone,Lurasidone,match,213046,C1CCC(C(C1)CN2CCN(CC2)C3=NSC4=CC=CC=C43)CN5C(=O)C6C7CCC(C7)C6C5=O,492.7,5.4,"(1R,2S,6R,7S)-4-[[(1R,2R)-2-[[4-(1,2-benzothiazol-3-yl)piperazin-1-yl]methyl]cyclohexyl]methyl]-4-azatricyclo[5.2.1.02,6]decane-3,5-dione"
+"Lysergide (lysergic acid diethyl amide, LSD)",Lysergide,match,5761,CCN(CC)C(=O)C1CN(C2CC3=CNC4=CC=CC(=C34)C2=C1)C,323.4,3,"(6aR,9R)-N,N-diethyl-7-methyl-6,6a,8,9-tetrahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide"
+Macitentan,Macitentan,match,16004692,CCCNS(=O)(=O)NC1=C(C(=NC=N1)OCCOC2=NC=C(C=N2)Br)C3=CC=C(C=C3)Br,588.3,3.7,5-(4-bromophenyl)-6-[2-(5-bromopyrimidin-2-yl)oxyethoxy]-N-(propylsulfamoyl)pyrimidin-4-amine
+Magnesium,Magnesium,match,5462224,[Mg],24.305,,magnesium
+Malathione,Malathione,match,4004,CCOC(=O)CC(C(=O)OCC)SP(=S)(OC)OC,330.4,2.4,diethyl 2-dimethoxyphosphinothioylsulfanylbutanedioate
+Manganese,Manganese,match,23930,[Mn],54.93804,,manganese
+Mannitol,Mannitol,match,6251,C(C(C(C(C(CO)O)O)O)O)O,182.17,-3.1,"(2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol"
+Maprotiline,Maprotiline,match,4011,CNCCCC12CCC(C3=CC=CC=C31)C4=CC=CC=C24,277.4,4.6,"N-methyl-3-(1-tetracyclo[6.6.2.02,7.09,14]hexadeca-2,4,6,9,11,13-hexaenyl)propan-1-amine"
+Maraviroc (MVC),Maraviroc,match,3002977,CC1=NN=C(N1C2CC3CCC(C2)N3CCC(C4=CC=CC=C4)NC(=O)C5CCC(CC5)(F)F)C(C)C,513.7,5.1,"4,4-difluoro-N-[(1S)-3-[(1S,5R)-3-(3-methyl-5-propan-2-yl-1,2,4-triazol-4-yl)-8-azabicyclo[3.2.1]octan-8-yl]-1-phenylpropyl]cyclohexane-1-carboxamide"
+Mebendazole,Mebendazole,match,4030,COC(=O)NC1=NC2=C(N1)C=C(C=C2)C(=O)C3=CC=CC=C3,295.29,2.8,methyl N-(6-benzoyl-1H-benzimidazol-2-yl)carbamate
+Meclizine (Meclozine),Meclizine,match,4034,CC1=CC(=CC=C1)CN2CCN(CC2)C(C3=CC=CC=C3)C4=CC=C(C=C4)Cl,390.9,5.8,1-[(4-chlorophenyl)-phenylmethyl]-4-[(3-methylphenyl)methyl]piperazine
+Meclofenamic acid (Meclofenamate),Meclofenamic acid,match,4037,CC1=C(C(=C(C=C1)Cl)NC2=CC=CC=C2C(=O)O)Cl,296.1,5.2,"2-(2,6-dichloro-3-methylanilino)benzoic acid"
+Medazepam,Medazepam,match,4041,CN1CCN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,270.75,4.4,"7-chloro-1-methyl-5-phenyl-2,3-dihydro-1,4-benzodiazepine"
+Mefenamic acid,Mefenamic acid,match,4044,CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C,241.28,5.1,"2-(2,3-dimethylanilino)benzoic acid"
+Mefloquine,Mefloquine,match,4046,C1CCNC(C1)C(C2=CC(=NC3=C2C=CC=C3C(F)(F)F)C(F)(F)F)O,378.31,3.6,"[2,8-bis(trifluoromethyl)quinolin-4-yl]-piperidin-2-ylmethanol"
+Melatonin,Melatonin,match,896,CC(=O)NCCC1=CNC2=C1C=C(C=C2)OC,232.28,0.8,N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide
+Melitracen,Melitracen,match,25382,CC1(C2=CC=CC=C2C(=CCCN(C)C)C3=CC=CC=C31)C,291.4,5.6,"3-(10,10-dimethylanthracen-9-ylidene)-N,N-dimethylpropan-1-amine"
+Meloxicam,Meloxicam,match,54677470,CC1=CN=C(S1)NC(=O)C2=C(C3=CC=CC=C3S(=O)(=O)N2C)O,351.4,3,"4-hydroxy-2-methyl-N-(5-methyl-1,3-thiazol-2-yl)-1,1-dioxo-1lambda6,2-benzothiazine-3-carboxamide"
+Melperone,Melperone,match,15387,CC1CCN(CC1)CCCC(=O)C2=CC=C(C=C2)F,263.35,3.3,1-(4-fluorophenyl)-4-(4-methylpiperidin-1-yl)butan-1-one
+Melphalan,Melphalan,match,460612,C1=CC(=CC=C1CC(C(=O)O)N)N(CCCl)CCCl,305.20,-0.5,(2S)-2-amino-3-[4-[bis(2-chloroethyl)amino]phenyl]propanoic acid
+Memantine,Memantine,match,4054,CC12CC3CC(C1)(CC(C3)(C2)N)C,179.30,3.3,"3,5-dimethyladamantan-1-amine"
+Mephenesin,Mephenesin,match,4059,CC1=CC=CC=C1OCC(CO)O,182.22,1.4,"3-(2-methylphenoxy)propane-1,2-diol"
+Mepindolol,Mepindolol,match,71698,CC1=CC2=C(N1)C=CC=C2OCC(CNC(C)C)O,262.35,2.3,1-[(2-methyl-1H-indol-4-yl)oxy]-3-(propan-2-ylamino)propan-2-ol
+Mepivacaine,Mepivacaine,match,4062,CC1=C(C(=CC=C1)C)NC(=O)C2CCCCN2C,246.35,1.9,"N-(2,6-dimethylphenyl)-1-methylpiperidine-2-carboxamide"
+Meprobamate,Meprobamate,match,4064,CCCC(C)(COC(=O)N)COC(=O)N,218.25,0.7,[2-(carbamoyloxymethyl)-2-methylpentyl] carbamate
+Meptazinol,Meptazinol,match,41049,CCC1(CCCCN(C1)C)C2=CC(=CC=C2)O,233.35,3.4,3-(3-ethyl-1-methylazepan-3-yl)phenol
+Mercaptopurine,Mercaptopurine,match,667490,C1=NC2=C(N1)C(=S)N=CN2,152.18,0,"3,7-dihydropurine-6-thione"
+Mercury,Mercury,match,23931,[Hg],200.59,,mercury
+Meropenem,Meropenem,match,441130,CC1C2C(C(=O)N2C(=C1SC3CC(NC3)C(=O)N(C)C)C(=O)O)C(C)O,383.5,-2.4,"(4R,5S,6S)-3-[(3S,5S)-5-(dimethylcarbamoyl)pyrrolidin-3-yl]sulfanyl-6-[(1R)-1-hydroxyethyl]-4-methyl-7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
+Mescaline,Mescaline,match,4076,COC1=CC(=CC(=C1OC)OC)CCN,211.26,0.7,"2-(3,4,5-trimethoxyphenyl)ethanamine"
+Mesalazine (Mesalamine),Mesalazine,match,4075,C1=CC(=C(C=C1N)C(=O)O)O,153.14,1.3,5-amino-2-hydroxybenzoic acid
+Mesoridazine,Mesoridazine,match,4078,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)C,386.6,4.5,10-[2-(1-methylpiperidin-2-yl)ethyl]-2-methylsulfinylphenothiazine
+Metaclazepam,Metaclazepam,match,71272,CN1C(CN=C(C2=C1C=CC(=C2)Br)C3=CC=CC=C3Cl)COC,393.7,4.4,"7-bromo-5-(2-chlorophenyl)-2-(methoxymethyl)-1-methyl-2,3-dihydro-1,4-benzodiazepine"
+Metamizole (Dipyrone),Metamizole,match,3111,CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N(C)CS(=O)(=O)O,311.36,0,"[(1,5-dimethyl-3-oxo-2-phenylpyrazol-4-yl)-methylamino]methanesulfonic acid"
+Metandienone (Methandienone),Metandienone,match,6300,CC12CCC3C(C1CCC2(C)O)CCC4=CC(=O)C=CC34C,300.4,3.6,"(8R,9S,10R,13S,14S,17S)-17-hydroxy-10,13,17-trimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one"
+Metaxalone,Metaxalone,match,15459,CC1=CC(=CC(=C1)OCC2CNC(=O)O2)C,221.25,2.2,"5-[(3,5-dimethylphenoxy)methyl]-1,3-oxazolidin-2-one"
+Metformin,Metformin,match,4091,CN(C)C(=N)N=C(N)N,129.16,-1.3,"3-(diaminomethylidene)-1,1-dimethylguanidine"
+Methadone,Methadone,match,4095,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2,309.4,3.9,"6-(dimethylamino)-4,4-diphenylheptan-3-one"
+Methamphetamine (Methylamphetamine),Methamphetamine,match,10836,CC(CC1=CC=CC=C1)NC,149.23,2.1,(2S)-N-methyl-1-phenylpropan-2-amine
+Methanol,Methanol,match,887,CO,32.042,-0.5,methanol
+Methapyrilene,Methapyrilene,match,4098,CN(C)CCN(CC1=CC=CS1)C2=CC=CC=N2,261.39,2.6,"N,N-dimethyl-N'-pyridin-2-yl-N'-(thiophen-2-ylmethyl)ethane-1,2-diamine"
+Methaqualone,Methaqualone,match,6292,CC1=CC=CC=C1N2C(=NC3=CC=CC=C3C2=O)C,250.29,2.5,2-methyl-3-(2-methylphenyl)quinazolin-4-one
+Methemoglobin (Met-Hb),Methemoglobin (Met-Hb); Methemoglobin,no_match:404,,,,,
+Methimazole,Methimazole,match,1349907,CN1C=CNC1=S,114.17,-0.3,3-methyl-1H-imidazole-2-thione
+Methocarbamol,Methocarbamol,match,4107,COC1=CC=CC=C1OCC(COC(=O)N)O,241.24,0.6,[2-hydroxy-3-(2-methoxyphenoxy)propyl] carbamate
+Methohexital,Methohexital,match,9034,CCC#CC(C)C1(C(=O)NC(=O)N(C1=O)C)CC=C,262.30,2.3,"5-hex-3-yn-2-yl-1-methyl-5-prop-2-enyl-1,3-diazinane-2,4,6-trione"
+Methomyl,Methomyl,match,4109,CC(=NOC(=O)NC)SC,162.21,0.6,methyl N-(methylcarbamoyloxy)ethanimidothioate
+Methotrexate (MTX),Methotrexate,match,126941,CN(CC1=CN=C2C(=N1)C(=NC(=N2)N)N)C3=CC=C(C=C3)C(=O)NC(CCC(=O)O)C(=O)O,454.4,-1.8,"(2S)-2-[[4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioic acid"
+Methoxsalen (8-Methoxypsoralene),Methoxsalen,match,4114,COC1=C2C(=CC3=C1OC=C3)C=CC(=O)O2,216.19,1.9,"9-methoxyfuro[3,2-g]chromen-7-one"
+Methsuximide (Mesuximide),Methsuximide,match,6476,CC1(CC(=O)N(C1=O)C)C2=CC=CC=C2,203.24,1.2,"1,3-dimethyl-3-phenylpyrrolidine-2,5-dione"
+4’-Methyl-alpha- pyrrolidinohexanophenone (MPHP),4’-Methyl-alpha- pyrrolidinohexanophenone (MPHP); 4’-Methyl-alpha- pyrrolidinohexanophenone; 4’-Methyl-alpha,no_match:404,,,,,
+2-Methyl-4-chlorophenoxyacetic acid (MCPA),2-Methyl-4-chlorophenoxyacetic acid,match,7204,CC1=C(C=CC(=C1)Cl)OCC(=O)O,200.62,2.6,2-(4-chloro-2-methylphenoxy)acetic acid
+"2-Methyl-4-chlorophenoxypropionic acid (MCPP, Mecoprop)",2-Methyl-4-chlorophenoxypropionic acid,match,7153,CC1=C(C=CC(=C1)Cl)OC(C)C(=O)O,214.64,3.1,2-(4-chloro-2-methylphenoxy)propanoic acid
+Methyldopa,Methyldopa,match,38853,CC(CC1=CC(=C(C=C1)O)O)(C(=O)O)N,211.21,-1.9,"(2S)-2-amino-3-(3,4-dihydroxyphenyl)-2-methylpropanoic acid"
+"3,4-Methylenedioxyamphetamine (MDA)","3,4-Methylenedioxyamphetamine (MDA)",match,1614,CC(CC1=CC2=C(C=C1)OCO2)N,179.22,1.6,"1-(1,3-benzodioxol-5-yl)propan-2-amine"
+"3,4-Methylenedioxyethylamphetamine (MDEA, MDE)","3,4-Methylenedioxyethylamphetamine",match,6424841,CCNC(C)C1=CC2=C(C=C1)OCO2,193.24,2.1,"1-(1,3-benzodioxol-5-yl)-N-ethylethanamine"
+"3,4-Methylenedioxymethylamphetamine (MDMA, Ecstasy, XTC)","3,4-Methylenedioxymethylamphetamine (MDMA, Ecstasy, XTC); 3,4-Methylenedioxymethylamphetamine",no_match:404,,,,,
+3-Methyl-fentanyl,3-Methyl-fentanyl,match,61996,CCC(=O)N(C1CCN(CC1C)CCC2=CC=CC=C2)C3=CC=CC=C3,350.5,4.5,N-[3-methyl-1-(2-phenylethyl)piperidin-4-yl]-N-phenylpropanamide
+Methylphenidate,Methylphenidate,match,4158,COC(=O)C(C1CCCCN1)C2=CC=CC=C2,233.31,0.2,methyl 2-phenyl-2-piperidin-2-ylacetate
+"4-Methylthioamphetamine (4-MTA, p-MTA)",4-Methylthioamphetamine,match,151900,CC(CC1=CC=C(C=C1)SC)N,181.30,2.3,1-(4-methylsulfanylphenyl)propan-2-amine
+Methyprylon(e),Methyprylon,match,4162,CCC1(C(=O)C(CNC1=O)C)CC,183.25,0.8,"3,3-diethyl-5-methylpiperidine-2,4-dione"
+Metiamide,Metiamide,match,1548992,CC1=C(N=CN1)CSCCNC(=S)NC,244.4,0.5,1-methyl-3-[2-[(5-methyl-1H-imidazol-4-yl)methylsulfanyl]ethyl]thiourea
+Metipranolol,Metipranolol,match,31477,CC1=CC(=C(C(=C1OC(=O)C)C)C)OCC(CNC(C)C)O,309.4,2.7,"[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]-2,3,6-trimethylphenyl] acetate"
+Metoclopramide,Metoclopramide,match,4168,CCN(CC)CCNC(=O)C1=CC(=C(C=C1OC)N)Cl,299.79,2.6,4-amino-5-chloro-N-[2-(diethylamino)ethyl]-2-methoxybenzamide
+Metocurine,Metocurine,match,21233,C[N+]1(CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C6C(CC7=CC(=C(C=C7)OC)O3)[N+](CCC6=CC(=C5OC)OC)(C)C)OC)C,652.8,6.7,"(1S,16R)-9,10,21,25-tetramethoxy-15,15,30,30-tetramethyl-7,23-dioxa-15,30-diazoniaheptacyclo[22.6.2.23,6.18,12.118,22.027,31.016,34]hexatriaconta-3(36),4,6(35),8(34),9,11,18(33),19,21,24,26,31-dodecaene"
+Metolazone,Metolazone,match,4170,CC1NC2=CC(=C(C=C2C(=O)N1C3=CC=CC=C3C)S(=O)(=O)N)Cl,365.8,4.1,"7-chloro-2-methyl-3-(2-methylphenyl)-4-oxo-1,2-dihydroquinazoline-6-sulfonamide"
+Metoprolol,Metoprolol,match,4171,CC(C)NCC(COC1=CC=C(C=C1)CCOC)O,267.36,1.9,1-[4-(2-methoxyethyl)phenoxy]-3-(propan-2-ylamino)propan-2-ol
+Metrifonate,Metrifonate,match,5853,COP(=O)(C(C(Cl)(Cl)Cl)O)OC,257.43,0.5,"2,2,2-trichloro-1-dimethoxyphosphorylethanol"
+Metronidazole,Metronidazole,match,4173,CC1=NC=C(N1CCO)[N+](=O)[O-],171.15,0,2-(2-methyl-5-nitroimidazol-1-yl)ethanol
+Mexiletine,Mexiletine,match,4178,CC1=C(C(=CC=C1)C)OCC(C)N,179.26,2.1,"1-(2,6-dimethylphenoxy)propan-2-amine"
+Mianserin,Mianserin,match,4184,CN1CCN2C(C1)C3=CC=CC=C3CC4=CC=CC=C42,264.4,3.4,"5-methyl-2,5-diazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(19),8,10,12,15,17-hexaene"
+Mibefradil,Mibefradil,match,60663,CC(C)C1C2=C(CCC1(CCN(C)CCCC3=NC4=CC=CC=C4N3)OC(=O)COC)C=C(C=C2)F,495.6,5.8,"[(1S,2S)-2-[2-[3-(1H-benzimidazol-2-yl)propyl-methylamino]ethyl]-6-fluoro-1-propan-2-yl-3,4-dihydro-1H-naphthalen-2-yl] 2-methoxyacetate"
+Miconazole,Miconazole,match,4189,C1=CC(=C(C=C1Cl)Cl)COC(CN2C=CN=C2)C3=C(C=C(C=C3)Cl)Cl,416.1,5.3,"1-[2-(2,4-dichlorophenyl)-2-[(2,4-dichlorophenyl)methoxy]ethyl]imidazole"
+Midazolam,Midazolam,match,4192,CC1=NC=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4F,325.8,2.5,"8-chloro-6-(2-fluorophenyl)-1-methyl-4H-imidazo[1,5-a][1,4]benzodiazepine"
+Mifepristone (RU-486),Mifepristone,match,55245,CC#CC1(CCC2C1(CC(C3=C4CCC(=O)C=C4CCC23)C5=CC=C(C=C5)N(C)C)C)O,429.6,3.8,"(8S,11R,13S,14S,17S)-11-[4-(dimethylamino)phenyl]-17-hydroxy-13-methyl-17-prop-1-ynyl-1,2,6,7,8,11,12,14,15,16-decahydrocyclopenta[a]phenanthren-3-one"
+Milnacipran,Milnacipran,match,65833,CCN(CC)C(=O)C1(CC1CN)C2=CC=CC=C2,246.35,1.4,"cis-(1R,2S)-2-(aminomethyl)-N,N-diethyl-1-phenylcyclopropane-1-carboxamide"
+Milrinone,Milrinone,match,4197,CC1=C(C=C(C(=O)N1)C#N)C2=CC=NC=C2,211.22,0,6-methyl-2-oxo-5-pyridin-4-yl-1H-pyridine-3-carbonitrile
+Minaprine,Minaprine,match,4199,CC1=CC(=NN=C1NCCN2CCOCC2)C3=CC=CC=C3,298.4,2,4-methyl-N-(2-morpholin-4-ylethyl)-6-phenylpyridazin-3-amine
+Minoxidil,Minoxidil,match,4201,C1CCN(CC1)C2=NC(=N)N(C(=C2)N)O,209.25,1.2,3-hydroxy-2-imino-6-piperidin-1-ylpyrimidin-4-amine
+Mirabegron,Mirabegron,match,9865528,C1=CC=C(C=C1)C(CNCCC2=CC=C(C=C2)NC(=O)CC3=CSC(=N3)N)O,396.5,2.1,"2-(2-amino-1,3-thiazol-4-yl)-N-[4-[2-[[(2R)-2-hydroxy-2-phenylethyl]amino]ethyl]phenyl]acetamide"
+Mirtazapine,Mirtazapine,match,4205,CN1CCN2C(C1)C3=CC=CC=C3CC4=C2N=CC=C4,265.35,3.3,"5-methyl-2,5,19-triazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(15),8,10,12,16,18-hexaene"
+Misoprostol,Misoprostol,match,5282381,CCCCC(C)(CC=CC1C(CC(=O)C1CCCCCCC(=O)OC)O)O,382.5,3.7,"methyl 7-[(1R,2R,3R)-3-hydroxy-2-[(E)-4-hydroxy-4-methyloct-1-enyl]-5-oxocyclopentyl]heptanoate"
+Mitotane,Mitotane,match,4211,C1=CC=C(C(=C1)C(C2=CC=C(C=C2)Cl)C(Cl)Cl)Cl,320.0,6.2,"1-chloro-2-[2,2-dichloro-1-(4-chlorophenyl)ethyl]benzene"
+Mitragynine (Kratom),Mitragynine,match,3034396,CCC1CN2CCC3=C(C2CC1C(=COC)C(=O)OC)NC4=C3C(=CC=C4)OC,398.5,3.4,"methyl (E)-2-[(2S,3S,12bS)-3-ethyl-8-methoxy-1,2,3,4,6,7,12,12b-octahydroindolo[2,3-a]quinolizin-2-yl]-3-methoxyprop-2-enoate"
+Mizolastine,Mizolastine,match,65906,CN(C1CCN(CC1)C2=NC3=CC=CC=C3N2CC4=CC=C(C=C4)F)C5=NC=CC(=O)N5,432.5,3.2,2-[[1-[1-[(4-fluorophenyl)methyl]benzimidazol-2-yl]piperidin-4-yl]-methylamino]-1H-pyrimidin-6-one
+Moclobemide,Moclobemide,match,4235,C1COCCN1CCNC(=O)C2=CC=C(C=C2)Cl,268.74,1.5,4-chloro-N-(2-morpholin-4-ylethyl)benzamide
+Modafinil,Modafinil,match,4236,C1=CC=C(C=C1)C(C2=CC=CC=C2)S(=O)CC(=O)N,273.4,1.7,2-benzhydrylsulfinylacetamide
+Moexiprilat,Moexiprilat,match,55331,CC(C(=O)N1CC2=CC(=C(C=C2CC1C(=O)O)OC)OC)NC(CCC3=CC=CC=C3)C(=O)O,470.5,0.5,"(3S)-2-[(2S)-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]propanoyl]-6,7-dimethoxy-3,4-dihydro-1H-isoquinoline-3-carboxylic acid"
+Molindone,Molindone,match,23897,CCC1=C(NC2=C1C(=O)C(CC2)CN3CCOCC3)C,276.37,1.7,"3-ethyl-2-methyl-5-(morpholin-4-ylmethyl)-1,5,6,7-tetrahydroindol-4-one"
+Molsidomine,Molsidomine,match,5353788,CCOC(=NC1=C[N+](=NO1)N2CCOCC2)[O-],242.23,2.2,(1E)-1-ethoxy-N-(3-morpholin-4-yloxadiazol-3-ium-5-yl)methanimidate
+Molybdenum,Molybdenum,match,23932,[Mo],95.95,,molybdenum
+Montelukast (MK-0476),Montelukast,match,5281040,CC(C)(C1=CC=CC=C1CCC(C2=CC=CC(=C2)C=CC3=NC4=C(C=CC(=C4)Cl)C=C3)SCC5(CC5)CC(=O)O)O,586.2,7.7,2-[1-[[(1R)-1-[3-[(E)-2-(7-chloroquinolin-2-yl)ethenyl]phenyl]-3-[2-(2-hydroxypropan-2-yl)phenyl]propyl]sulfanylmethyl]cyclopropyl]acetic acid
+Moricizine,Moricizine,match,34633,CCOC(=O)NC1=CC2=C(C=C1)SC3=CC=CC=C3N2C(=O)CCN4CCOCC4,427.5,3,ethyl N-[10-(3-morpholin-4-ylpropanoyl)phenothiazin-2-yl]carbamate
+Morphine,Morphine,match,5288826,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O,285.34,0.8,"(4R,4aR,7S,7aR,12bS)-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-7,9-diol"
+Moxonidine,Moxonidine,match,4810,CC1=NC(=C(C(=N1)Cl)NC2=NCCN2)OC,241.68,0.6,"4-chloro-N-(4,5-dihydro-1H-imidazol-2-yl)-6-methoxy-2-methylpyrimidin-5-amine"
+Muromonab-CD3 (OKT 3),Muromonab-CD3 (OKT 3); Muromonab-CD3,no_match:404,,,,,
+Mycophenolate mofetil,Mycophenolate mofetil,match,5281078,CC1=C2COC(=O)C2=C(C(=C1OC)CC=C(C)CCC(=O)OCCN3CCOCC3)O,433.5,3.2,2-morpholin-4-ylethyl (E)-6-(4-hydroxy-6-methoxy-7-methyl-3-oxo-1H-2-benzofuran-5-yl)-4-methylhex-4-enoate
+Nabumetone,Nabumetone,match,4409,CC(=O)CCC1=CC2=C(C=C1)C=C(C=C2)OC,228.29,3.1,4-(6-methoxynaphthalen-2-yl)butan-2-one
+Nadolol,Nadolol,match,39147,CC(C)(C)NCC(COC1=CC=CC2=C1CC(C(C2)O)O)O,309.4,0.7,"(2R,3S)-5-[3-(tert-butylamino)-2-hydroxypropoxy]-1,2,3,4-tetrahydronaphthalene-2,3-diol"
+Naftidrofuryl (Nafronyl),Naftidrofuryl,match,4417,CCN(CC)CCOC(=O)C(CC1CCCO1)CC2=CC=CC3=CC=CC=C32,383.5,4.8,2-(diethylamino)ethyl 2-(naphthalen-1-ylmethyl)-3-(oxolan-2-yl)propanoate
+Nalbuphine,Nalbuphine,match,5311304,C1CC(C1)CN2CCC34C5C(CCC3(C2CC6=C4C(=C(C=C6)O)O5)O)O,357.4,0.2,"(4R,4aS,7S,7aR,12bS)-3-(cyclobutylmethyl)-1,2,4,5,6,7,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinoline-4a,7,9-triol"
+Nalidixic acid,Nalidixic acid,match,4421,CCN1C=C(C(=O)C2=C1N=C(C=C2)C)C(=O)O,232.23,1.4,"1-ethyl-7-methyl-4-oxo-1,8-naphthyridine-3-carboxylic acid"
+Nalmefene,Nalmefene,match,5284594,C=C1CCC2(C3CC4=C5C2(C1OC5=C(C=C4)O)CCN3CC6CC6)O,339.4,2.7,"(4R,4aS,7aS,12bS)-3-(cyclopropylmethyl)-7-methylidene-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-4a,9-diol"
+Naloxone,Naloxone,match,5284596,C=CCN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)O)O4)O,327.4,2.1,"(4R,4aS,7aR,12bS)-4a,9-dihydroxy-3-prop-2-enyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Naltrexone,Naltrexone,match,5360515,C1CC1CN2CCC34C5C(=O)CCC3(C2CC6=C4C(=C(C=C6)O)O5)O,341.4,1.9,"(4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-dihydroxy-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Naphyrone (Naphthylpyrovalerone),Naphyrone,match,11243002,CCCC(C(=O)C1=CC2=CC=CC=C2C=C1)N3CCCC3,281.4,4.7,1-naphthalen-2-yl-2-pyrrolidin-1-ylpentan-1-one
+Naproxen,Naproxen,match,156391,CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O,230.26,3.3,(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid
+Naratriptan,Naratriptan,match,4440,CNS(=O)(=O)CCC1=CC2=C(C=C1)NC=C2C3CCN(CC3)C,335.5,2,N-methyl-2-[3-(1-methylpiperidin-4-yl)-1H-indol-5-yl]ethanesulfonamide
+Nateglinide,Nateglinide,match,5311309,CC(C)C1CCC(CC1)C(=O)NC(CC2=CC=CC=C2)C(=O)O,317.4,3.2,(2R)-3-phenyl-2-[(4-propan-2-ylcyclohexanecarbonyl)amino]propanoic acid
+"25I-NBOMe 2-(4-iodo-2, 5- dimethoxyphenyl)-N-(2- methoxybenzyl)ethanamine",25I-NBOMe,match,10251906,COC1=CC=CC=C1CNCCC2=CC(=C(C=C2OC)I)OC,427.3,3.8,"2-(4-iodo-2,5-dimethoxyphenyl)-N-[(2-methoxyphenyl)methyl]ethanamine"
+Nebivolol,Nebivolol,match,71301,C1CC2=C(C=CC(=C2)F)OC1C(CNCC(C3CCC4=C(O3)C=CC(=C4)F)O)O,405.4,3,"1-(6-fluoro-3,4-dihydro-2H-chromen-2-yl)-2-[[2-(6-fluoro-3,4-dihydro-2H-chromen-2-yl)-2-hydroxyethyl]amino]ethanol"
+Nedocromil,Nedocromil,match,50294,CCCC1=C2C(=CC3=C1OC(=CC3=O)C(=O)O)C(=O)C=C(N2CC)C(=O)O,371.3,2.2,"9-ethyl-4,6-dioxo-10-propylpyrano[3,2-g]quinoline-2,8-dicarboxylic acid"
+Nefazodone,Nefazodone,match,4449,CCC1=NN(C(=O)N1CCOC2=CC=CC=C2)CCCN3CCN(CC3)C4=CC(=CC=C4)Cl,470.0,4.3,"2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-5-ethyl-4-(2-phenoxyethyl)-1,2,4-triazol-3-one"
+Nefopam,Nefopam,match,4450,CN1CCOC(C2=CC=CC=C2C1)C3=CC=CC=C3,253.34,2.9,"5-methyl-1-phenyl-1,3,4,6-tetrahydro-2,5-benzoxazocine"
+Nelfinavir (NFV),Nelfinavir,match,64143,CC1=C(C=CC=C1O)C(=O)NC(CSC2=CC=CC=C2)C(CN3CC4CCCCC4CC3C(=O)NC(C)(C)C)O,567.8,5.7,"(3S,4aS,8aS)-N-tert-butyl-2-[(2R,3R)-2-hydroxy-3-[(3-hydroxy-2-methylbenzoyl)amino]-4-phenylsulfanylbutyl]-3,4,4a,5,6,7,8,8a-octahydro-1H-isoquinoline-3-carboxamide"
+Neostigmine,Neostigmine,match,4456,CN(C)C(=O)OC1=CC=CC(=C1)[N+](C)(C)C,223.29,1.5,[3-(dimethylcarbamoyloxy)phenyl]-trimethylazanium
+Netilmicin,Netilmicin,match,441306,CCNC1CC(C(C(C1OC2C(C(C(CO2)(C)O)NC)O)O)OC3C(CC=C(O3)CN)N)N,475.6,-4.2,"(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4-amino-3-[[(2S,3R)-3-amino-6-(aminomethyl)-3,4-dihydro-2H-pyran-2-yl]oxy]-6-(ethylamino)-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol"
+Nevirapine (NVP),Nevirapine,match,4463,CC1=C2C(=NC=C1)N(C3=C(C=CC=N3)C(=O)N2)C4CC4,266.30,2,"2-cyclopropyl-7-methyl-2,4,9,15-tetrazatricyclo[9.4.0.03,8]pentadeca-1(11),3,5,7,12,14-hexaen-10-one"
+Nicardipine,Nicardipine,match,4474,CC1=C(C(C(=C(N1)C)C(=O)OCCN(C)CC2=CC=CC=C2)C3=CC(=CC=C3)[N+](=O)[O-])C(=O)OC,479.5,3.8,"5-O-[2-[benzyl(methyl)amino]ethyl] 3-O-methyl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Nickel,Nickel,match,935,[Ni],58.693,,nickel
+Nicotine,Nicotine,match,89594,CN1CCCC1C2=CN=CC=C2,162.23,1.2,3-[(2S)-1-methylpyrrolidin-2-yl]pyridine
+Nicotinic acid,Nicotinic acid,match,938,C1=CC(=CN=C1)C(=O)O,123.11,0.4,pyridine-3-carboxylic acid
+Nifedipine,Nifedipine,match,4485,CC1=C(C(C(=C(N1)C)C(=O)OC)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC,346.3,2.2,"dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Niflumic acid,Niflumic acid,match,4488,C1=CC(=CC(=C1)NC2=C(C=CC=N2)C(=O)O)C(F)(F)F,282.22,3.7,2-[3-(trifluoromethyl)anilino]pyridine-3-carboxylic acid
+Nilvadipine,Nilvadipine,match,4494,CC1=C(C(C(=C(N1)C#N)C(=O)OC)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OC(C)C,385.4,2.9,"3-O-methyl 5-O-propan-2-yl 2-cyano-6-methyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Nimesulide,Nimesulide,match,4495,CS(=O)(=O)NC1=C(C=C(C=C1)[N+](=O)[O-])OC2=CC=CC=C2,308.31,2.6,N-(4-nitro-2-phenoxyphenyl)methanesulfonamide
+Nimodipine,Nimodipine,match,4497,CC1=C(C(C(=C(N1)C)C(=O)OC(C)C)C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OCCOC,418.4,3.1,"3-O-(2-methoxyethyl) 5-O-propan-2-yl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Nimustine (ACNU),Nimustine,match,39214,CC1=NC=C(C(=N1)N)CNC(=O)N(CCCl)N=O,272.69,0.4,3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-1-(2-chloroethyl)-1-nitrosourea
+Nisoldipine,Nisoldipine,match,4499,CC1=C(C(C(=C(N1)C)C(=O)OCC(C)C)C2=CC=CC=C2[N+](=O)[O-])C(=O)OC,388.4,3.3,"3-O-methyl 5-O-(2-methylpropyl) 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+Nitrazepam,Nitrazepam,match,4506,C1C(=O)NC2=C(C=C(C=C2)[N+](=O)[O-])C(=N1)C3=CC=CC=C3,281.27,2.2,"7-nitro-5-phenyl-1,3-dihydro-1,4-benzodiazepin-2-one"
+Nitrendipine,Nitrendipine,match,4507,CCOC(=O)C1=C(NC(=C(C1C2=CC(=CC=C2)[N+](=O)[O-])C(=O)OC)C)C,360.4,2.9,"5-O-ethyl 3-O-methyl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate"
+p-Nitroaniline (4-Nitroaniline),p-Nitroaniline,match,7475,C1=CC(=CC=C1N)[N+](=O)[O-],138.12,1.4,4-nitroaniline
+Nitrofurantoin,Nitrofurantoin,match,6604200,C1C(=O)NC(=O)N1N=CC2=CC=C(O2)[N+](=O)[O-],238.16,-0.5,"1-[(E)-(5-nitrofuran-2-yl)methylideneamino]imidazolidine-2,4-dione"
+"Nitroglycerin (Glyceryl trinitrate, GTN)",Nitroglycerin,match,4510,C(C(CO[N+](=O)[O-])O[N+](=O)[O-])O[N+](=O)[O-],227.09,1.6,"1,3-dinitrooxypropan-2-yl nitrate"
+Nizatidine,Nizatidine,match,4513,CNC(=C[N+](=O)[O-])NCCSCC1=CSC(=N1)CN(C)C,331.5,1.6,"1-N'-[2-[[2-[(dimethylamino)methyl]-1,3-thiazol-4-yl]methylsulfanyl]ethyl]-1-N-methyl-2-nitroethene-1,1-diamine"
+Nomifensin(e),Nomifensin,match,4528,CN1CC(C2=C(C1)C(=CC=C2)N)C3=CC=CC=C3,238.33,2.6,"2-methyl-4-phenyl-3,4-dihydro-1H-isoquinolin-8-amine"
+Nordazepam (Desmethlydiazepam),Nordazepam,match,2997,C1C(=O)NC2=C(C=C(C=C2)Cl)C(=N1)C3=CC=CC=C3,270.71,2.9,"7-chloro-5-phenyl-1,3-dihydro-1,4-benzodiazepin-2-one"
+Norfenefrine,Norfenefrine,match,4538,C1=CC(=CC(=C1)O)C(CN)O,153.18,-0.8,3-(2-amino-1-hydroxyethyl)phenol
+Norfloxacin,Norfloxacin,match,4539,CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCNCC3)F)C(=O)O,319.33,-1,1-ethyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid
+Normesuximide (N-Desmethylmesuximide),Normesuximide,match,92154,CC1(CC(=O)NC1=O)C2=CC=CC=C2,189.21,1,"3-methyl-3-phenylpyrrolidine-2,5-dione"
+Nortriptyline (see also Amitriptyline),Nortriptyline,match,4543,CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31,263.4,4.5,"N-methyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine"
+Noscapine,Noscapine,match,275196,CN1CCC2=CC3=C(C(=C2C1C4C5=C(C(=C(C=C5)OC)OC)C(=O)O4)OC)OCO3,413.4,2.7,"(3S)-6,7-dimethoxy-3-[(5R)-4-methoxy-6-methyl-7,8-dihydro-5H-[1,3]dioxolo[4,5-g]isoquinolin-5-yl]-3H-2-benzofuran-1-one"
+Obidoxime,Obidoxime,match,135412781,C1=C[N+](=CC=C1C=NO)COC[N+]2=CC=C(C=C2)C=NO,288.30,1.1,(NE)-N-[[1-[[4-[(E)-hydroxyiminomethyl]pyridin-1-ium-1-yl]methoxymethyl]pyridin-1-ium-4-yl]methylidene]hydroxylamine
+Ocfentanil,Ocfentanil,match,60575,COCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3F,370.5,3.6,N-(2-fluorophenyl)-2-methoxy-N-[1-(2-phenylethyl)piperidin-4-yl]acetamide
+Octisalate,Octisalate,match,8364,CCCCC(CC)COC(=O)C1=CC=CC=C1O,250.33,5.7,2-ethylhexyl 2-hydroxybenzoate
+Octinoxate,Octinoxate,match,5355130,CCCCC(CC)COC(=O)C=CC1=CC=C(C=C1)OC,290.4,5.3,2-ethylhexyl (E)-3-(4-methoxyphenyl)prop-2-enoate
+Octocrylene,Octocrylene,match,22571,CCCCC(CC)COC(=O)C(=C(C1=CC=CC=C1)C2=CC=CC=C2)C#N,361.5,7.1,"2-ethylhexyl 2-cyano-3,3-diphenylprop-2-enoate"
+Ofloxacin,Ofloxacin,match,4583,CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,361.4,-0.4,"7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid"
+Olanzapine,Olanzapine,match,135398745,CC1=CC2=C(S1)NC3=CC=CC=C3N=C2N4CCN(CC4)C,312.4,2.9,"2-methyl-4-(4-methylpiperazin-1-yl)-10H-thieno[2,3-b][1,5]benzodiazepine"
+Olmesartan,Olmesartan,match,158781,CCCC1=NC(=C(N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NNN=N4)C(=O)O)C(C)(C)O,446.5,3.2,5-(2-hydroxypropan-2-yl)-2-propyl-3-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]imidazole-4-carboxylic acid
+Omecamtiv mecarbil,Omecamtiv mecarbil,match,11689883,CC1=NC=C(C=C1)NC(=O)NC2=CC=CC(=C2F)CN3CCN(CC3)C(=O)OC,401.4,1.4,methyl 4-[[2-fluoro-3-[(6-methyl-3-pyridinyl)carbamoylamino]phenyl]methyl]piperazine-1-carboxylate
+Omeprazole,Omeprazole,match,4594,CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC,345.4,2.2,"6-methoxy-2-[(4-methoxy-3,5-dimethyl-2-pyridinyl)methylsulfinyl]-1H-benzimidazole"
+Ondansetron,Ondansetron,match,4595,CC1=NC=CN1CC2CCC3=C(C2=O)C4=CC=CC=C4N3C,293.4,2.3,"9-methyl-3-[(2-methylimidazol-1-yl)methyl]-2,3-dihydro-1H-carbazol-4-one"
+Opipramol,Opipramol,match,9417,C1CN(CCN1CCCN2C3=CC=CC=C3C=CC4=CC=CC=C42)CCO,363.5,3.6,2-[4-(3-benzo[b][1]benzazepin-11-ylpropyl)piperazin-1-yl]ethanol
+Orphenadrine,Orphenadrine,match,4601,CC1=CC=CC=C1C(C2=CC=CC=C2)OCCN(C)C,269.4,3.8,"N,N-dimethyl-2-[(2-methylphenyl)-phenylmethoxy]ethanamine"
+Oxaprozin,Oxaprozin,match,4614,C1=CC=C(C=C1)C2=C(OC(=N2)CCC(=O)O)C3=CC=CC=C3,293.3,4.2,"3-(4,5-diphenyl-1,3-oxazol-2-yl)propanoic acid"
+Oxatomide,Oxatomide,match,4615,C1CN(CCN1CCCN2C3=CC=CC=C3NC2=O)C(C4=CC=CC=C4)C5=CC=CC=C5,426.6,4.1,3-[3-(4-benzhydrylpiperazin-1-yl)propyl]-1H-benzimidazol-2-one
+Oxazepam,Oxazepam,match,4616,C1=CC=C(C=C1)C2=NC(C(=O)NC3=C2C=C(C=C3)Cl)O,286.71,2.2,"7-chloro-3-hydroxy-5-phenyl-1,3-dihydro-1,4-benzodiazepin-2-one"
+Oxcarbazepine,Oxcarbazepine,match,34312,C1C2=CC=CC=C2N(C3=CC=CC=C3C1=O)C(=O)N,252.27,1.7,5-oxo-6H-benzo[b][1]benzazepine-11-carboxamide
+Oxprenolol,Oxprenolol,match,4631,CC(C)NCC(COC1=CC=CC=C1OCC=C)O,265.35,2.1,1-(propan-2-ylamino)-3-(2-prop-2-enoxyphenoxy)propan-2-ol
+Oxybenzone,Oxybenzone,match,4632,COC1=CC(=C(C=C1)C(=O)C2=CC=CC=C2)O,228.24,3.6,(2-hydroxy-4-methoxyphenyl)-phenylmethanone
+Oxybutinin (Oxybutynin),Oxybutinin,match,4634,CCN(CC)CC#CCOC(=O)C(C1CCCCC1)(C2=CC=CC=C2)O,357.5,4.2,4-(diethylamino)but-2-ynyl 2-cyclohexyl-2-hydroxy-2-phenylacetate
+Oxycodone,Oxycodone,match,5284603,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)OC)O4)O,315.4,1.2,"(4R,4aS,7aR,12bS)-4a-hydroxy-9-methoxy-3-methyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Oxyfedrine,Oxyfedrine,match,5489013,CC(C(C1=CC=CC=C1)O)NCCC(=O)C2=CC(=CC=C2)OC,313.4,2.4,"3-[[(1R,2S)-1-hydroxy-1-phenylpropan-2-yl]amino]-1-(3-methoxyphenyl)propan-1-one"
+Oxymorphone,Oxymorphone,match,5284604,CN1CCC23C4C(=O)CCC2(C1CC5=C3C(=C(C=C5)O)O4)O,301.34,0.8,"(4R,4aS,7aR,12bS)-4a,9-dihydroxy-3-methyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one"
+Oxyphenbutazone,Oxyphenbutazone,match,4641,CCCCC1C(=O)N(N(C1=O)C2=CC=C(C=C2)O)C3=CC=CC=C3,324.4,2.7,"4-butyl-1-(4-hydroxyphenyl)-2-phenylpyrazolidine-3,5-dione"
+Oxypurinol,Oxypurinol,match,135398752,C1=NNC2=C1C(=O)NC(=O)N2,152.11,-0.9,"1,7-dihydropyrazolo[5,4-d]pyrimidine-4,6-dione"
+Oxytocin,Oxytocin,match,439302,CCC(C)C1C(=O)NC(C(=O)NC(C(=O)NC(CSSCC(C(=O)NC(C(=O)N1)CC2=CC=C(C=C2)O)N)C(=O)N3CCCC3C(=O)NC(CC(C)C)C(=O)NCC(=O)N)CC(=O)N)CCC(=O)N,1007.2,-2.6,"(2S)-1-[(4R,7S,10S,13S,16S,19R)-19-amino-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-[(2S)-butan-2-yl]-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]-N-[(2S)-1-[(2-amino-2-oxoethyl)amino]-4-methyl-1-oxopentan-2-yl]pyrrolidine-2-carboxamide"
+Paclitaxel,Paclitaxel,match,36314,CC1=C2C(C(=O)C3(C(CC4C(C3C(C(C2(C)C)(CC1OC(=O)C(C(C5=CC=CC=C5)NC(=O)C6=CC=CC=C6)O)O)OC(=O)C7=CC=CC=C7)(CO4)OC(=O)C)O)C)OC(=O)C,853.9,2.5,"[(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4,12-diacetyloxy-15-[(2R,3S)-3-benzamido-2-hydroxy-3-phenylpropanoyl]oxy-1,9-dihydroxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate"
+Paliperidone (9-Hydroxyrisperidone),Paliperidone,match,115237,CC1=C(C(=O)N2CCCC(C2=N1)O)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F,426.5,2.2,"3-[2-[4-(6-fluoro-1,2-benzoxazol-3-yl)piperidin-1-yl]ethyl]-9-hydroxy-2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one"
+Pamidronate (Pamidronic acid),Pamidronate,match,4674,C(CN)C(O)(P(=O)(O)O)P(=O)(O)O,235.07,-6.9,(3-amino-1-hydroxy-1-phosphonopropyl)phosphonic acid
+Pancuronium,Pancuronium,match,441289,CC(=O)OC1CC2CCC3C(C2(CC1[N+]4(CCCCC4)C)C)CCC5(C3CC(C5OC(=O)C)[N+]6(CCCCC6)C)C,572.9,6.6,"[(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-17-acetyloxy-10,13-dimethyl-2,16-bis(1-methylpiperidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl] acetate"
+Pantoprazole,Pantoprazole,match,4679,COC1=C(C(=NC=C1)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC(F)F)OC,383.4,2.4,"6-(difluoromethoxy)-2-[(3,4-dimethoxy-2-pyridinyl)methylsulfinyl]-1H-benzimidazole"
+Papaverine,Papaverine,match,4680,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC,339.4,3.9,"1-[(3,4-dimethoxyphenyl)methyl]-6,7-dimethoxyisoquinoline"
+Paracetamol,Paracetamol,match,1983,CC(=O)NC1=CC=C(C=C1)O,151.16,0.5,N-(4-hydroxyphenyl)acetamide
+Paraldehyde,Paraldehyde,match,31264,CC1OC(OC(O1)C)C,132.16,0.7,"2,4,6-trimethyl-1,3,5-trioxane"
+Paraoxon,Paraoxon,match,9395,CCOP(=O)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],275.19,2,diethyl (4-nitrophenyl) phosphate
+Paraquat,Paraquat,match,15939,C[N+]1=CC=C(C=C1)C2=CC=[N+](C=C2)C,186.25,1.7,1-methyl-4-(1-methylpyridin-1-ium-4-yl)pyridin-1-ium
+Parathion,Parathion,match,991,CCOP(=S)(OCC)OC1=CC=C(C=C1)[N+](=O)[O-],291.26,3.8,diethoxy-(4-nitrophenoxy)-sulfanylidene-lambda5-phosphane
+Paroxetine,Paroxetine,match,43815,C1CNCC(C1C2=CC=C(C=C2)F)COC3=CC4=C(C=C3)OCO4,329.4,3.5,"(3S,4R)-3-(1,3-benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine"
+Pefloxacin,Pefloxacin,match,51081,CCN1C=C(C(=O)C2=CC(=C(C=C21)N3CCN(CC3)C)F)C(=O)O,333.36,0.3,1-ethyl-6-fluoro-7-(4-methylpiperazin-1-yl)-4-oxoquinoline-3-carboxylic acid
+Pemoline,Pemoline,match,4723,C1=CC=C(C=C1)C2C(=O)N=C(O2)N,176.17,0.9,"2-amino-5-phenyl-1,3-oxazol-4-one"
+Penbutolol,Penbutolol,match,37464,CC(C)(C)NCC(COC1=CC=CC=C1C2CCCC2)O,291.4,4.2,(2S)-1-(tert-butylamino)-3-(2-cyclopentylphenoxy)propan-2-ol
+Penfluridol,Penfluridol,match,33630,C1CN(CCC1(C2=CC(=C(C=C2)Cl)C(F)(F)F)O)CCCC(C3=CC=C(C=C3)F)C4=CC=C(C=C4)F,524.0,7.3,"1-[4,4-bis(4-fluorophenyl)butyl]-4-[4-chloro-3-(trifluoromethyl)phenyl]piperidin-4-ol"
+(D-)Penicillamine,Penicillamine,match,5852,CC(C)(C(C(=O)O)N)S,149.21,-1.8,(2S)-2-amino-3-methyl-3-sulfanylbutanoic acid
+Penicillin G,Penicillin G,match,5904,CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,334.4,1.8,"(2S,5R,6R)-3,3-dimethyl-7-oxo-6-[(2-phenylacetyl)amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Pentachlorophenol (PCP),Pentachlorophenol (PCP),match,992,C1(=C(C(=C(C(=C1Cl)Cl)Cl)Cl)Cl)O,266.3,5.1,"2,3,4,5,6-pentachlorophenol"
+Pentamidine,Pentamidine,match,4735,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,340.4,2.6,4-[5-(4-carbamimidoylphenoxy)pentoxy]benzenecarboximidamide
+Pentazocine,Pentazocine,match,441278,CC1C2CC3=C(C1(CCN2CC=C(C)C)C)C=C(C=C3)O,285.4,3.3,"(1R,9R,13R)-1,13-dimethyl-10-(3-methylbut-2-enyl)-10-azatricyclo[7.3.1.02,7]trideca-2(7),3,5-trien-4-ol"
+Pentobarbital,Pentobarbital,match,4737,CCCC(C)C1(C(=O)NC(=O)NC1=O)CC,226.27,2.1,"5-ethyl-5-pentan-2-yl-1,3-diazinane-2,4,6-trione"
+Pentoxifylline,Pentoxifylline,match,4740,CC(=O)CCCCN1C(=O)C2=C(N=CN2C)N(C1=O)C,278.31,0.3,"3,7-dimethyl-1-(5-oxohexyl)purine-2,6-dione"
+Pentoxyverine,Pentoxyverine,match,2562,CCN(CC)CCOCCOC(=O)C1(CCCC1)C2=CC=CC=C2,333.5,3.8,2-[2-(diethylamino)ethoxy]ethyl 1-phenylcyclopentane-1-carboxylate
+Perampanel,Perampanel,match,9924495,C1=CC=C(C=C1)N2C=C(C=C(C2=O)C3=CC=CC=C3C#N)C4=CC=CC=N4,349.4,3.4,2-(2-oxo-1-phenyl-5-pyridin-2-yl-3-pyridinyl)benzonitrile
+Perazine,Perazine,match,4744,CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=CC=CC=C42,339.5,4.1,10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine
+Perhexiline,Perhexiline,match,4746,C1CCC(CC1)C(CC2CCCCN2)C3CCCCC3,277.5,6.8,"2-(2,2-dicyclohexylethyl)piperidine"
+Periciazine (Pericyazine),Periciazine,match,4747,C1CN(CCC1O)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C#N,365.5,3.5,10-[3-(4-hydroxypiperidin-1-yl)propyl]phenothiazine-2-carbonitrile
+Perindopril,Perindopril,match,107807,CCCC(C(=O)OCC)NC(C)C(=O)N1C2CCCCC2CC1C(=O)O,368.5,0.9,"(2S,3aS,7aS)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxopentan-2-yl]amino]propanoyl]-2,3,3a,4,5,6,7,7a-octahydroindole-2-carboxylic acid"
+Perphenazine,Perphenazine,match,4748,C1CN(CCN1CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO,404.0,4.2,2-[4-[3-(2-chlorophenothiazin-10-yl)propyl]piperazin-1-yl]ethanol
+Pethidine (Meperidine),Pethidine,match,4058,CCOC(=O)C1(CCN(CC1)C)C2=CC=CC=C2,247.33,2.5,ethyl 1-methyl-4-phenylpiperidine-4-carboxylate
+Phenacetin,Phenacetin,match,4754,CCOC1=CC=C(C=C1)NC(=O)C,179.22,1.6,N-(4-ethoxyphenyl)acetamide
+Phenazepam,Phenazepam,match,40113,C1C(=O)NC2=C(C=C(C=C2)Br)C(=N1)C3=CC=CC=C3Cl,349.61,3.3,"7-bromo-5-(2-chlorophenyl)-1,3-dihydro-1,4-benzodiazepin-2-one"
+Phenazone (Antipyrine),Phenazone,match,2206,CC1=CC(=O)N(N1C)C2=CC=CC=C2,188.23,0.4,"1,5-dimethyl-2-phenylpyrazol-3-one"
+Phencyclidine (PCP),Phencyclidine,match,6468,C1CCC(CC1)(C2=CC=CC=C2)N3CCCCC3,243.4,3.6,1-(1-phenylcyclohexyl)piperidine
+Phendimetrazine,Phendimetrazine,match,30487,CC1C(OCCN1C)C2=CC=CC=C2,191.27,1.9,"(2S,3S)-3,4-dimethyl-2-phenylmorpholine"
+Phenelzine,Phenelzine,match,3675,C1=CC=C(C=C1)CCNN,136.19,1.2,2-phenylethylhydrazine
+Pheneturide,Pheneturide,match,72060,CCC(C1=CC=CC=C1)C(=O)NC(=O)N,206.24,1.8,N-carbamoyl-2-phenylbutanamide
+Phenformin,Phenformin,match,8249,C1=CC=C(C=C1)CCN=C(N)N=C(N)N,205.26,-0.8,1-(diaminomethylidene)-2-(2-phenylethyl)guanidine
+Pheniramine,Pheniramine,match,4761,CN(C)CCC(C1=CC=CC=C1)C2=CC=CC=N2,240.34,2.8,"N,N-dimethyl-3-phenyl-3-pyridin-2-ylpropan-1-amine"
+Phenmetrazine,Phenmetrazine,match,4762,CC1C(OCCN1)C2=CC=CC=C2,177.24,1.4,3-methyl-2-phenylmorpholine
+Phenobarbital,Phenobarbital,match,4763,CCC1(C(=O)NC(=O)NC1=O)C2=CC=CC=C2,232.23,1.5,"5-ethyl-5-phenyl-1,3-diazinane-2,4,6-trione"
+Phenol,Phenol,match,996,C1=CC=C(C=C1)O,94.11,1.5,phenol
+Phenprocoumon,Phenprocoumon,match,54680692,CCC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O,280.3,3.6,4-hydroxy-3-(1-phenylpropyl)chromen-2-one
+Phensuximide,Phensuximide,match,6839,CN1C(=O)CC(C1=O)C2=CC=CC=C2,189.21,0.8,"1-methyl-3-phenylpyrrolidine-2,5-dione"
+Phentermine,Phentermine,match,4771,CC(C)(CC1=CC=CC=C1)N,149.23,1.9,2-methyl-1-phenylpropan-2-amine
+Phenylbutazone,Phenylbutazone,match,4781,CCCCC1C(=O)N(N(C1=O)C2=CC=CC=C2)C3=CC=CC=C3,308.4,3.2,"4-butyl-1,2-diphenylpyrazolidine-3,5-dione"
+Phenylephrine,Phenylephrine,match,6041,CNCC(C1=CC(=CC=C1)O)O,167.20,-0.3,3-[(1R)-1-hydroxy-2-(methylamino)ethyl]phenol
+Phenylpropanolamine (Norephedrine),Phenylpropanolamine (Norephedrine),match,26934,CC(C(C1=CC=CC=C1)O)N,151.21,0.8,"(1S,2R)-2-amino-1-phenylpropan-1-ol"
+Phenytoin,Phenytoin,match,1775,C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3,252.27,2.5,"5,5-diphenylimidazolidine-2,4-dione"
+Pholcodine,Pholcodine,match,5311356,CN1CCC23C4C1CC5=C2C(=C(C=C5)OCCN6CCOCC6)OC3C(C=C4)O,398.5,0.8,"(4R,4aR,7S,7aR,12bS)-3-methyl-9-(2-morpholin-4-ylethoxy)-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol"
+Physostigmine,Physostigmine,match,5983,CC12CCN(C1N(C3=C2C=C(C=C3)OC(=O)NC)C)C,275.35,0.7,"[(3aR,8bS)-3,4,8b-trimethyl-2,3a-dihydro-1H-pyrrolo[2,3-b]indol-7-yl] N-methylcarbamate"
+Pimozide,Pimozide,match,16362,C1CN(CCC1N2C3=CC=CC=C3NC2=O)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,461.5,6.3,"3-[1-[4,4-bis(4-fluorophenyl)butyl]piperidin-4-yl]-1H-benzimidazol-2-one"
+Pinazepam,Pinazepam,match,40391,C#CCN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CC=CC=C3,308.8,3.1,"7-chloro-5-phenyl-1-prop-2-ynyl-3H-1,4-benzodiazepin-2-one"
+Pindolol,Pindolol,match,4828,CC(C)NCC(COC1=CC=CC2=C1C=CN2)O,248.32,1.8,1-(1H-indol-4-yloxy)-3-(propan-2-ylamino)propan-2-ol
+Pioglitazone,Pioglitazone,match,4829,CCC1=CN=C(C=C1)CCOC2=CC=C(C=C2)CC3C(=O)NC(=O)S3,356.4,3.8,"5-[[4-[2-(5-ethyl-2-pyridinyl)ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione"
+Pipamperone,Pipamperone,match,4830,C1CCN(CC1)C2(CCN(CC2)CCCC(=O)C3=CC=C(C=C3)F)C(=O)N,375.5,2,1-[4-(4-fluorophenyl)-4-oxobutyl]-4-piperidin-1-ylpiperidine-4-carboxamide
+Piperacillin,Piperacillin,match,43672,CCN1CCN(C(=O)C1=O)C(=O)NC(C2=CC=CC=C2)C(=O)NC3C4N(C3=O)C(C(S4)(C)C)C(=O)O,517.6,0.5,"(2S,5R,6R)-6-[[(2R)-2-[(4-ethyl-2,3-dioxopiperazine-1-carbonyl)amino]-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Piperazine,Piperazine,match,4837,C1CNCCN1,86.14,-1.5,piperazine
+Pipotiazine,Pipotiazine,match,62867,CN(C)S(=O)(=O)C1=CC2=C(C=C1)SC3=CC=CC=C3N2CCCN4CCC(CC4)CCO,475.7,3.5,"10-[3-[4-(2-hydroxyethyl)piperidin-1-yl]propyl]-N,N-dimethylphenothiazine-2-sulfonamide"
+Piracetam,Piracetam,match,4843,C1CC(=O)N(C1)CC(=O)N,142.16,-1.3,2-(2-oxopyrrolidin-1-yl)acetamide
+Pirenzepine,Pirenzepine,match,4848,CN1CCN(CC1)CC(=O)N2C3=CC=CC=C3C(=O)NC4=C2N=CC=C4,351.4,0.1,"11-[2-(4-methylpiperazin-1-yl)acetyl]-5H-pyrido[2,3-b][1,4]benzodiazepin-6-one"
+Piretanide,Piretanide,match,4849,C1CCN(C1)C2=C(C(=CC(=C2)C(=O)O)S(=O)(=O)N)OC3=CC=CC=C3,362.4,2.2,4-phenoxy-3-pyrrolidin-1-yl-5-sulfamoylbenzoic acid
+Piritramide,Piritramide,match,9331,C1CCN(CC1)C2(CCN(CC2)CCC(C#N)(C3=CC=CC=C3)C4=CC=CC=C4)C(=O)N,430.6,3.7,"1-(3-cyano-3,3-diphenylpropyl)-4-piperidin-1-ylpiperidine-4-carboxamide"
+Pirmenol,Pirmenol,match,65502,CC1CCCC(N1CCCC(C2=CC=CC=C2)(C3=CC=CC=N3)O)C,338.5,4,"4-[(2S,6R)-2,6-dimethylpiperidin-1-yl]-1-phenyl-1-pyridin-2-ylbutan-1-ol"
+Piroxicam,Piroxicam,match,54676228,CN1C(=C(C2=CC=CC=C2S1(=O)=O)O)C(=O)NC3=CC=CC=N3,331.3,3.1,"4-hydroxy-2-methyl-1,1-dioxo-N-pyridin-2-yl-1lambda6,2-benzothiazine-3-carboxamide"
+Pitavastatin,Pitavastatin,match,5282452,C1CC1C2=NC3=CC=CC=C3C(=C2C=CC(CC(CC(=O)O)O)O)C4=CC=C(C=C4)F,421.5,3.5,"(E,3R,5S)-7-[2-cyclopropyl-4-(4-fluorophenyl)quinolin-3-yl]-3,5-dihydroxyhept-6-enoic acid"
+Pizotifen (Pizotyline),Pizotifen,match,27400,CN1CCC(=C2C3=C(CCC4=CC=CC=C42)SC=C3)CC1,295.4,3.8,"1-methyl-4-(6-thiatricyclo[8.4.0.03,7]tetradeca-1(14),3(7),4,10,12-pentaen-2-ylidene)piperidine"
+Posaconazole,Posaconazole,match,468595,CCC(C(C)O)N1C(=O)N(C=N1)C2=CC=C(C=C2)N3CCN(CC3)C4=CC=C(C=C4)OCC5CC(OC5)(CN6C=NC=N6)C7=C(C=C(C=C7)F)F,700.8,4.6,"4-[4-[4-[4-[[(3R,5R)-5-(2,4-difluorophenyl)-5-(1,2,4-triazol-1-ylmethyl)oxolan-3-yl]methoxy]phenyl]piperazin-1-yl]phenyl]-2-[(2S,3S)-2-hydroxypentan-3-yl]-1,2,4-triazol-3-one"
+Practolol,Practolol,match,4883,CC(C)NCC(COC1=CC=C(C=C1)NC(=O)C)O,266.34,0.8,N-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide
+Prajmalium (Prajmaline),Prajmalium,match,76959818,CCC[N+]12C3CC(C(C1O)CC)C4C2CC5(C3N(C6=CC=CC=C65)C)C4O,369.5,2.7,"(1R,9R,10S,12R,13S,14R,15R,16S,17S,18R)-13-ethyl-8-methyl-15-propyl-8-aza-15-azoniahexacyclo[14.2.1.01,9.02,7.010,15.012,17]nonadeca-2,4,6-triene-14,18-diol"
+Pramipexole,Pramipexole,match,119570,CCCNC1CCC2=C(C1)SC(=N2)N,211.33,1.9,"(6S)-6-N-propyl-4,5,6,7-tetrahydro-1,3-benzothiazole-2,6-diamine"
+Pranlukast,Pranlukast,match,4887,C1=CC=C(C=C1)CCCCOC2=CC=C(C=C2)C(=O)NC3=CC=CC4=C3OC(=CC4=O)C5=NNN=N5,481.5,4.2,N-[4-oxo-2-(2H-tetrazol-5-yl)chromen-8-yl]-4-(4-phenylbutoxy)benzamide
+Pravastatin,Pravastatin,match,54687,CCC(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC(CC(CC(=O)O)O)O)O,424.5,1.6,"(3R,5R)-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-[(2S)-2-methylbutanoyl]oxy-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid"
+Praziquantel,Praziquantel,match,4891,C1CCC(CC1)C(=O)N2CC3C4=CC=CC=C4CCN3C(=O)C2,312.4,2.7,"2-(cyclohexanecarbonyl)-3,6,7,11b-tetrahydro-1H-pyrazino[2,1-a]isoquinolin-4-one"
+Prazosin,Prazosin,match,4893,COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4=CC=CO4)N)OC,383.4,2,"[4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(furan-2-yl)methanone"
+Prednisolone,Prednisolone,match,5755,CC12CC(C3C(C1CCC2(C(=O)CO)O)CCC4=CC(=O)C=CC34C)O,360.4,1.6,"(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one"
+Pregabalin,Pregabalin,match,5486971,CC(C)CC(CC(=O)O)CN,159.23,-1.6,(3S)-3-(aminomethyl)-5-methylhexanoic acid
+Prilocaine,Prilocaine,match,4906,CCCNC(C)C(=O)NC1=CC=CC=C1C,220.31,2.1,N-(2-methylphenyl)-2-(propylamino)propanamide
+Primaquine,Primaquine,match,4908,CC(CCCN)NC1=C2C(=CC(=C1)OC)C=CC=N2,259.35,2.2,"4-N-(6-methoxyquinolin-8-yl)pentane-1,4-diamine"
+Primidone,Primidone,match,4909,CCC1(C(=O)NCNC1=O)C2=CC=CC=C2,218.25,0.9,"5-ethyl-5-phenyl-1,3-diazinane-4,6-dione"
+Probenecid,Probenecid,match,4911,CCCN(CCC)S(=O)(=O)C1=CC=C(C=C1)C(=O)O,285.36,3.2,4-(dipropylsulfamoyl)benzoic acid
+Procaine,Procaine,match,4914,CCN(CC)CCOC(=O)C1=CC=C(C=C1)N,236.31,1.9,2-(diethylamino)ethyl 4-aminobenzoate
+Procainamide,Procainamide,match,4913,CCN(CC)CCNC(=O)C1=CC=C(C=C1)N,235.33,0.9,4-amino-N-[2-(diethylamino)ethyl]benzamide
+Prochlorperazine,Prochlorperazine,match,4917,CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl,373.9,4.9,2-chloro-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine
+Procyclidine,Procyclidine,match,4919,C1CCC(CC1)C(CCN2CCCC2)(C3=CC=CC=C3)O,287.4,4.1,1-cyclohexyl-1-phenyl-3-pyrrolidin-1-ylpropan-1-ol
+Proguanil,Proguanil,match,6178111,CC(C)N=C(N)N=C(N)NC1=CC=C(C=C1)Cl,253.73,1.5,(1E)-1-[amino-(4-chloroanilino)methylidene]-2-propan-2-ylguanidine
+Promazine,Promazine,match,4926,CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C31,284.4,4.5,"N,N-dimethyl-3-phenothiazin-10-ylpropan-1-amine"
+Promethazine,Promethazine,match,4927,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)N(C)C,284.4,4.8,"N,N-dimethyl-1-phenothiazin-10-ylpropan-2-amine"
+Propafenone,Propafenone,match,4932,CCCNCC(COC1=CC=CC=C1C(=O)CCC2=CC=CC=C2)O,341.4,3.3,1-[2-[2-hydroxy-3-(propylamino)propoxy]phenyl]-3-phenylpropan-1-one
+Propallylonal,Propallylonal,match,11020,CC(C)C1(C(=O)NC(=O)NC1=O)CC(=C)Br,289.13,1.6,"5-(2-bromoprop-2-enyl)-5-propan-2-yl-1,3-diazinane-2,4,6-trione"
+Propantheline,Propantheline,match,4934,CC(C)[N+](C)(CCOC(=O)C1C2=CC=CC=C2OC3=CC=CC=C13)C(C)C,368.5,4.2,methyl-di(propan-2-yl)-[2-(9H-xanthene-9-carbonyloxy)ethyl]azanium
+Propiomazine,Propiomazine,match,4940,CCC(=O)C1=CC2=C(C=C1)SC3=CC=CC=C3N2CC(C)N(C)C,340.5,4.8,1-[10-[2-(dimethylamino)propyl]phenothiazin-2-yl]propan-1-one
+Propofol,Propofol,match,4943,CC(C)C1=C(C(=CC=C1)C(C)C)O,178.27,3.8,"2,6-di(propan-2-yl)phenol"
+Propoxur,Propoxur,match,4944,CC(C)OC1=CC=CC=C1OC(=O)NC,209.24,1.5,(2-propan-2-yloxyphenyl) N-methylcarbamate
+Propranolol,Propranolol,match,4946,CC(C)NCC(COC1=CC=CC2=CC=CC=C21)O,259.34,3,1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol
+Propylene glycol,Propylene glycol,match,1030,CC(CO)O,76.09,-0.9,"propane-1,2-diol"
+Propylhexedrine,Propylhexedrine,match,7558,CC(CC1CCCCC1)NC,155.28,3.5,1-cyclohexyl-N-methylpropan-2-amine
+Propyphenazone,Propyphenazone,match,3778,CC1=C(C(=O)N(N1C)C2=CC=CC=C2)C(C)C,230.31,1.7,"1,5-dimethyl-2-phenyl-4-propan-2-ylpyrazol-3-one"
+Prothipendyl,Prothipendyl,match,14670,CN(C)CCCN1C2=CC=CC=C2SC3=C1N=CC=C3,285.4,3.4,"N,N-dimethyl-3-pyrido[3,2-b][1,4]benzothiazin-10-ylpropan-1-amine"
+Protriptyline,Protriptyline,match,4976,CNCCCC1C2=CC=CC=C2C=CC3=CC=CC=C13,263.4,4.4,"N-methyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenyl)propan-1-amine"
+Pseudoephedrine,Pseudoephedrine,match,7028,CC(C(C1=CC=CC=C1)O)NC,165.23,0.9,"(1S,2S)-2-(methylamino)-1-phenylpropan-1-ol"
+Psilocin,Psilocin,match,4980,CN(C)CCC1=CNC2=C1C(=CC=C2)O,204.27,2.1,3-[2-(dimethylamino)ethyl]-1H-indol-4-ol
+Pyrazinamide,Pyrazinamide,match,1046,C1=CN=C(C=N1)C(=O)N,123.11,-0.6,pyrazine-2-carboxamide
+Pyridostigmine,Pyridostigmine,match,4991,C[N+]1=CC=CC(=C1)OC(=O)N(C)C,181.21,0.7,"(1-methylpyridin-1-ium-3-yl) N,N-dimethylcarbamate"
+Pyridoxine (Vitamin B ),Pyridoxine,match,1054,CC1=NC=C(C(=C1O)CO)CO,169.18,-0.8,"4,5-bis(hydroxymethyl)-2-methylpyridin-3-ol"
+Pyrilamine,Pyrilamine,match,4992,CN(C)CCN(CC1=CC=C(C=C1)OC)C2=CC=CC=N2,285.4,3.3,"N'-[(4-methoxyphenyl)methyl]-N,N-dimethyl-N'-pyridin-2-ylethane-1,2-diamine"
+Pyrimethamine,Pyrimethamine,match,4993,CCC1=C(C(=NC(=N1)N)N)C2=CC=C(C=C2)Cl,248.71,2.7,"5-(4-chlorophenyl)-6-ethylpyrimidine-2,4-diamine"
+Pyrithyldione,Pyrithyldione,match,4994,CCC1(C(=O)C=CNC1=O)CC,167.20,1,"3,3-diethyl-1H-pyridine-2,4-dione"
+Quazepam,Quazepam,match,4999,C1C(=S)N(C2=C(C=C(C=C2)Cl)C(=N1)C3=CC=CC=C3F)CC(F)(F)F,386.8,4,"7-chloro-5-(2-fluorophenyl)-1-(2,2,2-trifluoroethyl)-3H-1,4-benzodiazepine-2-thione"
+Quetiapine,Quetiapine,match,5002,C1CN(CCN1CCOCCO)C2=NC3=CC=CC=C3SC4=CC=CC=C42,383.5,2.1,"2-[2-(4-benzo[b][1,4]benzothiazepin-6-ylpiperazin-1-yl)ethoxy]ethanol"
+Quinapril,Quinapril,match,54892,CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2CC3=CC=CC=C3CC2C(=O)O,438.5,1.2,"(3S)-2-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]-3,4-dihydro-1H-isoquinoline-3-carboxylic acid"
+Quinidine,Quinidine,match,441074,COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O,324.4,2.9,"(S)-[(2R,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol"
+Quinine,Quinine,match,3034034,COC1=CC2=C(C=CN=C2C=C1)C(C3CC4CCN3CC4C=C)O,324.4,2.9,"(R)-[(2S,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol"
+Rabeprazole,Rabeprazole,match,5029,CC1=C(C=CN=C1CS(=O)C2=NC3=CC=CC=C3N2)OCCCOC,359.4,1.9,2-[[4-(3-methoxypropoxy)-3-methyl-2-pyridinyl]methylsulfinyl]-1H-benzimidazole
+Raloxifene,Raloxifene,match,5035,C1CCN(CC1)CCOC2=CC=C(C=C2)C(=O)C3=C(SC4=C3C=CC(=C4)O)C5=CC=C(C=C5)O,473.6,6.1,[6-hydroxy-2-(4-hydroxyphenyl)-1-benzothiophen-3-yl]-[4-(2-piperidin-1-ylethoxy)phenyl]methanone
+Raltegravir (RAL),Raltegravir,match,54671008,CC1=NN=C(O1)C(=O)NC(C)(C)C2=NC(=C(C(=O)N2C)O)C(=O)NCC3=CC=C(C=C3)F,444.4,1.1,"N-[2-[4-[(4-fluorophenyl)methylcarbamoyl]-5-hydroxy-1-methyl-6-oxopyrimidin-2-yl]propan-2-yl]-5-methyl-1,3,4-oxadiazole-2-carboxamide"
+Ramipril,Ramipril,match,5362129,CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2C3CCCC3CC2C(=O)O,416.5,1.4,"(2S,3aS,6aS)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]-3,3a,4,5,6,6a-hexahydro-2H-cyclopenta[b]pyrrole-2-carboxylic acid"
+Ranitidine,Ranitidine,match,3001055,CNC(=C[N+](=O)[O-])NCCSCC1=CC=C(O1)CN(C)C,314.41,0.3,"(E)-1-N'-[2-[[5-[(dimethylamino)methyl]furan-2-yl]methylsulfanyl]ethyl]-1-N-methyl-2-nitroethene-1,1-diamine"
+Ranolazine,Ranolazine,match,56959,CC1=C(C(=CC=C1)C)NC(=O)CN2CCN(CC2)CC(COC3=CC=CC=C3OC)O,427.5,2.7,"N-(2,6-dimethylphenyl)-2-[4-[2-hydroxy-3-(2-methoxyphenoxy)propyl]piperazin-1-yl]acetamide"
+Reboxetine,Reboxetine,match,127151,CCOC1=CC=CC=C1OC(C2CNCCO2)C3=CC=CC=C3,313.4,3,(2R)-2-[(R)-(2-ethoxyphenoxy)-phenylmethyl]morpholine
+Recainam,Recainam,match,53084,CC1=C(C(=CC=C1)C)NC(=O)NCCCNC(C)C,263.38,2.4,"1-(2,6-dimethylphenyl)-3-[3-(propan-2-ylamino)propyl]urea"
+Remacemide,Remacemide,match,60511,CC(CC1=CC=CC=C1)(C2=CC=CC=C2)NC(=O)CN,268.35,2.3,"2-amino-N-(1,2-diphenylpropan-2-yl)acetamide"
+Remifentanil,Remifentanil,match,60815,CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC(=O)OC)C(=O)OC,376.4,1.9,methyl 1-(3-methoxy-3-oxopropyl)-4-(N-propanoylanilino)piperidine-4-carboxylate
+Remoxipride,Remoxipride,match,54477,CCN1CCCC1CNC(=O)C2=C(C=CC(=C2OC)Br)OC,371.27,2.1,"3-bromo-N-[[(2S)-1-ethylpyrrolidin-2-yl]methyl]-2,6-dimethoxybenzamide"
+Repaglinide,Repaglinide,match,65981,CCOC1=C(C=CC(=C1)CC(=O)NC(CC(C)C)C2=CC=CC=C2N3CCCCC3)C(=O)O,452.6,5.2,2-ethoxy-4-[2-[[(1S)-3-methyl-1-(2-piperidin-1-ylphenyl)butyl]amino]-2-oxoethyl]benzoic acid
+Reserpine,Reserpine,match,5770,COC1C(CC2CN3CCC4=C(C3CC2C1C(=O)OC)NC5=C4C=CC(=C5)OC)OC(=O)C6=CC(=C(C(=C6)OC)OC)OC,608.7,4,"methyl (1R,15S,17R,18R,19S,20S)-6,18-dimethoxy-17-(3,4,5-trimethoxybenzoyl)oxy-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylate"
+Retigabine,Retigabine,match,121892,CCOC(=O)NC1=C(C=C(C=C1)NCC2=CC=C(C=C2)F)N,303.33,2.8,ethyl N-[2-amino-4-[(4-fluorophenyl)methylamino]phenyl]carbamate
+Retinol (Vitamin A),Retinol,match,445354,CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CCO)C)C,286.5,5.7,"(2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol"
+Ricin,Ricin,no_match:404,,,,,
+Rifabutin,Rifabutin,match,135415564,CC1C=CC=C(C(=O)NC2=C(C3=C(C4=C(C(=C3O)C)OC(C4=O)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C5=NC6(CCN(CC6)CC(C)C)N=C25)O)C,847.0,5.6,"[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17,32-tetrahydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-1'-(2-methylpropyl)-6,23-dioxospiro[8,33-dioxa-24,27,29-triazapentacyclo[23.6.1.14,7.05,31.026,30]tritriaconta-1(31),2,4,9,19,21,25(32),26,29-nonaene-28,4'-piperidine]-13-yl] acetate"
+Rifampicin (Rifampin),Rifampicin,match,135398735,CC1C=CC=C(C(=O)NC2=C(C(=C3C(=C2O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C=NN5CCN(CC5)C)C,822.9,4.9,"[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17,27,29-pentahydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-26-[(E)-(4-methylpiperazin-1-yl)iminomethyl]-6,23-dioxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(29),2,4,9,19,21,25,27-octaen-13-yl] acetate"
+Rifapentine,Rifapentine,match,135403821,CC1C=CC=C(C(=O)NC2=C(C(=C3C(=C2O)C(=C(C4=C3C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C=NN5CCN(CC5)C6CCCC6)C,877.0,6.7,"[(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-26-[(E)-(4-cyclopentylpiperazin-1-yl)iminomethyl]-2,15,17,27,29-pentahydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-6,23-dioxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(29),2,4,9,19,21,25,27-octaen-13-yl] acetate"
+Rilmenidine,Rilmenidine,match,68712,C1CC1C(C2CC2)NC3=NCCO3,180.25,1.2,"N-(dicyclopropylmethyl)-4,5-dihydro-1,3-oxazol-2-amine"
+Riluzole,Riluzole,match,5070,C1=CC2=C(C=C1OC(F)(F)F)SC(=N2)N,234.20,3.6,"6-(trifluoromethoxy)-1,3-benzothiazol-2-amine"
+Risedronat (Risedronic acid),Risedronat (Risedronic acid); Risedronat,no_match:404,,,,,
+Risperidone,Risperidone,match,5073,CC1=C(C(=O)N2CCCCC2=N1)CCN3CCC(CC3)C4=NOC5=C4C=CC(=C5)F,410.5,2.7,"3-[2-[4-(6-fluoro-1,2-benzoxazol-3-yl)piperidin-1-yl]ethyl]-2-methyl-6,7,8,9-tetrahydropyrido[1,2-a]pyrimidin-4-one"
+Ritonavir,Ritonavir,match,392622,CC(C)C1=NC(=CS1)CN(C)C(=O)NC(C(C)C)C(=O)NC(CC2=CC=CC=C2)CC(C(CC3=CC=CC=C3)NC(=O)OCC4=CN=CS4)O,720.9,6,"1,3-thiazol-5-ylmethyl N-[(2S,3S,5S)-3-hydroxy-5-[[(2S)-3-methyl-2-[[methyl-[(2-propan-2-yl-1,3-thiazol-4-yl)methyl]carbamoyl]amino]butanoyl]amino]-1,6-diphenylhexan-2-yl]carbamate"
+Rivaroxaban,Rivaroxaban,match,9875401,C1COCC(=O)N1C2=CC=C(C=C2)N3CC(OC3=O)CNC(=O)C4=CC=C(S4)Cl,435.9,2.5,"5-chloro-N-[[(5S)-2-oxo-3-[4-(3-oxomorpholin-4-yl)phenyl]-1,3-oxazolidin-5-yl]methyl]thiophene-2-carboxamide"
+Rivastigmine,Rivastigmine,match,77991,CCN(C)C(=O)OC1=CC=CC(=C1)C(C)N(C)C,250.34,2.3,[3-[(1S)-1-(dimethylamino)ethyl]phenyl] N-ethyl-N-methylcarbamate
+Rizatriptan,Rizatriptan,match,5078,CN(C)CCC1=CNC2=C1C=C(C=C2)CN3C=NC=N3,269.34,1.7,"N,N-dimethyl-2-[5-(1,2,4-triazol-1-ylmethyl)-1H-indol-3-yl]ethanamine"
+Rocuronium,Rocuronium,match,441290,CC(=O)OC1C(CC2C1(CCC3C2CCC4C3(CC(C(C4)O)N5CCOCC5)C)C)[N+]6(CCCC6)CC=C,529.8,5,"[(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-3-hydroxy-10,13-dimethyl-2-morpholin-4-yl-16-(1-prop-2-enylpyrrolidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl] acetate"
+Roflumilast,Roflumilast,match,449193,C1CC1COC2=C(C=CC(=C2)C(=O)NC3=C(C=NC=C3Cl)Cl)OC(F)F,403.2,4.6,"3-(cyclopropylmethoxy)-N-(3,5-dichloro-4-pyridinyl)-4-(difluoromethoxy)benzamide"
+Ropinirole,Ropinirole,match,5095,CCCN(CCC)CCC1=C2CC(=O)NC2=CC=C1,260.37,2.7,"4-[2-(dipropylamino)ethyl]-1,3-dihydroindol-2-one"
+Ropivacaine,Ropivacaine,match,175805,CCCN1CCCCC1C(=O)NC2=C(C=CC=C2C)C,274.4,2.9,"(2S)-N-(2,6-dimethylphenyl)-1-propylpiperidine-2-carboxamide"
+Rosiglitazone,Rosiglitazone,match,77999,CN(CCOC1=CC=C(C=C1)CC2C(=O)NC(=O)S2)C3=CC=CC=N3,357.4,3.1,"5-[[4-[2-[methyl(pyridin-2-yl)amino]ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione"
+Rosuvastatin,Rosuvastatin,match,446157,CC(C)C1=NC(=NC(=C1C=CC(CC(CC(=O)O)O)O)C2=CC=C(C=C2)F)N(C)S(=O)(=O)C,481.5,1.6,"(E,3R,5S)-7-[4-(4-fluorophenyl)-2-[methyl(methylsulfonyl)amino]-6-propan-2-ylpyrimidin-5-yl]-3,5-dihydroxyhept-6-enoic acid"
+Rotigotine,Rotigotine,match,59227,CCCN(CCC1=CC=CS1)C2CCC3=C(C2)C=CC=C3O,315.5,4.9,"(6S)-6-[propyl(2-thiophen-2-ylethyl)amino]-5,6,7,8-tetrahydronaphthalen-1-ol"
+Roxatidine,Roxatidine,match,91276,C1CCN(CC1)CC2=CC(=CC=C2)OCCCNC(=O)CO,306.4,1.5,2-hydroxy-N-[3-[3-(piperidin-1-ylmethyl)phenoxy]propyl]acetamide
+Roxithromycin,Roxithromycin,match,6915744,CCC1C(C(C(C(=NOCOCCOC)C(CC(C(C(C(C(C(=O)O1)C)OC2CC(C(C(O2)C)O)(C)OC)C)OC3C(C(CC(O3)C)N(C)C)O)(C)O)C)C)O)(C)O,837.0,3.1,"(3R,4S,5S,6R,7R,9R,10E,11S,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-10-(2-methoxyethoxymethoxyimino)-3,5,7,9,11,13-hexamethyl-oxacyclotetradecan-2-one"
+Rufinamide,Rufinamide,match,129228,C1=CC(=C(C(=C1)F)CN2C=C(N=N2)C(=O)N)F,238.19,0.7,"1-[(2,6-difluorophenyl)methyl]triazole-4-carboxamide"
+Sacubitril,Sacubitril,match,9811834,CCOC(=O)C(C)CC(CC1=CC=C(C=C1)C2=CC=CC=C2)NC(=O)CCC(=O)O,411.5,3.7,"4-[[(2S,4R)-5-ethoxy-4-methyl-5-oxo-1-(4-phenylphenyl)pentan-2-yl]amino]-4-oxobutanoic acid"
+Salbutamol (Albuterol),Salbutamol,match,2083,CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O,239.31,0.3,4-[2-(tert-butylamino)-1-hydroxyethyl]-2-(hydroxymethyl)phenol
+Salicylamide,Salicylamide,match,5147,C1=CC=C(C(=C1)C(=O)N)O,137.14,1.3,2-hydroxybenzamide
+Salicylic acid,Salicylic acid,match,338,C1=CC=C(C(=C1)C(=O)O)O,138.12,2.3,2-hydroxybenzoic acid
+Salvinorin A,Salvinorin A,match,128563,CC(=O)OC1CC(C2(CCC3C(=O)OC(CC3(C2C1=O)C)C4=COC=C4)C)C(=O)OC,432.5,2.5,"methyl (2S,4aR,6aR,7R,9S,10aS,10bR)-9-acetyloxy-2-(furan-3-yl)-6a,10b-dimethyl-4,10-dioxo-2,4a,5,6,7,8,9,10a-octahydro-1H-benzo[f]isochromene-7-carboxylate"
+Saquinavir (SQV),Saquinavir,match,441243,CC(C)(C)NC(=O)C1CC2CCCCC2CN1CC(C(CC3=CC=CC=C3)NC(=O)C(CC(=O)N)NC(=O)C4=NC5=CC=CC=C5C=C4)O,670.8,4.2,"(2S)-N-[(2S,3R)-4-[(3S,4aS,8aS)-3-(tert-butylcarbamoyl)-3,4,4a,5,6,7,8,8a-octahydro-1H-isoquinolin-2-yl]-3-hydroxy-1-phenylbutan-2-yl]-2-(quinoline-2-carbonylamino)butanediamide"
+Saxagliptin,Saxagliptin,match,11243969,C1C2CC2N(C1C#N)C(=O)C(C34CC5CC(C3)CC(C5)(C4)O)N,315.4,0.7,"(1S,3S,5S)-2-[(2S)-2-amino-2-(3-hydroxy-1-adamantyl)acetyl]-2-azabicyclo[3.1.0]hexane-3-carbonitrile"
+Scopolamine,Scopolamine,match,3000322,CN1C2CC(CC1C3C2O3)OC(=O)C(CO)C4=CC=CC=C4,303.35,0.9,"[(1S,2S,4R,5R)-9-methyl-3-oxa-9-azatricyclo[3.3.1.02,4]nonan-7-yl] (2S)-3-hydroxy-2-phenylpropanoate"
+Secbutabarbital,Secbutabarbital,match,2479,CCC(C)C1(C(=O)NC(=O)NC1=O)CC,212.25,1.6,"5-butan-2-yl-5-ethyl-1,3-diazinane-2,4,6-trione"
+Secobarbital,Secobarbital,match,5193,CCCC(C)C1(C(=O)NC(=O)NC1=O)CC=C,238.28,2,"5-pentan-2-yl-5-prop-2-enyl-1,3-diazinane-2,4,6-trione"
+Selenium,Selenium,match,6326970,[Se],78.97,,selenium
+Seratrodast,Seratrodast,match,2449,CC1=C(C(=O)C(=C(C1=O)C)C(CCCCCC(=O)O)C2=CC=CC=C2)C,354.4,4.4,"7-phenyl-7-(2,4,5-trimethyl-3,6-dioxocyclohexa-1,4-dien-1-yl)heptanoic acid"
+Sertindole,Sertindole,match,60149,C1CN(CCC1C2=CN(C3=C2C=C(C=C3)Cl)C4=CC=C(C=C4)F)CCN5CCNC5=O,440.9,4.1,1-[2-[4-[5-chloro-1-(4-fluorophenyl)indol-3-yl]piperidin-1-yl]ethyl]imidazolidin-2-one
+Sertraline,Sertraline,match,68617,CNC1CCC(C2=CC=CC=C12)C3=CC(=C(C=C3)Cl)Cl,306.2,4.8,"(1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine"
+Sevoflurane,Sevoflurane,match,5206,C(OC(C(F)(F)F)C(F)(F)F)F,200.05,2.8,"1,1,1,3,3,3-hexafluoro-2-(fluoromethoxy)propane"
+Sibutramine,Sibutramine,match,5210,CC(C)CC(C1(CCC1)C2=CC=C(C=C2)Cl)N(C)C,279.8,5.4,"1-[1-(4-chlorophenyl)cyclobutyl]-N,N,3-trimethylbutan-1-amine"
+Sildenafil,Sildenafil,match,135398744,CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C,474.6,1.5,"5-[2-ethoxy-5-(4-methylpiperazin-1-yl)sulfonylphenyl]-1-methyl-3-propyl-6H-pyrazolo[4,5-d]pyrimidin-7-one"
+Silver,Silver,match,23954,[Ag],107.868,,silver
+Simvastatin,Simvastatin,match,54454,CCC(C)(C)C(=O)OC1CC(C=C2C1C(C(C=C2)C)CCC3CC(CC(=O)O3)O)C,418.6,4.7,"[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] 2,2-dimethylbutanoate"
+Sirolimus (Rapamycin),Sirolimus (Rapamycin),match,145684635,CC1CCC2CC(C(=CC=CC=CC(CC(C(=O)C(C(C(=CC(C(=O)CC(OC(=O)C3CCCCN3C(=O)C(=O)C1(O2)O)C(C)CC4CCC(C(C4)OC)O)C)C)O)OC)C)C)C)OC,914.2,6,"(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone"
+Sisomicin,Sisomicin,match,36119,CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CC=C(O3)CN)N)N)N)O,447.5,-5.1,"(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[[(2S,3R)-3-amino-6-(aminomethyl)-3,4-dihydro-2H-pyran-2-yl]oxy]-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol"
+Sitagliptin,Sitagliptin,match,4369359,C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N,407.31,0.7,"(3R)-3-amino-1-[3-(trifluoromethyl)-6,8-dihydro-5H-[1,2,4]triazolo[4,3-a]pyrazin-7-yl]-4-(2,4,5-trifluorophenyl)butan-1-one"
+Sotalol,Sotalol,match,5253,CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O,272.37,0.2,N-[4-[1-hydroxy-2-(propan-2-ylamino)ethyl]phenyl]methanesulfonamide
+Sparteine,Sparteine,match,644020,C1CCN2CC3CC(C2C1)CN4C3CCCC4,234.38,2.5,"(1S,2R,9S,10S)-7,15-diazatetracyclo[7.7.1.02,7.010,15]heptadecane"
+Spiramycin,Spiramycin,match,5289394,CC1CC=CC=CC(C(CC(C(C(C(CC(=O)O1)O)OC)OC2C(C(C(C(O2)C)OC3CC(C(C(O3)C)O)(C)O)N(C)C)O)CC=O)C)OC4CCC(C(O4)C)N(C)C,843.1,2.1,"2-[(4R,5S,6S,7R,9R,10R,11E,13E,16R)-6-[(2S,3R,4R,5S,6R)-5-[(2S,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-10-[(2R,5S,6R)-5-(dimethylamino)-6-methyloxan-2-yl]oxy-4-hydroxy-5-methoxy-9,16-dimethyl-2-oxo-1-oxacyclohexadeca-11,13-dien-7-yl]acetaldehyde"
+Spiraprilate,Spiraprilate,match,3033702,CC(C(=O)N1CC2(CC1C(=O)O)SCCS2)NC(CCC3=CC=CC=C3)C(=O)O,438.6,0.3,"(8S)-7-[(2S)-2-[[(1S)-1-carboxy-3-phenylpropyl]amino]propanoyl]-1,4-dithia-7-azaspiro[4.4]nonane-8-carboxylic acid"
+Spironolactone,Spironolactone,match,5833,CC(=O)SC1CC2=CC(=O)CCC2(C3C1C4CCC5(C4(CC3)C)CCC(=O)O5)C,416.6,2.9,"S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate"
+Stanozolol,Stanozolol,match,25249,CC12CCC3C(C1CCC2(C)O)CCC4C3(CC5=C(C4)NN=C5)C,328.5,4.5,"(1S,2S,10S,13R,14S,17S,18S)-2,17,18-trimethyl-6,7-diazapentacyclo[11.7.0.02,10.04,8.014,18]icosa-4(8),5-dien-17-ol"
+Stiripentol,Stiripentol,match,5311454,CC(C)(C)C(C=CC1=CC2=C(C=C1)OCO2)O,234.29,3.6,"(E)-1-(1,3-benzodioxol-5-yl)-4,4-dimethylpent-1-en-3-ol"
+Streptomycin,Streptomycin,match,19649,CC1C(C(C(O1)OC2C(C(C(C(C2O)O)N=C(N)N)O)N=C(N)N)OC3C(C(C(C(O3)CO)O)O)NC)(C=O)O,581.6,-8,"2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-(methylamino)oxan-2-yl]oxy-4-formyl-4-hydroxy-5-methyloxolan-2-yl]oxy-2,5,6-trihydroxycyclohexyl]guanidine"
+Strontium,Strontium,match,5359327,[Sr],87.62,,strontium
+Strychnine,Strychnine,match,441071,C1CN2CC3=CCOC4CC(=O)N5C6C4C3CC2C61C7=CC=CC=C75,334.4,1.9,"(4aR,5aS,8aR,13aS,15aS,15bR)-4a,5,5a,7,8,13a,15,15a,15b,16-decahydro-2H-4,6-methanoindolo[3,2,1-ij]oxepino[2,3,4-de]pyrrolo[2,3-h]quinolin-14-one"
+STS-135,STS-; STS,no_match:404,,,,,
+Sufentanil,Sufentanil,match,41693,CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC3=CC=CS3)COC,386.6,4,N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)piperidin-4-yl]-N-phenylpropanamide
+Sulbactam,Sulbactam,match,130313,CC1(C(N2C(S1(=O)=O)CC2=O)C(=O)O)C,233.24,-1,"(2S,5R)-3,3-dimethyl-4,4,7-trioxo-4lambda6-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid"
+Sulfamethoxazole,Sulfamethoxazole,match,5329,CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N,253.28,0.9,"4-amino-N-(5-methyl-1,2-oxazol-3-yl)benzenesulfonamide"
+Sulfasalazine,Sulfasalazine,match,5339,C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N=NC3=CC(=C(C=C3)O)C(=O)O,398.4,-0.7,2-hydroxy-5-[[4-(pyridin-2-ylsulfamoyl)phenyl]diazenyl]benzoic acid
+Sulfisoxazole,Sulfisoxazole,match,5344,CC1=C(ON=C1C)NS(=O)(=O)C2=CC=C(C=C2)N,267.31,1,"4-amino-N-(3,4-dimethyl-1,2-oxazol-5-yl)benzenesulfonamide"
+Sulfinpyrazone,Sulfinpyrazone,match,5342,C1=CC=C(C=C1)N2C(=O)C(C(=O)N2C3=CC=CC=C3)CCS(=O)C4=CC=CC=C4,404.5,2.3,"4-[2-(benzenesulfinyl)ethyl]-1,2-diphenylpyrazolidine-3,5-dione"
+Sulindac,Sulindac,match,1548887,CC1=C(C2=C(C1=CC3=CC=C(C=C3)S(=O)C)C=CC(=C2)F)CC(=O)O,356.4,3.4,2-[(3Z)-6-fluoro-2-methyl-3-[(4-methylsulfinylphenyl)methylidene]inden-1-yl]acetic acid
+Sulpiride,Sulpiride,match,5355,CCN1CCCC1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)N)OC,341.4,0.6,N-[(1-ethylpyrrolidin-2-yl)methyl]-2-methoxy-5-sulfamoylbenzamide
+Sultiam (Sulthiame),Sultiam,match,5356,C1CCS(=O)(=O)N(C1)C2=CC=C(C=C2)S(=O)(=O)N,290.4,0.1,"4-(1,1-dioxothiazinan-2-yl)benzenesulfonamide"
+Sumatriptan,Sumatriptan,match,5358,CNS(=O)(=O)CC1=CC2=C(C=C1)NC=C2CCN(C)C,295.40,0.9,1-[3-[2-(dimethylamino)ethyl]-1H-indol-5-yl]-N-methylmethanesulfonamide
+Suramin,Suramin,match,5361,CC1=C(C=C(C=C1)C(=O)NC2=C3C(=CC(=CC3=C(C=C2)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)NC(=O)C4=CC(=CC=C4)NC(=O)NC5=CC=CC(=C5)C(=O)NC6=C(C=CC(=C6)C(=O)NC7=C8C(=CC(=CC8=C(C=C7)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O)C,1297.3,1.5,"8-[[4-methyl-3-[[3-[[3-[[2-methyl-5-[(4,6,8-trisulfonaphthalen-1-yl)carbamoyl]phenyl]carbamoyl]phenyl]carbamoylamino]benzoyl]amino]benzoyl]amino]naphthalene-1,3,5-trisulfonic acid"
+Tacrine,Tacrine,match,1935,C1CCC2=NC3=CC=CC=C3C(=C2C1)N,198.26,2.7,"1,2,3,4-tetrahydroacridin-9-amine"
+Tacrolimus,Tacrolimus,match,445643,CC1CC(C2C(CC(C(O2)(C(=O)C(=O)N3CCCCC3C(=O)OC(C(C(CC(=O)C(C=C(C1)C)CC=C)O)C)C(=CC4CCC(C(C4)OC)O)C)O)C)OC)OC,804.0,2.7,"(1R,9S,12S,13R,14S,17R,18E,21S,23S,24R,25S,27R)-1,14-dihydroxy-12-[(E)-1-[(1R,3R,4R)-4-hydroxy-3-methoxycyclohexyl]prop-1-en-2-yl]-23,25-dimethoxy-13,19,21,27-tetramethyl-17-prop-2-enyl-11,28-dioxa-4-azatricyclo[22.3.1.04,9]octacos-18-ene-2,3,10,16-tetrone"
+Tadalafil,Tadalafil,match,110635,CN1CC(=O)N2C(C1=O)CC3=C(C2C4=CC5=C(C=C4)OCO5)NC6=CC=CC=C36,389.4,2.3,"(2R,8R)-2-(1,3-benzodioxol-5-yl)-6-methyl-3,6,17-triazatetracyclo[8.7.0.03,8.011,16]heptadeca-1(10),11,13,15-tetraene-4,7-dione"
+Talinolol,Talinolol,match,68770,CC(C)(C)NCC(COC1=CC=C(C=C1)NC(=O)NC2CCCCC2)O,363.5,2.6,1-[4-[3-(tert-butylamino)-2-hydroxypropoxy]phenyl]-3-cyclohexylurea
+Talipexole,Talipexole,match,5374,C=CCN1CCC2=C(CC1)SC(=N2)N,209.31,1.5,"6-prop-2-enyl-4,5,7,8-tetrahydro-[1,3]thiazolo[4,5-d]azepin-2-amine"
+Tamoxifen,Tamoxifen,match,2733526,CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3,371.5,7.1,"2-[4-[(Z)-1,2-diphenylbut-1-enyl]phenoxy]-N,N-dimethylethanamine"
+Tamsulosin,Tamsulosin,match,129211,CCOC1=CC=CC=C1OCCNC(C)CC2=CC(=C(C=C2)OC)S(=O)(=O)N,408.5,2.7,5-[(2R)-2-[2-(2-ethoxyphenoxy)ethylamino]propyl]-2-methoxybenzenesulfonamide
+Tapentadol,Tapentadol,match,9838022,CCC(C1=CC(=CC=C1)O)C(C)CN(C)C,221.34,3.5,"3-[(2R,3R)-1-(dimethylamino)-2-methylpentan-3-yl]phenol"
+Teicoplanin,Teicoplanin,match,133065662,CCCCCCCCCC(=O)NC1C(C(C(OC1OC2=C3C=C4C=C2OC5=C(C=C(C=C5)C(C6C(=O)NC(C7=C(C(=CC(=C7)O)OC8C(C(C(C(O8)CO)O)O)O)C9=C(C=CC(=C9)C(C(=O)N6)NC(=O)C4NC(=O)C1C2=CC(=CC(=C2)OC2=C(C=CC(=C2)C(C(=O)NC(CC2=CC(=C(O3)C=C2)Cl)C(=O)N1)N)O)O)O)C(=O)O)OC1C(C(C(C(O1)CO)O)O)NC(=O)C)Cl)CO)O)O,1879.7,0.5,"(1S,2R,19R,22R,34S,37R,40R,52S)-2-[(2R,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-22-amino-5,15-dichloro-64-[(2S,3R,4R,5S,6R)-3-(decanoylamino)-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-26,31,44,49-tetrahydroxy-21,35,38,54,56,59-hexaoxo-47-[(3S,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-7,13,28-trioxa-20,36,39,53,55,58-hexazaundecacyclo[38.14.2.23,6.214,17.219,34.18,12.123,27.129,33.141,45.010,37.046,51]hexahexaconta-3,5,8,10,12(64),14,16,23(61),24,26,29(60),30,32,41(57),42,44,46(51),47,49,62,65-henicosaene-52-carboxylic acid"
+Telmisartan,Telmisartan,match,65999,CCCC1=NC2=C(N1CC3=CC=C(C=C3)C4=CC=CC=C4C(=O)O)C=C(C=C2C)C5=NC6=CC=CC=C6N5C,514.6,6.9,2-[4-[[4-methyl-6-(1-methylbenzimidazol-2-yl)-2-propylbenzimidazol-1-yl]methyl]phenyl]benzoic acid
+Temazepam,Temazepam,match,5391,CN1C2=C(C=C(C=C2)Cl)C(=NC(C1=O)O)C3=CC=CC=C3,300.74,2.2,"7-chloro-3-hydroxy-1-methyl-5-phenyl-3H-1,4-benzodiazepin-2-one"
+Tenoxicam,Tenoxicam,match,54677971,CN1C(=C(C2=C(S1(=O)=O)C=CS2)O)C(=O)NC3=CC=CC=N3,337.4,1.1,"4-hydroxy-2-methyl-1,1-dioxo-N-pyridin-2-ylthieno[2,3-e]thiazine-3-carboxamide"
+Terazosin,Terazosin,match,5401,COC1=C(C=C2C(=C1)C(=NC(=N2)N3CCN(CC3)C(=O)C4CCCO4)N)OC,387.4,1.4,"[4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(oxolan-2-yl)methanone"
+Terbinafine,Terbinafine,match,1549008,CC(C)(C)C#CC=CCN(C)CC1=CC=CC2=CC=CC=C21,291.4,5.6,"(E)-N,6,6-trimethyl-N-(naphthalen-1-ylmethyl)hept-2-en-4-yn-1-amine"
+Terbutaline,Terbutaline,match,5403,CC(C)(C)NCC(C1=CC(=CC(=C1)O)O)O,225.28,0.9,"5-[2-(tert-butylamino)-1-hydroxyethyl]benzene-1,3-diol"
+Terfenadine,Terfenadine,match,5405,CC(C)(C)C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O,471.7,6.6,1-(4-tert-butylphenyl)-4-[4-[hydroxy(diphenyl)methyl]piperidin-1-yl]butan-1-ol
+Tetrachloroethylene,Tetrachloroethylene,match,31373,C(=C(Cl)Cl)(Cl)Cl,165.8,3.4,"1,1,2,2-tetrachloroethene"
+Tetracycline,Tetracycline,match,54675776,CC1(C2CC3C(C(=O)C(=C(C3(C(=O)C2=C(C4=C1C=CC=C4O)O)O)O)C(=O)N)N(C)C)O,444.4,-2,"(4S,4aS,5aS,6S,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide"
+Tetrazepam,Tetrazepam,match,25215,CN1C(=O)CN=C(C2=C1C=CC(=C2)Cl)C3=CCCCC3,288.77,3.2,"7-chloro-5-(cyclohexen-1-yl)-1-methyl-3H-1,4-benzodiazepin-2-one"
+Thalidomide,Thalidomide,match,5426,C1CC(=O)NC(=O)C1N2C(=O)C3=CC=CC=C3C2=O,258.23,0.3,"2-(2,6-dioxopiperidin-3-yl)isoindole-1,3-dione"
+Thallium,Thallium,match,5359464,[Tl],204.383,,thallium
+Theobromine,Theobromine,match,5429,CN1C=NC2=C1C(=O)NC(=O)N2C,180.16,-0.8,"3,7-dimethylpurine-2,6-dione"
+Theophylline,Theophylline,match,2153,CN1C2=C(C(=O)N(C1=O)C)NC=N2,180.16,0,"1,3-dimethyl-7H-purine-2,6-dione"
+Thiamphenicol,Thiamphenicol,match,27200,CS(=O)(=O)C1=CC=C(C=C1)C(C(CO)NC(=O)C(Cl)Cl)O,356.2,-0.3,"2,2-dichloro-N-[(1R,2R)-1,3-dihydroxy-1-(4-methylsulfonylphenyl)propan-2-yl]acetamide"
+Thiamylal,Thiamylal,match,3032285,CCCC(C)C1(C(=O)NC(=S)NC1=O)CC=C,254.35,3.2,"5-pentan-2-yl-5-prop-2-enyl-2-sulfanylidene-1,3-diazinane-4,6-dione"
+Thiazinamium,Thiazinamium,match,6016,CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)[N+](C)(C)C,299.5,4.8,trimethyl(1-phenothiazin-10-ylpropan-2-yl)azanium
+"Thiocyanate, from Nitroprusside",Thiocyanate,match,9322,C(#N)[S-],58.08,0.6,thiocyanate
+Thiopental,Thiopental,match,3000715,CCCC(C)C1(C(=O)NC(=S)NC1=O)CC,242.34,2.9,"5-ethyl-5-pentan-2-yl-2-sulfanylidene-1,3-diazinane-4,6-dione"
+Thioproperazine,Thioproperazine,match,9429,CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)(=O)N(C)C,446.6,3.7,"N,N-dimethyl-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine-2-sulfonamide"
+Thioridazine,Thioridazine,match,5452,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,370.6,5.9,10-[2-(1-methylpiperidin-2-yl)ethyl]-2-methylsulfanylphenothiazine
+Tiagabine,Tiagabine,match,60648,CC1=C(SC=C1)C(=CCCN2CCCC(C2)C(=O)O)C3=C(C=CS3)C,375.6,2.7,"(3R)-1-[4,4-bis(3-methylthiophen-2-yl)but-3-enyl]piperidine-3-carboxylic acid"
+Tianeptine,Tianeptine,match,68870,CN1C2=CC=CC=C2C(C3=C(S1(=O)=O)C=C(C=C3)Cl)NCCCCCCC(=O)O,437.0,1.2,"7-[(3-chloro-6-methyl-5,5-dioxo-11H-benzo[c][2,1]benzothiazepin-11-yl)amino]heptanoic acid"
+Tiapride,Tiapride,match,5467,CCN(CC)CCNC(=O)C1=C(C=CC(=C1)S(=O)(=O)C)OC,328.4,0.9,N-[2-(diethylamino)ethyl]-2-methoxy-5-methylsulfonylbenzamide
+Tiaprofenic acid,Tiaprofenic acid,match,5468,CC(C1=CC=C(S1)C(=O)C2=CC=CC=C2)C(=O)O,260.31,3.3,2-(5-benzoylthiophen-2-yl)propanoic acid
+Ticlopidine,Ticlopidine,match,5472,C1CN(CC2=C1SC=C2)CC3=CC=CC=C3Cl,263.8,3.6,"5-[(2-chlorophenyl)methyl]-6,7-dihydro-4H-thieno[3,2-c]pyridine"
+Tiletamine,Tiletamine,match,26533,CCNC1(CCCCC1=O)C2=CC=CS2,223.34,2,2-(ethylamino)-2-thiophen-2-ylcyclohexan-1-one
+Tilidine,Tilidine,match,30131,CCOC(=O)C1(CCC=CC1N(C)C)C2=CC=CC=C2,273.37,3.1,"ethyl (1S,2R)-2-(dimethylamino)-1-phenylcyclohex-3-ene-1-carboxylate"
+Tiludronate (Tiludronic acid),Tiludronate,match,60937,C1=CC(=CC=C1SC(P(=O)(O)O)P(=O)(O)O)Cl,318.61,-0.3,[(4-chlorophenyl)sulfanyl-phosphonomethyl]phosphonic acid
+Timolol,Timolol,match,33624,CC(C)(C)NCC(COC1=NSN=C1N2CCOCC2)O,316.42,1.8,"(2S)-1-(tert-butylamino)-3-[(4-morpholin-4-yl-1,2,5-thiadiazol-3-yl)oxy]propan-2-ol"
+Tin,Tin,match,5352426,[Sn],118.71,,tin
+Tinidazol,Tinidazol,match,5479,CCS(=O)(=O)CCN1C(=NC=C1[N+](=O)[O-])C,247.27,-0.4,1-(2-ethylsulfonylethyl)-2-methyl-5-nitroimidazole
+Tiopronin,Tiopronin,match,5483,CC(C(=O)NCC(=O)O)S,163.20,-0.1,2-(2-sulfanylpropanoylamino)acetic acid
+Tiotixene (Thiothixene),Tiotixene,match,941651,CN1CCN(CC1)CCC=C2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)(=O)N(C)C,443.6,3.8,"(9Z)-N,N-dimethyl-9-[3-(4-methylpiperazin-1-yl)propylidene]thioxanthene-2-sulfonamide"
+Tiotropium,Tiotropium,match,5487427,C[N+]1(C2CC(CC1C3C2O3)OC(=O)C(C4=CC=CS4)(C5=CC=CS5)O)C,392.5,2.3,"[(1S,2S,4R,5R)-9,9-dimethyl-3-oxa-9-azoniatricyclo[3.3.1.02,4]nonan-7-yl] 2-hydroxy-2,2-dithiophen-2-ylacetate"
+Tipranavir (TPV),Tipranavir,match,54682461,CCCC1(CC(=C(C(=O)O1)C(CC)C2=CC(=CC=C2)NS(=O)(=O)C3=NC=C(C=C3)C(F)(F)F)O)CCC4=CC=CC=C4,602.7,7,N-[3-[(1R)-1-[(2R)-4-hydroxy-6-oxo-2-(2-phenylethyl)-2-propyl-3H-pyran-5-yl]propyl]phenyl]-5-(trifluoromethyl)pyridine-2-sulfonamide
+Tizanidine,Tizanidine,match,5487,C1CN=C(N1)NC2=C(C=CC3=NSN=C32)Cl,253.71,1.1,"5-chloro-N-(4,5-dihydro-1H-imidazol-2-yl)-2,1,3-benzothiadiazol-4-amine"
+Tobramycin,Tobramycin,match,36294,C1C(C(C(C(C1N)OC2C(C(C(C(O2)CO)O)N)O)O)OC3C(CC(C(O3)CN)O)N)N,467.5,-6.2,"(2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol"
+Tocainide,Tocainide,match,38945,CC1=C(C(=CC=C1)C)NC(=O)C(C)N,192.26,0.8,"2-amino-N-(2,6-dimethylphenyl)propanamide"
+Tofenacin(e),Tofenacin,match,25315,CC1=CC=CC=C1C(C2=CC=CC=C2)OCCNC,255.35,3.3,N-methyl-2-[(2-methylphenyl)-phenylmethoxy]ethanamine
+Tolbutamide,Tolbutamide,match,5505,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C=C1)C,270.35,2.3,1-butyl-3-(4-methylphenyl)sulfonylurea
+Tolcapone,Tolcapone,match,4659569,CC1=CC=C(C=C1)C(=O)C2=CC(=C(C(=C2)O)O)[N+](=O)[O-],273.24,3.3,"(3,4-dihydroxy-5-nitrophenyl)-(4-methylphenyl)methanone"
+Tolmetin,Tolmetin,match,5509,CC1=CC=C(C=C1)C(=O)C2=CC=C(N2C)CC(=O)O,257.28,2.8,2-[1-methyl-5-(4-methylbenzoyl)pyrrol-2-yl]acetic acid
+Tolperisone,Tolperisone,match,5511,CC1=CC=C(C=C1)C(=O)C(C)CN2CCCCC2,245.36,3.4,2-methyl-1-(4-methylphenyl)-3-piperidin-1-ylpropan-1-one
+Tolterodine,Tolterodine,match,443879,CC1=CC(=C(C=C1)O)C(CCN(C(C)C)C(C)C)C2=CC=CC=C2,325.5,5.6,2-[(1R)-3-[di(propan-2-yl)amino]-1-phenylpropyl]-4-methylphenol
+Toluene,Toluene,match,1140,CC1=CC=CC=C1,92.14,2.7,toluene
+Topiramate,Topiramate,match,5284627,CC1(OC2COC3(C(C2O1)OC(O3)(C)C)COS(=O)(=O)N)C,339.36,-0.8,"[(1R,2S,6S,9R)-4,4,11,11-tetramethyl-3,5,7,10,12-pentaoxatricyclo[7.3.0.02,6]dodecan-6-yl]methyl sulfamate"
+Topotecan,Topotecan,match,60700,CCC1(C2=C(COC1=O)C(=O)N3CC4=CC5=C(C=CC(=C5CN(C)C)O)N=C4C3=C2)O,421.4,0.5,"(19S)-8-[(dimethylamino)methyl]-19-ethyl-7,19-dihydroxy-17-oxa-3,13-diazapentacyclo[11.8.0.02,11.04,9.015,20]henicosa-1(21),2,4(9),5,7,10,15(20)-heptaene-14,18-dione"
+Torasemide (Torsemide),Torasemide,match,41781,CC1=CC(=CC=C1)NC2=C(C=NC=C2)S(=O)(=O)NC(=O)NC(C)C,348.4,2.7,1-[[4-(3-methylanilino)-3-pyridinyl]sulfonyl]-3-propan-2-ylurea
+Tramadol,Tramadol,match,33741,CN(C)CC1CCCCC1(C2=CC(=CC=C2)OC)O,263.37,2.6,"cis-(1R,2R)-2-[(dimethylamino)methyl]-1-(3-methoxyphenyl)cyclohexan-1-ol"
+Trandolapril,Trandolapril,match,5484727,CCOC(=O)C(CCC1=CC=CC=C1)NC(C)C(=O)N2C3CCCCC3CC2C(=O)O,430.5,2,"(2S,3aR,7aS)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]-2,3,3a,4,5,6,7,7a-octahydroindole-2-carboxylic acid"
+Tranexamic acid,Tranexamic acid,match,5526,C1CC(CCC1CN)C(=O)O,157.21,-2,4-(aminomethyl)cyclohexane-1-carboxylic acid
+Tranylcypromine,Tranylcypromine,match,5530,C1C(C1N)C2=CC=CC=C2,133.19,1.5,2-phenylcyclopropan-1-amine
+Trapidil,Trapidil,match,5531,CCN(CC)C1=CC(=NC2=NC=NN12)C,205.26,1.7,"N,N-diethyl-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidin-7-amine"
+Trazodone,Trazodone,match,5533,C1CN(CCN1CCCN2C(=O)N3C=CC=CC3=N2)C4=CC(=CC=C4)Cl,371.9,2.8,"2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-[1,2,4]triazolo[4,3-a]pyridin-3-one"
+Trenbolone,Trenbolone,match,25015,CC12C=CC3=C4CCC(=O)C=C4CCC3C1CCC2O,270.4,1.9,"(8S,13S,14S,17S)-17-hydroxy-13-methyl-2,6,7,8,14,15,16,17-octahydro-1H-cyclopenta[a]phenanthren-3-one"
+Triamterene,Triamterene,match,5546,C1=CC=C(C=C1)C2=NC3=C(N=C(N=C3N=C2N)N)N,253.26,1,"6-phenylpteridine-2,4,7-triamine"
+Triazolam,Triazolam,match,5556,CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4Cl,343.2,2.4,"8-chloro-6-(2-chlorophenyl)-1-methyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine"
+"2,2,2-Tribromoethanol","2,2,2-Tribromoethanol",match,6400,C(C(Br)(Br)Br)O,282.76,2.1,"2,2,2-tribromoethanol"
+"1,1,1-Trichloroethane","1,1,1-Trichloroethane",match,6278,CC(Cl)(Cl)Cl,133.40,2.4,"1,1,1-trichloroethane"
+"2,2,2-Trichloroethanol","2,2,2-Trichloroethanol",match,8259,C(C(Cl)(Cl)Cl)O,149.40,1.4,"2,2,2-trichloroethanol"
+Trichloroethylene,Trichloroethylene,match,6575,C(=C(Cl)Cl)Cl,131.38,2.6,"1,1,2-trichloroethene"
+"2,4,5-Trichlorophenoxyacetic acid (2,4,5-T)","2,4,5-Trichlorophenoxyacetic acid (2,4,5-T)",match,1480,C1=C(C(=CC(=C1Cl)Cl)Cl)OCC(=O)O,255.5,3.3,"2-(2,4,5-trichlorophenoxy)acetic acid"
+Trifluoperazine,Trifluoperazine,match,5566,CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=C2C=C(C=C4)C(F)(F)F,407.5,5,10-[3-(4-methylpiperazin-1-yl)propyl]-2-(trifluoromethyl)phenothiazine
+Triflupromazine,Triflupromazine,match,5568,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)C(F)(F)F,352.4,5.2,"N,N-dimethyl-3-[2-(trifluoromethyl)phenothiazin-10-yl]propan-1-amine"
+Trihexyphenidyl (Trihex),Trihexyphenidyl,match,5572,C1CCC(CC1)C(CCN2CCCCC2)(C3=CC=CC=C3)O,301.5,4.5,1-cyclohexyl-1-phenyl-3-piperidin-1-ylpropan-1-ol
+Trimethadione,Trimethadione,match,5576,CC1(C(=O)N(C(=O)O1)C)C,143.14,0.3,"3,5,5-trimethyl-1,3-oxazolidine-2,4-dione"
+Trimethobenzamide,Trimethobenzamide,match,5577,CN(C)CCOC1=CC=C(C=C1)CNC(=O)C2=CC(=C(C(=C2)OC)OC)OC,388.5,2.3,"N-[[4-[2-(dimethylamino)ethoxy]phenyl]methyl]-3,4,5-trimethoxybenzamide"
+Trimethoprim,Trimethoprim,match,5578,COC1=CC(=CC(=C1OC)OC)CC2=CN=C(N=C2N)N,290.32,0.9,"5-[(3,4,5-trimethoxyphenyl)methyl]pyrimidine-2,4-diamine"
+Trimipramine,Trimipramine,match,5584,CC(CN1C2=CC=CC=C2CCC3=CC=CC=C31)CN(C)C,294.4,5.8,"3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N,2-trimethylpropan-1-amine"
+Tripelenamine,Tripelenamine,match,5587,CN(C)CCN(CC1=CC=CC=C1)C2=CC=CC=N2,255.36,3.3,"N'-benzyl-N,N-dimethyl-N'-pyridin-2-ylethane-1,2-diamine"
+Triprolidine,Triprolidine,match,5282443,CC1=CC=C(C=C1)C(=CCN2CCCC2)C3=CC=CC=N3,278.4,3.9,2-[(E)-1-(4-methylphenyl)-3-pyrrolidin-1-ylprop-1-enyl]pyridine
+Tropisetron,Tropisetron,match,656665,CN1C2CCC1CC(C2)OC(=O)C3=CNC4=CC=CC=C43,284.35,3.8,"[(1R,5S)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 1H-indole-3-carboxylate"
+Tubocurarine,Tubocurarine,match,6000,CN1CCC2=CC(=C3C=C2C1CC4=CC=C(C=C4)OC5=C6C(CC7=CC(=C(C=C7)O)O3)[N+](CCC6=CC(=C5O)OC)(C)C)OC,609.7,6,"(1S,16R)-10,25-dimethoxy-15,15,30-trimethyl-7,23-dioxa-30-aza-15-azoniaheptacyclo[22.6.2.23,6.18,12.118,22.027,31.016,34]hexatriaconta-3(36),4,6(35),8(34),9,11,18(33),19,21,24,26,31-dodecaene-9,21-diol"
+Tungsten,Tungsten,match,23964,[W],183.84,,tungsten
+U-47700,U-,no_match:404,,,,,
+Uranium,Uranium,match,23989,[U],238.0289,,uranium
+Urapidil,Urapidil,match,5639,CN1C(=CC(=O)N(C1=O)C)NCCCN2CCN(CC2)C3=CC=CC=C3OC,387.5,1.5,"6-[3-[4-(2-methoxyphenyl)piperazin-1-yl]propylamino]-1,3-dimethylpyrimidine-2,4-dione"
+Valnoctamide,Valnoctamide,match,20140,CCC(C)C(CC)C(=O)N,143.23,1.9,2-ethyl-3-methylpentanamide
+Valproic acid,Valproic acid,match,3121,CCCC(CCC)C(=O)O,144.21,2.8,2-propylpentanoic acid
+Valsartan,Valsartan,match,60846,CCCCC(=O)N(CC1=CC=C(C=C1)C2=CC=CC=C2C3=NNN=N3)C(C(C)C)C(=O)O,435.5,4.4,(2S)-3-methyl-2-[pentanoyl-[[4-[2-(2H-tetrazol-5-yl)phenyl]phenyl]methyl]amino]butanoic acid
+Vanadium,Vanadium,match,23990,[V],50.9415,,vanadium
+Vancomycin,Vancomycin,match,14969,CC1C(C(CC(O1)OC2C(C(C(OC2OC3=C4C=C5C=C3OC6=C(C=C(C=C6)C(C(C(=O)NC(C(=O)NC5C(=O)NC7C8=CC(=C(C=C8)O)C9=C(C=C(C=C9O)O)C(NC(=O)C(C(C1=CC(=C(O4)C=C1)Cl)O)NC7=O)C(=O)O)CC(=O)N)NC(=O)C(CC(C)C)NC)O)Cl)CO)O)O)(C)N)O,1449.2,-2.6,"(1S,2R,18R,19R,22S,25R,28R,40S)-48-[(2S,3R,4S,5S,6R)-3-[(2S,4S,5S,6S)-4-amino-5-hydroxy-4,6-dimethyloxan-2-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-22-(2-amino-2-oxoethyl)-5,15-dichloro-2,18,32,35,37-pentahydroxy-19-[[(2R)-4-methyl-2-(methylamino)pentanoyl]amino]-20,23,26,42,44-pentaoxo-7,13-dioxa-21,24,27,41,43-pentazaoctacyclo[26.14.2.23,6.214,17.18,12.129,33.010,25.034,39]pentaconta-3,5,8(48),9,11,14,16,29(45),30,32,34(39),35,37,46,49-pentadecaene-40-carboxylic acid"
+Vardenafil,Vardenafil,match,135400189,CCCC1=NC(=C2N1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)CC)OCC)C,488.6,2.5,"2-[2-ethoxy-5-(4-ethylpiperazin-1-yl)sulfonylphenyl]-5-methyl-7-propyl-3H-imidazo[5,1-f][1,2,4]triazin-4-one"
+Varenicline,Varenicline,match,5310966,C1C2CNCC1C3=CC4=NC=CN=C4C=C23,211.26,0.8,"(1S,12R)-5,8,14-triazatetracyclo[10.3.1.02,11.04,9]hexadeca-2,4,6,8,10-pentaene"
+Vecuronium,Vecuronium,match,39765,CC(=O)OC1CC2CCC3C(C2(CC1N4CCCCC4)C)CCC5(C3CC(C5OC(=O)C)[N+]6(CCCCC6)C)C,557.8,6.5,"[(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-17-acetyloxy-10,13-dimethyl-16-(1-methylpiperidin-1-ium-1-yl)-2-piperidin-1-yl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl] acetate"
+Vedolizumab,Vedolizumab,no_match:404,,,,,
+Venlafaxine,Venlafaxine,match,5656,CN(C)CC(C1=CC=C(C=C1)OC)C2(CCCCC2)O,277.4,2.9,1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol
+Verapamil,Verapamil,match,2520,CC(C)C(CCCN(C)CCC1=CC(=C(C=C1)OC)OC)(C#N)C2=CC(=C(C=C2)OC)OC,454.6,3.8,"2-(3,4-dimethoxyphenyl)-5-[2-(3,4-dimethoxyphenyl)ethyl-methylamino]-2-propan-2-ylpentanenitrile"
+Vigabatrin,Vigabatrin,match,5665,C=CC(CCC(=O)O)N,129.16,-2.2,4-aminohex-5-enoic acid
+Vilazodone,Vilazodone,match,6918314,C1CN(CCN1CCCCC2=CNC3=C2C=C(C=C3)C#N)C4=CC5=C(C=C4)OC(=C5)C(=O)N,441.5,4,5-[4-[4-(5-cyano-1H-indol-3-yl)butyl]piperazin-1-yl]-1-benzofuran-2-carboxamide
+Vildagliptin,Vildagliptin,match,6918537,C1CC(N(C1)C(=O)CNC23CC4CC(C2)CC(C4)(C3)O)C#N,303.4,0.9,(2S)-1-[2-[(3-hydroxy-1-adamantyl)amino]acetyl]pyrrolidine-2-carbonitrile
+Viloxazine,Viloxazine,match,5666,CCOC1=CC=CC=C1OCC2CNCCO2,237.29,1.5,2-[(2-ethoxyphenoxy)methyl]morpholine
+Vincamine,Vincamine,match,15376,CCC12CCCN3C1C4=C(CC3)C5=CC=CC=C5N4C(C2)(C(=O)OC)O,354.4,2.9,"methyl (15S,17S,19S)-15-ethyl-17-hydroxy-1,11-diazapentacyclo[9.6.2.02,7.08,18.015,19]nonadeca-2,4,6,8(18)-tetraene-17-carboxylate"
+Vinylbital,Vinylbital,match,72135,CCCC(C)C1(C(=O)NC(=O)NC1=O)C=C,224.26,2,"5-ethenyl-5-pentan-2-yl-1,3-diazinane-2,4,6-trione"
+Viquidil,Viquidil,match,65753,COC1=CC2=C(C=CN=C2C=C1)C(=O)CCC3CCNCC3C=C,324.4,3,"3-[(3R,4R)-3-ethenylpiperidin-4-yl]-1-(6-methoxyquinolin-4-yl)propan-1-one"
+Vitamin B,Vitamin B,match,936,C1=CC(=CN=C1)C(=O)N,122.12,-0.4,pyridine-3-carboxamide
+Vitamin D,Vitamin D; Vitamin,no_match:404,,,,,
+Voriconazole,Voriconazole,match,71616,CC(C1=NC=NC=C1F)C(CN2C=NC=N2)(C3=C(C=C(C=C3)F)F)O,349.31,1.5,"(2R,3S)-2-(2,4-difluorophenyl)-3-(5-fluoropyrimidin-4-yl)-1-(1,2,4-triazol-1-yl)butan-2-ol"
+Vortioxetine,Vortioxetine,match,9966051,CC1=CC(=C(C=C1)SC2=CC=CC=C2N3CCNCC3)C,298.4,4.2,"1-[2-(2,4-dimethylphenyl)sulfanylphenyl]piperazine"
+Warfarin,Warfarin,match,54678486,CC(=O)CC(C1=CC=CC=C1)C2=C(C3=CC=CC=C3OC2=O)O,308.3,2.7,4-hydroxy-3-(3-oxo-1-phenylbutyl)chromen-2-one
+Xamoterol,Xamoterol,match,155774,C1COCCN1C(=O)NCCNCC(COC2=CC=C(C=C2)O)O,339.39,-0.6,N-[2-[[2-hydroxy-3-(4-hydroxyphenoxy)propyl]amino]ethyl]morpholine-4-carboxamide
+Xipamide,Xipamide,match,26618,CC1=C(C(=CC=C1)C)NC(=O)C2=CC(=C(C=C2O)Cl)S(=O)(=O)N,354.8,2.9,"4-chloro-N-(2,6-dimethylphenyl)-2-hydroxy-5-sulfamoylbenzamide"
+Xylene,Xylene,no_match:404,,,,,
+Yohimbine,Yohimbine,match,8969,COC(=O)C1C(CCC2C1CC3C4=C(CCN3C2)C5=CC=CC=C5N4)O,354.4,2.9,"methyl (1S,15R,18S,19R,20S)-18-hydroxy-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylate"
+Zafirlukast,Zafirlukast,match,5717,CC1=CC=CC=C1S(=O)(=O)NC(=O)C2=CC(=C(C=C2)CC3=CN(C4=C3C=C(C=C4)NC(=O)OC5CCCC5)C)OC,575.7,5.5,cyclopentyl N-[3-[[2-methoxy-4-[(2-methylphenyl)sulfonylcarbamoyl]phenyl]methyl]-1-methylindol-5-yl]carbamate
+Zalcitabine,Zalcitabine,match,24066,C1CC(OC1CO)N2C=CC(=NC2=O)N,211.22,-1.3,"4-amino-1-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one"
+Zaleplon(e),Zaleplon,match,5719,CCN(C1=CC=CC(=C1)C2=CC=NC3=C(C=NN23)C#N)C(=O)C,305.33,1,"N-[3-(3-cyanopyrazolo[1,5-a]pyrimidin-7-yl)phenyl]-N-ethylacetamide"
+Zanoterone,Zanoterone,match,9844827,CC12CCC3C(C1CCC2(C#C)O)CCC4C3(CC5=CN(N=C5C4)S(=O)(=O)C)C,416.6,3.9,"(1S,2S,10S,13R,14S,17R,18S)-17-ethynyl-2,18-dimethyl-6-methylsulfonyl-6,7-diazapentacyclo[11.7.0.02,10.04,8.014,18]icosa-4,7-dien-17-ol"
+Zidovudine,Zidovudine,match,35370,CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-],267.24,0,"1-[(2R,4S,5S)-4-azido-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione"
+Zinc,Zinc,match,23994,[Zn],65.4,,zinc
+Zipeprol,Zipeprol,match,36910,COC(CN1CCN(CC1)CC(C(C2=CC=CC=C2)OC)O)C3=CC=CC=C3,384.5,2.2,1-methoxy-3-[4-(2-methoxy-2-phenylethyl)piperazin-1-yl]-1-phenylpropan-2-ol
+Ziprasidone,Ziprasidone,match,60854,C1CN(CCN1CCC2=C(C=C3C(=C2)CC(=O)N3)Cl)C4=NSC5=CC=CC=C54,412.9,4,"5-[2-[4-(1,2-benzothiazol-3-yl)piperazin-1-yl]ethyl]-6-chloro-1,3-dihydroindol-2-one"
+Zoledronat (Zoledronic acid),Zoledronat (Zoledronic acid); Zoledronat,no_match:404,,,,,
+Zolmitriptan,Zolmitriptan,match,60857,CN(C)CCC1=CNC2=C1C=C(C=C2)CC3COC(=O)N3,287.36,2.2,"(4S)-4-[[3-[2-(dimethylamino)ethyl]-1H-indol-5-yl]methyl]-1,3-oxazolidin-2-one"
+Zolpidem,Zolpidem,match,5732,CC1=CC=C(C=C1)C2=C(N3C=C(C=CC3=N2)C)CC(=O)N(C)C,307.4,2.5,"N,N-dimethyl-2-[6-methyl-2-(4-methylphenyl)imidazo[1,2-a]pyridin-3-yl]acetamide"
+Zomepirac,Zomepirac,match,5733,CC1=C(N(C(=C1)CC(=O)O)C)C(=O)C2=CC=C(C=C2)Cl,291.73,2.8,"2-[5-(4-chlorobenzoyl)-1,4-dimethylpyrrol-2-yl]acetic acid"
+Zonisamide,Zonisamide,match,5734,C1=CC=C2C(=C1)C(=NO2)CS(=O)(=O)N,212.23,0.2,"1,2-benzoxazol-3-ylmethanesulfonamide"
+Zopiclone,Zopiclone,match,5735,CN1CCN(CC1)C(=O)OC2C3=NC=CN=C3C(=O)N2C4=NC=C(C=C4)Cl,388.8,0.5,"[6-(5-chloro-2-pyridinyl)-5-oxo-7H-pyrrolo[3,4-b]pyrazin-7-yl] 4-methylpiperazine-1-carboxylate"
+Zotepine,Zotepine,match,5736,CN(C)CCOC1=CC2=CC=CC=C2SC3=C1C=C(C=C3)Cl,331.9,4.8,"2-(3-chlorobenzo[b][1]benzothiepin-5-yl)oxy-N,N-dimethylethanamine"
+Zuclopenthixol,Zuclopenthixol,match,5311507,C1CN(CCN1CCC=C2C3=CC=CC=C3SC4=C2C=C(C=C4)Cl)CCO,401.0,4.3,2-[4-[(3Z)-3-(2-chlorothioxanthen-9-ylidene)propyl]piperazin-1-yl]ethanol
+(unusual) high doses.,(unusual) high doses.; unusual,no_match:404,,,,,
