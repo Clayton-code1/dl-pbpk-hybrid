@@ -403,6 +403,23 @@ class PBPKConfigUpdateRequest(BaseModel):
 
 
 # ---------------------------------------------------------------------------
+# /explainability/graph/{drug}
+# ---------------------------------------------------------------------------
+
+class GraphAtomAttribution(BaseModel):
+    atom_index: int
+    atom_symbol: str
+    importance_score: float
+    rank: int
+
+
+class GraphAttributionResponse(BaseModel):
+    drug: str
+    atom_count: int
+    attributions: list[GraphAtomAttribution]
+
+
+# ---------------------------------------------------------------------------
 # /health
 # ---------------------------------------------------------------------------
 
