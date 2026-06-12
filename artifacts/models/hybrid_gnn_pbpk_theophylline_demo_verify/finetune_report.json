@@ -1,0 +1,11 @@
+{
+  "drug": "theophylline",
+  "base_dir": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\artifacts\\models\\hybrid_gnn_pbpk_theophylline_v1",
+  "output_dir": "C:\\Users\\Admin\\Documents\\Masters\\Hit 800\\Clayton\\DL-PBPK Model\\dl-pbpk-hybrid\\artifacts\\models\\hybrid_gnn_pbpk_theophylline_demo_verify",
+  "n_feedback_rows": 3,
+  "n_patients": 1,
+  "epochs": 1,
+  "lr": 0.0001,
+  "rmse_mg_per_L_before": 4.384378680379224,
+  "rmse_mg_per_L_after": 4.347293643276703
+}
