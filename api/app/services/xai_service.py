@@ -223,10 +223,10 @@ def _explain_shap_mlp(dose_mg: float, weight_kg: float, *, shap_seed: int | None
 
     try:
         import shap
-        bg = _build_background(20, seed=shap_seed)
+        bg = _build_background(15, seed=shap_seed)
         explainer = shap.KernelExplainer(_model_fn, bg, link="identity")
         x_input = np.array([[dose_mg, weight_kg, dose_mg / max(weight_kg, 1.0)]])
-        sv = explainer.shap_values(x_input, nsamples=64, silent=True)
+        sv = explainer.shap_values(x_input, nsamples=2**3, silent=True)
         if isinstance(sv, list):
             sv = sv[0]
         vals = sv[0].tolist() if sv.ndim > 1 else sv.tolist()
@@ -278,19 +278,31 @@ def _explain_shap_panel(
 
     f_bio = mdb.oral_bioavailability(panel_drug)
 
+    # Compute the drug graph embedding once — identical for every row since the drug
+    # and its molecular graph are fixed across all SHAP coalition evaluations.
+    import torch as _torch
+    with _torch.no_grad():
+        _cached_emb = bundle.model.get_drug_embedding(
+            bundle.graph_x, bundle.graph_edge_index, bundle.graph_edge_attr,
+        )
+
+    _dose_idx = bundle.feature_names.index("dose_mg")
+
     def _model_fn(X: np.ndarray) -> np.ndarray:
         scores = []
         for row in X:
-            w = float(row[w_idx])
-            pk = infer.predict_multidrug_pk_from_raw(panel_drug, row.astype(np.float32), w)
-            if pk is None:
-                scores.append(0.0)
-                continue
-            CL, V, ka = pk
-            tot_d = float(row[bundle.feature_names.index("dose_mg")])
+            raw = row.astype(np.float32)
+            norm = (raw - bundle.mean) / bundle.std
+            pt = _torch.tensor(norm, dtype=_torch.float32)
+            wt = _torch.tensor([float(raw[w_idx])], dtype=_torch.float32)
+            with _torch.no_grad():
+                CL_t, V_t, ka_t, _, _ = bundle.model.predict_pk_params(_cached_emb, pt, wt)
+            CL, V, ka = float(CL_t.item()), float(V_t.item()), float(ka_t.item())
+            w = float(raw[w_idx])
+            tot_d = float(raw[_dose_idx])
             d_eff = tot_d * f_bio
-            cmax_mgl, auc_mgl = _quick_sim(d_eff, CL, V, ka, 48.0, w)
-            risk = risk_service.assess_risk(cmax_mgl * 1000, auc_mgl * 1000, drug=panel_drug)
+            cmax_ng_ml, auc_ng_ml = _quick_sim(d_eff, CL, V, ka, 48.0, w)
+            risk = risk_service.assess_risk(cmax_ng_ml, auc_ng_ml, drug=panel_drug)
             scores.append(risk["risk_score"])
         return np.array(scores)
 
@@ -298,17 +310,19 @@ def _explain_shap_panel(
 
     try:
         import shap
+        _n_bg = 15
+        _n_exact = 2 ** len(bundle.feature_names)
         bg = load_panel_shap_background_training(
             panel_drug,
             bundle.feature_names,
-            n=50,
+            n=_n_bg,
             seed=shap_seed if shap_seed is not None else 42,
         )
         if bg is None:
-            bg = _build_panel_background(ref_raw, bundle.feature_names, 24, shap_seed)
+            bg = _build_panel_background(ref_raw, bundle.feature_names, _n_bg, shap_seed)
         explainer = shap.KernelExplainer(_model_fn, bg, link="identity")
         x_input = ref_raw.reshape(1, -1)
-        sv = explainer.shap_values(x_input, nsamples=96, silent=True)
+        sv = explainer.shap_values(x_input, nsamples=_n_exact, silent=True)
         if isinstance(sv, list):
             sv = sv[0]
         vals_arr = sv[0] if sv.ndim > 1 else sv
