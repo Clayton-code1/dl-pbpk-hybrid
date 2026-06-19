@@ -127,15 +127,32 @@ export interface PBPKConfig {
   fu: number;
 }
 
+export interface ZeroshotMeta {
+  smiles: string;
+  cl_per_kg: number;
+  vd_per_kg: number;
+  ka: number;
+  warning: string;
+}
+
+export interface DrugHint {
+  name?: string;
+  smiles?: string;
+  panel_drug?: string;
+  therapeutic_min_mg_L?: number;
+  therapeutic_max_mg_L?: number;
+}
+
 export interface PredictV2Response {
   time_h: number[];
   concentration_ng_ml: number[];
   pk_metrics: PKMetrics;
   safety: SafetyBlock;
-  model: { version: string; updated_at: string | null; update_flag: boolean };
+  model: { version: string; updated_at: string | null; update_flag: boolean; model_used?: string | null };
   pk_params: Record<string, number>;
   pbpk?: PBPKBlock | null;
   population?: PopulationResult | null;
+  zeroshot?: ZeroshotMeta | null;
 }
 
 export interface PopulationConfig {
@@ -194,6 +211,7 @@ export interface RecommendRequest {
   patient: { weight_kg: number; compound_name: string };
   regimen: RegimenEvent[];
   horizon_hr: number;
+  drug?: DrugHint;
 }
 
 /* ---- Report V2 ---- */
@@ -277,7 +295,7 @@ export async function fetchPopulationConfig(): Promise<PopulationConfig> {
 }
 
 export async function fetchPredictV2(
-  req: ExplainV2Request & { include_tissues?: boolean; pbpk_mode?: string },
+  req: ExplainV2Request & { include_tissues?: boolean; pbpk_mode?: string; drug?: DrugHint },
 ): Promise<PredictV2Response> {
   const res = await fetch(`${API_BASE}/predict/v2`, {
     method: "POST",
@@ -289,9 +307,17 @@ export async function fetchPredictV2(
       dt_min: req.dt_min ?? 5.0,
       include_tissues: req.include_tissues ?? false,
       pbpk_mode: req.pbpk_mode ?? "pbpk_lite",
+      ...(req.drug ? { drug: req.drug } : {}),
     }),
   });
-  if (!res.ok) throw new Error(`Prediction V2 failed: ${res.statusText}`);
+  if (!res.ok) {
+    let detail = `Prediction V2 failed: ${res.statusText}`;
+    try {
+      const body = await res.json();
+      if (body.detail) detail = body.detail;
+    } catch { /* use default message */ }
+    throw new Error(detail);
+  }
   return res.json();
 }
 

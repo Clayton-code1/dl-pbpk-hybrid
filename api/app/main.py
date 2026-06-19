@@ -1,4 +1,4 @@
-"""DL-PBPK Hybrid API — main application module.
+"""DL-PBPK Hybrid API — main application module.  # noqa: E501
 
 Endpoints
 ---------
@@ -69,6 +69,7 @@ from app.schemas import (
     PopulationResult,
     PBPKConfigResponse,
     PBPKConfigUpdateRequest,
+    ZeroshotMeta,
 )
 from app.services import hybrid_infer_service as infer
 from app.services import multidrug_bundle
@@ -202,6 +203,8 @@ def _run_v2(
 
     if model_used == "multidrug_gnn" and panel:
         version = f"hybrid_gnn_pbpk_{panel}_v1"
+    elif model_used == "zeroshot_gnn":
+        version = "zeroshot_gnn_v1"
     elif model_used == "gnn":
         version = infer.get_gnn_version() or "hybrid_gnn_pbpk_theoph_v1"
     else:
@@ -337,12 +340,83 @@ async def predict_v2(req: PredictV2Request, include_population: bool = False):
     )
 
     if panel is None:
-        if drug is not None and not drug.smiles:
-            if "theophylline" not in drug.name.strip().lower():
+        has_smiles = drug is not None and bool(drug.smiles)
+        if not has_smiles:
+            name_check = (drug.name if drug is not None else compound_name).strip().lower()
+            if "theophylline" not in name_check:
                 raise HTTPException(
                     status_code=400,
-                    detail=f"SMILES required for non-theophylline drug '{drug.name}' unless drug.panel_drug is set.",
+                    detail=(
+                        f"SMILES required for non-panel drug "
+                        f"'{drug.name if drug is not None else compound_name}'. "
+                        "Provide drug.smiles or use a supported panel drug."
+                    ),
                 )
+        else:
+            from app.services.rdkit_graph import smiles_to_graph as _val_smiles, InvalidSMILESError
+            try:
+                _val_smiles(drug.smiles)
+            except InvalidSMILESError:
+                raise HTTPException(status_code=400, detail=f"Invalid SMILES: '{drug.smiles}'.")
+
+            from app.services import zeroshot_infer_service as _zs
+            _zs_events = [{"time_hr": e.time_hr, "dose_mg": e.dose_mg, "route": e.route} for e in req.regimen]
+            _total_dose = sum(e.dose_mg for e in req.regimen)
+            _zs_times, _zs_conc, _zs_pk, _zs_pbpk, _ = _zs.predict_zeroshot(
+                drug.smiles,
+                req.patient.weight_kg,
+                _total_dose,
+                req.patient.age_years,
+                req.patient.sex,
+                _zs_events,
+                req.horizon_hr,
+                req.dt_min,
+                pbpk_mode=req.pbpk_mode,
+                return_tissues=req.include_tissues,
+            )
+            _zs_CL = _zs_pk["CL_l_h"]
+            _zs_V = _zs_pk["V_l"]
+            _zs_metrics_dict = infer.compute_pk_metrics(_zs_times, _zs_conc, _zs_CL, _zs_V)
+            _zs_metrics = PKMetrics(**_zs_metrics_dict)
+
+            _zs_safety_kw: dict[str, Any] = {}
+            if drug.therapeutic_min_mg_L is not None and drug.therapeutic_max_mg_L is not None:
+                _zs_safety_kw["therapeutic_min_mg_L"] = drug.therapeutic_min_mg_L
+                _zs_safety_kw["therapeutic_max_mg_L"] = drug.therapeutic_max_mg_L
+
+            if not _zs_safety_kw:
+                raise HTTPException(
+                    status_code=400,
+                    detail="Therapeutic window (min and max mg/L) is required for predictions on compounds outside the training panel.",
+                )
+
+            _zs_safety = SafetyBlock(**risk_service.assess_risk(
+                _zs_metrics.cmax_ng_ml, _zs_metrics.auc_0_inf, **_zs_safety_kw,
+            ))
+
+            _state = risk_service.get_model_state()
+            _zs_out: dict[str, Any] = {
+                "time_h": _zs_times,
+                "concentration_ng_ml": _zs_conc,
+                "pk_metrics": _zs_metrics,
+                "safety": _zs_safety,
+                "model": ModelMeta(
+                    version="zeroshot_gnn_v1",
+                    updated_at=_state.get("updated_at"),
+                    update_flag=_state.get("update_flag", False),
+                    model_used="zeroshot_gnn",
+                ),
+                "pk_params": _zs_pk,
+                "zeroshot": ZeroshotMeta(
+                    smiles=drug.smiles,
+                    cl_per_kg=round(_zs_pk["CL_l_h"] / req.patient.weight_kg, 4),
+                    vd_per_kg=round(_zs_pk["V_l"] / req.patient.weight_kg, 4),
+                    ka=round(_zs_pk.get("ka_1_h", 1.5), 4),
+                ),
+            }
+            if _zs_pbpk is not None:
+                _zs_out["pbpk"] = PBPKBlock(**_zs_pbpk)
+            return PredictV2Response(**_zs_out)
 
     result = _run_v2(
         req.patient.weight_kg,
@@ -375,13 +449,22 @@ def _find_safe_scaling_factor(
     *,
     drug: DrugInfo | None = None,
     max_iter: int = 12,
+    search_up: bool = False,
+    max_scale: float = 10.0,
 ) -> tuple[float, dict[str, Any]]:
-    """Binary-search for the largest dose scale in [0.1, 1.0] that yields a safe prediction.
+    """Binary-search for a safe dose scale factor.
+
+    Default (search_up=False): searches [0.1, 1.0] — for overdose / above_therapeutic.
+    search_up=True: searches [1.0, max_scale] — for under-dose / below_therapeutic.
 
     Returns (scale_factor, simulation_result_at_that_scale).
-    If no safe scale is found, returns (0.1, result_at_0.1).
+    If no safe scale is found, returns the boundary result (0.1 for downward,
+    max_scale for upward).
     """
-    lo, hi = 0.1, 1.0
+    if search_up:
+        lo, hi = 1.0, max_scale
+    else:
+        lo, hi = 0.1, 1.0
     best_scale = lo
     best_result: dict[str, Any] | None = None
 
@@ -400,12 +483,20 @@ def _find_safe_scaling_factor(
         if result["safety"].is_safe:
             best_scale = mid
             best_result = result
-            lo = mid  # try a higher (less aggressive) scale
+            if search_up:
+                hi = mid  # found safe — try a lower (less extreme) dose
+            else:
+                lo = mid  # found safe — try a higher (less aggressive) scale
         else:
-            hi = mid  # need a lower scale
+            if search_up:
+                lo = mid  # still unsafe — need more dose
+            else:
+                hi = mid  # need a lower scale
 
-    # If we never found a safe point, evaluate at the floor
+    # If we never found a safe point, evaluate at the boundary
     if best_result is None:
+        eval_scale = hi if search_up else lo
+        best_scale = eval_scale
         scaled = _scale_regimen(regimen, best_scale)
         best_result = _run_v2(
             patient.weight_kg,
@@ -489,101 +580,147 @@ async def recommend(req: RecommendRequest):
     is_safe = baseline.safety.is_safe
     route = req.regimen[0].route
 
+    # Determine search direction from the baseline zone (Part B)
+    _zone = (
+        baseline.safety.supplied_window.zone
+        if baseline.safety.supplied_window is not None
+        else None
+    )
+    _search_up = (_zone == "below_therapeutic")
+    _max_scale = min(10.0, 5000.0 / total_dose) if _search_up else 10.0
+
     # Find a safe scaling factor via binary search (used by all strategies when unsafe)
     if is_safe:
         safe_scale = 0.9  # cosmetic 10% margin for optimisation suggestions
     else:
         safe_scale, _ = _find_safe_scaling_factor(
             req.regimen, req.patient, req.horizon_hr, drug=req.drug,
+            search_up=_search_up, max_scale=_max_scale,
         )
 
     strategies: list[StrategyResult] = []
 
-    # --- Strategy 1: Dose reduction (single bolus at the safe scale) ---
-    reduced_dose = round(total_dose * safe_scale, 2)
-    s1_regimen = [RegimenEvent(time_hr=0.0, dose_mg=reduced_dose, route=route)]
-    s1_result = _run_v2(
-        req.patient.weight_kg, req.patient.compound_name, s1_regimen, req.horizon_hr,
-        drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
-    )
-    pct_cut = round((1 - safe_scale) * 100, 1)
-    if is_safe:
-        s1_desc = (
-            f"Reduce total dose by {pct_cut}% ({total_dose:.0f} -> {reduced_dose:.0f} mg) "
-            f"for a wider safety margin."
+    if _search_up and not is_safe:
+        # --- Below-therapeutic path: Strategy 1 is Dose Increase ---
+        increased_dose = round(total_dose * safe_scale, 2)
+        s1_regimen = [RegimenEvent(time_hr=0.0, dose_mg=increased_dose, route=route)]
+        s1_result = _run_v2(
+            req.patient.weight_kg, req.patient.compound_name, s1_regimen, req.horizon_hr,
+            drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
         )
-    else:
+        pct_inc = round((safe_scale - 1.0) * 100, 1)
         s1_desc = (
-            f"Reduce total dose by {pct_cut}% ({total_dose:.0f} -> {reduced_dose:.0f} mg). "
+            f"Increase total dose by {pct_inc}% ({total_dose:.0f} -> {increased_dose:.0f} mg). "
             f"Optimal safe scaling factor found via binary search: {safe_scale:.4f}."
         )
-    strategies.append(_build_strategy(
-        "reduce", "Dose Reduction", s1_desc,
-        s1_regimen, s1_result, base_cmax, base_auc, safe_scale,
-    ))
+        strategies.append(_build_strategy(
+            "reduce", "Dose Increase", s1_desc,
+            s1_regimen, s1_result, base_cmax, base_auc, safe_scale,
+        ))
 
-    # --- Strategy 2: Split dose (BID) at the safe scale ---
-    split_total = round(total_dose * safe_scale, 2) if not is_safe else total_dose
-    split_half = round(split_total / 2, 2)
-    half_horizon = round(req.horizon_hr / 2, 1)
-    s2_regimen = [
-        RegimenEvent(time_hr=0.0, dose_mg=split_half, route=route),
-        RegimenEvent(time_hr=half_horizon, dose_mg=split_half, route=route),
-    ]
-    s2_result = _run_v2(
-        req.patient.weight_kg, req.patient.compound_name, s2_regimen, req.horizon_hr,
-        drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
-    )
-    # If split is still unsafe at this scale, tighten further
-    s2_scale = safe_scale if not is_safe else 1.0
-    if not s2_result["safety"].is_safe:
-        s2_scale, s2_result = _find_safe_scaling_factor(
-            s2_regimen, req.patient, req.horizon_hr, drug=req.drug,
+        # Strategies 2 & 3: splitting doses lowers Cmax further — not applicable here
+        _na_desc = (
+            "Not applicable — splitting doses is counterproductive when exposure "
+            "is below the therapeutic minimum."
         )
-        s2_regimen = _scale_regimen(s2_regimen, s2_scale)
-        split_half = s2_regimen[0].dose_mg
-        s2_scale = round(s2_scale * safe_scale, 4) if not is_safe else s2_scale
-    s2_desc = (
-        f"Split into two {split_half:.0f} mg doses at t=0 h and t={half_horizon:.0f} h "
-        f"to reduce peak concentration (scale {s2_scale:.4f})."
-    )
-    strategies.append(_build_strategy(
-        "split", "Split Dose (BID)", s2_desc,
-        s2_regimen, s2_result, base_cmax, base_auc, s2_scale,
-    ))
+        strategies.append(_build_strategy(
+            "split", "Split Dose (BID)", _na_desc,
+            s1_regimen, s1_result, base_cmax, base_auc, safe_scale,
+        ))
+        strategies.append(_build_strategy(
+            "interval", "Extended Interval", _na_desc,
+            s1_regimen, s1_result, base_cmax, base_auc, safe_scale,
+        ))
+        s2_scale, s2_regimen, s2_result = safe_scale, s1_regimen, s1_result
+        s3_scale, s3_regimen, s3_result = safe_scale, s1_regimen, s1_result
 
-    # --- Strategy 3: Extended interval with safe scale ---
-    if is_safe:
-        s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=total_dose, route=route)]
-        s3_scale = 1.0
-        s3_desc = "Extend dosing interval to every 36 h to reduce cumulative exposure."
     else:
-        s3_dose = round(total_dose * safe_scale * 0.67, 2)  # additional 33% cut on top of safe scale
-        s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=s3_dose, route=route)]
-        s3_result_tmp = _run_v2(
+        # --- Standard overdose / sigmoid path: original downward-search logic ---
+        # --- Strategy 1: Dose reduction (single bolus at the safe scale) ---
+        reduced_dose = round(total_dose * safe_scale, 2)
+        s1_regimen = [RegimenEvent(time_hr=0.0, dose_mg=reduced_dose, route=route)]
+        s1_result = _run_v2(
+            req.patient.weight_kg, req.patient.compound_name, s1_regimen, req.horizon_hr,
+            drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
+        )
+        pct_cut = round((1 - safe_scale) * 100, 1)
+        if is_safe:
+            s1_desc = (
+                f"Reduce total dose by {pct_cut}% ({total_dose:.0f} -> {reduced_dose:.0f} mg) "
+                f"for a wider safety margin."
+            )
+        else:
+            s1_desc = (
+                f"Reduce total dose by {pct_cut}% ({total_dose:.0f} -> {reduced_dose:.0f} mg). "
+                f"Optimal safe scaling factor found via binary search: {safe_scale:.4f}."
+            )
+        strategies.append(_build_strategy(
+            "reduce", "Dose Reduction", s1_desc,
+            s1_regimen, s1_result, base_cmax, base_auc, safe_scale,
+        ))
+
+        # --- Strategy 2: Split dose (BID) at the safe scale ---
+        split_total = round(total_dose * safe_scale, 2) if not is_safe else total_dose
+        split_half = round(split_total / 2, 2)
+        half_horizon = round(req.horizon_hr / 2, 1)
+        s2_regimen = [
+            RegimenEvent(time_hr=0.0, dose_mg=split_half, route=route),
+            RegimenEvent(time_hr=half_horizon, dose_mg=split_half, route=route),
+        ]
+        s2_result = _run_v2(
+            req.patient.weight_kg, req.patient.compound_name, s2_regimen, req.horizon_hr,
+            drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
+        )
+        # If split is still unsafe at this scale, tighten further
+        s2_scale = safe_scale if not is_safe else 1.0
+        if not s2_result["safety"].is_safe:
+            s2_scale, s2_result = _find_safe_scaling_factor(
+                s2_regimen, req.patient, req.horizon_hr, drug=req.drug,
+            )
+            s2_regimen = _scale_regimen(s2_regimen, s2_scale)
+            split_half = s2_regimen[0].dose_mg
+            s2_scale = round(s2_scale * safe_scale, 4) if not is_safe else s2_scale
+        s2_desc = (
+            f"Split into two {split_half:.0f} mg doses at t=0 h and t={half_horizon:.0f} h "
+            f"to reduce peak concentration (scale {s2_scale:.4f})."
+        )
+        strategies.append(_build_strategy(
+            "split", "Split Dose (BID)", s2_desc,
+            s2_regimen, s2_result, base_cmax, base_auc, s2_scale,
+        ))
+
+        # --- Strategy 3: Extended interval with safe scale ---
+        if is_safe:
+            s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=total_dose, route=route)]
+            s3_scale = 1.0
+            s3_desc = "Extend dosing interval to every 36 h to reduce cumulative exposure."
+        else:
+            s3_dose = round(total_dose * safe_scale * 0.67, 2)  # additional 33% cut on top of safe scale
+            s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=s3_dose, route=route)]
+            s3_result_tmp = _run_v2(
+                req.patient.weight_kg, req.patient.compound_name, s3_regimen, req.horizon_hr,
+                drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
+            )
+            s3_scale = round(safe_scale * 0.67, 4)
+            if not s3_result_tmp["safety"].is_safe:
+                s3_scale, s3_result_tmp = _find_safe_scaling_factor(
+                    [RegimenEvent(time_hr=0.0, dose_mg=total_dose, route=route)],
+                    req.patient, req.horizon_hr, drug=req.drug,
+                )
+                s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=round(total_dose * s3_scale, 2), route=route)]
+            s3_desc = (
+                f"Reduce dose to {s3_regimen[0].dose_mg:.0f} mg with extended dosing interval "
+                f"(scale {s3_scale:.4f})."
+            )
+
+        s3_result = _run_v2(
             req.patient.weight_kg, req.patient.compound_name, s3_regimen, req.horizon_hr,
             drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
         )
-        s3_scale = round(safe_scale * 0.67, 4)
-        if not s3_result_tmp["safety"].is_safe:
-            s3_scale, s3_result_tmp = _find_safe_scaling_factor(
-                [RegimenEvent(time_hr=0.0, dose_mg=total_dose, route=route)],
-                req.patient, req.horizon_hr, drug=req.drug,
-            )
-            s3_regimen = [RegimenEvent(time_hr=0.0, dose_mg=round(total_dose * s3_scale, 2), route=route)]
-        s3_desc = (
-            f"Reduce dose to {s3_regimen[0].dose_mg:.0f} mg with extended dosing interval "
-            f"(scale {s3_scale:.4f})."
-        )
-
-    s3_result = _run_v2(
-        req.patient.weight_kg, req.patient.compound_name, s3_regimen, req.horizon_hr,
-        drug=req.drug, age_years=req.patient.age_years, sex=req.patient.sex,
-    )
-    strategies.append(_build_strategy(
-        "interval", "Extended Interval", s3_desc,
-        s3_regimen, s3_result, base_cmax, base_auc, s3_scale,
-    ))
+        strategies.append(_build_strategy(
+            "interval", "Extended Interval", s3_desc,
+            s3_regimen, s3_result, base_cmax, base_auc, s3_scale,
+        ))
 
     # --- Build safe recommendation ---
     safe_rec: SafeRecommendation | None = None
@@ -622,25 +759,54 @@ async def recommend(req: RecommendRequest):
             frequency = freq_map.get(w_label, "Single dose")
 
             if w_safety.is_safe:
-                rationale = (
-                    f"Automatic search found a safe regimen by scaling the original dose "
-                    f"to {w_dose:.1f} mg (factor {w_sf:.4f}). "
-                    f"Cmax {w_metrics.cmax_ng_ml:.0f} ng/mL and AUC {w_metrics.auc_0_inf:.0f} ng*h/mL "
-                    f"are within acceptable thresholds."
-                )
-                search_summary = (
-                    f"Automatically searched lower doses until a safe exposure profile was identified. "
-                    f"Safe dose found: {w_dose:.1f} mg ({frequency})."
-                )
+                if _search_up:
+                    rationale = (
+                        f"Automatic search found a safe regimen by scaling the original dose "
+                        f"up to {w_dose:.1f} mg (factor {w_sf:.4f}). "
+                        f"Cmax {w_metrics.cmax_ng_ml:.0f} ng/mL and AUC {w_metrics.auc_0_inf:.0f} ng*h/mL "
+                        f"are within the supplied therapeutic window."
+                    )
+                    search_summary = (
+                        f"Automatically searched higher doses until a therapeutic exposure profile was identified. "
+                        f"Safe dose found: {w_dose:.1f} mg ({frequency})."
+                    )
+                else:
+                    rationale = (
+                        f"Automatic search found a safe regimen by scaling the original dose "
+                        f"to {w_dose:.1f} mg (factor {w_sf:.4f}). "
+                        f"Cmax {w_metrics.cmax_ng_ml:.0f} ng/mL and AUC {w_metrics.auc_0_inf:.0f} ng*h/mL "
+                        f"are within acceptable thresholds."
+                    )
+                    search_summary = (
+                        f"Automatically searched lower doses until a safe exposure profile was identified. "
+                        f"Safe dose found: {w_dose:.1f} mg ({frequency})."
+                    )
             else:
-                rationale = (
-                    f"Automatic search did not find a fully safe regimen within the tested range. "
-                    f"Best attempt: {w_dose:.1f} mg with risk score {w_safety.risk_score:.4f}."
-                )
-                search_summary = (
-                    "Automatic search did not find a safe regimen within the tested dose range. "
-                    "The best available option is shown."
-                )
+                if _search_up and req.drug is not None:
+                    max_dose_tried = round(total_dose * _max_scale, 1)
+                    win_min = req.drug.therapeutic_min_mg_L
+                    win_max = req.drug.therapeutic_max_mg_L
+                    rationale = (
+                        f"Automatic search did not find a fully safe regimen within a clinically realistic range. "
+                        f"Best attempt: {w_dose:.1f} mg with risk score {w_safety.risk_score:.4f}."
+                    )
+                    search_summary = (
+                        f"No safe dose found within a clinically realistic range. "
+                        f"Searched up to {max_dose_tried:.0f} mg "
+                        f"({_max_scale:.1f}× the original dose of {total_dose:.0f} mg). "
+                        f"The supplied therapeutic window "
+                        f"({win_min}–{win_max} mg/L) "
+                        f"may not be achievable via single-dose oral administration of this compound."
+                    )
+                else:
+                    rationale = (
+                        f"Automatic search did not find a fully safe regimen within the tested range. "
+                        f"Best attempt: {w_dose:.1f} mg with risk score {w_safety.risk_score:.4f}."
+                    )
+                    search_summary = (
+                        "Automatic search did not find a safe regimen within the tested dose range. "
+                        "The best available option is shown."
+                    )
 
             delta_cmax = ((w_metrics.cmax_ng_ml - base_cmax) / max(base_cmax, 1e-6)) * 100
             delta_auc = ((w_metrics.auc_0_inf - base_auc) / max(base_auc, 1e-6)) * 100

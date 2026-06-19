@@ -8,8 +8,9 @@ Loads the trained PyTorch model once (lazy singleton) and provides:
 Supports three inference backends (priority order in ``simulate_curve``):
 - **Multi-drug GNN** — ``artifacts/models/hybrid_gnn_pbpk_{drug}_v1`` + per-drug scaler
   (aligned with ``experiments.training.multidrug_utils``) when *panel_drug* is set.
-- **Legacy theophylline GNN** — ``hybrid_gnn_pbpk_theoph_combined_v1`` / ``hybrid_gnn_pbpk_theoph_v1``
-  when SMILES is supplied and multi-drug path is not used.
+- **Zero-shot GNN** — ``zeroshot_infer_service.predict_zeroshot`` when SMILES is supplied
+  and the panel-drug path is not used.  Per-kg scaling, age/sex covariates, does not
+  apply a theophylline-trained head to unrelated molecules.
 - **MLP** — ``hybrid_theoph_v1`` tabular fallback.
 """
 
@@ -344,7 +345,14 @@ def predict_params(features: np.ndarray) -> tuple[float, float, float]:
 
 
 def predict_params_gnn(smiles: str, dose_mg: float, weight_kg: float) -> tuple[float, float, float]:
-    """Run GNN model and return (CL, V, ka)."""
+    """[DEPRECATED — no longer called by any active zero-shot path]
+
+    Original zero-shot approach: apply the theophylline-trained 2-output GNN head to
+    arbitrary SMILES, with V hardcoded to V_typical=30.0 L.  Replaced by
+    ``zeroshot_infer_service.predict_zeroshot`` which uses per-kg scaling, age/sex
+    covariates, and an untrained generic head rather than a theophylline-specific one.
+    Retained here for reference only.
+    """
     import torch
     assert _gnn_model is not None and _gnn_config is not None
 
@@ -428,14 +436,19 @@ def simulate_curve(
                 return res["times_hr"], res["conc_central_ng_ml"], pk_params, pbpk_block, model_used
             return (*_simulate_1cpt(events_eff, CL, V, ka, horizon_hr, dt_min), model_used)
 
-    if smiles is not None and _ensure_gnn_loaded():
-        CL, V, ka = predict_params_gnn(smiles, total_dose, weight_kg)
-        model_used = "gnn"
-    else:
-        _ensure_loaded()
-        assert _model is not None
-        features = build_features(total_dose, weight_kg)
-        CL, V, ka = predict_params(features)
+    if smiles is not None:
+        from app.services import zeroshot_infer_service as _zs
+        return _zs.predict_zeroshot(
+            smiles, weight_kg, total_dose, age_years, sex,
+            events, horizon_hr, dt_min,
+            pbpk_mode=pbpk_mode,
+            return_tissues=return_tissues,
+        )
+
+    _ensure_loaded()
+    assert _model is not None
+    features = build_features(total_dose, weight_kg)
+    CL, V, ka = predict_params(features)
 
     if pbpk_mode == "pbpk_lite":
         from app.services import pbpk_service

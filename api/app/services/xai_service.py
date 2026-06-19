@@ -512,21 +512,27 @@ def drug_structure_effect(
             ),
         }
 
-    if smiles is None or not infer.is_gnn_loaded():
+    if smiles is None:
         return {
             "drug_structure_delta_risk": 0.0,
             "explanation": "Drug structure effect unavailable (MLP model in use).",
         }
 
     try:
-        CL_gnn, V_gnn, ka_gnn = infer.predict_params_gnn(smiles, dose_mg, weight_kg)
+        from app.services import zeroshot_infer_service as _zs
+        _zs_events = [{"time_hr": 0.0, "dose_mg": float(dose_mg), "route": "oral"}]
+        _times, _conc, _, _, _ = _zs.predict_zeroshot(
+            smiles, weight_kg, dose_mg, 40.0, 0.0,
+            _zs_events, horizon_hr, 5.0,
+        )
+        cmax_gnn = float(np.max(np.array(_conc)))
+        _trapz_fn = getattr(np, "trapezoid", getattr(np, "trapz", None))
+        auc_gnn = float(_trapz_fn(np.array(_conc), np.array(_times)))
     except Exception:
         return {
             "drug_structure_delta_risk": 0.0,
             "explanation": "Drug structure effect unavailable (SMILES error).",
         }
-
-    cmax_gnn, auc_gnn = _quick_sim(dose_mg, CL_gnn, V_gnn, ka_gnn, horizon_hr, weight_kg)
     risk_gnn = risk_service.assess_risk(cmax_gnn, auc_gnn)["risk_score"]
 
     infer._ensure_loaded()

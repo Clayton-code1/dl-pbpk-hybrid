@@ -134,6 +134,17 @@ class PBPKBlock(BaseModel):
     tissues: dict[str, list[float]] | None = Field(None, description="Per-tissue concentration curves")
 
 
+class ZeroshotMeta(BaseModel):
+    smiles: str = Field(description="SMILES string used for GNN featurization")
+    cl_per_kg: float = Field(description="Predicted CL per kg (L/h/kg)")
+    vd_per_kg: float = Field(description="Predicted Vd per kg (L/kg)")
+    ka: float = Field(description="Predicted absorption rate constant (h⁻¹)")
+    warning: str = Field(
+        default="Unvalidated zero-shot prediction. Not for clinical use.",
+        description="Disclaimer shown when the model is used outside the validated panel.",
+    )
+
+
 class PredictV2Response(BaseModel):
     time_h: list[float]
     concentration_ng_ml: list[float]
@@ -143,6 +154,10 @@ class PredictV2Response(BaseModel):
     pk_params: dict[str, float]
     pbpk: PBPKBlock | None = Field(None, description="PBPK-lite tissue data (when enabled)")
     population: dict | None = Field(None, description="Population uncertainty bands (when requested)")
+    zeroshot: ZeroshotMeta | None = Field(
+        None,
+        description="Present when the compound is not in the validated panel and zero-shot GNN was used.",
+    )
 
 
 # ---------------------------------------------------------------------------

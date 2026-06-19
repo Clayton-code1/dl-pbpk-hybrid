@@ -55,8 +55,11 @@ class TestTheophyllineWithoutSMILES:
             assert resp.status_code == 503
 
 
+_ASPIRIN_SMILES = "CC(=O)Oc1ccccc1C(=O)O"
+
+
 class TestUnknownDrugWithoutSMILES:
-    """Non-panel drug without SMILES should return 400."""
+    """Non-panel drugs: 400 without SMILES, zero-shot 200 with valid SMILES."""
 
     def test_unknown_drug_no_smiles_returns_400(self):
         if not _HAS_MODEL:
@@ -69,14 +72,88 @@ class TestUnknownDrugWithoutSMILES:
         assert resp.status_code == 400
         assert "SMILES required" in resp.json()["detail"]
 
-    def test_unknown_drug_with_smiles_passes(self):
+    def test_no_drug_field_unknown_compound_returns_400(self):
         if not _HAS_MODEL:
             return
         payload = _base_payload(
-            drug={"name": "Caffeine", "smiles": "Cn1c(=O)c2c(ncn2C)n(c1=O)C"}
+            patient={"weight_kg": 70, "compound_name": "FictionalDrugXYZ"},
+        )
+        resp = client.post("/predict/v2", json=payload)
+        assert resp.status_code == 400
+        assert "SMILES required" in resp.json()["detail"]
+
+    def test_invalid_smiles_returns_400(self):
+        if not _HAS_MODEL:
+            return
+        payload = _base_payload(
+            patient={"weight_kg": 70, "compound_name": "SomeDrug"},
+            drug={"name": "SomeDrug", "smiles": "not-valid-smiles!!!"},
+        )
+        resp = client.post("/predict/v2", json=payload)
+        assert resp.status_code == 400
+        assert "Invalid SMILES" in resp.json()["detail"]
+
+    def test_zeroshot_without_window_returns_400(self):
+        if not _HAS_MODEL:
+            return
+        payload = _base_payload(
+            patient={"weight_kg": 70, "compound_name": "Aspirin"},
+            drug={"name": "Aspirin", "smiles": _ASPIRIN_SMILES},
+        )
+        resp = client.post("/predict/v2", json=payload)
+        assert resp.status_code == 400
+        assert "Therapeutic window" in resp.json()["detail"]
+
+    def test_zeroshot_partial_window_min_only_returns_400(self):
+        if not _HAS_MODEL:
+            return
+        payload = _base_payload(
+            patient={"weight_kg": 70, "compound_name": "Aspirin"},
+            drug={"name": "Aspirin", "smiles": _ASPIRIN_SMILES, "therapeutic_min_mg_L": 1.0},
+        )
+        resp = client.post("/predict/v2", json=payload)
+        assert resp.status_code == 400
+        assert "Therapeutic window" in resp.json()["detail"]
+
+    def test_unknown_drug_with_smiles_and_window_passes(self):
+        if not _HAS_MODEL:
+            return
+        payload = _base_payload(
+            patient={"weight_kg": 70, "compound_name": "Aspirin"},
+            drug={
+                "name": "Aspirin",
+                "smiles": _ASPIRIN_SMILES,
+                "therapeutic_min_mg_L": 1.0,
+                "therapeutic_max_mg_L": 50.0,
+            },
         )
         resp = client.post("/predict/v2", json=payload)
         assert resp.status_code == 200
+        data = resp.json()
+        assert data["model"]["model_used"] == "zeroshot_gnn"
+
+    def test_zeroshot_returns_flagged_response(self):
+        if not _HAS_MODEL:
+            return
+        payload = _base_payload(
+            patient={"weight_kg": 70, "compound_name": "Aspirin"},
+            drug={
+                "name": "Aspirin",
+                "smiles": _ASPIRIN_SMILES,
+                "therapeutic_min_mg_L": 1.0,
+                "therapeutic_max_mg_L": 50.0,
+            },
+        )
+        resp = client.post("/predict/v2", json=payload)
+        assert resp.status_code == 200
+        data = resp.json()
+        zs = data.get("zeroshot")
+        assert zs is not None, "Expected 'zeroshot' field in response"
+        assert zs["smiles"] == _ASPIRIN_SMILES
+        assert "cl_per_kg" in zs
+        assert "vd_per_kg" in zs
+        assert "ka" in zs
+        assert "warning" in zs
 
 
 class TestModelMetadata:
