@@ -113,6 +113,15 @@ data/processed/adme_pretrain/*_graphs.pt
 !artifacts/.gitkeep
 !artifacts/models/.gitkeep
 
-# === Internal materials and demo frontend ===
+# === Internal materials ===
 manuscript_submission_package/
-frontend/
+
+# === Frontend build artifacts (frontend/src/** is tracked normally) ===
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+frontend/out/
+frontend/.turbo/
+frontend/next-env.d.ts
+frontend/tsconfig.tsbuildinfo
